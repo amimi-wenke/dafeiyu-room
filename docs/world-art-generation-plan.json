@@ -1581,13 +1581,32 @@
     },
     {
       "name": "away-postcard-market",
-      "subject": "Scenic illustrated postcard sent home during a market trip: a cozy little town market with pastel awnings, crates of fresh vegetables, flower buckets and seed packets on a cream stall. Full bleed scenery, no character, no border, no lettering, no UI. Same soft blue storybook world as the room.",
+      "subject": "Scenic illustrated postcard sent home from the town market (used for both errands and browsing): a cozy little town market with pastel awnings, crates of fresh vegetables, flower buckets and seed packets on a cream stall. Full bleed scenery, no character, no border, no lettering, no UI. Same soft blue storybook world as the room.",
       "batch": 7,
       "kind": "scene",
       "width": 1024,
       "height": 640,
       "postcard": true,
       "priority": 5
+    },
+    {
+      "name": "sell",
+      "subject": "standing behind a small cream wooden produce stall counter (counter not drawn), handing a little paper bag of fresh vegetables forward with both hands, friendly shopkeeper smile; no stall, background or customer",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237,
+      "priority": 3
+    },
+    {
+      "name": "nav-market",
+      "subject": "ONE tiny cheerful town market awning with indigo and cream stripes over a little crate of vegetables and flowers, simple recognizable menu emblem",
+      "batch": 7,
+      "kind": "icon",
+      "width": 256,
+      "height": 256,
+      "priority": 4
     }
   ],
   "saved": [
@@ -1640,7 +1659,7 @@
   ],
   "revision": {
     "at": "2026-11-05",
-    "note": "field = farm + flower garden in one scene; pond separate; shop and path scenes dropped; added behaviors, door-menu icons and outing postcards; shop happens on market trips (outing), field stall and sell pose removed, market postcard added"
+    "note": "field keeps its stall (sell at 80%); town market for buying, commissions, full-price selling and browsing; outing places market/town/seaside/flower-sea/night-market"
   },
   "briefRevision": "two outdoor locations, sixteen field plots, seventeen actions, navigation and four postcards"
 }

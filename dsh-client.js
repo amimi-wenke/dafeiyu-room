@@ -542,7 +542,7 @@
   const poseFallback = { walk: "walk", "fish-wait": "idle", "fish-reel": "idle", "fish-show": "idle", "fish-empty": "idle" };
   let layout = {
     field: { farm: [[10, 56], [20, 56], [30, 56], [40, 56], [8, 74], [19, 74], [30, 74], [41, 74]],
-      garden: [[58, 56], [68, 56], [78, 56], [88, 56], [59, 74], [70, 74], [81, 74], [92, 74]], idle: [50, 82] },
+      garden: [[58, 56], [68, 56], [78, 56], [88, 56], [59, 74], [70, 74], [81, 74], [92, 74]], stall: [49, 42], idle: [50, 82] },
     pond: { stand: [27, 76], bobber: [54, 58], idle: [24, 82] },
   };
   // layout.json from the art pipeline may use 0..1 or percent coordinates; normalise to percent.
@@ -552,6 +552,7 @@
     const f = json.field || json.outdoor?.field, p = json.pond || json.outdoor?.pond;
     if (Array.isArray(f?.farm) && f.farm.length) layout.field.farm = f.farm.map(pct);
     if (Array.isArray(f?.garden) && f.garden.length) layout.field.garden = f.garden.map(pct);
+    if (pct(f?.stall)) layout.field.stall = pct(f.stall);
     if (pct(p?.stand)) layout.pond.stand = pct(p.stand);
     if (pct(p?.bobber)) layout.pond.bobber = pct(p.bobber);
   }).catch(() => {});
@@ -609,12 +610,13 @@
     if (w.milestones.some(m => m.type === "giant" && w.serverTime - m.at < 120000)) return "cheer-giant";
     if (w.fishing) return w.fishing.state === "bite" ? "fish-reel" : "fish-wait";
     if (fresh && recent.action === "collect") return /跑/.test(recent.text) ? "fish-empty" : "fish-show";
-    return { plant: "plant", water: "water-can", harvest: "harvest", fertilize: "fertilize", explore: "walk" }[w.activity] || "idle";
+    return { plant: "plant", water: "water-can", harvest: "harvest", fertilize: "fertilize", sell: "sell", explore: "walk" }[w.activity] || "idle";
   }
   function actorSpot(w, scene) {
     if (scene === "pond") return w.fishing ? layout.pond.stand : layout.pond.idle;
     const last = w.log.filter(e => (e.area === "farm" || e.area === "garden") && Number.isInteger(e.slot)).at(-1);
     const at = last && w.location === last.area ? layout.field[last.area]?.[last.slot] : null;
+    if (w.activity === "sell") return [layout.field.stall[0], layout.field.stall[1] + 12];
     return at ? [at[0] - 3, at[1] + 5] : layout.field.idle;
   }
   function navButtons(w) {
@@ -632,6 +634,8 @@
     navButtons(w);
     sceneItems.replaceChildren();
     if (scene === "field") {
+      const stall = el("span", { className: "scene-label", textContent: "小摊" }); stall.style.left = layout.field.stall[0] + "%"; stall.style.top = layout.field.stall[1] + "%";
+      sceneItems.append(stall);
       for (const area of ["farm", "garden"]) layout.field[area].forEach((at, slot) => { if (at) sceneItems.append(plotNode(area, w[area][slot], slot, at, slot < w[area].length)); });
     } else if (scene === "pond" && w.fishing) {
       sceneItems.append(img([w.fishing.state === "bite" ? "pond-bite" : "pond-waiting"], "scene-bobber", { left: layout.pond.bobber[0] + "%", top: layout.pond.bobber[1] + "%" }));
@@ -663,9 +667,9 @@
     document.body.classList.toggle("viewing-outdoor", currentScene !== "room");
     if (currentScene !== "room" && lastWorld) { setBackground(currentScene, lastWorld.phase); renderScene(lastWorld); }
   }
-  async function outing(goOut) {
+  async function outing(goOut, place) {
     closeDoorMenu();
-    const result = await worldAction(goOut ? { action: "outing", hours: 2 } : { action: "recall" });
+    const result = await worldAction(goOut ? { action: "outing", hours: 2, ...(place ? { place } : {}) } : { action: "recall" });
     if (result && !goOut) showScene("room");
   }
 
@@ -673,7 +677,8 @@
   doorMenu.setAttribute("role", "menu");
   stage?.append(doorMenu);
   function closeDoorMenu() { doorMenu.hidden = true; }
-  const awayText = w => w.outing?.purpose === "market" ? "她去镇上集市买卖东西了，大约 " + time(w.outing.until) + " 前回来" : "她出门了，大约 " + time(w.outing?.until) + " 回来";
+  const placeNames = { market: "镇上集市", town: "小镇", seaside: "海边", "flower-sea": "花海", "night-market": "夜市" };
+  const awayText = w => w.outing?.purpose === "market" ? "她去镇上集市买卖东西了，大约 " + time(w.outing.until) + " 前回来" : "她去" + (placeNames[w.outing?.place] || "外面") + (w.outing?.place === "market" ? "逛逛" : "走走") + "了，大约 " + time(w.outing?.until) + " 回来";
   function openDoorMenu() {
     const w = lastWorld;
     const where = w ? sceneOf(w.location) : "room";
@@ -687,7 +692,7 @@
       item("nav-room", "看看小屋", () => showScene("room")),
       item("nav-field", "去田园看看", () => showScene("field")),
       item("nav-pond", "去池塘看看", () => showScene("pond")),
-      w?.outing ? item("nav-outing", "叫她回来", () => void outing(false)) : item("nav-outing", "让她出门走走", () => void outing(true), !w),
+      ...(w?.outing ? [item("nav-outing", "叫她回来", () => void outing(false))] : [item("nav-market", "让她去集市逛逛", () => void outing(true, "market"), !w), item("nav-outing", "让她出门走走", () => void outing(true), !w)]),
       el("button", { type: "button", className: "door-cancel", textContent: "算了", onclick: closeDoorMenu }));
     doorMenu.hidden = false;
   }
@@ -710,10 +715,10 @@
   function onWorld(w) {
     if (!w || w.version !== 2) return;
     const where = sceneOf(w.location);
-    if (awayLabel && where !== "room") awayLabel.textContent = where === "away" ? (w.outing?.purpose === "market" ? "大肥鱼去集市了，大约 " + time(w.outing.until) + " 前回来" : "大肥鱼出门啦，大约 " + time(w.outing?.until) + " 回来") : where === "field" ? "她在田园忙" : "她在池塘钓鱼";
+    if (awayLabel && where !== "room") awayLabel.textContent = where === "away" ? awayText(w).replace(/^她/, "大肥鱼") : where === "field" ? "她在田园忙" : "她在池塘钓鱼";
     if (returnHome) returnHome.textContent = where === "away" ? "叫她回来" : where === "room" ? "叫她回家" : "去看看她";
     // While she is out, show one of her postcards if the art exists.
-    const cards = w.outing?.purpose === "market" ? ["market"] : ["town", "seaside", "flower-sea", "night-market"];
+    const cards = [w.outing?.place || "town"];
     if (where === "away" && awayNote && !postcard) {
       postcard = img(["away-postcard-" + cards[Math.floor((w.outing?.since || 0) / 60000) % cards.length]], "away-postcard");
       awayNote.prepend(postcard);
