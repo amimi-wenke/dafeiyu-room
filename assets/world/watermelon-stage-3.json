@@ -1,0 +1,30 @@
+{
+  "name": "watermelon-stage-3",
+  "kind": "plant",
+  "original": "watermelon-stage-3-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    16,
+    31,
+    356,
+    361
+  ],
+  "sha256": "470876f0b42b30984b6b2c731f84af350f275be43b4e7cb7329b4543863598d2",
+  "export": "watermelon-stage-3.png",
+  "project": "watermelon-stage-3.png"
+}

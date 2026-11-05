@@ -1,0 +1,30 @@
+{
+  "name": "aquarium-fish-catfish",
+  "kind": "fish-sprite",
+  "original": "aquarium-fish-catfish-edit-original.png",
+  "originalSize": [
+    1536,
+    1024
+  ],
+  "size": [
+    96,
+    96
+  ],
+  "anchorPixels": [
+    48,
+    48
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    6,
+    31,
+    92,
+    64
+  ],
+  "sha256": "18663e09cc08807b611d33f6902315cbb20b88bf776628cd35fee894e6545217",
+  "export": "aquarium-fish-catfish.png",
+  "project": "aquarium-fish-catfish.png"
+}

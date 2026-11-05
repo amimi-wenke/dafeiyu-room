@@ -29,7 +29,10 @@
       "dsh-client.js",
       "dsh.css",
       "chat.html",
-      "package.json"
+      "package.json",
+      "assets/world/*.png",
+      "assets/world/layout.json",
+      "assets/world/world-manifest.json"
     ],
     "win": {
       "target": [

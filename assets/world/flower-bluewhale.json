@@ -1,0 +1,30 @@
+{
+  "name": "flower-bluewhale",
+  "kind": "icon",
+  "original": "flower-bluewhale-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    28,
+    30,
+    240,
+    222
+  ],
+  "sha256": "2b6ffc8edb5b7b5a2695054154ae5eaaaa3be033076feaa486f09602e231a28a",
+  "export": "flower-bluewhale.png",
+  "project": "flower-bluewhale.png"
+}

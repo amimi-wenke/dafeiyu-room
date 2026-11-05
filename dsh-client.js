@@ -500,6 +500,7 @@
       return;
     }
     lastWorld = world; renderStatus();
+    onWorld(world);
     // Re-render only when something other than the clock changed; keeps scroll and input focus stable.
     const sig = JSON.stringify([tab, { ...world, serverTime: 0, farm: world.farm.map(p => p && { ...p, progress: 0 }), garden: world.garden.map(p => p && { ...p, progress: 0 }) }, tab === "shop" || tab === "codex" ? extra : null]);
     if (sig === signature) {
@@ -528,6 +529,200 @@
       } catch (e) { if (version === connection) flash(errorText(e), true); }
       await new Promise(resolve => setTimeout(resolve, 2000));
     }
+  }
+
+  // ---------- Door menu, outdoor scenes and outings ----------
+  // Viewing is the owner's choice; what she does there stays hers. Art comes from assets/world when it exists,
+  // otherwise the scene falls back to a drawn placeholder and her existing room poses.
+  const stage = document.querySelector("#stage");
+  const embedded = (() => { try { return JSON.parse(document.querySelector("#character-assets").textContent); } catch { return {}; } })();
+  const art = name => "/assets/world/" + name + ".png";
+  const sceneOf = location => location === "farm" || location === "garden" ? "field" : location === "pond" ? "pond" : location === "away" ? "away" : "room";
+  const sceneNames = { room: "小屋", field: "田园", pond: "池塘", away: "外面" };
+  const poseFallback = { walk: "walk", "fish-wait": "idle", "fish-reel": "idle", "fish-show": "idle", "fish-empty": "idle" };
+  let layout = {
+    field: { farm: [[10, 56], [20, 56], [30, 56], [40, 56], [8, 74], [19, 74], [30, 74], [41, 74]],
+      garden: [[58, 56], [68, 56], [78, 56], [88, 56], [59, 74], [70, 74], [81, 74], [92, 74]], stall: [49, 42], idle: [50, 82] },
+    pond: { stand: [27, 76], bobber: [54, 58], idle: [24, 82] },
+  };
+  // layout.json from the art pipeline may use 0..1 or percent coordinates; normalise to percent.
+  const pct = point => Array.isArray(point) && point.length >= 2 ? point.map(v => Number(v) <= 1 ? Number(v) * 100 : Number(v)) : null;
+  fetch(art("layout").replace(".png", ".json"), { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(json => {
+    if (!json) return;
+    const f = json.field || json.outdoor?.field, p = json.pond || json.outdoor?.pond;
+    if (Array.isArray(f?.farm) && f.farm.length) layout.field.farm = f.farm.map(pct);
+    if (Array.isArray(f?.garden) && f.garden.length) layout.field.garden = f.garden.map(pct);
+    if (pct(f?.stall)) layout.field.stall = pct(f.stall);
+    if (pct(p?.stand)) layout.pond.stand = pct(p.stand);
+    if (pct(p?.bobber)) layout.pond.bobber = pct(p.bobber);
+  }).catch(() => {});
+
+  const sceneView = el("section", { className: "scene-view", hidden: true });
+  sceneView.setAttribute("aria-label", "户外场景");
+  const sceneBg = el("img", { className: "scene-bg", alt: "" });
+  const sceneItems = el("div", { className: "scene-items" });
+  const sceneActor = el("img", { className: "scene-actor", alt: "大肥鱼" });
+  const sceneBubble = el("p", { className: "scene-bubble" });
+  const sceneCaption = el("div", { className: "scene-caption" });
+  const sceneNav = el("nav", { className: "scene-nav" });
+  sceneView.append(sceneBg, sceneItems, sceneActor, sceneBubble, sceneCaption, sceneNav);
+  stage?.append(sceneView);
+  let currentScene = "room", sceneSignature = "";
+
+  const img = (names, className, style = {}) => {
+    const node = el("img", { className, alt: "" });
+    const list = names.filter(Boolean);
+    let i = 0;
+    node.onerror = () => { i++; if (i < list.length) node.src = list[i].startsWith("data:") ? list[i] : art(list[i]); else node.remove(); };
+    node.src = list[0].startsWith("data:") ? list[0] : art(list[0]);
+    Object.assign(node.style, style);
+    return node;
+  };
+  function setBackground(scene, phase) {
+    sceneView.classList.remove("placeholder");
+    sceneView.dataset.phase = phase;
+    const tries = ["outdoor-" + scene + "-" + phase, "outdoor-" + scene + "-day"];
+    let i = 0;
+    sceneBg.onerror = () => { i++; if (i < tries.length) { sceneView.classList.add("tinted"); sceneBg.src = art(tries[i]); } else { sceneBg.removeAttribute("src"); sceneView.classList.add("placeholder"); } };
+    sceneView.classList.remove("tinted");
+    sceneBg.src = art(tries[0]);
+  }
+  function plotNode(area, p, slot, at, built) {
+    const box = el("div", { className: "scene-plot" + (built ? "" : " locked") });
+    box.style.left = at[0] + "%"; box.style.top = at[1] + "%";
+    const flower = area === "garden";
+    const soil = (flower ? "bed-soil-" : "plot-soil-") + (p && !p.thirsty ? "wet" : "dry");
+    box.append(img([soil], "scene-soil"));
+    if (!built) { box.title = "还没开垦"; return box; }
+    if (!p) { box.title = (slot + 1) + "号 · 空地"; return box; }
+    const sprite = p.stage === 0 && !p.ready ? [flower ? "flower-stage-1" : "crop-stage-1"]
+      : p.stage === 1 && !p.ready ? [p.species + "-stage-2", flower ? "flower-stage-1" : "crop-stage-1"]
+      : [p.species + "-stage-3", (flower ? "flower-" : "crop-") + p.species];
+    box.append(img(sprite, "scene-plant"));
+    const overlay = p.ready ? (p.overripe ? "overlay-overripe" : "overlay-ready") : p.thirsty ? "overlay-thirsty" : p.fertilizer ? "overlay-fertilized" : "";
+    if (overlay) box.append(img([overlay], "scene-overlay"));
+    box.title = `${slot + 1}号 ${p.name} · ${p.ready ? "成熟啦" : p.thirsty ? "口渴，等她来浇" : "第" + (p.stage + 1) + "段"}`;
+    return box;
+  }
+  function poseFor(w) {
+    const recent = w.log.filter(e => e.by === "self" || e.by === "tool").at(-1);
+    const fresh = recent && w.serverTime - recent.at < 90000;
+    if (w.milestones.some(m => m.type === "giant" && w.serverTime - m.at < 120000)) return "cheer-giant";
+    if (w.fishing) return w.fishing.state === "bite" ? "fish-reel" : "fish-wait";
+    if (fresh && recent.action === "collect") return /跑/.test(recent.text) ? "fish-empty" : "fish-show";
+    if (fresh && recent.action === "sell") return "sell";
+    return { plant: "plant", water: "water-can", harvest: "harvest", fertilize: "fertilize", explore: "walk" }[w.activity] || "idle";
+  }
+  function actorSpot(w, scene) {
+    if (scene === "pond") return w.fishing ? layout.pond.stand : layout.pond.idle;
+    const last = w.log.filter(e => (e.area === "farm" || e.area === "garden") && Number.isInteger(e.slot)).at(-1);
+    const at = last && w.location === last.area ? layout.field[last.area]?.[last.slot] : null;
+    if (poseFor(w) === "sell") return layout.field.stall;
+    return at ? [at[0] - 3, at[1] + 5] : layout.field.idle;
+  }
+  function navButtons(w) {
+    const go = (scene, label) => { const b = el("button", { type: "button", textContent: label }); b.onclick = () => showScene(scene); b.disabled = scene === currentScene; return b; };
+    sceneNav.replaceChildren(go("room", "🏠 回小屋"), go("field", "🌾 田园"), go("pond", "🎣 池塘"));
+  }
+  function renderScene(w) {
+    if (!w || currentScene === "room" || w.version !== 2) return;
+    const scene = currentScene, here = sceneOf(w.location) === scene;
+    const pose = here ? poseFor(w) : "";
+    const sig = JSON.stringify([scene, w.phase, w.location, w.activity, pose, w.fishing?.state, w.farm.map(p => p && [p.species, p.stage, p.ready, p.thirsty, p.fertilizer, p.overripe]),
+      w.garden.map(p => p && [p.species, p.stage, p.ready, p.thirsty, p.fertilizer, p.overripe]), w.farm.length, w.garden.length, w.log.at(-1)?.at, w.outing?.until]);
+    if (sig === sceneSignature) return;
+    sceneSignature = sig;
+    navButtons(w);
+    sceneItems.replaceChildren();
+    if (scene === "field") {
+      for (const area of ["farm", "garden"]) layout.field[area].forEach((at, slot) => { if (at) sceneItems.append(plotNode(area, w[area][slot], slot, at, slot < w[area].length)); });
+      const stall = el("span", { className: "scene-label", textContent: "小摊" }); stall.style.left = layout.field.stall[0] + "%"; stall.style.top = layout.field.stall[1] + "%";
+      sceneItems.append(stall);
+    } else if (scene === "pond" && w.fishing) {
+      sceneItems.append(img([w.fishing.state === "bite" ? "pond-bite" : "pond-waiting"], "scene-bobber", { left: layout.pond.bobber[0] + "%", top: layout.pond.bobber[1] + "%" }));
+    }
+    if (here) {
+      const spot = actorSpot(w, scene);
+      sceneActor.hidden = false;
+      sceneActor.onerror = () => { sceneActor.onerror = null; sceneActor.src = embedded[poseFallback[pose] || "idle"] || ""; };
+      sceneActor.src = art(pose);
+      sceneActor.style.left = spot[0] + "%"; sceneActor.style.top = spot[1] + "%";
+      const said = w.log.filter(e => (e.by === "self" || e.by === "tool") && e.text && e.action !== "plan").at(-1);
+      sceneBubble.hidden = !said; sceneBubble.textContent = said?.text || "";
+      sceneBubble.style.left = spot[0] + "%"; sceneBubble.style.top = Math.max(4, spot[1] - 36) + "%";
+      sceneCaption.replaceChildren(el("span", { textContent: "她在" + sceneNames[scene] + (w.autonomous ? "" : "，正在歇一会儿") }));
+    } else {
+      sceneActor.hidden = true; sceneBubble.hidden = true;
+      const where = sceneOf(w.location);
+      const text = where === "away" ? "她出门了，大约 " + time(w.outing?.until) + " 回来" : "她现在不在这里，在" + sceneNames[where];
+      const action = where === "away" ? el("button", { type: "button", textContent: "叫她回来" }) : el("button", { type: "button", textContent: "去看她" });
+      action.onclick = () => where === "away" ? void outing(false) : showScene(where);
+      sceneCaption.replaceChildren(el("span", { textContent: text }), action);
+    }
+  }
+  function showScene(scene) {
+    closeDoorMenu();
+    currentScene = scene === "away" ? "room" : scene;
+    sceneSignature = "";
+    sceneView.hidden = currentScene === "room";
+    document.body.classList.toggle("viewing-outdoor", currentScene !== "room");
+    if (currentScene !== "room" && lastWorld) { setBackground(currentScene, lastWorld.phase); renderScene(lastWorld); }
+  }
+  async function outing(goOut) {
+    closeDoorMenu();
+    const result = await worldAction(goOut ? { action: "outing", hours: 2 } : { action: "recall" });
+    if (result && !goOut) showScene("room");
+  }
+
+  const doorMenu = el("div", { className: "door-menu", hidden: true });
+  doorMenu.setAttribute("role", "menu");
+  stage?.append(doorMenu);
+  function closeDoorMenu() { doorMenu.hidden = true; }
+  function openDoorMenu() {
+    const w = lastWorld;
+    const where = w ? sceneOf(w.location) : "room";
+    const item = (icon, label, run, disabled = false) => {
+      const b = el("button", { type: "button", role: "menuitem", disabled });
+      b.append(img([icon], "door-icon"), el("span", { textContent: label }));
+      b.onclick = run; return b;
+    };
+    const status = !w ? "还没连上 DSH" : where === "away" ? "她出门了，大约 " + time(w.outing?.until) + " 回来" : "她现在在" + sceneNames[where] + (w.autonomous ? "" : "（歇息中）");
+    doorMenu.replaceChildren(el("p", { className: "door-status", textContent: status }),
+      item("nav-room", "看看小屋", () => showScene("room")),
+      item("nav-field", "去田园看看", () => showScene("field")),
+      item("nav-pond", "去池塘看看", () => showScene("pond")),
+      w?.outing ? item("nav-outing", "叫她回来", () => void outing(false)) : item("nav-outing", "让她出门走走", () => void outing(true), !w),
+      el("button", { type: "button", className: "door-cancel", textContent: "算了", onclick: closeDoorMenu }));
+    doorMenu.hidden = false;
+  }
+  // Take over the doorway and the "call her home" button once the world plugin is connected.
+  document.addEventListener("click", event => {
+    if (!connected || !roomAware) return;
+    if (event.target.closest(".hotspot.doorway")) {
+      event.preventDefault(); event.stopImmediatePropagation();
+      if (doorMenu.hidden) openDoorMenu(); else closeDoorMenu();
+    } else if (event.target.closest("#return-home") && lastWorld) {
+      event.preventDefault(); event.stopImmediatePropagation();
+      const where = sceneOf(lastWorld.location);
+      if (where === "away") void outing(false); else if (where !== "room") showScene(where);
+    } else if (!doorMenu.hidden && !event.target.closest(".door-menu")) closeDoorMenu();
+  }, true);
+
+  const awayLabel = document.querySelector("#away-label"), returnHome = document.querySelector("#return-home");
+  const awayNote = document.querySelector("#away-note");
+  let postcard = null;
+  function onWorld(w) {
+    if (!w || w.version !== 2) return;
+    const where = sceneOf(w.location);
+    if (awayLabel && where !== "room") awayLabel.textContent = where === "away" ? "大肥鱼出门啦，大约 " + time(w.outing?.until) + " 回来" : where === "field" ? "她在田园忙" : "她在池塘钓鱼";
+    if (returnHome) returnHome.textContent = where === "away" ? "叫她回来" : where === "room" ? "叫她回家" : "去看看她";
+    // While she is out, show one of her postcards if the art exists.
+    const cards = ["town", "sea", "flowers", "night"];
+    if (where === "away" && awayNote && !postcard) {
+      postcard = img(["away-postcard-" + cards[Math.floor((w.outing?.since || 0) / 60000) % cards.length]], "away-postcard");
+      awayNote.prepend(postcard);
+    } else if (where !== "away" && postcard) { postcard.remove(); postcard = null; }
+    if (currentScene !== "room") { if (sceneView.dataset.phase !== w.phase) setBackground(currentScene, w.phase); renderScene(w); }
   }
 
   try {

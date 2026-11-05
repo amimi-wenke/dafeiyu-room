@@ -1,0 +1,30 @@
+{
+  "name": "vase-flower-tulip",
+  "kind": "plant",
+  "original": "vase-flower-tulip-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    35,
+    16,
+    305,
+    368
+  ],
+  "sha256": "ef1f37980a875d47e20a381070c8631e186c9fe885ac2a44594b065c6f022394",
+  "export": "vase-flower-tulip.png",
+  "project": "vase-flower-tulip.png"
+}

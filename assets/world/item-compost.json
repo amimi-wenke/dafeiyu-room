@@ -1,0 +1,30 @@
+{
+  "name": "item-compost",
+  "kind": "icon",
+  "original": "item-compost-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    65,
+    16,
+    211,
+    207
+  ],
+  "sha256": "858b5882c7b7ed29acb59733af3176c06e189ad083ba1df590bc03fa19a2c9f5",
+  "export": "item-compost.png",
+  "project": "item-compost.png"
+}

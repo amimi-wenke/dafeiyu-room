@@ -1,0 +1,30 @@
+{
+  "name": "crop-pumpkin",
+  "kind": "icon",
+  "original": "crop-pumpkin-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    36,
+    45,
+    217,
+    224
+  ],
+  "sha256": "5e162f5295c1a7f6b509d91810b328d33f974722f4eed2e857ad869e8fc77db8",
+  "export": "crop-pumpkin.png",
+  "project": "crop-pumpkin.png"
+}

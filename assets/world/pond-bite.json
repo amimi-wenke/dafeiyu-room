@@ -1,0 +1,30 @@
+{
+  "name": "pond-bite",
+  "kind": "tile",
+  "original": "pond-bite-edit-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    17,
+    148,
+    368,
+    367
+  ],
+  "sha256": "919f2b46713217c46784dac9ae967c6af97ca4478b292ad3b6a0cc405aafec17",
+  "export": "pond-bite.png",
+  "project": "pond-bite.png"
+}

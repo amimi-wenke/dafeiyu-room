@@ -1,0 +1,30 @@
+{
+  "name": "fish-crucian",
+  "kind": "icon",
+  "original": "fish-crucian-cutout-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    30,
+    48,
+    237,
+    198
+  ],
+  "sha256": "0bdc060166b6b2574f75103ba36d4dc17086ae9c4b1065f03d1462ec70b1b8d8",
+  "export": "fish-crucian.png",
+  "project": "fish-crucian.png"
+}

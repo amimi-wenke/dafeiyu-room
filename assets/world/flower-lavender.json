@@ -1,0 +1,30 @@
+{
+  "name": "flower-lavender",
+  "kind": "icon",
+  "original": "flower-lavender-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    37,
+    22,
+    233,
+    231
+  ],
+  "sha256": "260303477affeeccdb2e282af1a0ae81f6a7897d693406efa312bad8111fd44b",
+  "export": "flower-lavender.png",
+  "project": "flower-lavender.png"
+}

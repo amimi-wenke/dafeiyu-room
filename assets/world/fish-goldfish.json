@@ -1,0 +1,30 @@
+{
+  "name": "fish-goldfish",
+  "kind": "icon",
+  "original": "fish-goldfish-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    16,
+    39,
+    236,
+    201
+  ],
+  "sha256": "248c55a73afff535c3934480870576d6c21039caf6a8a9fe2d9d4389b6ab19fe",
+  "export": "fish-goldfish.png",
+  "project": "fish-goldfish.png"
+}

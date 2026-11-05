@@ -349,11 +349,15 @@
     },
     {
       "name": "plot-soil-wet",
-      "subject": "ONE empty raised farm soil tile, same broad low ISOMETRIC diamond, dark moist tilled soil with subtle tiny watered glints and four furrows, lavender-blue stone edging; no plants",
+      "subject": "Edit ONLY the soil moisture of the reference tile. Keep the EXACT same tile silhouette, framing, isometric camera, border, furrows, colors and position. Make the soil visibly darker and damp with restrained tiny water highlights. Do not add plants, drops, background, shadows or change any geometry. True transparent background exactly as reference.",
       "batch": 2,
       "kind": "tile",
       "width": 384,
-      "height": 384
+      "height": 384,
+      "depends": [
+        "plot-soil-dry"
+      ],
+      "edit": true
     },
     {
       "name": "bed-soil-dry",
@@ -365,11 +369,15 @@
     },
     {
       "name": "bed-soil-wet",
-      "subject": "ONE empty rounded rectangular ISOMETRIC flower-bed tile, dark damp soil with restrained water glints, scalloped pale blue painted wooden frame; no plants",
+      "subject": "Edit ONLY the soil moisture of the reference tile. Keep the EXACT same tile silhouette, framing, isometric camera, border, furrows, colors and position. Make the soil visibly darker and damp with restrained tiny water highlights. Do not add plants, drops, background, shadows or change any geometry. True transparent background exactly as reference.",
       "batch": 2,
       "kind": "tile",
       "width": 384,
-      "height": 384
+      "height": 384,
+      "depends": [
+        "bed-soil-dry"
+      ],
+      "edit": true
     },
     {
       "name": "crop-stage-1",
@@ -804,7 +812,7 @@
     },
     {
       "name": "daisy-stage-2",
-      "subject": "ONE rooted flower plant: one delicate blooming white daisy with buttery yellow center, short sage-green stem and two small leaves. GROWING stage: leafy plant with small CLOSED flower buds only, not open blooms. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "subject": "ONE young rooted daisy flower plant with correct species-specific green leaves and small CLOSED buds only, still growing, with NO fully open flowers. Match the colors and leaf shapes of the reference species. Stems meet ground at bottom center. No pot, vase, soil tile, ribbon, loose blossoms, or cut bouquet.",
       "batch": 4,
       "kind": "plant",
       "width": 384,
@@ -826,7 +834,7 @@
     },
     {
       "name": "sunflower-stage-2",
-      "subject": "ONE rooted flower plant: one blooming sunflower, round brown-gold center, soft buttery golden petals, short green stem and leaves. GROWING stage: leafy plant with small CLOSED flower buds only, not open blooms. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "subject": "ONE young rooted sunflower flower plant with correct species-specific green leaves and small CLOSED buds only, still growing, with NO fully open flowers. Match the colors and leaf shapes of the reference species. Stems meet ground at bottom center. No pot, vase, soil tile, ribbon, loose blossoms, or cut bouquet.",
       "batch": 4,
       "kind": "plant",
       "width": 384,
@@ -848,7 +856,7 @@
     },
     {
       "name": "tulip-stage-2",
-      "subject": "ONE rooted flower plant: one elegant pale blue-lilac tulip flower with cupped petals, short sage-green stem and two leaves. GROWING stage: leafy plant with small CLOSED flower buds only, not open blooms. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "subject": "ONE young rooted tulip flower plant with correct species-specific green leaves and small CLOSED buds only, still growing, with NO fully open flowers. Match the colors and leaf shapes of the reference species. Stems meet ground at bottom center. No pot, vase, soil tile, ribbon, loose blossoms, or cut bouquet.",
       "batch": 4,
       "kind": "plant",
       "width": 384,
@@ -870,7 +878,7 @@
     },
     {
       "name": "lavender-stage-2",
-      "subject": "ONE rooted flower plant: a small neat bunch of blooming lavender spikes in muted purple, sage-green stems. GROWING stage: leafy plant with small CLOSED flower buds only, not open blooms. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "subject": "ONE young rooted lavender flower plant with correct species-specific green leaves and small CLOSED buds only, still growing, with NO fully open flowers. Match the colors and leaf shapes of the reference species. Stems meet ground at bottom center. No pot, vase, soil tile, ribbon, loose blossoms, or cut bouquet.",
       "batch": 4,
       "kind": "plant",
       "width": 384,
@@ -892,7 +900,7 @@
     },
     {
       "name": "rose-stage-2",
-      "subject": "ONE rooted flower plant: one fully blooming dusty rose pink rose with layered petals and a short sage green leafy stem. GROWING stage: leafy plant with small CLOSED flower buds only, not open blooms. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "subject": "ONE young rooted rose flower plant with correct species-specific green leaves and small CLOSED buds only, still growing, with NO fully open flowers. Match the colors and leaf shapes of the reference species. Stems meet ground at bottom center. No pot, vase, soil tile, ribbon, loose blossoms, or cut bouquet.",
       "batch": 4,
       "kind": "plant",
       "width": 384,
@@ -914,7 +922,7 @@
     },
     {
       "name": "hydrangea-stage-2",
-      "subject": "ONE rooted flower plant: one rounded blue and lavender hydrangea flower head, many tiny four-petal blossoms, two broad leaves. GROWING stage: leafy plant with small CLOSED flower buds only, not open blooms. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "subject": "ONE young rooted hydrangea flower plant with correct species-specific green leaves and small CLOSED buds only, still growing, with NO fully open flowers. Match the colors and leaf shapes of the reference species. Stems meet ground at bottom center. No pot, vase, soil tile, ribbon, loose blossoms, or cut bouquet.",
       "batch": 4,
       "kind": "plant",
       "width": 384,
@@ -936,7 +944,7 @@
     },
     {
       "name": "bluewhale-stage-2",
-      "subject": "ONE rooted flower plant: one original fantasy blue-whale flower: graceful luminous sky-blue petals shaped like paired whale-tail flukes, pale gold stamen, dark blue teardrop center, short leafy mint stem; recognizably a flower not an actual whale. GROWING stage: leafy plant with small CLOSED flower buds only, not open blooms. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "subject": "ONE young rooted bluewhale flower plant with correct species-specific green leaves and small CLOSED buds only, still growing, with NO fully open flowers. Match the colors and leaf shapes of the reference species. Stems meet ground at bottom center. No pot, vase, soil tile, ribbon, loose blossoms, or cut bouquet.",
       "batch": 4,
       "kind": "plant",
       "width": 384,
@@ -1065,112 +1073,8 @@
       "targetHeight": 1237
     },
     {
-      "name": "outdoor-farm-day",
-      "subject": "A cozy outdoor FARM connected to the blue whale maid cottage. A small blue-roof cottage and pearly fence in distant upper-left, gentle pastel trees behind. MAIN PLAY AREA: EXACTLY EIGHT EMPTY farm beds in a clearly separated FOUR-COLUMN BY TWO-ROW arrangement on the central lower ground, no crops or characters. Each is a low isometric rectangular tilled dark-earth bed with cool blue borders. Centers of back row approximately (24%,58%),(42%,58%),(60%,58%),(78%,58%); front row (18%,78%),(38%,78%),(58%,78%),(78%,78%). Wide walkable pastel stone paths between and in front of beds. Keep planting centers clear and readable. Bright soft late-morning daylight, gentle blue sky, creamy sunlight and soft blue shadows, calm cheerful warmth.",
-      "batch": 6,
-      "kind": "scene",
-      "width": 1672,
-      "height": 941,
-      "area": "farm",
-      "phase": "day"
-    },
-    {
-      "name": "outdoor-farm-morning",
-      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to DAWN: distinct cool misty cyan-lavender early morning, low warm peach horizon, dewdrop freshness, soft long blue shadows. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
-      "batch": 6,
-      "kind": "scene",
-      "width": 1672,
-      "height": 941,
-      "area": "farm",
-      "phase": "morning",
-      "depends": [
-        "outdoor-farm-day"
-      ],
-      "edit": true
-    },
-    {
-      "name": "outdoor-farm-dusk",
-      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to DUSK: visibly warm late sunset, amber light from one low side, mauve-pink sky, long soft purple shadows, cozy small lanterns just beginning to glow. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
-      "batch": 6,
-      "kind": "scene",
-      "width": 1672,
-      "height": 941,
-      "area": "farm",
-      "phase": "dusk",
-      "depends": [
-        "outdoor-farm-day"
-      ],
-      "edit": true
-    },
-    {
-      "name": "outdoor-farm-night",
-      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to NIGHT: distinctly darker deep indigo night sky and water, soft silver moonlight, warm small garden lamps glowing, restrained firefly points, readable shapes without making it daytime. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
-      "batch": 6,
-      "kind": "scene",
-      "width": 1672,
-      "height": 941,
-      "area": "farm",
-      "phase": "night",
-      "depends": [
-        "outdoor-farm-day"
-      ],
-      "edit": true
-    },
-    {
-      "name": "outdoor-garden-day",
-      "subject": "A cozy outdoor FLOWER GARDEN next to the blue whale maid cottage. Cream and pale-blue garden trellis at rear, soft blue hydrangea and lavender border bushes only along distant edges. MAIN PLAY AREA: EXACTLY EIGHT EMPTY flower beds in a clearly separated FOUR-COLUMN BY TWO-ROW arrangement on central lower ground, no planted flowers inside these beds and no characters. Each bed is low isometric rounded rectangle of dark soil with scalloped pale-blue wooden rim. Centers of back row approximately (24%,58%),(42%,58%),(60%,58%),(78%,58%); front row (18%,78%),(38%,78%),(58%,78%),(78%,78%). Broad pale stone paths, restful spacious layout. Bright soft late-morning daylight, gentle blue sky, creamy sunlight and soft blue shadows, calm cheerful warmth.",
-      "batch": 6,
-      "kind": "scene",
-      "width": 1672,
-      "height": 941,
-      "area": "garden",
-      "phase": "day"
-    },
-    {
-      "name": "outdoor-garden-morning",
-      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to DAWN: distinct cool misty cyan-lavender early morning, low warm peach horizon, dewdrop freshness, soft long blue shadows. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
-      "batch": 6,
-      "kind": "scene",
-      "width": 1672,
-      "height": 941,
-      "area": "garden",
-      "phase": "morning",
-      "depends": [
-        "outdoor-garden-day"
-      ],
-      "edit": true
-    },
-    {
-      "name": "outdoor-garden-dusk",
-      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to DUSK: visibly warm late sunset, amber light from one low side, mauve-pink sky, long soft purple shadows, cozy small lanterns just beginning to glow. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
-      "batch": 6,
-      "kind": "scene",
-      "width": 1672,
-      "height": 941,
-      "area": "garden",
-      "phase": "dusk",
-      "depends": [
-        "outdoor-garden-day"
-      ],
-      "edit": true
-    },
-    {
-      "name": "outdoor-garden-night",
-      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to NIGHT: distinctly darker deep indigo night sky and water, soft silver moonlight, warm small garden lamps glowing, restrained firefly points, readable shapes without making it daytime. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
-      "batch": 6,
-      "kind": "scene",
-      "width": 1672,
-      "height": 941,
-      "area": "garden",
-      "phase": "night",
-      "depends": [
-        "outdoor-garden-day"
-      ],
-      "edit": true
-    },
-    {
       "name": "outdoor-pond-day",
-      "subject": "A cozy outdoor FISHING POND belonging to the blue whale maid cottage. Still luminous blue pond spans center and right, curved banks of smooth pastel stones, a few lily leaves at far edge, soft willows and blue hydrangea at rear. Small pale-blue timber fishing dock extends from the FRONT-LEFT shore into water. The unobstructed character standing/seated fishing point is near (27%,76%); clear open WATER for bobber near (54%,58%). Wide walkable bank across lower foreground. NO character, NO fishing rod, NO float, NO large visible fish. Peaceful semi-isometric diorama with soft depth. Bright soft late-morning daylight, gentle blue sky, creamy sunlight and soft blue shadows, calm cheerful warmth.",
+      "subject": "A cozy outdoor FISHING POND belonging to the blue whale maid cottage. Still luminous blue pond spans center and right, curved banks of smooth pastel stones, a few lily leaves at far edge, soft willows and blue hydrangea at rear. Small pale-blue timber fishing dock extends from the FRONT-LEFT shore into water. The unobstructed character standing/seated fishing point is near (27%,76%); clear open WATER for bobber near (54%,58%). Wide walkable bank across lower foreground. A small path at the far LEFT edge leads back toward the field and cottage. NO character, NO fishing rod, NO float, NO large visible fish. Peaceful semi-isometric diorama with soft depth. Bright soft late-morning daylight, gentle blue sky, creamy sunlight and soft blue shadows, calm cheerful warmth.",
       "batch": 6,
       "kind": "scene",
       "width": 1672,
@@ -1221,65 +1125,319 @@
       "edit": true
     },
     {
-      "name": "outdoor-shop-day",
-      "subject": "A cozy little OUTDOOR MARKET SHOP stall for the blue whale maid world. One charming cream-and-indigo striped canopy stall at center-rear with gold scallop trim and a subtle decorative whale emblem, small baskets of seed packets and produce on counter, a little closed cash box, blue shell details. Clear walkable pale stone forecourt occupies lower half; character interaction point near (55%,72%), counter near (55%,48%). Soft garden trees and cottage fence in background. NO person, NO readable labels, NO pricing board, NO letters, no UI. Bright soft late-morning daylight, gentle blue sky, creamy sunlight and soft blue shadows, calm cheerful warmth.",
+      "name": "crop-potato",
+      "subject": "a small group of rounded golden brown potatoes, one cut showing pale cream flesh",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "potato-stage-2",
+      "subject": "ONE rooted plant sprite: a compact green potato plant with broad oval leaves and small closed flower buds. Living growing plant, not harvested produce. Stems meet ground at bottom center. No pot, soil tile, exposed roots, loose produce, separate inventory icon or shadows.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-potato"
+      ]
+    },
+    {
+      "name": "potato-stage-3",
+      "subject": "ONE rooted plant sprite: a mature leafy potato plant with tiny white flowers, a few potatoes partly visible at ground contact. Living growing plant, not harvested produce. Stems meet ground at bottom center. No pot, soil tile, exposed roots, loose produce, separate inventory icon or shadows.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-potato"
+      ]
+    },
+    {
+      "name": "crop-corn",
+      "subject": "two ears of golden yellow sweet corn with fresh green husks partly peeled back",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "corn-stage-2",
+      "subject": "ONE rooted plant sprite: a young corn plant with tall upright stalk and broad arching green leaves, no mature cobs. Living growing plant, not harvested produce. Stems meet ground at bottom center. No pot, soil tile, exposed roots, loose produce, separate inventory icon or shadows.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-corn"
+      ]
+    },
+    {
+      "name": "corn-stage-3",
+      "subject": "ONE rooted plant sprite: a mature corn stalk with green leaves, golden tassel and two ripe corn ears still attached. Living growing plant, not harvested produce. Stems meet ground at bottom center. No pot, soil tile, exposed roots, loose produce, separate inventory icon or shadows.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-corn"
+      ]
+    },
+    {
+      "name": "crop-eggplant",
+      "subject": "two glossy deep purple eggplants with fresh sage green calyxes",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "eggplant-stage-2",
+      "subject": "ONE rooted plant sprite: a young eggplant bush with soft broad green leaves and closed purple buds, no mature fruit. Living growing plant, not harvested produce. Stems meet ground at bottom center. No pot, soil tile, exposed roots, loose produce, separate inventory icon or shadows.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-eggplant"
+      ]
+    },
+    {
+      "name": "eggplant-stage-3",
+      "subject": "ONE rooted plant sprite: a rooted eggplant bush bearing two glossy ripe deep purple eggplants attached to branches. Living growing plant, not harvested produce. Stems meet ground at bottom center. No pot, soil tile, exposed roots, loose produce, separate inventory icon or shadows.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-eggplant"
+      ]
+    },
+    {
+      "name": "crop-blueberry",
+      "subject": "a small cluster of ripe indigo blueberries with pale bloom and a few green leaves",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "blueberry-stage-2",
+      "subject": "ONE rooted plant sprite: a small young blueberry shrub with green leaves and closed white buds, no ripe berries. Living growing plant, not harvested produce. Stems meet ground at bottom center. No pot, soil tile, exposed roots, loose produce, separate inventory icon or shadows.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-blueberry"
+      ]
+    },
+    {
+      "name": "blueberry-stage-3",
+      "subject": "ONE rooted plant sprite: a small blueberry shrub laden with attached ripe indigo berries and green leaves. Living growing plant, not harvested produce. Stems meet ground at bottom center. No pot, soil tile, exposed roots, loose produce, separate inventory icon or shadows.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-blueberry"
+      ]
+    },
+    {
+      "name": "crop-grape",
+      "subject": "a plump bunch of ripe purple blue grapes with a fresh lobed grape leaf and curled tendril",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "grape-stage-2",
+      "subject": "ONE rooted plant sprite: a young freestanding grape vine with lobed green leaves and tendrils, no fruit, no trellis. Living growing plant, not harvested produce. Stems meet ground at bottom center. No pot, soil tile, exposed roots, loose produce, separate inventory icon or shadows.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-grape"
+      ]
+    },
+    {
+      "name": "grape-stage-3",
+      "subject": "ONE rooted plant sprite: a compact freestanding grape vine bearing two ripe purple blue grape bunches, lobed leaves and tendrils, no trellis. Living growing plant, not harvested produce. Stems meet ground at bottom center. No pot, soil tile, exposed roots, loose produce, separate inventory icon or shadows.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-grape"
+      ]
+    },
+    {
+      "name": "outdoor-field-day",
+      "subject": "A cozy outdoor FIELD beside the blue whale maid cottage, combining a vegetable FARM on the LEFT half and a FLOWER GARDEN on the RIGHT half in ONE continuous scene. Small blue-roof cottage with its front door in the distant upper-left, a pale stone path from the door into the field. LEFT HALF: EXACTLY EIGHT EMPTY low isometric rectangular tilled dark-earth farm beds with cool blue borders, FOUR columns by TWO rows; back row centers about (10%,56%),(20%,56%),(30%,56%),(40%,56%), front row about (8%,74%),(19%,74%),(30%,74%),(41%,74%). RIGHT HALF: EXACTLY EIGHT EMPTY round flower beds with cream stone rims and soft dark soil, FOUR columns by TWO rows; back row centers about (58%,56%),(68%,56%),(78%,56%),(88%,56%), front row about (59%,74%),(70%,74%),(81%,74%),(92%,74%). CENTER BACK near (49%,42%): one small cream wooden produce stall with a pale blue awning and an empty wooden crate (where she sells). A path on the far right edge leads off-screen toward a pond. Wide walkable pastel stone paths between and in front of beds. NO crops, NO flowers in beds, NO characters, NO text. Peaceful semi-isometric diorama with soft depth. Bright soft late-morning daylight, gentle blue sky, creamy sunlight and soft blue shadows, calm cheerful warmth.",
       "batch": 6,
       "kind": "scene",
       "width": 1672,
       "height": 941,
-      "area": "shop",
+      "area": "field",
       "phase": "day"
     },
     {
-      "name": "outdoor-shop-morning",
-      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to DAWN: distinct cool misty cyan-lavender early morning, low warm peach horizon, dewdrop freshness, soft long blue shadows. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
+      "name": "outdoor-field-morning",
+      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to DAWN: distinct cool misty cyan-lavender early morning, low warm peach horizon, dewdrop freshness, soft long blue shadows. Preserve exact 16:9 scene composition and all sixteen empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
       "batch": 6,
       "kind": "scene",
       "width": 1672,
       "height": 941,
-      "area": "shop",
+      "area": "field",
       "phase": "morning",
       "depends": [
-        "outdoor-shop-day"
+        "outdoor-field-day"
       ],
       "edit": true
     },
     {
-      "name": "outdoor-shop-dusk",
-      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to DUSK: visibly warm late sunset, amber light from one low side, mauve-pink sky, long soft purple shadows, cozy small lanterns just beginning to glow. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
+      "name": "outdoor-field-dusk",
+      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to DUSK: warm apricot and rose sunset glow from the right, lilac sky, long soft shadows, first warm lantern glints. Preserve exact 16:9 scene composition and all sixteen empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
       "batch": 6,
       "kind": "scene",
       "width": 1672,
       "height": 941,
-      "area": "shop",
+      "area": "field",
       "phase": "dusk",
       "depends": [
-        "outdoor-shop-day"
+        "outdoor-field-day"
       ],
       "edit": true
     },
     {
-      "name": "outdoor-shop-night",
-      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to NIGHT: distinctly darker deep indigo night sky and water, soft silver moonlight, warm small garden lamps glowing, restrained firefly points, readable shapes without making it daytime. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
+      "name": "outdoor-field-night",
+      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to NIGHT: deep calm indigo night, soft moonlight from upper right, a few stars, warm small lantern pools of light near paths, readable silhouettes. Preserve exact 16:9 scene composition and all sixteen empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
       "batch": 6,
       "kind": "scene",
       "width": 1672,
       "height": 941,
-      "area": "shop",
+      "area": "field",
       "phase": "night",
       "depends": [
-        "outdoor-shop-day"
+        "outdoor-field-day"
       ],
       "edit": true
     },
     {
-      "name": "outdoor-path",
-      "subject": "A cozy empty winding pale stone path leaving the door of a blue whale maid cottage on the left and branching gently toward a little farm gate, flower-garden trellis and distant pond to the right, lavender-blue foliage and cream fence, subtle blue whale emblem on door, no readable signs. Clear broad walkable foreground for a small chibi character to walk across. Bright soft daytime, gentle semi-isometric storybook diorama, no character, no UI.",
-      "batch": 6,
-      "kind": "scene",
-      "width": 1672,
-      "height": 941,
-      "phase": "day"
+      "name": "fish-empty",
+      "subject": "sitting on a small pale blue folding stool holding a short fishing rod with an empty hook, a little pouty disappointed but cute expression, tail drooping; no pond or backdrop",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1080
+    },
+    {
+      "name": "arrange-flower",
+      "subject": "standing gently placing a few fresh blue and pink flowers into a small cream ceramic vase held at chest height, soft content smile; no table or backdrop",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237
+    },
+    {
+      "name": "aquarium-keep",
+      "subject": "standing holding a small clear glass bowl with one little orange fish in both hands, leaning slightly forward as if releasing it into a tank, caring smile; no aquarium or backdrop",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237
+    },
+    {
+      "name": "go-out",
+      "subject": "standing turned three-quarter away toward the right, a small pale blue shoulder bag and a light cream cardigan, waving goodbye over her shoulder with a cheerful smile, ready to go on a short outing; no door or backdrop",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237
+    },
+    {
+      "name": "come-back",
+      "subject": "standing facing forward just returned from an outing, small pale blue shoulder bag, holding up a little paper souvenir bag in one hand, happy tired smile, slightly windswept hair; no door or backdrop",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237
+    },
+    {
+      "name": "nav-room",
+      "subject": "a tiny cozy blue-roof cottage with a warm lit window",
+      "batch": 7,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "nav-field",
+      "subject": "a small sprout in a tilled soil patch beside one little pink flower",
+      "batch": 7,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "nav-pond",
+      "subject": "a small round pond with a red and white fishing float and gentle ripples",
+      "batch": 7,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "nav-outing",
+      "subject": "a small pale blue shoulder bag with a tiny map and a little paper boat charm",
+      "batch": 7,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "away-postcard-town",
+      "subject": "a soft illustrated postcard: the blue whale maid girl strolling down a quiet pastel seaside town street with a paper bag of bread, small and seen from behind three-quarter, no text",
+      "batch": 7,
+      "kind": "postcard",
+      "width": 1024,
+      "height": 640,
+      "optional": true
+    },
+    {
+      "name": "away-postcard-sea",
+      "subject": "a soft illustrated postcard: the blue whale maid girl sitting on a low sea wall watching gentle waves at golden hour, small in frame, no text",
+      "batch": 7,
+      "kind": "postcard",
+      "width": 1024,
+      "height": 640,
+      "optional": true
+    },
+    {
+      "name": "away-postcard-flowers",
+      "subject": "a soft illustrated postcard: the blue whale maid girl walking through a wide field of blue hydrangeas under a pale sky, small in frame, no text",
+      "batch": 7,
+      "kind": "postcard",
+      "width": 1024,
+      "height": 640,
+      "optional": true
+    },
+    {
+      "name": "away-postcard-night",
+      "subject": "a soft illustrated postcard: the blue whale maid girl at a cozy night market stall holding a warm cup, string lights, small in frame, no text",
+      "batch": 7,
+      "kind": "postcard",
+      "width": 1024,
+      "height": 640,
+      "optional": true
     }
   ],
   "saved": [
@@ -1329,5 +1487,9 @@
       "prompt": "Use case: stylized-concept. Asset type: ONE separate finished farming-game inventory icon crop-tomato.png. The attached room is a STYLE REFERENCE ONLY. Subject: one round ripe coral-red tomato, fresh sage green calyx, tiny dewdrop highlights. Style: finely hand-painted Japanese anime storybook game art, rounded cute semi-isometric form, tidy periwinkle contours, soft cel shading, cream highlights, cool blue-lavender ambient palette matching the reference room; retain the subject's recognizable natural colors. Composition: square image, exactly one centered isolated item, entire silhouette visible with 8 percent transparent margin on all sides, clean readable silhouette at 256px. Genuine alpha TRANSPARENT background, no floor, no rectangular backing, no backdrop, no frame, no text or watermark, no character or extra decoration. Deliver production sprite, not sheet.",
       "original": "crop-tomato-original.png"
     }
-  ]
+  ],
+  "revision": {
+    "at": "2026-11-05",
+    "note": "field = farm + flower garden in one scene; pond separate; shop and path scenes dropped; added behaviors, door-menu icons and outing postcards"
+  }
 }

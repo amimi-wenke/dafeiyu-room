@@ -1,0 +1,30 @@
+{
+  "name": "wheat-stage-2",
+  "kind": "plant",
+  "original": "wheat-stage-2-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    21,
+    20,
+    347,
+    365
+  ],
+  "sha256": "e9f51b459e7b25b777684f4e8fbba2067e6e2a451938d0bb49273c88af85756b",
+  "export": "wheat-stage-2.png",
+  "project": "wheat-stage-2.png"
+}

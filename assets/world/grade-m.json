@@ -1,0 +1,30 @@
+{
+  "name": "grade-m",
+  "kind": "icon",
+  "original": "grade-m-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    16,
+    21,
+    232,
+    235
+  ],
+  "sha256": "609173bf75cb16429f43b5a1e497c34172f255a08c980b3b4c12680807a4f77b",
+  "export": "grade-m.png",
+  "project": "grade-m.png"
+}

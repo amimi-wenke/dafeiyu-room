@@ -1,0 +1,30 @@
+{
+  "name": "hydrangea-stage-3",
+  "kind": "plant",
+  "original": "hydrangea-stage-3-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    38,
+    37,
+    350,
+    355
+  ],
+  "sha256": "988b583f365b7fb1f4189a9070e03e3b1438d1ae5694436ffaa9341bf78e64bc",
+  "export": "hydrangea-stage-3.png",
+  "project": "hydrangea-stage-3.png"
+}

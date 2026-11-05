@@ -1,0 +1,30 @@
+{
+  "name": "vase-flower-daisy",
+  "kind": "plant",
+  "original": "vase-flower-daisy-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    16,
+    40,
+    346,
+    341
+  ],
+  "sha256": "331a2e2b520dd3ac5413becdcaef5cde9c248a57ec9eb55960520049f2133d88",
+  "export": "vase-flower-daisy.png",
+  "project": "vase-flower-daisy.png"
+}

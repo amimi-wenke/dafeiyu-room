@@ -1,0 +1,30 @@
+{
+  "name": "aquarium-fish-goldfish",
+  "kind": "fish-sprite",
+  "original": "aquarium-fish-goldfish-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    96,
+    96
+  ],
+  "anchorPixels": [
+    48,
+    48
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    5,
+    14,
+    90,
+    81
+  ],
+  "sha256": "1e4931ce84fb6d99ac3a384628efc744cf84c24f7cc397f1d0d46ccd2fa4a91f",
+  "export": "aquarium-fish-goldfish.png",
+  "project": "aquarium-fish-goldfish.png"
+}

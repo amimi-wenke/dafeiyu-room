@@ -1,0 +1,30 @@
+{
+  "name": "strawberry-stage-2",
+  "kind": "plant",
+  "original": "strawberry-stage-2-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    48,
+    46,
+    355,
+    343
+  ],
+  "sha256": "f7209da5d41df2fdfaf340c57fd59c0c5bfc08013da92d1d7d8a7789e0b22713",
+  "export": "strawberry-stage-2.png",
+  "project": "strawberry-stage-2.png"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "fish-koi",
+  "kind": "icon",
+  "original": "fish-koi-original.png",
+  "originalSize": [
+    1268,
+    1241
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    27,
+    52,
+    236,
+    193
+  ],
+  "sha256": "c83a62f552bf1863e66b519107f4e2985ee429577b3d0d6db20c2a299e657b11",
+  "export": "fish-koi.png",
+  "project": "fish-koi.png"
+}

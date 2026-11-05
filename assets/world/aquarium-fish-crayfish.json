@@ -1,0 +1,30 @@
+{
+  "name": "aquarium-fish-crayfish",
+  "kind": "fish-sprite",
+  "original": "aquarium-fish-crayfish-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    96,
+    96
+  ],
+  "anchorPixels": [
+    48,
+    48
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    7,
+    22,
+    90,
+    67
+  ],
+  "sha256": "e8b303e5bd557eb587fdf7ffa579430f17dfa6ee21898adb68791bcc91eead6b",
+  "export": "aquarium-fish-crayfish.png",
+  "project": "aquarium-fish-crayfish.png"
+}

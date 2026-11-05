@@ -1,0 +1,3396 @@
+{
+  "version": 1,
+  "planned": 146,
+  "completed": 91,
+  "originalDirectory": "小天地美术-20261105-首轮",
+  "assets": [
+    {
+      "name": "icon-shell",
+      "subject": "One pearlescent pale blue scallop seashell",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "original": "icon-shell-original.png",
+      "prompt": "Use case: stylized-concept. Asset type: a single finished cozy farming-game inventory icon, icon-shell.png. The attached blue whale room is STYLE REFERENCE ONLY, do not depict the room or character. Subject: ONE open fan-shaped scallop seashell, pearlescent pale sky blue and lavender, creamy white inner ridges with a tiny warm gold glint. Style: beautifully hand-painted Japanese anime storybook game item, rounded cute semi-isometric volume, tidy dark periwinkle contours, soft cel shading, smooth pearlescent material; matches a cozy blue whale maid room. Composition: EXACT 256x256 pixel square PNG canvas, centered single shell, all visible pixels within x16..240 y16..240, roughly 200px wide, generous transparent padding. True alpha TRANSPARENT background including corners and behind the shell. No floor, no circular backing, no scenery, no shadow outside the object, no frame, no text, no watermark, no other objects. This is a production sprite, not a preview sheet.",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        28,
+        18,
+        231,
+        224
+      ],
+      "sha256": "508ce29b6e3707767f35bc82e4b7d27dc8a22b4d0134f44f91e53dd637723e6d",
+      "export": "icon-shell.png",
+      "project": "icon-shell.png"
+    },
+    {
+      "name": "crop-rice",
+      "subject": "a tied bundle of ripe rice panicles, gently curved gold-lavender grain heads, slender sage-green stems, indigo ribbon, unmistakable rice ears not wheat",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Asset type: ONE separate finished farming-game inventory icon crop-rice.png. The attached room is a STYLE REFERENCE ONLY. Subject: a tied bundle of ripe rice panicles, gently curved gold-lavender grain heads, slender sage-green stems, indigo ribbon, unmistakable rice ears not wheat. Style: finely hand-painted Japanese anime storybook game art, rounded cute semi-isometric form, tidy periwinkle contours, soft cel shading, cream highlights, cool blue-lavender ambient palette matching the reference room; retain the subject's recognizable natural colors. Composition: square image, exactly one centered isolated item, entire silhouette visible with 8 percent transparent margin on all sides, clean readable silhouette at 256px. Genuine alpha TRANSPARENT background, no floor, no rectangular backing, no backdrop, no frame, no text or watermark, no character or extra decoration. Deliver production sprite, not sheet.",
+      "original": "crop-rice-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        24,
+        21,
+        236,
+        230
+      ],
+      "sha256": "a235749edad414d21b663296e5568a1f6fb3e2c43168d996ce56f214e1baec8d",
+      "export": "crop-rice.png",
+      "project": "crop-rice.png"
+    },
+    {
+      "name": "crop-radish",
+      "subject": "one plump white daikon radish with a small rounded root tip and lush mint green leaves",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Asset type: ONE separate finished farming-game inventory icon crop-radish.png. The attached room is a STYLE REFERENCE ONLY. Subject: one plump white daikon radish with a small rounded root tip and lush mint green leaves. Style: finely hand-painted Japanese anime storybook game art, rounded cute semi-isometric form, tidy periwinkle contours, soft cel shading, cream highlights, cool blue-lavender ambient palette matching the reference room; retain the subject's recognizable natural colors. Composition: square image, exactly one centered isolated item, entire silhouette visible with 8 percent transparent margin on all sides, clean readable silhouette at 256px. Genuine alpha TRANSPARENT background, no floor, no rectangular backing, no backdrop, no frame, no text or watermark, no character or extra decoration. Deliver production sprite, not sheet.",
+      "original": "crop-radish-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        48,
+        34,
+        240,
+        231
+      ],
+      "sha256": "9b81bf9dc3495228903eee115c81745bcdd300ec2ad1978c168d943924064469",
+      "export": "crop-radish.png",
+      "project": "crop-radish.png"
+    },
+    {
+      "name": "crop-wheat",
+      "subject": "a small tied bunch of ripe golden wheat ears, distinguishable long wheat awns, pale blue ribbon",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Asset type: ONE separate finished farming-game inventory icon crop-wheat.png. The attached room is a STYLE REFERENCE ONLY. Subject: a small tied bunch of ripe golden wheat ears, distinguishable long wheat awns, pale blue ribbon. Style: finely hand-painted Japanese anime storybook game art, rounded cute semi-isometric form, tidy periwinkle contours, soft cel shading, cream highlights, cool blue-lavender ambient palette matching the reference room; retain the subject's recognizable natural colors. Composition: square image, exactly one centered isolated item, entire silhouette visible with 8 percent transparent margin on all sides, clean readable silhouette at 256px. Genuine alpha TRANSPARENT background, no floor, no rectangular backing, no backdrop, no frame, no text or watermark, no character or extra decoration. Deliver production sprite, not sheet.",
+      "original": "crop-wheat-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        39,
+        21,
+        224,
+        234
+      ],
+      "sha256": "3161f409f8bd63476c0ce2e2051a116f72371618b05ae38536c7b131877feb35",
+      "export": "crop-wheat.png",
+      "project": "crop-wheat.png"
+    },
+    {
+      "name": "crop-tomato",
+      "subject": "one round ripe coral-red tomato, fresh sage green calyx, tiny dewdrop highlights",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Asset type: ONE separate finished farming-game inventory icon crop-tomato.png. The attached room is a STYLE REFERENCE ONLY. Subject: one round ripe coral-red tomato, fresh sage green calyx, tiny dewdrop highlights. Style: finely hand-painted Japanese anime storybook game art, rounded cute semi-isometric form, tidy periwinkle contours, soft cel shading, cream highlights, cool blue-lavender ambient palette matching the reference room; retain the subject's recognizable natural colors. Composition: square image, exactly one centered isolated item, entire silhouette visible with 8 percent transparent margin on all sides, clean readable silhouette at 256px. Genuine alpha TRANSPARENT background, no floor, no rectangular backing, no backdrop, no frame, no text or watermark, no character or extra decoration. Deliver production sprite, not sheet.",
+      "original": "crop-tomato-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        37,
+        40,
+        223,
+        226
+      ],
+      "sha256": "1bd5da858871841ea822d153067c27785a9d3c65dcee31494f972c2b1a0c487f",
+      "export": "crop-tomato.png",
+      "project": "crop-tomato.png"
+    },
+    {
+      "name": "crop-strawberry",
+      "subject": "one plump ripe strawberry with tiny golden seeds, mint-green leaf crown",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: crop-strawberry.png. Subject: one plump ripe strawberry with tiny golden seeds, mint-green leaf crown. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "crop-strawberry-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        47,
+        20,
+        212,
+        226
+      ],
+      "sha256": "cb770d9c8673ccddbb6e3270d5262330c59487fca580c7848a90b216c123eadf",
+      "export": "crop-strawberry.png",
+      "project": "crop-strawberry.png"
+    },
+    {
+      "name": "crop-pumpkin",
+      "subject": "one round squat ripe pumpkin with warm muted orange segmented rind, curled sage-green stem",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: crop-pumpkin.png. Subject: one round squat ripe pumpkin with warm muted orange segmented rind, curled sage-green stem. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "crop-pumpkin-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        36,
+        45,
+        217,
+        224
+      ],
+      "sha256": "5e162f5295c1a7f6b509d91810b328d33f974722f4eed2e857ad869e8fc77db8",
+      "export": "crop-pumpkin.png",
+      "project": "crop-pumpkin.png"
+    },
+    {
+      "name": "crop-watermelon",
+      "subject": "one whole round watermelon with dark teal and mint stripes beside ONE triangular coral-pink cut wedge, sparse dark seeds",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: crop-watermelon.png. Subject: one whole round watermelon with dark teal and mint stripes beside ONE triangular coral-pink cut wedge, sparse dark seeds. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "crop-watermelon-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        37,
+        34,
+        218,
+        229
+      ],
+      "sha256": "bde0d8584be723edf1d427ca605b1413ddad48a0084c1a759d490ecac2bf8ed1",
+      "export": "crop-watermelon.png",
+      "project": "crop-watermelon.png"
+    },
+    {
+      "name": "flower-daisy",
+      "subject": "one delicate blooming white daisy with buttery yellow center, short sage-green stem and two small leaves",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: flower-daisy.png. Subject: one delicate blooming white daisy with buttery yellow center, short sage-green stem and two small leaves. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "flower-daisy-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        50,
+        44,
+        228,
+        234
+      ],
+      "sha256": "aa28bfb2a5ce4734f14d3d610a4ae47b26a3b9ef2600f4760d1d2486dbcacc77",
+      "export": "flower-daisy.png",
+      "project": "flower-daisy.png"
+    },
+    {
+      "name": "flower-sunflower",
+      "subject": "one blooming sunflower, round brown-gold center, soft buttery golden petals, short green stem and leaves",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: flower-sunflower.png. Subject: one blooming sunflower, round brown-gold center, soft buttery golden petals, short green stem and leaves. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "flower-sunflower-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        54,
+        25,
+        219,
+        221
+      ],
+      "sha256": "9fff400f9a5608b9fd3a1c65aa8d3cf98c46437e3e96cfc9edc009b7b593dbd3",
+      "export": "flower-sunflower.png",
+      "project": "flower-sunflower.png"
+    },
+    {
+      "name": "flower-tulip",
+      "subject": "one elegant pale blue-lilac tulip flower with cupped petals, short sage-green stem and two leaves",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: flower-tulip.png. Subject: one elegant pale blue-lilac tulip flower with cupped petals, short sage-green stem and two leaves. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "flower-tulip-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        57,
+        29,
+        203,
+        225
+      ],
+      "sha256": "7011437bc2aed768db68492ed5b5a02ce1e66603fe408c83eaa3f4e9c014c9ad",
+      "export": "flower-tulip.png",
+      "project": "flower-tulip.png"
+    },
+    {
+      "name": "flower-lavender",
+      "subject": "a small neat bunch of blooming lavender spikes in muted purple, sage-green stems",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: flower-lavender.png. Subject: a small neat bunch of blooming lavender spikes in muted purple, sage-green stems. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "flower-lavender-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        37,
+        22,
+        233,
+        231
+      ],
+      "sha256": "260303477affeeccdb2e282af1a0ae81f6a7897d693406efa312bad8111fd44b",
+      "export": "flower-lavender.png",
+      "project": "flower-lavender.png"
+    },
+    {
+      "name": "flower-rose",
+      "subject": "one fully blooming dusty rose pink rose with layered petals and a short sage green leafy stem",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: flower-rose.png. Subject: one fully blooming dusty rose pink rose with layered petals and a short sage green leafy stem. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "flower-rose-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        47,
+        17,
+        213,
+        225
+      ],
+      "sha256": "5ad332a451a824dd26949d3a1709748f9770f9d3197529f6a7eca55664354fda",
+      "export": "flower-rose.png",
+      "project": "flower-rose.png"
+    },
+    {
+      "name": "flower-hydrangea",
+      "subject": "one rounded blue and lavender hydrangea flower head, many tiny four-petal blossoms, two broad leaves",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: flower-hydrangea.png. Subject: one rounded blue and lavender hydrangea flower head, many tiny four-petal blossoms, two broad leaves. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "flower-hydrangea-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        43,
+        22,
+        230,
+        222
+      ],
+      "sha256": "08da08bfa4762d0152b9ea940ccc8a1c00d07b3539cbfd150ac294a8b667743b",
+      "export": "flower-hydrangea.png",
+      "project": "flower-hydrangea.png"
+    },
+    {
+      "name": "flower-bluewhale",
+      "subject": "one original fantasy blue-whale flower: graceful luminous sky-blue petals shaped like paired whale-tail flukes, pale gold stamen, dark blue teardrop center, short leafy mint stem; recognizably a flower not an actual whale",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: flower-bluewhale.png. Subject: one original fantasy blue-whale flower: graceful luminous sky-blue petals shaped like paired whale-tail flukes, pale gold stamen, dark blue teardrop center, short leafy mint stem; recognizably a flower not an actual whale. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "flower-bluewhale-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        28,
+        30,
+        240,
+        222
+      ],
+      "sha256": "2b6ffc8edb5b7b5a2695054154ae5eaaaa3be033076feaa486f09602e231a28a",
+      "export": "flower-bluewhale.png",
+      "project": "flower-bluewhale.png"
+    },
+    {
+      "name": "fish-crucian",
+      "subject": "one cute crucian carp, short deep oval silvery-blue body, small neat fins, blunt mouth, clearly a freshwater fish; side view facing left",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: fish-crucian.png. Subject: one cute crucian carp, short deep oval silvery-blue body, small neat fins, blunt mouth, clearly a freshwater fish; side view facing left. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "fish-crucian-cutout-original.png",
+      "editPrompt": "Use case: background-extraction. Edit ONLY the alpha/background of this exact provided game sprite. KEEP the same silver-blue crucian fish, exact silhouette, eyes, scales/shell, fins/claws, colors, outline, pose and details unchanged. Completely REMOVE the large cloudy grey-white haze/shadow/matte that surrounds the subject, including all gaps between appendages. Outside the actual crisp subject silhouette there must be ZERO opacity, fully transparent alpha, no pale halo, no fog, no glow, no white or grey backing. Preserve fine antennae/barbels/fins, use clean antialiased edges only one or two pixels wide. This is a clean transparent production sprite cutout, not a new drawing. Transparent background.",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        30,
+        48,
+        237,
+        198
+      ],
+      "sha256": "0bdc060166b6b2574f75103ba36d4dc17086ae9c4b1065f03d1462ec70b1b8d8",
+      "export": "fish-crucian.png",
+      "project": "fish-crucian.png"
+    },
+    {
+      "name": "fish-crayfish",
+      "subject": "one small cute freshwater crayfish, muted coral red shell with cool blue-purple shadows, two claws, segmented curled tail, tiny antennae, whole body visible",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: fish-crayfish.png. Subject: one small cute freshwater crayfish, muted coral red shell with cool blue-purple shadows, two claws, segmented curled tail, tiny antennae, whole body visible. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "fish-crayfish-cutout-original.png",
+      "editPrompt": "Use case: background-extraction. Edit ONLY the alpha/background of this exact provided game sprite. KEEP the same coral crayfish, exact silhouette, eyes, scales/shell, fins/claws, colors, outline, pose and details unchanged. Completely REMOVE the large cloudy grey-white haze/shadow/matte that surrounds the subject, including all gaps between appendages. Outside the actual crisp subject silhouette there must be ZERO opacity, fully transparent alpha, no pale halo, no fog, no glow, no white or grey backing. Preserve fine antennae/barbels/fins, use clean antialiased edges only one or two pixels wide. This is a clean transparent production sprite cutout, not a new drawing. Transparent background.",
+      "originalSize": [
+        1263,
+        1246
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        22,
+        72,
+        235,
+        199
+      ],
+      "sha256": "b6a1b999e0853f0f2b819323cf2b50daf5fdbc3b54330583fe040e744f5b4acc",
+      "export": "fish-crayfish.png",
+      "project": "fish-crayfish.png"
+    },
+    {
+      "name": "fish-carp",
+      "subject": "one common carp, stout golden bronze body with blue-lavender shadows, small barbels, long dorsal fin, rounded scales; side view facing left",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: fish-carp.png. Subject: one common carp, stout golden bronze body with blue-lavender shadows, small barbels, long dorsal fin, rounded scales; side view facing left. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "fish-carp-original.png",
+      "originalSize": [
+        1312,
+        1199
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        28,
+        71,
+        237,
+        192
+      ],
+      "sha256": "3ee852dc63484eebd879c1eab20410c8dfacba84639c716bc6698b67fe12aa48",
+      "export": "fish-carp.png",
+      "project": "fish-carp.png"
+    },
+    {
+      "name": "fish-goldfish",
+      "subject": "one fancy goldfish, warm apricot-orange body with flowing lavender-edged double fan tail and graceful fins; side view facing left",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: fish-goldfish.png. Subject: one fancy goldfish, warm apricot-orange body with flowing lavender-edged double fan tail and graceful fins; side view facing left. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "fish-goldfish-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        16,
+        39,
+        236,
+        201
+      ],
+      "sha256": "248c55a73afff535c3934480870576d6c21039caf6a8a9fe2d9d4389b6ab19fe",
+      "export": "fish-goldfish.png",
+      "project": "fish-goldfish.png"
+    },
+    {
+      "name": "fish-grasscarp",
+      "subject": "one grass carp, long streamlined jade-grey body, dark olive-teal back, large distinct scales, forked modest tail; side view facing left",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "original": "fish-grasscarp-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        23,
+        86,
+        237,
+        222
+      ],
+      "sha256": "75c3c5d9327e0dbce8ac96edbb42079fa8edeef1713b71008b98fcbde869a22c",
+      "export": "fish-grasscarp.png",
+      "project": "fish-grasscarp.png"
+    },
+    {
+      "name": "fish-catfish",
+      "subject": "one friendly freshwater catfish, smooth dark slate-blue long body with broad rounded head and slender whisker barbels, no scales; side view facing left",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: fish-catfish.png. Subject: one friendly freshwater catfish, smooth dark slate-blue long body with broad rounded head and slender whisker barbels, no scales; side view facing left. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "fish-catfish-original.png",
+      "originalSize": [
+        1263,
+        1246
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        16,
+        77,
+        240,
+        176
+      ],
+      "sha256": "2b79a17928bf5521c5e28643cfd16cb03bc9655d41cdd95e790c83a08d9bb860",
+      "export": "fish-catfish.png",
+      "project": "fish-catfish.png"
+    },
+    {
+      "name": "fish-koi",
+      "subject": "one elegant white koi carp with coral-red and indigo patches, flowing pale blue fins and small barbels; side view facing left",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: fish-koi.png. Subject: one elegant white koi carp with coral-red and indigo patches, flowing pale blue fins and small barbels; side view facing left. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "fish-koi-original.png",
+      "originalSize": [
+        1268,
+        1241
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        27,
+        52,
+        236,
+        193
+      ],
+      "sha256": "c83a62f552bf1863e66b519107f4e2985ee429577b3d0d6db20c2a299e657b11",
+      "export": "fish-koi.png",
+      "project": "fish-koi.png"
+    },
+    {
+      "name": "fish-moonfish",
+      "subject": "one original fantasy moonlight fish, streamlined crescent-tailed fish with translucent icy blue body and opalescent fins, tiny moon marking, subtle contained bioluminescent glow, alpha semi-transparent fins; side view facing left",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: fish-moonfish.png. Subject: one original fantasy moonlight fish, streamlined crescent-tailed fish with translucent icy blue body and opalescent fins, tiny moon marking, subtle contained bioluminescent glow, alpha semi-transparent fins; side view facing left. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "fish-moonfish-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        28,
+        58,
+        233,
+        204
+      ],
+      "sha256": "e6c9142e2e1c5e24af30be8238298c43d90f91cef173a54ffbfa9c7f1163a81c",
+      "export": "fish-moonfish.png",
+      "project": "fish-moonfish.png"
+    },
+    {
+      "name": "grade-s",
+      "subject": "one small-size achievement emblem, a little round indigo medallion with ONE tiny pearly star in the middle and a small leaf, modest simple design, NO letters or words",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: grade-s.png. Subject: one small-size achievement emblem, a little round indigo medallion with ONE tiny pearly star in the middle and a small leaf, modest simple design, NO letters or words. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "grade-s-edit-original.png",
+      "editPrompt": "Use case: background-extraction. Keep this exact small star medallion unchanged. Remove ALL grey-white smoky halo around its outer silhouette, so pixels outside the physical medallion, leaf and ribbons are fully transparent. Do not change its orientation or add new decorations. Preserve the drawing's colors, materials, style and fine details; output ONE standalone PNG on actual alpha transparency, no added canvas background or shadow.",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        83,
+        96,
+        184,
+        205
+      ],
+      "sha256": "9e8159545ea5234a8eb3487d11a4b367dd28cf4c8300e1d40e1fe5ff592e906c",
+      "export": "grade-s.png",
+      "project": "grade-s.png"
+    },
+    {
+      "name": "grade-m",
+      "subject": "one medium-size achievement emblem, a rounded silver-blue medallion with TWO small pearly stars and a tiny cream ribbon, NO letters or words",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: grade-m.png. Subject: one medium-size achievement emblem, a rounded silver-blue medallion with TWO small pearly stars and a tiny cream ribbon, NO letters or words. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "grade-m-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        16,
+        21,
+        232,
+        235
+      ],
+      "sha256": "609173bf75cb16429f43b5a1e497c34172f255a08c980b3b4c12680807a4f77b",
+      "export": "grade-m.png",
+      "project": "grade-m.png"
+    },
+    {
+      "name": "grade-l",
+      "subject": "one large-size achievement emblem, a scalloped cornflower-blue medallion with THREE pearly stars and restrained gold trim, NO letters or words",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: grade-l.png. Subject: one large-size achievement emblem, a scalloped cornflower-blue medallion with THREE pearly stars and restrained gold trim, NO letters or words. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "grade-l-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        23,
+        25,
+        233,
+        232
+      ],
+      "sha256": "6670f86c359aecd666be1a66fb69a58d063029092444584a53e179481669c134",
+      "export": "grade-l.png",
+      "project": "grade-l.png"
+    },
+    {
+      "name": "grade-xl",
+      "subject": "one giant-size achievement emblem, ornate blue-purple scalloped medallion with a large radiant pearly star, tiny crown and gold twinkles closely around it, premium but readable at small size, NO letters or words",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: grade-xl.png. Subject: one giant-size achievement emblem, ornate blue-purple scalloped medallion with a large radiant pearly star, tiny crown and gold twinkles closely around it, premium but readable at small size, NO letters or words. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "grade-xl-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        28,
+        17,
+        230,
+        228
+      ],
+      "sha256": "052eb5f9d2f3d6aea74e3ac98b5c51bd61b13048ed3fd295fca29ba1d20835eb",
+      "export": "grade-xl.png",
+      "project": "grade-xl.png"
+    },
+    {
+      "name": "seed-blank",
+      "subject": "ONE small folded kraft-paper seed packet with a pale blue ribbon seal and a clean cream BLANK rectangular label for the program to overlay a plant icon; no writing, no tiny symbols",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: seed-blank.png. Subject: ONE small folded kraft-paper seed packet with a pale blue ribbon seal and a clean cream BLANK rectangular label for the program to overlay a plant icon; no writing, no tiny symbols. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "seed-blank-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        23,
+        39,
+        222,
+        226
+      ],
+      "sha256": "ed1bc24c36c4fdf53a054d90c8abd54debcf1e2af3c85a2ec94bbbfb86093086",
+      "export": "seed-blank.png",
+      "project": "seed-blank.png"
+    },
+    {
+      "name": "item-rice-bowl",
+      "subject": "ONE little blue-and-white porcelain bowl filled with fluffy freshly cooked WHITE RICE, two tiny restrained steam curls, a small whale motif on the bowl",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: item-rice-bowl.png. Subject: ONE little blue-and-white porcelain bowl filled with fluffy freshly cooked WHITE RICE, two tiny restrained steam curls, a small whale motif on the bowl. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "item-rice-bowl-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        45,
+        41,
+        233,
+        233
+      ],
+      "sha256": "1ae87dba0ab84a1f49bb9b77d3d9131dec22199edaf0e228fdf819aad5c68d71",
+      "export": "item-rice-bowl.png",
+      "project": "item-rice-bowl.png"
+    },
+    {
+      "name": "item-bran",
+      "subject": "ONE small blue cloth sack opened to reveal pale beige rice bran flakes, tiny wooden scoop resting at its mouth",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: item-bran.png. Subject: ONE small blue cloth sack opened to reveal pale beige rice bran flakes, tiny wooden scoop resting at its mouth. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "item-bran-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        39,
+        27,
+        230,
+        232
+      ],
+      "sha256": "fc5e37838c4e16273ace3e7fe5a5c07ca2950f4e255bc0875e796df365c4ec98",
+      "export": "item-bran.png",
+      "project": "item-bran.png"
+    },
+    {
+      "name": "item-bait",
+      "subject": "ONE small corked clear glass jar containing ordinary tan fishing bait pellets, simple blue twine",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: item-bait.png. Subject: ONE small corked clear glass jar containing ordinary tan fishing bait pellets, simple blue twine. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "item-bait-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        61,
+        50,
+        195,
+        239
+      ],
+      "sha256": "1a0ba9025aefffbd4053db431aec16b6c5296486f11c2e59429f2e5acf430c1d",
+      "export": "item-bait.png",
+      "project": "item-bait.png"
+    },
+    {
+      "name": "item-bait-pro",
+      "subject": "ONE premium small glass bait jar with a blue-gold lid and attractive golden bait pellets, one tiny gold star seal without writing",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: item-bait-pro.png. Subject: ONE premium small glass bait jar with a blue-gold lid and attractive golden bait pellets, one tiny gold star seal without writing. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "item-bait-pro-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        50,
+        51,
+        239,
+        210
+      ],
+      "sha256": "00c95ede9000c7f9d6c8091a15faf070885f7ff85759c29b36171220e1b98be9",
+      "export": "item-bait-pro.png",
+      "project": "item-bait-pro.png"
+    },
+    {
+      "name": "item-bait-glow",
+      "subject": "ONE small clear blue glass bait jar with an indigo lid, filled with softly glowing aqua lure beads; light confined within glass, no background halo",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: item-bait-glow.png. Subject: ONE small clear blue glass bait jar with an indigo lid, filled with softly glowing aqua lure beads; light confined within glass, no background halo. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "item-bait-glow-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        68,
+        38,
+        202,
+        238
+      ],
+      "sha256": "2b17fefa9da787c48c2536bf85266d82182182ccfbf229714b4b3aaff6be1f64",
+      "export": "item-bait-glow.png",
+      "project": "item-bait-glow.png"
+    },
+    {
+      "name": "item-fishmeal",
+      "subject": "ONE small cream paper fertilizer pouch filled with pale blue-grey fishmeal granules, a simple blue fish emblem on its front, no text",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: item-fishmeal.png. Subject: ONE small cream paper fertilizer pouch filled with pale blue-grey fishmeal granules, a simple blue fish emblem on its front, no text. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "item-fishmeal-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        62,
+        46,
+        212,
+        206
+      ],
+      "sha256": "9124b9736543270594c7a3a308e628a4c634f1256c03685cfc7294c3f8e3ef1d",
+      "export": "item-fishmeal.png",
+      "project": "item-fishmeal.png"
+    },
+    {
+      "name": "item-compost",
+      "subject": "ONE small open beige fabric compost sack with dark rich brown compost and a tiny green leaf emblem, no text",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: item-compost.png. Subject: ONE small open beige fabric compost sack with dark rich brown compost and a tiny green leaf emblem, no text. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "item-compost-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        65,
+        16,
+        211,
+        207
+      ],
+      "sha256": "858b5882c7b7ed29acb59733af3176c06e189ad083ba1df590bc03fa19a2c9f5",
+      "export": "item-compost.png",
+      "project": "item-compost.png"
+    },
+    {
+      "name": "item-flower-tea",
+      "subject": "ONE elegant translucent pale blue teacup of warm lavender flower tea on a matching scalloped saucer, a few tiny petals floating in tea",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: item-flower-tea.png. Subject: ONE elegant translucent pale blue teacup of warm lavender flower tea on a matching scalloped saucer, a few tiny petals floating in tea. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "item-flower-tea-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        24,
+        28,
+        233,
+        217
+      ],
+      "sha256": "a3431d07f396e70f43bae01952d6d9bea104f302c9cd463dcb4d8785ece1ad2b",
+      "export": "item-flower-tea.png",
+      "project": "item-flower-tea.png"
+    },
+    {
+      "name": "item-vase",
+      "subject": "ONE rounded pale blue and cream porcelain vase with a small indigo whale emblem and thin gold rim, empty open mouth, no flowers",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: item-vase.png. Subject: ONE rounded pale blue and cream porcelain vase with a small indigo whale emblem and thin gold rim, empty open mouth, no flowers. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "item-vase-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        46,
+        34,
+        209,
+        213
+      ],
+      "sha256": "38bc9efaadbe9ac53fcf47b20a21ce05f6985ea468cbdfbb54ef10bd968c39bf",
+      "export": "item-vase.png",
+      "project": "item-vase.png"
+    },
+    {
+      "name": "rarity-common",
+      "subject": "ONE compact triangular corner ribbon badge, matte pearl grey-blue, one tiny simple circular dot, rounded edges, no text",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: rarity-common.png. Subject: ONE compact triangular corner ribbon badge, matte pearl grey-blue, one tiny simple circular dot, rounded edges, no text. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "rarity-common-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        40,
+        35,
+        213,
+        199
+      ],
+      "sha256": "0579567a9aaa4b71514b3eb98ea1e6c6efa405b9b820d65e45ead8096b2c3671",
+      "export": "rarity-common.png",
+      "project": "rarity-common.png"
+    },
+    {
+      "name": "rarity-uncommon",
+      "subject": "ONE compact triangular corner ribbon badge, soft cornflower blue with a small pearl diamond, rounded edges, no text",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: rarity-uncommon.png. Subject: ONE compact triangular corner ribbon badge, soft cornflower blue with a small pearl diamond, rounded edges, no text. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "rarity-uncommon-edit-original.png",
+      "editPrompt": "Use case: precise-object-edit. Horizontally mirror this exact triangular blue corner badge so its right-angle corner is at the TOP RIGHT, with a straight horizontal top edge and straight vertical right edge. Keep the same blue ribbon, pearl diamond, gold trim and pattern. Do not add anything or change the shape other than the horizontal mirror. Preserve the drawing's colors, materials, style and fine details; output ONE standalone PNG on actual alpha transparency, no added canvas background or shadow.",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        28,
+        34,
+        227,
+        204
+      ],
+      "sha256": "778aeef40c5df8f6ab5ed370784bf8c921c9ade7dc0b401bf27e3c01189aa691",
+      "export": "rarity-uncommon.png",
+      "project": "rarity-uncommon.png"
+    },
+    {
+      "name": "rarity-rare",
+      "subject": "ONE compact triangular corner ribbon badge, luminous lavender-purple with a small silver star, restrained gold edge, no text",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: rarity-rare.png. Subject: ONE compact triangular corner ribbon badge, luminous lavender-purple with a small silver star, restrained gold edge, no text. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "rarity-rare-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        47,
+        20,
+        231,
+        211
+      ],
+      "sha256": "3c84518bf1491ff95b07f53995a6079018ba89aa9e0066091c4958554b182fff",
+      "export": "rarity-rare.png",
+      "project": "rarity-rare.png"
+    },
+    {
+      "name": "rarity-legendary",
+      "subject": "ONE compact triangular corner ribbon badge, indigo and antique gold, a brilliant opalescent star and two tiny restrained glints, no text",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: rarity-legendary.png. Subject: ONE compact triangular corner ribbon badge, indigo and antique gold, a brilliant opalescent star and two tiny restrained glints, no text. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "rarity-legendary-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        42,
+        35,
+        221,
+        196
+      ],
+      "sha256": "03a6a5f651f0d90f5cb06c7d383c5261601397a0dcb8882eedd9512a6299c96e",
+      "export": "rarity-legendary.png",
+      "project": "rarity-legendary.png"
+    },
+    {
+      "name": "codex-unknown",
+      "subject": "ONE mysterious rounded silhouette of an undiscovered little creature in pale periwinkle with a single large cream question mark centered, a neat standalone icon not a card",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: codex-unknown.png. Subject: ONE mysterious rounded silhouette of an undiscovered little creature in pale periwinkle with a single large cream question mark centered, a neat standalone icon not a card. Inventory icon: single centered subject, square image, 8 percent transparent margin on all four sides, clean small-size silhouette. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "codex-unknown-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        30,
+        18,
+        238,
+        214
+      ],
+      "sha256": "4d3c824ce39152ee08b62c6cfc08060762e184f9591804b9bd8e893b0bfaefad",
+      "export": "codex-unknown.png",
+      "project": "codex-unknown.png"
+    },
+    {
+      "name": "plot-soil-dry",
+      "subject": "ONE empty raised farm soil tile, a wide low ISOMETRIC diamond of warm muted dry brown tilled soil with four subtle parallel furrows, lavender-blue stone edging; no plants",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: plot-soil-dry.png. Subject: ONE empty raised farm soil tile, a wide low ISOMETRIC diamond of warm muted dry brown tilled soil with four subtle parallel furrows, lavender-blue stone edging; no plants. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "plot-soil-dry-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        16,
+        105,
+        366,
+        356
+      ],
+      "sha256": "f2a512faccc93da10b55d0002fc40cc09a205fa5d748e7d01c75ed783cf8381b",
+      "export": "plot-soil-dry.png",
+      "project": "plot-soil-dry.png"
+    },
+    {
+      "name": "plot-soil-wet",
+      "subject": "Edit ONLY the soil moisture of the reference tile. Keep the EXACT same tile silhouette, framing, isometric camera, border, furrows, colors and position. Make the soil visibly darker and damp with restrained tiny water highlights. Do not add plants, drops, background, shadows or change any geometry. True transparent background exactly as reference.",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "plot-soil-dry"
+      ],
+      "edit": true,
+      "prompt": "Use case: precise-object-edit. Edit ONLY the soil moisture of the reference tile. Keep the EXACT same tile silhouette, framing, isometric camera, border, furrows, colors and position. Make the soil visibly darker and damp with restrained tiny water highlights. Do not add plants, drops, background, shadows or change any geometry. True transparent background exactly as reference. Deliver a single production PNG, no labels or comparison sheet. Every pixel outside the actual object outline must be fully transparent, with no cloudy halo. Keep transparent canvas padding and the same footprint as the reference.",
+      "original": "plot-soil-wet-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        16,
+        83,
+        368,
+        320
+      ],
+      "sha256": "d057f200ef86363694beba218077004370e0d0582a6b831b5d747fd28db30e9a",
+      "export": "plot-soil-wet.png",
+      "project": "plot-soil-wet.png"
+    },
+    {
+      "name": "bed-soil-dry",
+      "subject": "ONE empty rounded rectangular ISOMETRIC flower-bed tile, slightly dry rich brown soil, scalloped pale blue painted wooden frame; no plants",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: bed-soil-dry.png. Subject: ONE empty rounded rectangular ISOMETRIC flower-bed tile, slightly dry rich brown soil, scalloped pale blue painted wooden frame; no plants. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "bed-soil-dry-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        29,
+        80,
+        366,
+        330
+      ],
+      "sha256": "cb694bed6ccf37f09c0ceaa11b3116dae00e254a081fe7ca550746e134729521",
+      "export": "bed-soil-dry.png",
+      "project": "bed-soil-dry.png"
+    },
+    {
+      "name": "bed-soil-wet",
+      "subject": "Edit ONLY the soil moisture of the reference tile. Keep the EXACT same tile silhouette, framing, isometric camera, border, furrows, colors and position. Make the soil visibly darker and damp with restrained tiny water highlights. Do not add plants, drops, background, shadows or change any geometry. True transparent background exactly as reference.",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "bed-soil-dry"
+      ],
+      "edit": true,
+      "prompt": "Use case: precise-object-edit. Edit ONLY the soil moisture of the reference tile. Keep the EXACT same tile silhouette, framing, isometric camera, border, furrows, colors and position. Make the soil visibly darker and damp with restrained tiny water highlights. Do not add plants, drops, background, shadows or change any geometry. True transparent background exactly as reference. Deliver a single production PNG, no labels or comparison sheet. Every pixel outside the actual object outline must be fully transparent, with no cloudy halo. Keep transparent canvas padding and the same footprint as the reference.",
+      "original": "bed-soil-wet-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        27,
+        92,
+        362,
+        337
+      ],
+      "sha256": "14367a7f22fcc7300b3ba25fc9d5fc644fb7e9913e65a7e53bf8ae34d5f975e9",
+      "export": "bed-soil-wet.png",
+      "project": "bed-soil-wet.png"
+    },
+    {
+      "name": "crop-stage-1",
+      "subject": "ONE tiny young crop sprout, two slender fresh sage-green seed leaves and one central blade, short stem and tiny roots ending at bottom center; no pot, no soil tile",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: crop-stage-1.png. Subject: ONE tiny young crop sprout, two slender fresh sage-green seed leaves and one central blade, short stem and tiny roots ending at bottom center; no pot, no soil tile. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "crop-stage-1-edit-original.png",
+      "editPrompt": "Use case: precise-object-edit. Remove ONLY the exposed pale roots below the green stem. End the green stem with a neat short rounded base at ground level. Preserve the two broad seed leaves, central young blade, colors and drawing style exactly. No exposed roots, no diagram, no soil, no pot; the short stem base will be the ground anchor in the game. Preserve the drawing's colors, materials, style and fine details; output ONE standalone PNG on actual alpha transparency, no added canvas background or shadow.",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        97,
+        78,
+        359,
+        335
+      ],
+      "sha256": "0cb9324c84611c350054baf7227546aeaab54cdc151d065e96acdbf48b628ef8",
+      "export": "crop-stage-1.png",
+      "project": "crop-stage-1.png"
+    },
+    {
+      "name": "flower-stage-1",
+      "subject": "ONE tiny young flower seedling, two rounded mint-green leaves and a central pale bud of foliage, short stem ending at bottom center; no bloom, no pot, no soil tile",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: flower-stage-1.png. Subject: ONE tiny young flower seedling, two rounded mint-green leaves and a central pale bud of foliage, short stem ending at bottom center; no bloom, no pot, no soil tile. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "flower-stage-1-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        46,
+        124,
+        350,
+        355
+      ],
+      "sha256": "2be016f00b0eb26c78332d32a3901c8d5849c116c1a0c6d67db18392d1f81a94",
+      "export": "flower-stage-1.png",
+      "project": "flower-stage-1.png"
+    },
+    {
+      "name": "overlay-thirsty",
+      "subject": "ONE small floating pale blue rounded speech bubble with a dark indigo outlined water drop inside, single clear thirst indicator, no lettering",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: overlay-thirsty.png. Subject: ONE small floating pale blue rounded speech bubble with a dark indigo outlined water drop inside, single clear thirst indicator, no lettering. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "overlay-thirsty-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        101,
+        59,
+        348,
+        285
+      ],
+      "sha256": "9fecf00d5ccfac4d0631d7414b6d36b9b0b26c820f9c116294dcdba4d449337b",
+      "export": "overlay-thirsty.png",
+      "project": "overlay-thirsty.png"
+    },
+    {
+      "name": "overlay-ready",
+      "subject": "ONE little cluster of three soft four-point cream-gold star sparkles, a compact harvest-ready effect, no background glow",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: overlay-ready.png. Subject: ONE little cluster of three soft four-point cream-gold star sparkles, a compact harvest-ready effect, no background glow. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "overlay-ready-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        68,
+        20,
+        326,
+        368
+      ],
+      "sha256": "153b9e45a49659c2d3804252f1ff809b0428fe18e96da7fc98bc6b73cc0aabbe",
+      "export": "overlay-ready.png",
+      "project": "overlay-ready.png"
+    },
+    {
+      "name": "overlay-overripe",
+      "subject": "ONE delicate muted lavender wilted leaf drooping down, one small curved droop motion mark; a gentle overripe indicator, not rotten or disgusting",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: overlay-overripe.png. Subject: ONE delicate muted lavender wilted leaf drooping down, one small curved droop motion mark; a gentle overripe indicator, not rotten or disgusting. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "overlay-overripe-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        104,
+        89,
+        319,
+        361
+      ],
+      "sha256": "7d23d79a9a25361a3ed42f29355325d46655c8b05c55007352bedcf5ae1f6e87",
+      "export": "overlay-overripe.png",
+      "project": "overlay-overripe.png"
+    },
+    {
+      "name": "overlay-fertilized",
+      "subject": "ONE compact cluster of three tiny mint green and gold glowing motes with a small clean leaf in their middle, fertilizer buff effect",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: overlay-fertilized.png. Subject: ONE compact cluster of three tiny mint green and gold glowing motes with a small clean leaf in their middle, fertilizer buff effect. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "overlay-fertilized-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        73,
+        86,
+        320,
+        349
+      ],
+      "sha256": "384ab7f5806d0519ed0b2a93f3b3086cb3b40dd320a68f9f054823c46bbd85cd",
+      "export": "overlay-fertilized.png",
+      "project": "overlay-fertilized.png"
+    },
+    {
+      "name": "pond-idle",
+      "subject": "ONE small self-contained ISOMETRIC oval garden pond tile, blue water with gentle concentric ripples, smooth lavender-grey pebble edge, two little water-lily leaves near its far edge. Calm empty water, NO bobber or splash, no creatures. Floating tile isolated on transparency.",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: pond-idle.png. Subject: ONE small self-contained ISOMETRIC oval garden pond tile, blue water with gentle concentric ripples, smooth lavender-grey pebble edge, two little water-lily leaves near its far edge. Calm empty water, NO bobber or splash, no creatures. Floating tile isolated on transparency.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "pond-idle-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        16,
+        75,
+        367,
+        350
+      ],
+      "sha256": "2da97a836993fc785d2288bd06dd1a6383b2bc7e918edfa307179bbd898d9ad7",
+      "export": "pond-idle.png",
+      "project": "pond-idle.png"
+    },
+    {
+      "name": "pond-waiting",
+      "subject": "Preserve the reference pond tile shape, camera, stones, plants, colors and all geometry exactly. Change ONLY the center water: add a tiny upright red-and-white fishing float with a short fine fishing line coming toward the lower-left edge, small quiet ripple. No splash, no fish. Transparent outside tile.",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "pond-idle"
+      ],
+      "edit": true,
+      "prompt": "Use case: precise-object-edit. Preserve the reference pond tile shape, camera, stones, plants, colors and all geometry exactly. Change ONLY the center water: add a tiny upright red-and-white fishing float with a short fine fishing line coming toward the lower-left edge, small quiet ripple. No splash, no fish. Transparent outside tile. Deliver a single production PNG, no labels or comparison sheet. Every pixel outside the actual object outline must be fully transparent, with no cloudy halo. Keep transparent canvas padding and the same footprint as the reference.",
+      "original": "pond-waiting-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        16,
+        90,
+        366,
+        368
+      ],
+      "sha256": "49dd3c280c8ce4cb12fa17dfecd0b84c859327854e5c856fbe9b0a2142559e52",
+      "export": "pond-waiting.png",
+      "project": "pond-waiting.png"
+    },
+    {
+      "name": "pond-bite",
+      "subject": "Preserve the reference pond tile shape, camera, stones, plants, colors and all geometry exactly. Change ONLY the center water: red-and-white fishing float half pulled under at a slant, a little ring of energetic clear blue splashes, a few droplets above the water. No fish exposed. Transparent outside tile.",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "pond-idle"
+      ],
+      "edit": true,
+      "prompt": "Use case: precise-object-edit. Preserve the reference pond tile shape, camera, stones, plants, colors and all geometry exactly. Change ONLY the center water: red-and-white fishing float half pulled under at a slant, a little ring of energetic clear blue splashes, a few droplets above the water. No fish exposed. Transparent outside tile. Deliver a single production PNG, no labels or comparison sheet. Every pixel outside the actual object outline must be fully transparent, with no cloudy halo. Keep transparent canvas padding and the same footprint as the reference.",
+      "original": "pond-bite-edit-original.png",
+      "editPrompt": "Use case: precise-object-edit. Use the provided WAITING-STATE pond as the exact edit target. Preserve the pond, stones, flowers, leaves, perspective and fishing line coming from the LOWER LEFT exactly. Change ONLY the tiny float at the same center point so it is pulled partly under at a slant, with a compact splash and a few droplets. The fishing line must still run from this float toward the SAME lower-left foreground shore, never toward the lily leaves or upper right. Do not move the float center or alter the pond footprint. Preserve the drawing's colors, materials, style and fine details; output ONE standalone PNG on actual alpha transparency, no added canvas background or shadow.",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        17,
+        148,
+        368,
+        367
+      ],
+      "sha256": "919f2b46713217c46784dac9ae967c6af97ca4478b292ad3b6a0cc405aafec17",
+      "export": "pond-bite.png",
+      "project": "pond-bite.png"
+    },
+    {
+      "name": "room-aquarium",
+      "subject": "ONE small empty elegant rectangular aquarium matching the blue whale bedroom's existing aquarium, 3/4 view from slightly above with front and right side visible, pale blue glass, cream-gold rim, blue gravel, two restrained coral decorations and small aquatic plants at bottom corners, a big clear empty swimming space through middle, NO fish, NO cabinet or floor. Isolated modular room prop.",
+      "batch": 3,
+      "kind": "prop",
+      "width": 384,
+      "height": 384,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: room-aquarium.png. Subject: ONE small empty elegant rectangular aquarium matching the blue whale bedroom's existing aquarium, 3/4 view from slightly above with front and right side visible, pale blue glass, cream-gold rim, blue gravel, two restrained coral decorations and small aquatic plants at bottom corners, a big clear empty swimming space through middle, NO fish, NO cabinet or floor. Isolated modular room prop.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "room-aquarium-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        16,
+        49,
+        348,
+        355
+      ],
+      "sha256": "3b373c293647bcd763e54a201ffca6993815713b7f9f0c132261f3fade0710f2",
+      "export": "room-aquarium.png",
+      "project": "room-aquarium.png"
+    },
+    {
+      "name": "aquarium-fish-crucian",
+      "subject": "ONE small aquarium sprite of exactly this species: one cute crucian carp, short deep oval silvery-blue body, small neat fins, blunt mouth, clearly a freshwater fish; side view facing left. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.",
+      "batch": 3,
+      "kind": "fish-sprite",
+      "width": 96,
+      "height": 96,
+      "depends": [
+        "fish-crucian"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: aquarium-fish-crucian.png. Subject: ONE small aquarium sprite of exactly this species: one cute crucian carp, short deep oval silvery-blue body, small neat fins, blunt mouth, clearly a freshwater fish; side view facing left. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.. Small aquarium animal sprite, horizontal side profile, readable at 96px, square image with generous padding. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "aquarium-fish-crucian-original.png",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "anchorPixels": [
+        48,
+        48
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        13,
+        20,
+        92,
+        72
+      ],
+      "sha256": "8a523e972d7ca779387a226121acb928d8ae56b26d93aa6d3ffe15e07bd6b562",
+      "export": "aquarium-fish-crucian.png",
+      "project": "aquarium-fish-crucian.png"
+    },
+    {
+      "name": "aquarium-fish-crayfish",
+      "subject": "ONE small aquarium sprite of exactly this species: one small cute freshwater crayfish, muted coral red shell with cool blue-purple shadows, two claws, segmented curled tail, tiny antennae, whole body visible. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.",
+      "batch": 3,
+      "kind": "fish-sprite",
+      "width": 96,
+      "height": 96,
+      "depends": [
+        "fish-crayfish"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: aquarium-fish-crayfish.png. Subject: ONE small aquarium sprite of exactly this species: one small cute freshwater crayfish, muted coral red shell with cool blue-purple shadows, two claws, segmented curled tail, tiny antennae, whole body visible. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.. Small aquarium animal sprite, horizontal side profile, readable at 96px, square image with generous padding. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "aquarium-fish-crayfish-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "anchorPixels": [
+        48,
+        48
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        7,
+        22,
+        90,
+        67
+      ],
+      "sha256": "e8b303e5bd557eb587fdf7ffa579430f17dfa6ee21898adb68791bcc91eead6b",
+      "export": "aquarium-fish-crayfish.png",
+      "project": "aquarium-fish-crayfish.png"
+    },
+    {
+      "name": "aquarium-fish-carp",
+      "subject": "ONE small aquarium sprite of exactly this species: one common carp, stout golden bronze body with blue-lavender shadows, small barbels, long dorsal fin, rounded scales; side view facing left. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.",
+      "batch": 3,
+      "kind": "fish-sprite",
+      "width": 96,
+      "height": 96,
+      "depends": [
+        "fish-carp"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: aquarium-fish-carp.png. Subject: ONE small aquarium sprite of exactly this species: one common carp, stout golden bronze body with blue-lavender shadows, small barbels, long dorsal fin, rounded scales; side view facing left. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.. Small aquarium animal sprite, horizontal side profile, readable at 96px, square image with generous padding. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "aquarium-fish-carp-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "anchorPixels": [
+        48,
+        48
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        8,
+        24,
+        92,
+        71
+      ],
+      "sha256": "125737c97293ea4dc1fc969c4a61aa94a0e2ae8102d0b0b84ec18c2417688da0",
+      "export": "aquarium-fish-carp.png",
+      "project": "aquarium-fish-carp.png"
+    },
+    {
+      "name": "aquarium-fish-goldfish",
+      "subject": "ONE small aquarium sprite of exactly this species: one fancy goldfish, warm apricot-orange body with flowing lavender-edged double fan tail and graceful fins; side view facing left. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.",
+      "batch": 3,
+      "kind": "fish-sprite",
+      "width": 96,
+      "height": 96,
+      "depends": [
+        "fish-goldfish"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: aquarium-fish-goldfish.png. Subject: ONE small aquarium sprite of exactly this species: one fancy goldfish, warm apricot-orange body with flowing lavender-edged double fan tail and graceful fins; side view facing left. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.. Small aquarium animal sprite, horizontal side profile, readable at 96px, square image with generous padding. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "aquarium-fish-goldfish-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "anchorPixels": [
+        48,
+        48
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        5,
+        14,
+        90,
+        81
+      ],
+      "sha256": "1e4931ce84fb6d99ac3a384628efc744cf84c24f7cc397f1d0d46ccd2fa4a91f",
+      "export": "aquarium-fish-goldfish.png",
+      "project": "aquarium-fish-goldfish.png"
+    },
+    {
+      "name": "aquarium-fish-grasscarp",
+      "subject": "ONE small aquarium sprite of exactly this species: one grass carp, long streamlined jade-grey body, dark olive-teal back, large distinct scales, forked modest tail; side view facing left. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.",
+      "batch": 3,
+      "kind": "fish-sprite",
+      "width": 96,
+      "height": 96,
+      "depends": [
+        "fish-grasscarp"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: aquarium-fish-grasscarp.png. Subject: ONE small aquarium sprite of exactly this species: one grass carp, long streamlined jade-grey body, dark olive-teal back, large distinct scales, forked modest tail; side view facing left. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.. Small aquarium animal sprite, horizontal side profile, readable at 96px, square image with generous padding. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "aquarium-fish-grasscarp-edit-original.png",
+      "editPrompt": "Use case: background-extraction. Remove ONLY the diffuse grey/white halo and cloudy haze outside the fish silhouette, including between fins and whiskers. Make all background pixels fully alpha transparent with clean anti-aliased contour. Keep the entire fish, exact colors, pose, scales, facial features and fin shapes unchanged; do not add a glow, shadow or any background. Preserve the drawing's colors, materials, style and fine details; output ONE standalone PNG on actual alpha transparency, no added canvas background or shadow.",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "anchorPixels": [
+        48,
+        48
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        8,
+        33,
+        83,
+        65
+      ],
+      "sha256": "8d05c0c9ba7a2d5078b7315ab0f41f34dd9145aa8e048cdf5852dbf736fe3365",
+      "export": "aquarium-fish-grasscarp.png",
+      "project": "aquarium-fish-grasscarp.png"
+    },
+    {
+      "name": "aquarium-fish-catfish",
+      "subject": "ONE small aquarium sprite of exactly this species: one friendly freshwater catfish, smooth dark slate-blue long body with broad rounded head and slender whisker barbels, no scales; side view facing left. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.",
+      "batch": 3,
+      "kind": "fish-sprite",
+      "width": 96,
+      "height": 96,
+      "depends": [
+        "fish-catfish"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: aquarium-fish-catfish.png. Subject: ONE small aquarium sprite of exactly this species: one friendly freshwater catfish, smooth dark slate-blue long body with broad rounded head and slender whisker barbels, no scales; side view facing left. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.. Small aquarium animal sprite, horizontal side profile, readable at 96px, square image with generous padding. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "aquarium-fish-catfish-edit-original.png",
+      "editPrompt": "Use case: background-extraction. Remove ONLY the diffuse grey/white halo and cloudy haze outside the fish silhouette, including between fins and whiskers. Make all background pixels fully alpha transparent with clean anti-aliased contour. Keep the entire fish, exact colors, pose, scales, facial features and fin shapes unchanged; do not add a glow, shadow or any background. Preserve the drawing's colors, materials, style and fine details; output ONE standalone PNG on actual alpha transparency, no added canvas background or shadow.",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "anchorPixels": [
+        48,
+        48
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        6,
+        31,
+        92,
+        64
+      ],
+      "sha256": "18663e09cc08807b611d33f6902315cbb20b88bf776628cd35fee894e6545217",
+      "export": "aquarium-fish-catfish.png",
+      "project": "aquarium-fish-catfish.png"
+    },
+    {
+      "name": "aquarium-fish-koi",
+      "subject": "ONE small aquarium sprite of exactly this species: one elegant white koi carp with coral-red and indigo patches, flowing pale blue fins and small barbels; side view facing left. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.",
+      "batch": 3,
+      "kind": "fish-sprite",
+      "width": 96,
+      "height": 96,
+      "depends": [
+        "fish-koi"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: aquarium-fish-koi.png. Subject: ONE small aquarium sprite of exactly this species: one elegant white koi carp with coral-red and indigo patches, flowing pale blue fins and small barbels; side view facing left. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.. Small aquarium animal sprite, horizontal side profile, readable at 96px, square image with generous padding. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "aquarium-fish-koi-original.png",
+      "originalSize": [
+        1301,
+        1209
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "anchorPixels": [
+        48,
+        48
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        7,
+        27,
+        90,
+        76
+      ],
+      "sha256": "69e14fd0795d8f4db4b9f6a1c4b983065faa2d7ce90eaf39ffaa7d99142dc79d",
+      "export": "aquarium-fish-koi.png",
+      "project": "aquarium-fish-koi.png"
+    },
+    {
+      "name": "aquarium-fish-moonfish",
+      "subject": "ONE small aquarium sprite of exactly this species: one original fantasy moonlight fish, streamlined crescent-tailed fish with translucent icy blue body and opalescent fins, tiny moon marking, subtle contained bioluminescent glow, alpha semi-transparent fins; side view facing left. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.",
+      "batch": 3,
+      "kind": "fish-sprite",
+      "width": 96,
+      "height": 96,
+      "depends": [
+        "fish-moonfish"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: aquarium-fish-moonfish.png. Subject: ONE small aquarium sprite of exactly this species: one original fantasy moonlight fish, streamlined crescent-tailed fish with translucent icy blue body and opalescent fins, tiny moon marking, subtle contained bioluminescent glow, alpha semi-transparent fins; side view facing left. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.. Small aquarium animal sprite, horizontal side profile, readable at 96px, square image with generous padding. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "aquarium-fish-moonfish-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "anchorPixels": [
+        48,
+        48
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        7,
+        19,
+        91,
+        73
+      ],
+      "sha256": "d4cf9af79e082b32825ca7eb2003dfc6f9257c5b97a76d15fd9ab957e792a42e",
+      "export": "aquarium-fish-moonfish.png",
+      "project": "aquarium-fish-moonfish.png"
+    },
+    {
+      "name": "room-vase",
+      "subject": "ONE small empty pale blue porcelain tabletop vase with ivory scalloped rim, small indigo whale motif and subtle gold trim, open mouth clearly visible, 3/4 slightly top-down view matching bedroom, NO flowers, NO table. Modular room prop.",
+      "batch": 3,
+      "kind": "prop",
+      "width": 384,
+      "height": 384,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: room-vase.png. Subject: ONE small empty pale blue porcelain tabletop vase with ivory scalloped rim, small indigo whale motif and subtle gold trim, open mouth clearly visible, 3/4 slightly top-down view matching bedroom, NO flowers, NO table. Modular room prop.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "room-vase-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        38,
+        49,
+        312,
+        342
+      ],
+      "sha256": "0a43f11b18560dee7a058c6250d07e093da03a4f3c67bbd9057da70eb83cf57e",
+      "export": "room-vase.png",
+      "project": "room-vase.png"
+    },
+    {
+      "name": "vase-flower-daisy",
+      "subject": "ONE little bouquet for a tabletop vase of this exact flower: one delicate blooming white daisy with buttery yellow center, short sage-green stem and two small leaves. A neat cluster of three to five matching blossoms and small green leaves, bare stems gather to a narrow point at bottom center to insert into a separate vase. NO vase, NO ribbon, NO soil. Match the flower species appearance in the reference.",
+      "batch": 3,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-daisy"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: vase-flower-daisy.png. Subject: ONE little bouquet for a tabletop vase of this exact flower: one delicate blooming white daisy with buttery yellow center, short sage-green stem and two small leaves. A neat cluster of three to five matching blossoms and small green leaves, bare stems gather to a narrow point at bottom center to insert into a separate vase. NO vase, NO ribbon, NO soil. Match the flower species appearance in the reference.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "vase-flower-daisy-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        16,
+        40,
+        346,
+        341
+      ],
+      "sha256": "331a2e2b520dd3ac5413becdcaef5cde9c248a57ec9eb55960520049f2133d88",
+      "export": "vase-flower-daisy.png",
+      "project": "vase-flower-daisy.png"
+    },
+    {
+      "name": "vase-flower-sunflower",
+      "subject": "ONE little bouquet for a tabletop vase of this exact flower: one blooming sunflower, round brown-gold center, soft buttery golden petals, short green stem and leaves. A neat cluster of three to five matching blossoms and small green leaves, bare stems gather to a narrow point at bottom center to insert into a separate vase. NO vase, NO ribbon, NO soil. Match the flower species appearance in the reference.",
+      "batch": 3,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-sunflower"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: vase-flower-sunflower.png. Subject: ONE little bouquet for a tabletop vase of this exact flower: one blooming sunflower, round brown-gold center, soft buttery golden petals, short green stem and leaves. A neat cluster of three to five matching blossoms and small green leaves, bare stems gather to a narrow point at bottom center to insert into a separate vase. NO vase, NO ribbon, NO soil. Match the flower species appearance in the reference.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "vase-flower-sunflower-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        30,
+        40,
+        327,
+        350
+      ],
+      "sha256": "97f24f4e1d0a11cf3afe402ac24470976b2e2983f31035002841930fe638face",
+      "export": "vase-flower-sunflower.png",
+      "project": "vase-flower-sunflower.png"
+    },
+    {
+      "name": "vase-flower-tulip",
+      "subject": "ONE little bouquet for a tabletop vase of this exact flower: one elegant pale blue-lilac tulip flower with cupped petals, short sage-green stem and two leaves. A neat cluster of three to five matching blossoms and small green leaves, bare stems gather to a narrow point at bottom center to insert into a separate vase. NO vase, NO ribbon, NO soil. Match the flower species appearance in the reference.",
+      "batch": 3,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-tulip"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: vase-flower-tulip.png. Subject: ONE little bouquet for a tabletop vase of this exact flower: one elegant pale blue-lilac tulip flower with cupped petals, short sage-green stem and two leaves. A neat cluster of three to five matching blossoms and small green leaves, bare stems gather to a narrow point at bottom center to insert into a separate vase. NO vase, NO ribbon, NO soil. Match the flower species appearance in the reference.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "vase-flower-tulip-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        35,
+        16,
+        305,
+        368
+      ],
+      "sha256": "ef1f37980a875d47e20a381070c8631e186c9fe885ac2a44594b065c6f022394",
+      "export": "vase-flower-tulip.png",
+      "project": "vase-flower-tulip.png"
+    },
+    {
+      "name": "vase-flower-lavender",
+      "subject": "ONE little bouquet for a tabletop vase of this exact flower: a small neat bunch of blooming lavender spikes in muted purple, sage-green stems. A neat cluster of three to five matching blossoms and small green leaves, bare stems gather to a narrow point at bottom center to insert into a separate vase. NO vase, NO ribbon, NO soil. Match the flower species appearance in the reference.",
+      "batch": 3,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-lavender"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: vase-flower-lavender.png. Subject: ONE little bouquet for a tabletop vase of this exact flower: a small neat bunch of blooming lavender spikes in muted purple, sage-green stems. A neat cluster of three to five matching blossoms and small green leaves, bare stems gather to a narrow point at bottom center to insert into a separate vase. NO vase, NO ribbon, NO soil. Match the flower species appearance in the reference.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "vase-flower-lavender-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        30,
+        38,
+        367,
+        355
+      ],
+      "sha256": "3bab7f2c223eac763e2a7153c3e0db019bf6a03666f639863b01979b2a475e8a",
+      "export": "vase-flower-lavender.png",
+      "project": "vase-flower-lavender.png"
+    },
+    {
+      "name": "vase-flower-rose",
+      "subject": "ONE little bouquet for a tabletop vase of this exact flower: one fully blooming dusty rose pink rose with layered petals and a short sage green leafy stem. A neat cluster of three to five matching blossoms and small green leaves, bare stems gather to a narrow point at bottom center to insert into a separate vase. NO vase, NO ribbon, NO soil. Match the flower species appearance in the reference.",
+      "batch": 3,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-rose"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: vase-flower-rose.png. Subject: ONE little bouquet for a tabletop vase of this exact flower: one fully blooming dusty rose pink rose with layered petals and a short sage green leafy stem. A neat cluster of three to five matching blossoms and small green leaves, bare stems gather to a narrow point at bottom center to insert into a separate vase. NO vase, NO ribbon, NO soil. Match the flower species appearance in the reference.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "vase-flower-rose-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        23,
+        25,
+        347,
+        368
+      ],
+      "sha256": "18f84ad614bbac80a899e996a097c3ca88176adc735b200670dc7fa3c7154fea",
+      "export": "vase-flower-rose.png",
+      "project": "vase-flower-rose.png"
+    },
+    {
+      "name": "vase-flower-hydrangea",
+      "subject": "ONE little bouquet for a tabletop vase of this exact flower: one rounded blue and lavender hydrangea flower head, many tiny four-petal blossoms, two broad leaves. A neat cluster of three to five matching blossoms and small green leaves, bare stems gather to a narrow point at bottom center to insert into a separate vase. NO vase, NO ribbon, NO soil. Match the flower species appearance in the reference.",
+      "batch": 3,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-hydrangea"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: vase-flower-hydrangea.png. Subject: ONE little bouquet for a tabletop vase of this exact flower: one rounded blue and lavender hydrangea flower head, many tiny four-petal blossoms, two broad leaves. A neat cluster of three to five matching blossoms and small green leaves, bare stems gather to a narrow point at bottom center to insert into a separate vase. NO vase, NO ribbon, NO soil. Match the flower species appearance in the reference.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "vase-flower-hydrangea-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        45,
+        26,
+        340,
+        355
+      ],
+      "sha256": "0a9c20682d766761559401c5dd59e4913a09ba564677f8663b6afeec01e7ca84",
+      "export": "vase-flower-hydrangea.png",
+      "project": "vase-flower-hydrangea.png"
+    },
+    {
+      "name": "vase-flower-bluewhale",
+      "subject": "ONE little bouquet for a tabletop vase of this exact flower: one original fantasy blue-whale flower: graceful luminous sky-blue petals shaped like paired whale-tail flukes, pale gold stamen, dark blue teardrop center, short leafy mint stem; recognizably a flower not an actual whale. A neat cluster of three to five matching blossoms and small green leaves, bare stems gather to a narrow point at bottom center to insert into a separate vase. NO vase, NO ribbon, NO soil. Match the flower species appearance in the reference.",
+      "batch": 3,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-bluewhale"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: vase-flower-bluewhale.png. Subject: ONE little bouquet for a tabletop vase of this exact flower: one original fantasy blue-whale flower: graceful luminous sky-blue petals shaped like paired whale-tail flukes, pale gold stamen, dark blue teardrop center, short leafy mint stem; recognizably a flower not an actual whale. A neat cluster of three to five matching blossoms and small green leaves, bare stems gather to a narrow point at bottom center to insert into a separate vase. NO vase, NO ribbon, NO soil. Match the flower species appearance in the reference.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "vase-flower-bluewhale-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        28,
+        21,
+        345,
+        368
+      ],
+      "sha256": "1b7d07318e7f0a32a6adb8a09553680f32fdbe5b3dd6474e4269a3399c78278a",
+      "export": "vase-flower-bluewhale.png",
+      "project": "vase-flower-bluewhale.png"
+    },
+    {
+      "name": "room-shell-jar",
+      "subject": "ONE small clear rounded glass keepsake jar with a little pale blue ribbon and cream ceramic lid, HALF FULL of pearly pale-blue seashells, the upper half is empty clear glass, tiny restrained gold glint, 3/4 view; NO floor or background.",
+      "batch": 3,
+      "kind": "prop",
+      "width": 384,
+      "height": 384,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: room-shell-jar.png. Subject: ONE small clear rounded glass keepsake jar with a little pale blue ribbon and cream ceramic lid, HALF FULL of pearly pale-blue seashells, the upper half is empty clear glass, tiny restrained gold glint, 3/4 view; NO floor or background.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "room-shell-jar-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        58,
+        18,
+        349,
+        357
+      ],
+      "sha256": "dabdd6450442e69d002da8c5a4127715102864c45c9e94c240e2c6eb09c67124",
+      "export": "room-shell-jar.png",
+      "project": "room-shell-jar.png"
+    },
+    {
+      "name": "room-codex-book",
+      "subject": "ONE thick closed indigo storybook field guide, upright leaning slightly at 3/4 angle, pale gold corner decorations, centered elegant tiny whale-and-leaf embossed emblem, cream page edges and pale blue ribbon bookmark, NO words or letters, NO shelf.",
+      "batch": 3,
+      "kind": "prop",
+      "width": 384,
+      "height": 384,
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: room-codex-book.png. Subject: ONE thick closed indigo storybook field guide, upright leaning slightly at 3/4 angle, pale gold corner decorations, centered elegant tiny whale-and-leaf embossed emblem, cream page edges and pale blue ribbon bookmark, NO words or letters, NO shelf.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "room-codex-book-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        70,
+        21,
+        354,
+        357
+      ],
+      "sha256": "1c3bcec15fd5cd4e4e6f177ff096d97bc7c993462e6cc5aecdeb01aeb7a9e2ec",
+      "export": "room-codex-book.png",
+      "project": "room-codex-book.png"
+    },
+    {
+      "name": "rice-stage-2",
+      "subject": "ONE rooted plant sprite: a young clump of green rice plants with several upright narrow leaves, no grain heads. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-rice"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: rice-stage-2.png. Subject: ONE rooted plant sprite: a young clump of green rice plants with several upright narrow leaves, no grain heads. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "rice-stage-2-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        65,
+        26,
+        348,
+        360
+      ],
+      "sha256": "3cc0a7eebe42ee0f18a16f99f05ca3ac363036cfdd5f3fea3ec6c9cee9418156",
+      "export": "rice-stage-2.png",
+      "project": "rice-stage-2.png"
+    },
+    {
+      "name": "rice-stage-3",
+      "subject": "ONE rooted plant sprite: a ripe rooted clump of rice plants, gracefully bowed golden rice panicles and green leaves. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-rice"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: rice-stage-3.png. Subject: ONE rooted plant sprite: a ripe rooted clump of rice plants, gracefully bowed golden rice panicles and green leaves. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "rice-stage-3-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        16,
+        20,
+        362,
+        356
+      ],
+      "sha256": "fdfa68b5fcc822faf7b3e2a8ae1d7f8b9b321b51ad56fad12ee1cce4d19a6a53",
+      "export": "rice-stage-3.png",
+      "project": "rice-stage-3.png"
+    },
+    {
+      "name": "radish-stage-2",
+      "subject": "ONE rooted plant sprite: a young rosette of fresh green daikon leaves, a tiny white root crown at its base. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-radish"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: radish-stage-2.png. Subject: ONE rooted plant sprite: a young rosette of fresh green daikon leaves, a tiny white root crown at its base. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "radish-stage-2-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        27,
+        80,
+        368,
+        368
+      ],
+      "sha256": "8b9834f5aebfc86a468a3349968ea14079782f7e1d80c09f52a546c34e3acac8",
+      "export": "radish-stage-2.png",
+      "project": "radish-stage-2.png"
+    },
+    {
+      "name": "radish-stage-3",
+      "subject": "ONE rooted plant sprite: a mature rooted daikon plant, lush green leaves above a fat white radish shoulder protruding just above the ground line. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-radish"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: radish-stage-3.png. Subject: ONE rooted plant sprite: a mature rooted daikon plant, lush green leaves above a fat white radish shoulder protruding just above the ground line. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "radish-stage-3-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        40,
+        30,
+        357,
+        354
+      ],
+      "sha256": "6f51d46ad521c82a9233bb4ba1ac01589b0756a338456abb6337feefb1531660",
+      "export": "radish-stage-3.png",
+      "project": "radish-stage-3.png"
+    },
+    {
+      "name": "wheat-stage-2",
+      "subject": "ONE rooted plant sprite: a young tuft of straight green wheat stalks and narrow leaves, only small unripe green heads. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-wheat"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: wheat-stage-2.png. Subject: ONE rooted plant sprite: a young tuft of straight green wheat stalks and narrow leaves, only small unripe green heads. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "wheat-stage-2-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        21,
+        20,
+        347,
+        365
+      ],
+      "sha256": "e9f51b459e7b25b777684f4e8fbba2067e6e2a451938d0bb49273c88af85756b",
+      "export": "wheat-stage-2.png",
+      "project": "wheat-stage-2.png"
+    },
+    {
+      "name": "wheat-stage-3",
+      "subject": "ONE rooted plant sprite: a mature rooted clump of standing golden wheat with distinct long awns and golden full ears. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-wheat"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: wheat-stage-3.png. Subject: ONE rooted plant sprite: a mature rooted clump of standing golden wheat with distinct long awns and golden full ears. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "wheat-stage-3-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        37,
+        22,
+        349,
+        368
+      ],
+      "sha256": "a9a1dd7a06dc005bf0af10cb7ff6b300fd30919017884eba2649f99aab2923f4",
+      "export": "wheat-stage-3.png",
+      "project": "wheat-stage-3.png"
+    },
+    {
+      "name": "tomato-stage-2",
+      "subject": "ONE rooted plant sprite: a young compact bushy tomato plant, sage green serrated leaves and tiny yellow flowers, no ripe fruit. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-tomato"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: tomato-stage-2.png. Subject: ONE rooted plant sprite: a young compact bushy tomato plant, sage green serrated leaves and tiny yellow flowers, no ripe fruit. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "tomato-stage-2-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        26,
+        32,
+        353,
+        354
+      ],
+      "sha256": "a4f9acbd18bc0813e8359903016ba7f3ff2eae042026f2cdcc8067e05ef2ad13",
+      "export": "tomato-stage-2.png",
+      "project": "tomato-stage-2.png"
+    },
+    {
+      "name": "tomato-stage-3",
+      "subject": "ONE rooted plant sprite: a mature compact rooted tomato plant with green leafy stems, three ripe coral-red tomatoes and one tiny yellow flower. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-tomato"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: tomato-stage-3.png. Subject: ONE rooted plant sprite: a mature compact rooted tomato plant with green leafy stems, three ripe coral-red tomatoes and one tiny yellow flower. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "tomato-stage-3-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        36,
+        31,
+        367,
+        353
+      ],
+      "sha256": "3f7de941861ff7f363a9be8ab16bb31947c54b37c5ac8b66e37177c16d260f38",
+      "export": "tomato-stage-3.png",
+      "project": "tomato-stage-3.png"
+    },
+    {
+      "name": "strawberry-stage-2",
+      "subject": "ONE rooted plant sprite: a compact young strawberry plant, three-lobed green leaves and two tiny white blossoms, no red fruit. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-strawberry"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: strawberry-stage-2.png. Subject: ONE rooted plant sprite: a compact young strawberry plant, three-lobed green leaves and two tiny white blossoms, no red fruit. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "strawberry-stage-2-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        48,
+        46,
+        355,
+        343
+      ],
+      "sha256": "f7209da5d41df2fdfaf340c57fd59c0c5bfc08013da92d1d7d8a7789e0b22713",
+      "export": "strawberry-stage-2.png",
+      "project": "strawberry-stage-2.png"
+    },
+    {
+      "name": "strawberry-stage-3",
+      "subject": "ONE rooted plant sprite: a mature low strawberry plant with three-lobed green leaves, white blossoms and three plump ripe red strawberries hanging near the base. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-strawberry"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: strawberry-stage-3.png. Subject: ONE rooted plant sprite: a mature low strawberry plant with three-lobed green leaves, white blossoms and three plump ripe red strawberries hanging near the base. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "strawberry-stage-3-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        23,
+        25,
+        361,
+        358
+      ],
+      "sha256": "b003f7c776e9b7573be04338adccacac00900b122cb112f21bb31e0d7fbd0625",
+      "export": "strawberry-stage-3.png",
+      "project": "strawberry-stage-3.png"
+    },
+    {
+      "name": "pumpkin-stage-2",
+      "subject": "ONE rooted plant sprite: a compact leafy young pumpkin vine with curling tendrils, broad green leaves and one small yellow flower, no pumpkin. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-pumpkin"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: pumpkin-stage-2.png. Subject: ONE rooted plant sprite: a compact leafy young pumpkin vine with curling tendrils, broad green leaves and one small yellow flower, no pumpkin. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "pumpkin-stage-2-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        16,
+        61,
+        341,
+        350
+      ],
+      "sha256": "313f47481360243172c58b73a69e99d3dc6545fd9736065aed9269e2a8fbdfdc",
+      "export": "pumpkin-stage-2.png",
+      "project": "pumpkin-stage-2.png"
+    },
+    {
+      "name": "pumpkin-stage-3",
+      "subject": "ONE rooted plant sprite: a mature pumpkin vine with broad sage green leaves, curled tendrils and ONE squat orange ripe pumpkin at the base. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-pumpkin"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: pumpkin-stage-3.png. Subject: ONE rooted plant sprite: a mature pumpkin vine with broad sage green leaves, curled tendrils and ONE squat orange ripe pumpkin at the base. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "pumpkin-stage-3-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        38,
+        16,
+        356,
+        368
+      ],
+      "sha256": "8c0e212523d332bdd8ecb16376a825a5ea1c5f8f82f0dcb8a114410ed313d3b1",
+      "export": "pumpkin-stage-3.png",
+      "project": "pumpkin-stage-3.png"
+    },
+    {
+      "name": "watermelon-stage-2",
+      "subject": "ONE rooted plant sprite: a compact young watermelon vine with lobed sage-green leaves, curling tendrils and a tiny pale yellow flower, no fruit. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-watermelon"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: watermelon-stage-2.png. Subject: ONE rooted plant sprite: a compact young watermelon vine with lobed sage-green leaves, curling tendrils and a tiny pale yellow flower, no fruit. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "watermelon-stage-2-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        52,
+        56,
+        339,
+        363
+      ],
+      "sha256": "b872ba3c43b89b0a69d59de085096db1511dbba2b43457279e1264c5fffe48cd",
+      "export": "watermelon-stage-2.png",
+      "project": "watermelon-stage-2.png"
+    },
+    {
+      "name": "watermelon-stage-3",
+      "subject": "ONE rooted plant sprite: a mature low watermelon vine with lobed leaves and ONE whole round striped teal-and-mint ripe watermelon at its base. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-watermelon"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: watermelon-stage-3.png. Subject: ONE rooted plant sprite: a mature low watermelon vine with lobed leaves and ONE whole round striped teal-and-mint ripe watermelon at its base. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "watermelon-stage-3-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        16,
+        31,
+        356,
+        361
+      ],
+      "sha256": "470876f0b42b30984b6b2c731f84af350f275be43b4e7cb7329b4543863598d2",
+      "export": "watermelon-stage-3.png",
+      "project": "watermelon-stage-3.png"
+    },
+    {
+      "name": "daisy-stage-2",
+      "subject": "ONE young rooted daisy flower plant with correct species-specific green leaves and small CLOSED buds only, still growing, with NO fully open flowers. Match the colors and leaf shapes of the reference species. Stems meet ground at bottom center. No pot, vase, soil tile, ribbon, loose blossoms, or cut bouquet.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-daisy"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: daisy-stage-2.png. Subject: ONE young rooted daisy flower plant with correct species-specific green leaves and small CLOSED buds only, still growing, with NO fully open flowers. Match the colors and leaf shapes of the reference species. Stems meet ground at bottom center. No pot, vase, soil tile, ribbon, loose blossoms, or cut bouquet.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "daisy-stage-2-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        92,
+        59,
+        331,
+        367
+      ],
+      "sha256": "8880c36f304de1b674bc4f49573e57a4491ccf37ab2bd445d562c96c506b413c",
+      "export": "daisy-stage-2.png",
+      "project": "daisy-stage-2.png"
+    },
+    {
+      "name": "daisy-stage-3",
+      "subject": "ONE rooted flower plant: one delicate blooming white daisy with buttery yellow center, short sage-green stem and two small leaves. MATURE stage: full open blossoms in a small healthy rooted clump. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-daisy"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: daisy-stage-3.png. Subject: ONE rooted flower plant: one delicate blooming white daisy with buttery yellow center, short sage-green stem and two small leaves. MATURE stage: full open blossoms in a small healthy rooted clump. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "daisy-stage-3-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        42,
+        42,
+        344,
+        350
+      ],
+      "sha256": "b780c7764ce6b2c7fc2e03aca6b0df7d6730cd85fdf25695da8cc2f7a0b65b3c",
+      "export": "daisy-stage-3.png",
+      "project": "daisy-stage-3.png"
+    },
+    {
+      "name": "sunflower-stage-2",
+      "subject": "ONE young rooted sunflower flower plant with correct species-specific green leaves and small CLOSED buds only, still growing, with NO fully open flowers. Match the colors and leaf shapes of the reference species. Stems meet ground at bottom center. No pot, vase, soil tile, ribbon, loose blossoms, or cut bouquet.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-sunflower"
+      ],
+      "prompt": "Use case: stylized-concept. Hand-painted Japanese anime storybook game art matching the reference blue whale bedroom, rounded cute semi-isometric form, tidy periwinkle outlines, soft cel shading, cream highlights, blue-lavender ambient color. Natural subject colors remain recognizable. No text, labels, watermark, UI, collage or sheet. Asset: sunflower-stage-2.png. Subject: ONE young rooted sunflower flower plant with correct species-specific green leaves and small CLOSED buds only, still growing, with NO fully open flowers. Match the colors and leaf shapes of the reference species. Stems meet ground at bottom center. No pot, vase, soil tile, ribbon, loose blossoms, or cut bouquet.. Modular scene sprite on a square transparent image. Whole object visible, 8 percent clear padding, ground contact or gathered stems at BOTTOM CENTER. No rectangular background or floor beyond the explicitly requested tile. No exposed roots. Stems end cleanly at the bottom ground contact; no botanical root diagram.  Every pixel outside the hard object contour must have alpha exactly zero. NO diffuse grey or white halo, NO hazy cloud around the subject, NO shadow, NO glow behind the subject. Genuine alpha TRANSPARENT background and corners. No cast shadow outside the object, no character or unrequested props. The reference is style/species guidance only. Deliver ONE standalone production PNG, not a sheet.",
+      "original": "sunflower-stage-2-original.png",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        47,
+        27,
+        315,
+        353
+      ],
+      "sha256": "b427ada1a19fccbdd79bd40afdabf70b934222542f766da92dd58af1b14c74ab",
+      "export": "sunflower-stage-2.png",
+      "project": "sunflower-stage-2.png"
+    }
+  ],
+  "missing": [
+    "sunflower-stage-3",
+    "tulip-stage-2",
+    "tulip-stage-3",
+    "lavender-stage-2",
+    "lavender-stage-3",
+    "rose-stage-2",
+    "rose-stage-3",
+    "hydrangea-stage-2",
+    "hydrangea-stage-3",
+    "bluewhale-stage-2",
+    "bluewhale-stage-3",
+    "plant",
+    "water-can",
+    "harvest",
+    "fertilize",
+    "fish-cast",
+    "fish-wait",
+    "fish-reel",
+    "fish-show",
+    "sell",
+    "cook",
+    "brew",
+    "cheer-giant",
+    "outdoor-farm-day",
+    "outdoor-farm-morning",
+    "outdoor-farm-dusk",
+    "outdoor-farm-night",
+    "outdoor-garden-day",
+    "outdoor-garden-morning",
+    "outdoor-garden-dusk",
+    "outdoor-garden-night",
+    "outdoor-pond-day",
+    "outdoor-pond-morning",
+    "outdoor-pond-dusk",
+    "outdoor-pond-night",
+    "outdoor-shop-day",
+    "outdoor-shop-morning",
+    "outdoor-shop-dusk",
+    "outdoor-shop-night",
+    "outdoor-path",
+    "crop-potato",
+    "potato-stage-2",
+    "potato-stage-3",
+    "crop-corn",
+    "corn-stage-2",
+    "corn-stage-3",
+    "crop-eggplant",
+    "eggplant-stage-2",
+    "eggplant-stage-3",
+    "crop-blueberry",
+    "blueberry-stage-2",
+    "blueberry-stage-3",
+    "crop-grape",
+    "grape-stage-2",
+    "grape-stage-3"
+  ],
+  "issues": [],
+  "sharedSprites": {
+    "crop-stage-1": [
+      "rice",
+      "radish",
+      "wheat",
+      "tomato",
+      "strawberry",
+      "pumpkin",
+      "watermelon",
+      "potato",
+      "corn",
+      "eggplant",
+      "blueberry",
+      "grape"
+    ],
+    "flower-stage-1": [
+      "daisy",
+      "sunflower",
+      "tulip",
+      "lavender",
+      "rose",
+      "hydrangea",
+      "bluewhale"
+    ],
+    "seed-blank": "Overlay the matching crop/flower inventory icon on the blank label."
+  }
+}

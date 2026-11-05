@@ -1,0 +1,30 @@
+{
+  "name": "fish-grasscarp",
+  "kind": "icon",
+  "original": "fish-grasscarp-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    23,
+    86,
+    237,
+    222
+  ],
+  "sha256": "75c3c5d9327e0dbce8ac96edbb42079fa8edeef1713b71008b98fcbde869a22c",
+  "export": "fish-grasscarp.png",
+  "project": "fish-grasscarp.png"
+}

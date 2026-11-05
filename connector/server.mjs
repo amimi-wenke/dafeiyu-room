@@ -290,7 +290,9 @@ export async function startConnector({
         throw problem("ROUTE_NOT_FOUND", "没有这个连接接口", "刷新最新版房间后重试。", 404);
       }
       if (req.method !== "GET" && req.method !== "HEAD") throw problem("METHOD_NOT_ALLOWED", "请求方式不支持", "刷新页面后重试。", 405);
-      const file = staticFiles.get(url.pathname);
+      // Outdoor art is served read-only by plain file name; no paths, no other folders.
+      const art = /^\/assets\/world\/([a-z0-9-]{1,80})\.(png|json)$/.exec(url.pathname);
+      const file = art ? ['assets/world/' + art[1] + '.' + art[2], art[2] === 'png' ? 'image/png' : 'application/json; charset=utf-8'] : staticFiles.get(url.pathname);
       if (!file) throw problem("FILE_NOT_FOUND", "没有这个页面", "打开连接器显示的房间地址。", 404);
       const absolute = path.join(root, file[0]);
       let info;

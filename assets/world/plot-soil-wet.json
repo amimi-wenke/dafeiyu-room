@@ -1,0 +1,30 @@
+{
+  "name": "plot-soil-wet",
+  "kind": "tile",
+  "original": "plot-soil-wet-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    16,
+    83,
+    368,
+    320
+  ],
+  "sha256": "d057f200ef86363694beba218077004370e0d0582a6b831b5d747fd28db30e9a",
+  "export": "plot-soil-wet.png",
+  "project": "plot-soil-wet.png"
+}

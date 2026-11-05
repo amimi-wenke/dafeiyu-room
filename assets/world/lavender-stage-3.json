@@ -1,0 +1,30 @@
+{
+  "name": "lavender-stage-3",
+  "kind": "plant",
+  "original": "lavender-stage-3-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    23,
+    25,
+    350,
+    361
+  ],
+  "sha256": "f8f1241d983eb2a9bca77a2606b5fbd393c490dc43ea998f5c82e2c0b1af1f49",
+  "export": "lavender-stage-3.png",
+  "project": "lavender-stage-3.png"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "pond-waiting",
+  "kind": "tile",
+  "original": "pond-waiting-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    16,
+    90,
+    366,
+    368
+  ],
+  "sha256": "49dd3c280c8ce4cb12fa17dfecd0b84c859327854e5c856fbe9b0a2142559e52",
+  "export": "pond-waiting.png",
+  "project": "pond-waiting.png"
+}

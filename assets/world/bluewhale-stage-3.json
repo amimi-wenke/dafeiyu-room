@@ -1,0 +1,30 @@
+{
+  "name": "bluewhale-stage-3",
+  "kind": "plant",
+  "original": "bluewhale-stage-3-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    16,
+    28,
+    368,
+    345
+  ],
+  "sha256": "5dc967e72b05f867777b55809dee044d97c652d606a4576b1c9ad09e321b5672",
+  "export": "bluewhale-stage-3.png",
+  "project": "bluewhale-stage-3.png"
+}

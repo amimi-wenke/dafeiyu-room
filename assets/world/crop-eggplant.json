@@ -1,0 +1,30 @@
+{
+  "name": "crop-eggplant",
+  "kind": "icon",
+  "original": "crop-eggplant-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    21,
+    28,
+    235,
+    236
+  ],
+  "sha256": "ffdcef0ed089f6220f337ae124fbf77068efe877ed9a577e96482fe1cb28a4e7",
+  "export": "crop-eggplant.png",
+  "project": "crop-eggplant.png"
+}

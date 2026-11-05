@@ -1,0 +1,30 @@
+{
+  "name": "pond-idle",
+  "kind": "tile",
+  "original": "pond-idle-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    16,
+    75,
+    367,
+    350
+  ],
+  "sha256": "2da97a836993fc785d2288bd06dd1a6383b2bc7e918edfa307179bbd898d9ad7",
+  "export": "pond-idle.png",
+  "project": "pond-idle.png"
+}

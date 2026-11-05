@@ -1,0 +1,30 @@
+{
+  "name": "plot-soil-dry",
+  "kind": "tile",
+  "original": "plot-soil-dry-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    16,
+    105,
+    366,
+    356
+  ],
+  "sha256": "f2a512faccc93da10b55d0002fc40cc09a205fa5d748e7d01c75ed783cf8381b",
+  "export": "plot-soil-dry.png",
+  "project": "plot-soil-dry.png"
+}

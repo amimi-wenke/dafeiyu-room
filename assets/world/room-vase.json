@@ -1,0 +1,30 @@
+{
+  "name": "room-vase",
+  "kind": "prop",
+  "original": "room-vase-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    38,
+    49,
+    312,
+    342
+  ],
+  "sha256": "0a43f11b18560dee7a058c6250d07e093da03a4f3c67bbd9057da70eb83cf57e",
+  "export": "room-vase.png",
+  "project": "room-vase.png"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "item-rice-bowl",
+  "kind": "icon",
+  "original": "item-rice-bowl-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    45,
+    41,
+    233,
+    233
+  ],
+  "sha256": "1ae87dba0ab84a1f49bb9b77d3d9131dec22199edaf0e228fdf819aad5c68d71",
+  "export": "item-rice-bowl.png",
+  "project": "item-rice-bowl.png"
+}

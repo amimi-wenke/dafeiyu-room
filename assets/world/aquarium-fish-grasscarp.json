@@ -1,0 +1,30 @@
+{
+  "name": "aquarium-fish-grasscarp",
+  "kind": "fish-sprite",
+  "original": "aquarium-fish-grasscarp-edit-original.png",
+  "originalSize": [
+    1536,
+    1024
+  ],
+  "size": [
+    96,
+    96
+  ],
+  "anchorPixels": [
+    48,
+    48
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    8,
+    33,
+    83,
+    65
+  ],
+  "sha256": "8d05c0c9ba7a2d5078b7315ab0f41f34dd9145aa8e048cdf5852dbf736fe3365",
+  "export": "aquarium-fish-grasscarp.png",
+  "project": "aquarium-fish-grasscarp.png"
+}

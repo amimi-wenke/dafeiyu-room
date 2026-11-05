@@ -50,3 +50,38 @@ body[data-chat-only="true"] .dsh-messages { min-height: 24vh; max-height: 48vh; 
 .world-chips { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
 .world-panel .world-chips button { padding: 2px 8px; border-radius: 999px; font-size: 11px; background: transparent; }
 .world-wishes p { font-size: 12px; }
+/* Outdoor scenes and door menu: same 16:9 frame as the room stage, so percentages line up with layout.json. */
+.scene-view { position: absolute; inset: 0; z-index: 6; overflow: hidden; background: #2b3a5c; }
+.scene-view[hidden], .door-menu[hidden], .scene-actor[hidden], .scene-bubble[hidden] { display: none !important; }
+.scene-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.scene-view.placeholder { background: linear-gradient(180deg, #bcd4f5 0 38%, #9cc59a 38% 100%); }
+.scene-view.placeholder::before { content: "场景图还在画，先用草地代替"; position: absolute; left: 50%; top: 8%; transform: translateX(-50%); color: #36507a; font: 14px "Microsoft YaHei", sans-serif; background: #ffffffa8; padding: 4px 10px; border-radius: 10px; }
+.scene-view.placeholder[data-phase="dusk"] { background: linear-gradient(180deg, #e9b9a8 0 38%, #8eae86 38% 100%); }
+.scene-view.placeholder[data-phase="night"], .scene-view.tinted[data-phase="night"] .scene-bg { filter: brightness(.55) saturate(.8) hue-rotate(12deg); }
+.scene-view.placeholder[data-phase="night"] { background: linear-gradient(180deg, #2c3a66 0 38%, #3d5a4c 38% 100%); filter: none; }
+.scene-view.tinted[data-phase="dusk"] .scene-bg { filter: sepia(.25) saturate(1.2) brightness(.92); }
+.scene-view.tinted[data-phase="morning"] .scene-bg { filter: brightness(1.05) saturate(.9) hue-rotate(-6deg); }
+.scene-items { position: absolute; inset: 0; }
+.scene-plot { position: absolute; width: 9%; aspect-ratio: 1; transform: translate(-50%, -62%); }
+.scene-plot img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+.scene-plot .scene-plant { inset: -18% 0 18% 0; }
+.scene-plot .scene-overlay { width: 46%; height: 46%; inset: -30% auto auto 54%; }
+.scene-plot.locked { opacity: .35; filter: grayscale(.7); }
+.scene-label { position: absolute; transform: translate(-50%, -50%); font: 12px "Microsoft YaHei", sans-serif; color: #fff; background: #3a4f7ab0; padding: 2px 8px; border-radius: 8px; }
+.scene-bobber { position: absolute; width: 9%; transform: translate(-50%, -50%); }
+.scene-actor { position: absolute; height: 36%; transform: translate(-50%, -100%); filter: drop-shadow(0 6px 8px #1c284033); transition: left 1.2s ease, top 1.2s ease; pointer-events: none; }
+.scene-bubble { position: absolute; transform: translate(-50%, -100%); max-width: 26%; margin: 0; padding: 6px 10px; border-radius: 12px; background: #ffffffe6; color: #3d5178; font: 13px/1.4 "Microsoft YaHei", sans-serif; box-shadow: 0 4px 12px #24355033; }
+.scene-caption { position: absolute; left: 50%; bottom: 4%; transform: translateX(-50%); display: flex; gap: 8px; align-items: center; padding: 6px 12px; border-radius: 12px; background: #344267d9; color: #f2f5ff; font: 13px "Microsoft YaHei", sans-serif; white-space: nowrap; }
+.scene-caption:empty { display: none; }
+.scene-caption button, .scene-nav button { border: 1px solid #d5e2ff80; background: #7287b2; color: #fff; border-radius: 9px; padding: 4px 10px; cursor: pointer; font: inherit; }
+.scene-nav { position: absolute; left: 2%; top: 3%; display: flex; gap: 6px; font: 13px "Microsoft YaHei", sans-serif; }
+.scene-nav button:disabled { background: #4f6fa8; opacity: 1; cursor: default; }
+.door-menu { position: absolute; right: 12%; top: 22%; z-index: 7; display: grid; gap: 6px; width: min(240px, 40%); padding: 12px; border-radius: 16px; background: #f5f7fff2; box-shadow: 0 15px 40px #24355055; color: #465b81; font: 13px "Microsoft YaHei", sans-serif; }
+.door-menu button { display: flex; align-items: center; gap: 8px; border: 1px solid #c9d6ee; border-radius: 10px; background: #fff; color: #3d5178; padding: 6px 10px; cursor: pointer; font: inherit; text-align: left; }
+.door-menu button:disabled { opacity: .5; cursor: default; }
+.door-menu .door-icon { width: 26px; height: 26px; object-fit: contain; }
+.door-menu .door-cancel { justify-content: center; background: transparent; }
+.door-status { margin: 0 0 4px; font-size: 12px; color: #5d6f91; }
+.away-postcard { display: block; width: 220px; max-width: 40vw; margin: 0 auto 6px; border-radius: 8px; box-shadow: 0 4px 12px #0004; }
+#away-note:has(.away-postcard) { white-space: normal; text-align: center; }
+.scene-view.placeholder .scene-bg { display: none; }

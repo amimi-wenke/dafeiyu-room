@@ -1,0 +1,30 @@
+{
+  "name": "overlay-ready",
+  "kind": "tile",
+  "original": "overlay-ready-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    68,
+    20,
+    326,
+    368
+  ],
+  "sha256": "153b9e45a49659c2d3804252f1ff809b0428fe18e96da7fc98bc6b73cc0aabbe",
+  "export": "overlay-ready.png",
+  "project": "overlay-ready.png"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "rarity-legendary",
+  "kind": "icon",
+  "original": "rarity-legendary-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    42,
+    35,
+    221,
+    196
+  ],
+  "sha256": "03a6a5f651f0d90f5cb06c7d383c5261601397a0dcb8882eedd9512a6299c96e",
+  "export": "rarity-legendary.png",
+  "project": "rarity-legendary.png"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "crop-corn",
+  "kind": "icon",
+  "original": "crop-corn-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    16,
+    36,
+    224,
+    227
+  ],
+  "sha256": "6405a3f42696f85a45f9417a72b5102b77b358e74eb0328bd3e6482ee58d3594",
+  "export": "crop-corn.png",
+  "project": "crop-corn.png"
+}

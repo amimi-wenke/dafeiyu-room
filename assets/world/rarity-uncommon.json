@@ -1,0 +1,30 @@
+{
+  "name": "rarity-uncommon",
+  "kind": "icon",
+  "original": "rarity-uncommon-edit-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    28,
+    34,
+    227,
+    204
+  ],
+  "sha256": "778aeef40c5df8f6ab5ed370784bf8c921c9ade7dc0b401bf27e3c01189aa691",
+  "export": "rarity-uncommon.png",
+  "project": "rarity-uncommon.png"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "aquarium-fish-crucian",
+  "kind": "fish-sprite",
+  "original": "aquarium-fish-crucian-original.png",
+  "originalSize": [
+    1536,
+    1024
+  ],
+  "size": [
+    96,
+    96
+  ],
+  "anchorPixels": [
+    48,
+    48
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    13,
+    20,
+    92,
+    72
+  ],
+  "sha256": "8a523e972d7ca779387a226121acb928d8ae56b26d93aa6d3ffe15e07bd6b562",
+  "export": "aquarium-fish-crucian.png",
+  "project": "aquarium-fish-crucian.png"
+}

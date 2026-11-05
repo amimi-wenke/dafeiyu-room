@@ -1,0 +1,30 @@
+{
+  "name": "bed-soil-dry",
+  "kind": "tile",
+  "original": "bed-soil-dry-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    29,
+    80,
+    366,
+    330
+  ],
+  "sha256": "cb694bed6ccf37f09c0ceaa11b3116dae00e254a081fe7ca550746e134729521",
+  "export": "bed-soil-dry.png",
+  "project": "bed-soil-dry.png"
+}

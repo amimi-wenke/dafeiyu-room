@@ -1,0 +1,30 @@
+{
+  "name": "daisy-stage-3",
+  "kind": "plant",
+  "original": "daisy-stage-3-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    42,
+    42,
+    344,
+    350
+  ],
+  "sha256": "b780c7764ce6b2c7fc2e03aca6b0df7d6730cd85fdf25695da8cc2f7a0b65b3c",
+  "export": "daisy-stage-3.png",
+  "project": "daisy-stage-3.png"
+}

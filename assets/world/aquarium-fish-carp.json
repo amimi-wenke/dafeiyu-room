@@ -1,0 +1,30 @@
+{
+  "name": "aquarium-fish-carp",
+  "kind": "fish-sprite",
+  "original": "aquarium-fish-carp-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    96,
+    96
+  ],
+  "anchorPixels": [
+    48,
+    48
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    8,
+    24,
+    92,
+    71
+  ],
+  "sha256": "125737c97293ea4dc1fc969c4a61aa94a0e2ae8102d0b0b84ec18c2417688da0",
+  "export": "aquarium-fish-carp.png",
+  "project": "aquarium-fish-carp.png"
+}

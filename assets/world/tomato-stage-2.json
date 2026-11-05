@@ -1,0 +1,30 @@
+{
+  "name": "tomato-stage-2",
+  "kind": "plant",
+  "original": "tomato-stage-2-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    26,
+    32,
+    353,
+    354
+  ],
+  "sha256": "a4f9acbd18bc0813e8359903016ba7f3ff2eae042026f2cdcc8067e05ef2ad13",
+  "export": "tomato-stage-2.png",
+  "project": "tomato-stage-2.png"
+}

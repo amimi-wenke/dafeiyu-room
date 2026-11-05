@@ -1,0 +1,30 @@
+{
+  "name": "crop-stage-1",
+  "kind": "tile",
+  "original": "crop-stage-1-edit-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    97,
+    78,
+    359,
+    335
+  ],
+  "sha256": "0cb9324c84611c350054baf7227546aeaab54cdc151d065e96acdbf48b628ef8",
+  "export": "crop-stage-1.png",
+  "project": "crop-stage-1.png"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "tulip-stage-2",
+  "kind": "plant",
+  "original": "tulip-stage-2-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    65,
+    45,
+    316,
+    368
+  ],
+  "sha256": "af7de636a62440c7de47ffc342e947a9097b26e56bf957c913fe41ffc8e965a1",
+  "export": "tulip-stage-2.png",
+  "project": "tulip-stage-2.png"
+}

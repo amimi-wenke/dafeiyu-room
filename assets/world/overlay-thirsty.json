@@ -1,0 +1,30 @@
+{
+  "name": "overlay-thirsty",
+  "kind": "tile",
+  "original": "overlay-thirsty-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    101,
+    59,
+    348,
+    285
+  ],
+  "sha256": "9fecf00d5ccfac4d0631d7414b6d36b9b0b26c820f9c116294dcdba4d449337b",
+  "export": "overlay-thirsty.png",
+  "project": "overlay-thirsty.png"
+}

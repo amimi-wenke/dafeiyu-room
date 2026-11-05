@@ -1,0 +1,30 @@
+{
+  "name": "pumpkin-stage-3",
+  "kind": "plant",
+  "original": "pumpkin-stage-3-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    38,
+    16,
+    356,
+    368
+  ],
+  "sha256": "8c0e212523d332bdd8ecb16376a825a5ea1c5f8f82f0dcb8a114410ed313d3b1",
+  "export": "pumpkin-stage-3.png",
+  "project": "pumpkin-stage-3.png"
+}

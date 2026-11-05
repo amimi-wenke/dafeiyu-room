@@ -1,0 +1,30 @@
+{
+  "name": "item-fishmeal",
+  "kind": "icon",
+  "original": "item-fishmeal-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    62,
+    46,
+    212,
+    206
+  ],
+  "sha256": "9124b9736543270594c7a3a308e628a4c634f1256c03685cfc7294c3f8e3ef1d",
+  "export": "item-fishmeal.png",
+  "project": "item-fishmeal.png"
+}

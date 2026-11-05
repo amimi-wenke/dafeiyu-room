@@ -1,0 +1,30 @@
+{
+  "name": "vase-flower-lavender",
+  "kind": "plant",
+  "original": "vase-flower-lavender-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    30,
+    38,
+    367,
+    355
+  ],
+  "sha256": "3bab7f2c223eac763e2a7153c3e0db019bf6a03666f639863b01979b2a475e8a",
+  "export": "vase-flower-lavender.png",
+  "project": "vase-flower-lavender.png"
+}

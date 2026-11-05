@@ -1,0 +1,30 @@
+{
+  "name": "crop-potato",
+  "kind": "icon",
+  "original": "crop-potato-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    21,
+    47,
+    224,
+    221
+  ],
+  "sha256": "df50a7fde6cf8b8a0ec4fa89763777d44f4511969cf111aaa2eaf67b60b174ef",
+  "export": "crop-potato.png",
+  "project": "crop-potato.png"
+}

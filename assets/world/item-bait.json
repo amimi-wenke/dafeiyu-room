@@ -1,0 +1,30 @@
+{
+  "name": "item-bait",
+  "kind": "icon",
+  "original": "item-bait-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    61,
+    50,
+    195,
+    239
+  ],
+  "sha256": "1a0ba9025aefffbd4053db431aec16b6c5296486f11c2e59429f2e5acf430c1d",
+  "export": "item-bait.png",
+  "project": "item-bait.png"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "fish-carp",
+  "kind": "icon",
+  "original": "fish-carp-original.png",
+  "originalSize": [
+    1312,
+    1199
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    28,
+    71,
+    237,
+    192
+  ],
+  "sha256": "3ee852dc63484eebd879c1eab20410c8dfacba84639c716bc6698b67fe12aa48",
+  "export": "fish-carp.png",
+  "project": "fish-carp.png"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "vase-flower-sunflower",
+  "kind": "plant",
+  "original": "vase-flower-sunflower-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    30,
+    40,
+    327,
+    350
+  ],
+  "sha256": "97f24f4e1d0a11cf3afe402ac24470976b2e2983f31035002841930fe638face",
+  "export": "vase-flower-sunflower.png",
+  "project": "vase-flower-sunflower.png"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "corn-stage-2",
+  "kind": "plant",
+  "original": "corn-stage-2-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    60,
+    16,
+    350,
+    365
+  ],
+  "sha256": "12f54c107ed8582c19ed3db8b1629ee36149c2d5812e9faa6f5f755395c1a555",
+  "export": "corn-stage-2.png",
+  "project": "corn-stage-2.png"
+}

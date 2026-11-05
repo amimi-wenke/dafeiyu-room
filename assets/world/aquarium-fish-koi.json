@@ -1,0 +1,30 @@
+{
+  "name": "aquarium-fish-koi",
+  "kind": "fish-sprite",
+  "original": "aquarium-fish-koi-original.png",
+  "originalSize": [
+    1301,
+    1209
+  ],
+  "size": [
+    96,
+    96
+  ],
+  "anchorPixels": [
+    48,
+    48
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    7,
+    27,
+    90,
+    76
+  ],
+  "sha256": "69e14fd0795d8f4db4b9f6a1c4b983065faa2d7ce90eaf39ffaa7d99142dc79d",
+  "export": "aquarium-fish-koi.png",
+  "project": "aquarium-fish-koi.png"
+}

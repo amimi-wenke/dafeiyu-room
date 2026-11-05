@@ -1,0 +1,30 @@
+{
+  "name": "flower-hydrangea",
+  "kind": "icon",
+  "original": "flower-hydrangea-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    43,
+    22,
+    230,
+    222
+  ],
+  "sha256": "08da08bfa4762d0152b9ea940ccc8a1c00d07b3539cbfd150ac294a8b667743b",
+  "export": "flower-hydrangea.png",
+  "project": "flower-hydrangea.png"
+}

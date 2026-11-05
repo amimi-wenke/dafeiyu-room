@@ -1,0 +1,30 @@
+{
+  "name": "overlay-overripe",
+  "kind": "tile",
+  "original": "overlay-overripe-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    104,
+    89,
+    319,
+    361
+  ],
+  "sha256": "7d23d79a9a25361a3ed42f29355325d46655c8b05c55007352bedcf5ae1f6e87",
+  "export": "overlay-overripe.png",
+  "project": "overlay-overripe.png"
+}

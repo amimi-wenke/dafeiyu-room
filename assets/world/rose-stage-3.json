@@ -1,0 +1,30 @@
+{
+  "name": "rose-stage-3",
+  "kind": "plant",
+  "original": "rose-stage-3-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    43,
+    34,
+    338,
+    364
+  ],
+  "sha256": "e419389569ce579d0dc9070ebe60f450d174754eac99cca30803dbf65e059336",
+  "export": "rose-stage-3.png",
+  "project": "rose-stage-3.png"
+}

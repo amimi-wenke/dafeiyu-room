@@ -1,0 +1,30 @@
+{
+  "name": "flower-stage-1",
+  "kind": "tile",
+  "original": "flower-stage-1-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    46,
+    124,
+    350,
+    355
+  ],
+  "sha256": "2be016f00b0eb26c78332d32a3901c8d5849c116c1a0c6d67db18392d1f81a94",
+  "export": "flower-stage-1.png",
+  "project": "flower-stage-1.png"
+}

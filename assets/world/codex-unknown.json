@@ -1,0 +1,30 @@
+{
+  "name": "codex-unknown",
+  "kind": "icon",
+  "original": "codex-unknown-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    30,
+    18,
+    238,
+    214
+  ],
+  "sha256": "4d3c824ce39152ee08b62c6cfc08060762e184f9591804b9bd8e893b0bfaefad",
+  "export": "codex-unknown.png",
+  "project": "codex-unknown.png"
+}

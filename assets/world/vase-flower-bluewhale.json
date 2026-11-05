@@ -1,0 +1,30 @@
+{
+  "name": "vase-flower-bluewhale",
+  "kind": "plant",
+  "original": "vase-flower-bluewhale-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    28,
+    21,
+    345,
+    368
+  ],
+  "sha256": "1b7d07318e7f0a32a6adb8a09553680f32fdbe5b3dd6474e4269a3399c78278a",
+  "export": "vase-flower-bluewhale.png",
+  "project": "vase-flower-bluewhale.png"
+}

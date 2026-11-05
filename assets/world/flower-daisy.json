@@ -1,0 +1,30 @@
+{
+  "name": "flower-daisy",
+  "kind": "icon",
+  "original": "flower-daisy-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    50,
+    44,
+    228,
+    234
+  ],
+  "sha256": "aa28bfb2a5ce4734f14d3d610a4ae47b26a3b9ef2600f4760d1d2486dbcacc77",
+  "export": "flower-daisy.png",
+  "project": "flower-daisy.png"
+}

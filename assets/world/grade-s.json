@@ -1,0 +1,30 @@
+{
+  "name": "grade-s",
+  "kind": "icon",
+  "original": "grade-s-edit-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    83,
+    96,
+    184,
+    205
+  ],
+  "sha256": "9e8159545ea5234a8eb3487d11a4b367dd28cf4c8300e1d40e1fe5ff592e906c",
+  "export": "grade-s.png",
+  "project": "grade-s.png"
+}

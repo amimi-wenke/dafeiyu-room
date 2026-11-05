@@ -1,0 +1,30 @@
+{
+  "name": "vase-flower-hydrangea",
+  "kind": "plant",
+  "original": "vase-flower-hydrangea-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    45,
+    26,
+    340,
+    355
+  ],
+  "sha256": "0a9c20682d766761559401c5dd59e4913a09ba564677f8663b6afeec01e7ca84",
+  "export": "vase-flower-hydrangea.png",
+  "project": "vase-flower-hydrangea.png"
+}

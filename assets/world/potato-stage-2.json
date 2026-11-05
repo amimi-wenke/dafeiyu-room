@@ -1,0 +1,30 @@
+{
+  "name": "potato-stage-2",
+  "kind": "plant",
+  "original": "potato-stage-2-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    23,
+    34,
+    342,
+    367
+  ],
+  "sha256": "4b7bff8bddaa3bb82aefb84d4ad404dda92431d649dcca9ec6c9c5bf3cc218e9",
+  "export": "potato-stage-2.png",
+  "project": "potato-stage-2.png"
+}

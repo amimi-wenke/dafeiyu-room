@@ -1,0 +1,30 @@
+{
+  "name": "flower-tulip",
+  "kind": "icon",
+  "original": "flower-tulip-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    57,
+    29,
+    203,
+    225
+  ],
+  "sha256": "7011437bc2aed768db68492ed5b5a02ce1e66603fe408c83eaa3f4e9c014c9ad",
+  "export": "flower-tulip.png",
+  "project": "flower-tulip.png"
+}

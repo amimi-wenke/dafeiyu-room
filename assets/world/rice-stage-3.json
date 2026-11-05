@@ -1,0 +1,30 @@
+{
+  "name": "rice-stage-3",
+  "kind": "plant",
+  "original": "rice-stage-3-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    16,
+    20,
+    362,
+    356
+  ],
+  "sha256": "fdfa68b5fcc822faf7b3e2a8ae1d7f8b9b321b51ad56fad12ee1cce4d19a6a53",
+  "export": "rice-stage-3.png",
+  "project": "rice-stage-3.png"
+}

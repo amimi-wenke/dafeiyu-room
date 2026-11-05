@@ -1,0 +1,30 @@
+{
+  "name": "item-bran",
+  "kind": "icon",
+  "original": "item-bran-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    39,
+    27,
+    230,
+    232
+  ],
+  "sha256": "fc5e37838c4e16273ace3e7fe5a5c07ca2950f4e255bc0875e796df365c4ec98",
+  "export": "item-bran.png",
+  "project": "item-bran.png"
+}

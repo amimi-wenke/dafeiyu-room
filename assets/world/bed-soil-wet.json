@@ -1,0 +1,30 @@
+{
+  "name": "bed-soil-wet",
+  "kind": "tile",
+  "original": "bed-soil-wet-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    27,
+    92,
+    362,
+    337
+  ],
+  "sha256": "14367a7f22fcc7300b3ba25fc9d5fc644fb7e9913e65a7e53bf8ae34d5f975e9",
+  "export": "bed-soil-wet.png",
+  "project": "bed-soil-wet.png"
+}

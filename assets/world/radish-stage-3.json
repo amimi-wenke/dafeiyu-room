@@ -1,0 +1,30 @@
+{
+  "name": "radish-stage-3",
+  "kind": "plant",
+  "original": "radish-stage-3-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    40,
+    30,
+    357,
+    354
+  ],
+  "sha256": "6f51d46ad521c82a9233bb4ba1ac01589b0756a338456abb6337feefb1531660",
+  "export": "radish-stage-3.png",
+  "project": "radish-stage-3.png"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "item-bait-glow",
+  "kind": "icon",
+  "original": "item-bait-glow-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    68,
+    38,
+    202,
+    238
+  ],
+  "sha256": "2b17fefa9da787c48c2536bf85266d82182182ccfbf229714b4b3aaff6be1f64",
+  "export": "item-bait-glow.png",
+  "project": "item-bait-glow.png"
+}

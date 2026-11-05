@@ -1,0 +1,30 @@
+{
+  "name": "sunflower-stage-2",
+  "kind": "plant",
+  "original": "sunflower-stage-2-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    47,
+    27,
+    315,
+    353
+  ],
+  "sha256": "b427ada1a19fccbdd79bd40afdabf70b934222542f766da92dd58af1b14c74ab",
+  "export": "sunflower-stage-2.png",
+  "project": "sunflower-stage-2.png"
+}

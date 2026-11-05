@@ -1,0 +1,30 @@
+{
+  "name": "wheat-stage-3",
+  "kind": "plant",
+  "original": "wheat-stage-3-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    37,
+    22,
+    349,
+    368
+  ],
+  "sha256": "a9a1dd7a06dc005bf0af10cb7ff6b300fd30919017884eba2649f99aab2923f4",
+  "export": "wheat-stage-3.png",
+  "project": "wheat-stage-3.png"
+}

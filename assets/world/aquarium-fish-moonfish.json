@@ -1,0 +1,30 @@
+{
+  "name": "aquarium-fish-moonfish",
+  "kind": "fish-sprite",
+  "original": "aquarium-fish-moonfish-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    96,
+    96
+  ],
+  "anchorPixels": [
+    48,
+    48
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    7,
+    19,
+    91,
+    73
+  ],
+  "sha256": "d4cf9af79e082b32825ca7eb2003dfc6f9257c5b97a76d15fd9ab957e792a42e",
+  "export": "aquarium-fish-moonfish.png",
+  "project": "aquarium-fish-moonfish.png"
+}

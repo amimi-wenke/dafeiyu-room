@@ -1,0 +1,30 @@
+{
+  "name": "fish-moonfish",
+  "kind": "icon",
+  "original": "fish-moonfish-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    28,
+    58,
+    233,
+    204
+  ],
+  "sha256": "e6c9142e2e1c5e24af30be8238298c43d90f91cef173a54ffbfa9c7f1163a81c",
+  "export": "fish-moonfish.png",
+  "project": "fish-moonfish.png"
+}

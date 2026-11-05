@@ -1,0 +1,30 @@
+{
+  "name": "seed-blank",
+  "kind": "icon",
+  "original": "seed-blank-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    23,
+    39,
+    222,
+    226
+  ],
+  "sha256": "ed1bc24c36c4fdf53a054d90c8abd54debcf1e2af3c85a2ec94bbbfb86093086",
+  "export": "seed-blank.png",
+  "project": "seed-blank.png"
+}

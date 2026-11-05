@@ -1,0 +1,30 @@
+{
+  "name": "overlay-fertilized",
+  "kind": "tile",
+  "original": "overlay-fertilized-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    73,
+    86,
+    320,
+    349
+  ],
+  "sha256": "384ab7f5806d0519ed0b2a93f3b3086cb3b40dd320a68f9f054823c46bbd85cd",
+  "export": "overlay-fertilized.png",
+  "project": "overlay-fertilized.png"
+}
