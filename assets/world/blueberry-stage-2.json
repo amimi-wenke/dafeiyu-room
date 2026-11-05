@@ -1,0 +1,30 @@
+{
+  "name": "blueberry-stage-2",
+  "kind": "plant",
+  "original": "blueberry-stage-2-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    36,
+    31,
+    358,
+    347
+  ],
+  "sha256": "e6c4e6411f4d80630f940b290ee25d91473991bcc3b646c6c0d1b5081fbba548",
+  "export": "blueberry-stage-2.png",
+  "project": "blueberry-stage-2.png"
+}

@@ -9,7 +9,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "crop-rice",
@@ -17,7 +18,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "crop-radish",
@@ -25,7 +27,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "crop-wheat",
@@ -33,7 +36,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "crop-tomato",
@@ -41,7 +45,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "crop-strawberry",
@@ -49,7 +54,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "crop-pumpkin",
@@ -57,7 +63,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "crop-watermelon",
@@ -65,7 +72,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "flower-daisy",
@@ -73,7 +81,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "flower-sunflower",
@@ -81,7 +90,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "flower-tulip",
@@ -89,7 +99,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "flower-lavender",
@@ -97,7 +108,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "flower-rose",
@@ -105,7 +117,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "flower-hydrangea",
@@ -113,7 +126,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "flower-bluewhale",
@@ -121,7 +135,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "fish-crucian",
@@ -129,7 +144,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "fish-crayfish",
@@ -137,7 +153,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "fish-carp",
@@ -145,7 +162,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "fish-goldfish",
@@ -153,7 +171,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "fish-grasscarp",
@@ -161,7 +180,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "fish-catfish",
@@ -169,7 +189,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "fish-koi",
@@ -177,7 +198,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "fish-moonfish",
@@ -185,7 +207,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "grade-s",
@@ -193,7 +216,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "grade-m",
@@ -201,7 +225,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "grade-l",
@@ -209,7 +234,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "grade-xl",
@@ -217,7 +243,8 @@
       "batch": 1,
       "width": 256,
       "height": 256,
-      "kind": "icon"
+      "kind": "icon",
+      "priority": -1
     },
     {
       "name": "seed-blank",
@@ -225,7 +252,8 @@
       "batch": 1,
       "kind": "icon",
       "width": 256,
-      "height": 256
+      "height": 256,
+      "priority": -1
     },
     {
       "name": "item-rice-bowl",
@@ -233,7 +261,8 @@
       "batch": 1,
       "kind": "icon",
       "width": 256,
-      "height": 256
+      "height": 256,
+      "priority": -1
     },
     {
       "name": "item-bran",
@@ -241,7 +270,8 @@
       "batch": 1,
       "kind": "icon",
       "width": 256,
-      "height": 256
+      "height": 256,
+      "priority": -1
     },
     {
       "name": "item-bait",
@@ -249,7 +279,8 @@
       "batch": 1,
       "kind": "icon",
       "width": 256,
-      "height": 256
+      "height": 256,
+      "priority": -1
     },
     {
       "name": "item-bait-pro",
@@ -257,7 +288,8 @@
       "batch": 1,
       "kind": "icon",
       "width": 256,
-      "height": 256
+      "height": 256,
+      "priority": -1
     },
     {
       "name": "item-bait-glow",
@@ -265,7 +297,8 @@
       "batch": 1,
       "kind": "icon",
       "width": 256,
-      "height": 256
+      "height": 256,
+      "priority": -1
     },
     {
       "name": "item-fishmeal",
@@ -273,7 +306,8 @@
       "batch": 1,
       "kind": "icon",
       "width": 256,
-      "height": 256
+      "height": 256,
+      "priority": -1
     },
     {
       "name": "item-compost",
@@ -281,7 +315,8 @@
       "batch": 1,
       "kind": "icon",
       "width": 256,
-      "height": 256
+      "height": 256,
+      "priority": -1
     },
     {
       "name": "item-flower-tea",
@@ -289,7 +324,8 @@
       "batch": 1,
       "kind": "icon",
       "width": 256,
-      "height": 256
+      "height": 256,
+      "priority": -1
     },
     {
       "name": "item-vase",
@@ -297,7 +333,8 @@
       "batch": 1,
       "kind": "icon",
       "width": 256,
-      "height": 256
+      "height": 256,
+      "priority": -1
     },
     {
       "name": "rarity-common",
@@ -305,7 +342,8 @@
       "batch": 1,
       "kind": "icon",
       "width": 256,
-      "height": 256
+      "height": 256,
+      "priority": -1
     },
     {
       "name": "rarity-uncommon",
@@ -313,7 +351,8 @@
       "batch": 1,
       "kind": "icon",
       "width": 256,
-      "height": 256
+      "height": 256,
+      "priority": -1
     },
     {
       "name": "rarity-rare",
@@ -321,7 +360,8 @@
       "batch": 1,
       "kind": "icon",
       "width": 256,
-      "height": 256
+      "height": 256,
+      "priority": -1
     },
     {
       "name": "rarity-legendary",
@@ -329,7 +369,8 @@
       "batch": 1,
       "kind": "icon",
       "width": 256,
-      "height": 256
+      "height": 256,
+      "priority": -1
     },
     {
       "name": "codex-unknown",
@@ -337,7 +378,53 @@
       "batch": 1,
       "kind": "icon",
       "width": 256,
-      "height": 256
+      "height": 256,
+      "priority": -1
+    },
+    {
+      "name": "crop-potato",
+      "subject": "a small group of rounded golden brown potatoes, one cut showing pale cream flesh",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256,
+      "priority": -1
+    },
+    {
+      "name": "crop-corn",
+      "subject": "two ears of golden yellow sweet corn with fresh green husks partly peeled back",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256,
+      "priority": -1
+    },
+    {
+      "name": "crop-eggplant",
+      "subject": "two glossy deep purple eggplants with fresh sage green calyxes",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256,
+      "priority": -1
+    },
+    {
+      "name": "crop-blueberry",
+      "subject": "a small cluster of ripe indigo blueberries with pale bloom and a few green leaves",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256,
+      "priority": -1
+    },
+    {
+      "name": "crop-grape",
+      "subject": "a plump bunch of ripe purple blue grapes with a fresh lobed grape leaf and curled tendril",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256,
+      "priority": -1
     },
     {
       "name": "plot-soil-dry",
@@ -345,7 +432,8 @@
       "batch": 2,
       "kind": "tile",
       "width": 384,
-      "height": 384
+      "height": 384,
+      "priority": -1
     },
     {
       "name": "plot-soil-wet",
@@ -357,7 +445,8 @@
       "depends": [
         "plot-soil-dry"
       ],
-      "edit": true
+      "edit": true,
+      "priority": -1
     },
     {
       "name": "bed-soil-dry",
@@ -365,7 +454,8 @@
       "batch": 2,
       "kind": "tile",
       "width": 384,
-      "height": 384
+      "height": 384,
+      "priority": -1
     },
     {
       "name": "bed-soil-wet",
@@ -377,7 +467,8 @@
       "depends": [
         "bed-soil-dry"
       ],
-      "edit": true
+      "edit": true,
+      "priority": -1
     },
     {
       "name": "crop-stage-1",
@@ -385,7 +476,8 @@
       "batch": 2,
       "kind": "tile",
       "width": 384,
-      "height": 384
+      "height": 384,
+      "priority": -1
     },
     {
       "name": "flower-stage-1",
@@ -393,7 +485,8 @@
       "batch": 2,
       "kind": "tile",
       "width": 384,
-      "height": 384
+      "height": 384,
+      "priority": -1
     },
     {
       "name": "overlay-thirsty",
@@ -401,7 +494,8 @@
       "batch": 2,
       "kind": "tile",
       "width": 384,
-      "height": 384
+      "height": 384,
+      "priority": -1
     },
     {
       "name": "overlay-ready",
@@ -409,7 +503,8 @@
       "batch": 2,
       "kind": "tile",
       "width": 384,
-      "height": 384
+      "height": 384,
+      "priority": -1
     },
     {
       "name": "overlay-overripe",
@@ -417,7 +512,8 @@
       "batch": 2,
       "kind": "tile",
       "width": 384,
-      "height": 384
+      "height": 384,
+      "priority": -1
     },
     {
       "name": "overlay-fertilized",
@@ -425,7 +521,8 @@
       "batch": 2,
       "kind": "tile",
       "width": 384,
-      "height": 384
+      "height": 384,
+      "priority": -1
     },
     {
       "name": "pond-idle",
@@ -433,7 +530,8 @@
       "batch": 2,
       "kind": "tile",
       "width": 384,
-      "height": 384
+      "height": 384,
+      "priority": -1
     },
     {
       "name": "pond-waiting",
@@ -445,7 +543,8 @@
       "depends": [
         "pond-idle"
       ],
-      "edit": true
+      "edit": true,
+      "priority": -1
     },
     {
       "name": "pond-bite",
@@ -457,7 +556,8 @@
       "depends": [
         "pond-idle"
       ],
-      "edit": true
+      "edit": true,
+      "priority": -1
     },
     {
       "name": "room-aquarium",
@@ -465,7 +565,8 @@
       "batch": 3,
       "kind": "prop",
       "width": 384,
-      "height": 384
+      "height": 384,
+      "priority": -1
     },
     {
       "name": "aquarium-fish-crucian",
@@ -476,7 +577,8 @@
       "height": 96,
       "depends": [
         "fish-crucian"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "aquarium-fish-crayfish",
@@ -487,7 +589,8 @@
       "height": 96,
       "depends": [
         "fish-crayfish"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "aquarium-fish-carp",
@@ -498,7 +601,8 @@
       "height": 96,
       "depends": [
         "fish-carp"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "aquarium-fish-goldfish",
@@ -509,7 +613,8 @@
       "height": 96,
       "depends": [
         "fish-goldfish"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "aquarium-fish-grasscarp",
@@ -520,7 +625,8 @@
       "height": 96,
       "depends": [
         "fish-grasscarp"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "aquarium-fish-catfish",
@@ -531,7 +637,8 @@
       "height": 96,
       "depends": [
         "fish-catfish"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "aquarium-fish-koi",
@@ -542,7 +649,8 @@
       "height": 96,
       "depends": [
         "fish-koi"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "aquarium-fish-moonfish",
@@ -553,7 +661,8 @@
       "height": 96,
       "depends": [
         "fish-moonfish"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "room-vase",
@@ -561,7 +670,8 @@
       "batch": 3,
       "kind": "prop",
       "width": 384,
-      "height": 384
+      "height": 384,
+      "priority": -1
     },
     {
       "name": "vase-flower-daisy",
@@ -572,7 +682,8 @@
       "height": 384,
       "depends": [
         "flower-daisy"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "vase-flower-sunflower",
@@ -583,7 +694,8 @@
       "height": 384,
       "depends": [
         "flower-sunflower"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "vase-flower-tulip",
@@ -594,7 +706,8 @@
       "height": 384,
       "depends": [
         "flower-tulip"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "vase-flower-lavender",
@@ -605,7 +718,8 @@
       "height": 384,
       "depends": [
         "flower-lavender"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "vase-flower-rose",
@@ -616,7 +730,8 @@
       "height": 384,
       "depends": [
         "flower-rose"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "vase-flower-hydrangea",
@@ -627,7 +742,8 @@
       "height": 384,
       "depends": [
         "flower-hydrangea"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "vase-flower-bluewhale",
@@ -638,7 +754,8 @@
       "height": 384,
       "depends": [
         "flower-bluewhale"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "room-shell-jar",
@@ -646,7 +763,8 @@
       "batch": 3,
       "kind": "prop",
       "width": 384,
-      "height": 384
+      "height": 384,
+      "priority": -1
     },
     {
       "name": "room-codex-book",
@@ -654,7 +772,8 @@
       "batch": 3,
       "kind": "prop",
       "width": 384,
-      "height": 384
+      "height": 384,
+      "priority": -1
     },
     {
       "name": "rice-stage-2",
@@ -665,7 +784,8 @@
       "height": 384,
       "depends": [
         "crop-rice"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "rice-stage-3",
@@ -676,7 +796,8 @@
       "height": 384,
       "depends": [
         "crop-rice"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "radish-stage-2",
@@ -687,7 +808,8 @@
       "height": 384,
       "depends": [
         "crop-radish"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "radish-stage-3",
@@ -698,7 +820,8 @@
       "height": 384,
       "depends": [
         "crop-radish"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "wheat-stage-2",
@@ -709,7 +832,8 @@
       "height": 384,
       "depends": [
         "crop-wheat"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "wheat-stage-3",
@@ -720,7 +844,8 @@
       "height": 384,
       "depends": [
         "crop-wheat"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "tomato-stage-2",
@@ -731,7 +856,8 @@
       "height": 384,
       "depends": [
         "crop-tomato"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "tomato-stage-3",
@@ -742,7 +868,8 @@
       "height": 384,
       "depends": [
         "crop-tomato"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "strawberry-stage-2",
@@ -753,7 +880,8 @@
       "height": 384,
       "depends": [
         "crop-strawberry"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "strawberry-stage-3",
@@ -764,7 +892,8 @@
       "height": 384,
       "depends": [
         "crop-strawberry"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "pumpkin-stage-2",
@@ -775,7 +904,8 @@
       "height": 384,
       "depends": [
         "crop-pumpkin"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "pumpkin-stage-3",
@@ -786,7 +916,8 @@
       "height": 384,
       "depends": [
         "crop-pumpkin"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "watermelon-stage-2",
@@ -797,7 +928,8 @@
       "height": 384,
       "depends": [
         "crop-watermelon"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "watermelon-stage-3",
@@ -808,7 +940,8 @@
       "height": 384,
       "depends": [
         "crop-watermelon"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "daisy-stage-2",
@@ -819,7 +952,8 @@
       "height": 384,
       "depends": [
         "flower-daisy"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "daisy-stage-3",
@@ -830,7 +964,8 @@
       "height": 384,
       "depends": [
         "flower-daisy"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "sunflower-stage-2",
@@ -841,7 +976,8 @@
       "height": 384,
       "depends": [
         "flower-sunflower"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "sunflower-stage-3",
@@ -852,7 +988,8 @@
       "height": 384,
       "depends": [
         "flower-sunflower"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "tulip-stage-2",
@@ -863,7 +1000,8 @@
       "height": 384,
       "depends": [
         "flower-tulip"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "tulip-stage-3",
@@ -874,7 +1012,8 @@
       "height": 384,
       "depends": [
         "flower-tulip"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "lavender-stage-2",
@@ -885,7 +1024,8 @@
       "height": 384,
       "depends": [
         "flower-lavender"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "lavender-stage-3",
@@ -896,7 +1036,8 @@
       "height": 384,
       "depends": [
         "flower-lavender"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "rose-stage-2",
@@ -907,7 +1048,8 @@
       "height": 384,
       "depends": [
         "flower-rose"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "rose-stage-3",
@@ -918,7 +1060,8 @@
       "height": 384,
       "depends": [
         "flower-rose"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "hydrangea-stage-2",
@@ -929,7 +1072,8 @@
       "height": 384,
       "depends": [
         "flower-hydrangea"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "hydrangea-stage-3",
@@ -940,7 +1084,8 @@
       "height": 384,
       "depends": [
         "flower-hydrangea"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "bluewhale-stage-2",
@@ -951,7 +1096,8 @@
       "height": 384,
       "depends": [
         "flower-bluewhale"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "bluewhale-stage-3",
@@ -962,175 +1108,8 @@
       "height": 384,
       "depends": [
         "flower-bluewhale"
-      ]
-    },
-    {
-      "name": "plant",
-      "subject": "crouching comfortably, placing one small seed into the ground with her right hand, little seed packet in her left hand, happy focused expression; no ground or field",
-      "batch": 5,
-      "kind": "character",
-      "width": 1240,
-      "height": 1269,
-      "targetHeight": 1080
-    },
-    {
-      "name": "water-can",
-      "subject": "standing and leaning slightly forward, holding a little pale blue watering can with both hands, pouring a short gentle stream downward to the side, attentive smile; no plant or ground",
-      "batch": 5,
-      "kind": "character",
-      "width": 1240,
-      "height": 1269,
-      "targetHeight": 1237
-    },
-    {
-      "name": "harvest",
-      "subject": "standing holding a woven harvest basket filled with ripe tomatoes, rice panicles and blue flowers at waist height, pleased expression",
-      "batch": 5,
-      "kind": "character",
-      "width": 1240,
-      "height": 1269,
-      "targetHeight": 1237
-    },
-    {
-      "name": "fertilize",
-      "subject": "standing sprinkling a few little fertilizer granules downward from a small wooden scoop, holding a little cream fertilizer pouch in the other hand; no field or ground",
-      "batch": 5,
-      "kind": "character",
-      "width": 1240,
-      "height": 1269,
-      "targetHeight": 1237
-    },
-    {
-      "name": "fish-cast",
-      "subject": "standing in a gentle three-quarter side pose, casting a slender short fishing rod upward diagonally, fishing line loops near the rod, focused cheerful expression; rod completely inside frame and not excessively wide",
-      "batch": 5,
-      "kind": "character",
-      "width": 1240,
-      "height": 1269,
-      "targetHeight": 1237
-    },
-    {
-      "name": "fish-wait",
-      "subject": "sitting patiently on a small pale blue folding stool, holding a short fishing rod diagonally forward, relaxed gentle smile; shoes touch the ground plane, no pond or backdrop",
-      "batch": 5,
-      "kind": "character",
-      "width": 1240,
-      "height": 1269,
-      "targetHeight": 1080
-    },
-    {
-      "name": "fish-reel",
-      "subject": "standing leaning back just slightly, both hands gripping a small fishing rod with gently bent tip, excited focused eyes, pulling up a short line; no pond",
-      "batch": 5,
-      "kind": "character",
-      "width": 1240,
-      "height": 1269,
-      "targetHeight": 1237
-    },
-    {
-      "name": "fish-show",
-      "subject": "standing proudly holding up one freshly caught little silver-blue fish with a short fishing line in one hand, other hand raised happily, sparkling delighted eyes",
-      "batch": 5,
-      "kind": "character",
-      "width": 1240,
-      "height": 1269,
-      "targetHeight": 1237
-    },
-    {
-      "name": "sell",
-      "subject": "standing extending a small cream produce paper bag forward with both hands as if handing it to a customer across an unseen stall counter, friendly smile; no other person, no counter or stall",
-      "batch": 5,
-      "kind": "character",
-      "width": 1240,
-      "height": 1269,
-      "targetHeight": 1237
-    },
-    {
-      "name": "cook",
-      "subject": "standing beside ONE small pale-blue rice cooker, scooping freshly cooked WHITE RICE into a little blue bowl, very happy expression; rice cooker is a compact prop beside her feet, no table or kitchen",
-      "batch": 5,
-      "kind": "character",
-      "width": 1240,
-      "height": 1269,
-      "targetHeight": 1237
-    },
-    {
-      "name": "brew",
-      "subject": "standing preparing flower tea, holding a little pale-blue teapot to pour tea into a matching cup on a small handheld tray, gentle focused smile; no table or kitchen",
-      "batch": 5,
-      "kind": "character",
-      "width": 1240,
-      "height": 1269,
-      "targetHeight": 1237
-    },
-    {
-      "name": "cheer-giant",
-      "subject": "standing in an excited joyful cheering pose with both arms raised, tail curved with delight, a small giant blue ribbon award with a star in one hand, open happy mouth; no floating words or background effects",
-      "batch": 5,
-      "kind": "character",
-      "width": 1240,
-      "height": 1269,
-      "targetHeight": 1237
-    },
-    {
-      "name": "outdoor-pond-day",
-      "subject": "A cozy outdoor FISHING POND belonging to the blue whale maid cottage. Still luminous blue pond spans center and right, curved banks of smooth pastel stones, a few lily leaves at far edge, soft willows and blue hydrangea at rear. Small pale-blue timber fishing dock extends from the FRONT-LEFT shore into water. The unobstructed character standing/seated fishing point is near (27%,76%); clear open WATER for bobber near (54%,58%). Wide walkable bank across lower foreground. A small path at the far LEFT edge leads back toward the field and cottage. NO character, NO fishing rod, NO float, NO large visible fish. Peaceful semi-isometric diorama with soft depth. Bright soft late-morning daylight, gentle blue sky, creamy sunlight and soft blue shadows, calm cheerful warmth.",
-      "batch": 6,
-      "kind": "scene",
-      "width": 1672,
-      "height": 941,
-      "area": "pond",
-      "phase": "day"
-    },
-    {
-      "name": "outdoor-pond-morning",
-      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to DAWN: distinct cool misty cyan-lavender early morning, low warm peach horizon, dewdrop freshness, soft long blue shadows. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
-      "batch": 6,
-      "kind": "scene",
-      "width": 1672,
-      "height": 941,
-      "area": "pond",
-      "phase": "morning",
-      "depends": [
-        "outdoor-pond-day"
       ],
-      "edit": true
-    },
-    {
-      "name": "outdoor-pond-dusk",
-      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to DUSK: visibly warm late sunset, amber light from one low side, mauve-pink sky, long soft purple shadows, cozy small lanterns just beginning to glow. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
-      "batch": 6,
-      "kind": "scene",
-      "width": 1672,
-      "height": 941,
-      "area": "pond",
-      "phase": "dusk",
-      "depends": [
-        "outdoor-pond-day"
-      ],
-      "edit": true
-    },
-    {
-      "name": "outdoor-pond-night",
-      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to NIGHT: distinctly darker deep indigo night sky and water, soft silver moonlight, warm small garden lamps glowing, restrained firefly points, readable shapes without making it daytime. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
-      "batch": 6,
-      "kind": "scene",
-      "width": 1672,
-      "height": 941,
-      "area": "pond",
-      "phase": "night",
-      "depends": [
-        "outdoor-pond-day"
-      ],
-      "edit": true
-    },
-    {
-      "name": "crop-potato",
-      "subject": "a small group of rounded golden brown potatoes, one cut showing pale cream flesh",
-      "batch": 1,
-      "kind": "icon",
-      "width": 256,
-      "height": 256
+      "priority": -1
     },
     {
       "name": "potato-stage-2",
@@ -1141,7 +1120,8 @@
       "height": 384,
       "depends": [
         "crop-potato"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "potato-stage-3",
@@ -1152,15 +1132,8 @@
       "height": 384,
       "depends": [
         "crop-potato"
-      ]
-    },
-    {
-      "name": "crop-corn",
-      "subject": "two ears of golden yellow sweet corn with fresh green husks partly peeled back",
-      "batch": 1,
-      "kind": "icon",
-      "width": 256,
-      "height": 256
+      ],
+      "priority": -1
     },
     {
       "name": "corn-stage-2",
@@ -1171,7 +1144,8 @@
       "height": 384,
       "depends": [
         "crop-corn"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "corn-stage-3",
@@ -1182,15 +1156,8 @@
       "height": 384,
       "depends": [
         "crop-corn"
-      ]
-    },
-    {
-      "name": "crop-eggplant",
-      "subject": "two glossy deep purple eggplants with fresh sage green calyxes",
-      "batch": 1,
-      "kind": "icon",
-      "width": 256,
-      "height": 256
+      ],
+      "priority": -1
     },
     {
       "name": "eggplant-stage-2",
@@ -1201,7 +1168,8 @@
       "height": 384,
       "depends": [
         "crop-eggplant"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "eggplant-stage-3",
@@ -1212,15 +1180,8 @@
       "height": 384,
       "depends": [
         "crop-eggplant"
-      ]
-    },
-    {
-      "name": "crop-blueberry",
-      "subject": "a small cluster of ripe indigo blueberries with pale bloom and a few green leaves",
-      "batch": 1,
-      "kind": "icon",
-      "width": 256,
-      "height": 256
+      ],
+      "priority": -1
     },
     {
       "name": "blueberry-stage-2",
@@ -1231,7 +1192,8 @@
       "height": 384,
       "depends": [
         "crop-blueberry"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "blueberry-stage-3",
@@ -1242,15 +1204,8 @@
       "height": 384,
       "depends": [
         "crop-blueberry"
-      ]
-    },
-    {
-      "name": "crop-grape",
-      "subject": "a plump bunch of ripe purple blue grapes with a fresh lobed grape leaf and curled tendril",
-      "batch": 1,
-      "kind": "icon",
-      "width": 256,
-      "height": 256
+      ],
+      "priority": -1
     },
     {
       "name": "grape-stage-2",
@@ -1261,7 +1216,8 @@
       "height": 384,
       "depends": [
         "crop-grape"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "grape-stage-3",
@@ -1272,21 +1228,84 @@
       "height": 384,
       "depends": [
         "crop-grape"
-      ]
+      ],
+      "priority": -1
     },
     {
       "name": "outdoor-field-day",
-      "subject": "A cozy outdoor FIELD beside the blue whale maid cottage, combining a vegetable FARM on the LEFT half and a FLOWER GARDEN on the RIGHT half in ONE continuous scene. Small blue-roof cottage with its front door in the distant upper-left, a pale stone path from the door into the field. LEFT HALF: EXACTLY EIGHT EMPTY low isometric rectangular tilled dark-earth farm beds with cool blue borders, FOUR columns by TWO rows; back row centers about (10%,56%),(20%,56%),(30%,56%),(40%,56%), front row about (8%,74%),(19%,74%),(30%,74%),(41%,74%). RIGHT HALF: EXACTLY EIGHT EMPTY round flower beds with cream stone rims and soft dark soil, FOUR columns by TWO rows; back row centers about (58%,56%),(68%,56%),(78%,56%),(88%,56%), front row about (59%,74%),(70%,74%),(81%,74%),(92%,74%). CENTER BACK near (49%,42%): one small cream wooden produce stall with a pale blue awning and an empty wooden crate (where she sells). A path on the far right edge leads off-screen toward a pond. Wide walkable pastel stone paths between and in front of beds. NO crops, NO flowers in beds, NO characters, NO text. Peaceful semi-isometric diorama with soft depth. Bright soft late-morning daylight, gentle blue sky, creamy sunlight and soft blue shadows, calm cheerful warmth.",
+      "subject": "A SINGLE coherent cozy FIELD combining agriculture and flowers. Wide high three-quarter camera, full scenery not a floating cutaway. The LEFT half has EXACTLY EIGHT EMPTY tilled crop plots, arranged FOUR columns by TWO rows. The RIGHT half has EXACTLY EIGHT EMPTY flower beds, also FOUR columns by TWO rows. There are SIXTEEN empty planting beds total: eight on EACH side of a broad central walking lane. All plots are completely visible, clearly separated by walkable paths, with flat empty dark soil and pale blue low edging, NO plants inside. Back crop row centers about (0.10,0.57),(0.21,0.57),(0.32,0.57),(0.43,0.57); front crop row (0.10,0.78),(0.21,0.78),(0.32,0.78),(0.43,0.78). Back flower row (0.59,0.57),(0.70,0.57),(0.81,0.57),(0.92,0.57); front flower row (0.59,0.78),(0.70,0.78),(0.81,0.78),(0.92,0.78). These are invisible layout guides, do not draw markers. A small cream and indigo striped market stall sits at CENTER BACK above the beds, clear counter and standing space. The blue whale cottage doorway is visible in the upper LEFT distance, with a path reaching it. A clear path exits on the RIGHT toward the pond. Decorative blue hydrangeas and soft trees are only at outer edges; keep central and foreground paths clear. Exactly 16 plots, do not merge or omit plots. Bright soft late-morning daylight, soft blue sky, creamy sunlight and periwinkle shadows. Soft hand-painted blue semi-isometric storybook world matching the room. No characters or text.",
       "batch": 6,
       "kind": "scene",
       "width": 1672,
       "height": 941,
       "area": "field",
-      "phase": "day"
+      "phase": "day",
+      "priority": 0
+    },
+    {
+      "name": "outdoor-pond-day",
+      "subject": "A cozy blue fishing POND, still luminous blue water spanning center and right, curved smooth pastel stone bank, far-edge lilies, rear soft willows and blue hydrangea. A small pale-blue timber dock extends from FRONT LEFT shore into water, with clear space for a small character and a separate empty spot where her folding stool can be overlaid. Standing fishing foot position near (0.29,0.77), seated foot position near (0.33,0.78); open bobber water near (0.55,0.58). A clearly walkable path exits LEFT back to the field. No stool, character, rod, float or large fish painted into scene. Broad clear lower shoreline. Bright soft late-morning daylight, soft blue sky, creamy sunlight and periwinkle shadows. Soft hand-painted blue semi-isometric storybook world matching the room. No characters or text.",
+      "batch": 6,
+      "kind": "scene",
+      "width": 1672,
+      "height": 941,
+      "area": "pond",
+      "phase": "day",
+      "priority": 0
+    },
+    {
+      "name": "plant",
+      "subject": "crouching comfortably, placing one small seed into the ground with her right hand, little seed packet in her left hand, happy focused expression; no ground or field",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1080,
+      "priority": 1
+    },
+    {
+      "name": "water-can",
+      "subject": "standing and leaning slightly forward, holding a little pale blue watering can with both hands, pouring a short gentle stream downward to the side, attentive smile; no plant or ground",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237,
+      "priority": 1
+    },
+    {
+      "name": "harvest",
+      "subject": "standing holding a woven harvest basket filled with ripe tomatoes, rice panicles and blue flowers at waist height, pleased expression",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237,
+      "priority": 1
+    },
+    {
+      "name": "fish-wait",
+      "subject": "sitting patiently on a small pale blue folding stool, holding a short fishing rod diagonally forward, relaxed gentle smile; shoes touch the ground plane, no pond or backdrop",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1080,
+      "priority": 1
+    },
+    {
+      "name": "fish-show",
+      "subject": "standing proudly holding up one freshly caught little silver-blue fish with a short fishing line in one hand, other hand raised happily, sparkling delighted eyes",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237,
+      "priority": 1
     },
     {
       "name": "outdoor-field-morning",
-      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to DAWN: distinct cool misty cyan-lavender early morning, low warm peach horizon, dewdrop freshness, soft long blue shadows. Preserve exact 16:9 scene composition and all sixteen empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
+      "subject": "Use the provided DAY scene as the EXACT edit target. Change ONLY sky, lighting and atmospheric color to DAWN: visibly cool cyan-lavender early morning, low pale peach horizon, delicate mist and soft long blue shadows. Keep camera, framing, perspective and every object edge, all planting plots, paths, stall, stones and dock in the EXACT same positions. For the field preserve all SIXTEEN empty plots, 8 crop plots on left and 8 flower beds on right. Do not add or remove objects, plants, furniture or characters. No text or UI. Opaque background.",
       "batch": 6,
       "kind": "scene",
       "width": 1672,
@@ -1296,11 +1315,12 @@
       "depends": [
         "outdoor-field-day"
       ],
-      "edit": true
+      "edit": true,
+      "priority": 2
     },
     {
       "name": "outdoor-field-dusk",
-      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to DUSK: warm apricot and rose sunset glow from the right, lilac sky, long soft shadows, first warm lantern glints. Preserve exact 16:9 scene composition and all sixteen empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
+      "subject": "Use the provided DAY scene as the EXACT edit target. Change ONLY sky, lighting and atmospheric color to DUSK: warm low amber sunset, mauve pink sky and long purple shadows, existing lamps beginning to glow. Keep camera, framing, perspective and every object edge, all planting plots, paths, stall, stones and dock in the EXACT same positions. For the field preserve all SIXTEEN empty plots, 8 crop plots on left and 8 flower beds on right. Do not add or remove objects, plants, furniture or characters. No text or UI. Opaque background.",
       "batch": 6,
       "kind": "scene",
       "width": 1672,
@@ -1310,11 +1330,12 @@
       "depends": [
         "outdoor-field-day"
       ],
-      "edit": true
+      "edit": true,
+      "priority": 2
     },
     {
       "name": "outdoor-field-night",
-      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to NIGHT: deep calm indigo night, soft moonlight from upper right, a few stars, warm small lantern pools of light near paths, readable silhouettes. Preserve exact 16:9 scene composition and all sixteen empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
+      "subject": "Use the provided DAY scene as the EXACT edit target. Change ONLY sky, lighting and atmospheric color to NIGHT: distinctly dark indigo sky, silver moonlight, warm existing lamps glowing, clearly night but readable pathways. Keep camera, framing, perspective and every object edge, all planting plots, paths, stall, stones and dock in the EXACT same positions. For the field preserve all SIXTEEN empty plots, 8 crop plots on left and 8 flower beds on right. Do not add or remove objects, plants, furniture or characters. No text or UI. Opaque background.",
       "batch": 6,
       "kind": "scene",
       "width": 1672,
@@ -1324,7 +1345,113 @@
       "depends": [
         "outdoor-field-day"
       ],
-      "edit": true
+      "edit": true,
+      "priority": 2
+    },
+    {
+      "name": "outdoor-pond-morning",
+      "subject": "Use the provided DAY scene as the EXACT edit target. Change ONLY sky, lighting and atmospheric color to DAWN: visibly cool cyan-lavender early morning, low pale peach horizon, delicate mist and soft long blue shadows. Keep camera, framing, perspective and every object edge, all planting plots, paths, stall, stones and dock in the EXACT same positions. For the field preserve all SIXTEEN empty plots, 8 crop plots on left and 8 flower beds on right. Do not add or remove objects, plants, furniture or characters. No text or UI. Opaque background.",
+      "batch": 6,
+      "kind": "scene",
+      "width": 1672,
+      "height": 941,
+      "area": "pond",
+      "phase": "morning",
+      "depends": [
+        "outdoor-pond-day"
+      ],
+      "edit": true,
+      "priority": 2
+    },
+    {
+      "name": "outdoor-pond-dusk",
+      "subject": "Use the provided DAY scene as the EXACT edit target. Change ONLY sky, lighting and atmospheric color to DUSK: warm low amber sunset, mauve pink sky and long purple shadows, existing lamps beginning to glow. Keep camera, framing, perspective and every object edge, all planting plots, paths, stall, stones and dock in the EXACT same positions. For the field preserve all SIXTEEN empty plots, 8 crop plots on left and 8 flower beds on right. Do not add or remove objects, plants, furniture or characters. No text or UI. Opaque background.",
+      "batch": 6,
+      "kind": "scene",
+      "width": 1672,
+      "height": 941,
+      "area": "pond",
+      "phase": "dusk",
+      "depends": [
+        "outdoor-pond-day"
+      ],
+      "edit": true,
+      "priority": 2
+    },
+    {
+      "name": "outdoor-pond-night",
+      "subject": "Use the provided DAY scene as the EXACT edit target. Change ONLY sky, lighting and atmospheric color to NIGHT: distinctly dark indigo sky, silver moonlight, warm existing lamps glowing, clearly night but readable pathways. Keep camera, framing, perspective and every object edge, all planting plots, paths, stall, stones and dock in the EXACT same positions. For the field preserve all SIXTEEN empty plots, 8 crop plots on left and 8 flower beds on right. Do not add or remove objects, plants, furniture or characters. No text or UI. Opaque background.",
+      "batch": 6,
+      "kind": "scene",
+      "width": 1672,
+      "height": 941,
+      "area": "pond",
+      "phase": "night",
+      "depends": [
+        "outdoor-pond-day"
+      ],
+      "edit": true,
+      "priority": 2
+    },
+    {
+      "name": "fertilize",
+      "subject": "standing sprinkling a few little fertilizer granules downward from a small wooden scoop, holding a little cream fertilizer pouch in the other hand; no field or ground",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237,
+      "priority": 3
+    },
+    {
+      "name": "fish-cast",
+      "subject": "standing in a gentle three-quarter side pose, casting a slender short fishing rod upward diagonally, fishing line loops near the rod, focused cheerful expression; rod completely inside frame and not excessively wide",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237,
+      "priority": 3
+    },
+    {
+      "name": "fish-reel",
+      "subject": "standing leaning back just slightly, both hands gripping a small fishing rod with gently bent tip, excited focused eyes, pulling up a short line; no pond",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237,
+      "priority": 3
+    },
+    {
+      "name": "cook",
+      "subject": "standing beside ONE small pale-blue rice cooker, scooping freshly cooked WHITE RICE into a little blue bowl, very happy expression; rice cooker is a compact prop beside her feet, no table or kitchen",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237,
+      "priority": 3
+    },
+    {
+      "name": "brew",
+      "subject": "standing preparing flower tea, holding a little pale-blue teapot to pour tea into a matching cup on a small handheld tray, gentle focused smile; no table or kitchen",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237,
+      "priority": 3
+    },
+    {
+      "name": "cheer-giant",
+      "subject": "standing in an excited joyful cheering pose with both arms raised, tail curved with delight, a small giant blue ribbon award with a star in one hand, open happy mouth; no floating words or background effects",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237,
+      "priority": 3
     },
     {
       "name": "fish-empty",
@@ -1333,7 +1460,8 @@
       "kind": "character",
       "width": 1240,
       "height": 1269,
-      "targetHeight": 1080
+      "targetHeight": 1080,
+      "priority": 3
     },
     {
       "name": "arrange-flower",
@@ -1342,7 +1470,8 @@
       "kind": "character",
       "width": 1240,
       "height": 1269,
-      "targetHeight": 1237
+      "targetHeight": 1237,
+      "priority": 3
     },
     {
       "name": "aquarium-keep",
@@ -1351,7 +1480,8 @@
       "kind": "character",
       "width": 1240,
       "height": 1269,
-      "targetHeight": 1237
+      "targetHeight": 1237,
+      "priority": 3
     },
     {
       "name": "go-out",
@@ -1360,7 +1490,8 @@
       "kind": "character",
       "width": 1240,
       "height": 1269,
-      "targetHeight": 1237
+      "targetHeight": 1237,
+      "priority": 3
     },
     {
       "name": "come-back",
@@ -1369,75 +1500,94 @@
       "kind": "character",
       "width": 1240,
       "height": 1269,
-      "targetHeight": 1237
+      "targetHeight": 1237,
+      "priority": 3
     },
     {
       "name": "nav-room",
-      "subject": "a tiny cozy blue-roof cottage with a warm lit window",
+      "subject": "ONE tiny cozy blue whale cottage with a visible welcoming doorway, cream trim and periwinkle roof; simplified menu icon, no separate room interior",
       "batch": 7,
       "kind": "icon",
       "width": 256,
-      "height": 256
+      "height": 256,
+      "priority": 4
     },
     {
       "name": "nav-field",
-      "subject": "a small sprout in a tilled soil patch beside one little pink flower",
+      "subject": "ONE unified tiny field emblem with a small leafy crop patch on left and blooming blue flowers on right, pale blue low edging, representing farming and flowers together",
       "batch": 7,
       "kind": "icon",
       "width": 256,
-      "height": 256
+      "height": 256,
+      "priority": 4
     },
     {
       "name": "nav-pond",
-      "subject": "a small round pond with a red and white fishing float and gentle ripples",
+      "subject": "ONE tiny rounded blue pond with a little pale blue fishing dock and a small red white float, simple recognizable menu emblem",
       "batch": 7,
       "kind": "icon",
       "width": 256,
-      "height": 256
+      "height": 256,
+      "priority": 4
     },
     {
       "name": "nav-outing",
-      "subject": "a small pale blue shoulder bag with a tiny map and a little paper boat charm",
+      "subject": "ONE little blue travel backpack with a cream shell charm and a tiny rolled map, friendly outdoor stroll menu emblem",
       "batch": 7,
       "kind": "icon",
       "width": 256,
-      "height": 256
+      "height": 256,
+      "priority": 4
     },
     {
       "name": "away-postcard-town",
-      "subject": "a soft illustrated postcard: the blue whale maid girl strolling down a quiet pastel seaside town street with a paper bag of bread, small and seen from behind three-quarter, no text",
+      "subject": "Scenic illustrated postcard sent home during an outing: a charming quiet pastel blue seaside town lane with cream stone houses, periwinkle tiled roofs and a little shell fountain. Full bleed scenery, no character, no border, no lettering, no UI. Same soft blue storybook world as the room.",
       "batch": 7,
-      "kind": "postcard",
+      "kind": "scene",
       "width": 1024,
       "height": 640,
-      "optional": true
+      "priority": 5,
+      "postcard": true
     },
     {
-      "name": "away-postcard-sea",
-      "subject": "a soft illustrated postcard: the blue whale maid girl sitting on a low sea wall watching gentle waves at golden hour, small in frame, no text",
+      "name": "away-postcard-seaside",
+      "subject": "Scenic illustrated postcard sent home during an outing: a tranquil pale sand beach, luminous turquoise sea, pearly shells, gentle waves and a blue whale shaped cloud. Full bleed scenery, no character, no border, no lettering, no UI. Same soft blue storybook world as the room.",
       "batch": 7,
-      "kind": "postcard",
+      "kind": "scene",
       "width": 1024,
       "height": 640,
-      "optional": true
+      "priority": 5,
+      "postcard": true
     },
     {
-      "name": "away-postcard-flowers",
-      "subject": "a soft illustrated postcard: the blue whale maid girl walking through a wide field of blue hydrangeas under a pale sky, small in frame, no text",
+      "name": "away-postcard-flower-sea",
+      "subject": "Scenic illustrated postcard sent home during an outing: a broad gently rolling sea of blue lavender hydrangeas, white daisies and soft blue flowers beneath a sunny sky, narrow winding path. Full bleed scenery, no character, no border, no lettering, no UI. Same soft blue storybook world as the room.",
       "batch": 7,
-      "kind": "postcard",
+      "kind": "scene",
       "width": 1024,
       "height": 640,
-      "optional": true
+      "priority": 5,
+      "postcard": true
     },
     {
-      "name": "away-postcard-night",
-      "subject": "a soft illustrated postcard: the blue whale maid girl at a cozy night market stall holding a warm cup, string lights, small in frame, no text",
+      "name": "away-postcard-night-market",
+      "subject": "Scenic illustrated postcard sent home during an outing: a cozy small night market with indigo striped awnings, warm paper lanterns, cream stalls and subtle shell decorations under a deep blue night sky. Full bleed scenery, no character, no border, no lettering, no UI. Same soft blue storybook world as the room.",
       "batch": 7,
-      "kind": "postcard",
+      "kind": "scene",
       "width": 1024,
       "height": 640,
-      "optional": true
+      "priority": 5,
+      "postcard": true
+    },
+    {
+      "name": "away-postcard-market",
+      "subject": "Scenic illustrated postcard sent home during a market trip: a cozy little town market with pastel awnings, crates of fresh vegetables, flower buckets and seed packets on a cream stall. Full bleed scenery, no character, no border, no lettering, no UI. Same soft blue storybook world as the room.",
+      "batch": 7,
+      "kind": "scene",
+      "width": 1024,
+      "height": 640,
+      "postcard": true,
+      "priority": 5
     }
   ],
   "saved": [
@@ -1490,6 +1640,7 @@
   ],
   "revision": {
     "at": "2026-11-05",
-    "note": "field = farm + flower garden in one scene; pond separate; shop and path scenes dropped; added behaviors, door-menu icons and outing postcards"
-  }
+    "note": "field = farm + flower garden in one scene; pond separate; shop and path scenes dropped; added behaviors, door-menu icons and outing postcards; shop happens on market trips (outing), field stall and sell pose removed, market postcard added"
+  },
+  "briefRevision": "two outdoor locations, sixteen field plots, seventeen actions, navigation and four postcards"
 }

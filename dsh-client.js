@@ -366,7 +366,7 @@
   const wishInput = worldPanel.querySelector("#world-wish-text");
   const areaNames = { room: "小屋", farm: "农场", garden: "花园", pond: "池塘" };
   const phaseNames = { morning: "清晨", day: "白天", dusk: "黄昏", night: "夜晚" };
-  const activityNames = { idle: "休息", explore: "散步", plant: "播种", water: "浇水", harvest: "收获", fertilize: "施肥", fishing: "钓鱼", cook: "煮饭", brew: "泡茶", feed: "照顾鱼缸", decorate: "插花" };
+  const activityNames = { market: "在集市买卖", outing: "出门了", idle: "休息", explore: "散步", plant: "播种", water: "浇水", harvest: "收获", fertilize: "施肥", fishing: "钓鱼", cook: "煮饭", brew: "泡茶", feed: "照顾鱼缸", decorate: "插花" };
   const itemNames = { "rice-bowl": "白米饭", bran: "米糠", bait: "普通鱼饵", "bait-pro": "高级鱼饵", "bait-glow": "夜光鱼饵", fishmeal: "鱼肥", compost: "有机肥", "flower-tea": "花茶" };
   const icons = { crop: "🌾", flower: "🌸", fish: "🐟" };
   const rarityNames = { common: "普通", uncommon: "少见", rare: "稀有", legendary: "传说" };
@@ -475,7 +475,7 @@
   }
   function renderShop() {
     const shop = extra?.shop; if (!shop) return [el("p", { textContent: "正在打开商店…" })];
-    return [el("p", { className: "dsh-note", textContent: `商店等级 ${shop.tier}` + (shop.nextTierAt != null ? `，图鉴达到 ${shop.nextTierAt} 种上新` : "，全部商品已解锁") + `。她有 ${lastWorld?.shells ?? "?"} 贝壳，买什么由她决定。` }),
+    return [el("p", { className: "dsh-note", textContent: `商店等级 ${shop.tier}` + (shop.nextTierAt != null ? `，图鉴达到 ${shop.nextTierAt} 种上新` : "，全部商品已解锁") + `。她有 ${lastWorld?.shells ?? "?"} 贝壳。买卖都在镇上集市，她需要时会自己出门去，买什么由她决定。` }),
       ...shop.items.map(i => el("p", { textContent: `${i.name} · ${i.price} 贝壳` }))];
   }
   function renderCodex() {
@@ -542,7 +542,7 @@
   const poseFallback = { walk: "walk", "fish-wait": "idle", "fish-reel": "idle", "fish-show": "idle", "fish-empty": "idle" };
   let layout = {
     field: { farm: [[10, 56], [20, 56], [30, 56], [40, 56], [8, 74], [19, 74], [30, 74], [41, 74]],
-      garden: [[58, 56], [68, 56], [78, 56], [88, 56], [59, 74], [70, 74], [81, 74], [92, 74]], stall: [49, 42], idle: [50, 82] },
+      garden: [[58, 56], [68, 56], [78, 56], [88, 56], [59, 74], [70, 74], [81, 74], [92, 74]], idle: [50, 82] },
     pond: { stand: [27, 76], bobber: [54, 58], idle: [24, 82] },
   };
   // layout.json from the art pipeline may use 0..1 or percent coordinates; normalise to percent.
@@ -552,7 +552,6 @@
     const f = json.field || json.outdoor?.field, p = json.pond || json.outdoor?.pond;
     if (Array.isArray(f?.farm) && f.farm.length) layout.field.farm = f.farm.map(pct);
     if (Array.isArray(f?.garden) && f.garden.length) layout.field.garden = f.garden.map(pct);
-    if (pct(f?.stall)) layout.field.stall = pct(f.stall);
     if (pct(p?.stand)) layout.pond.stand = pct(p.stand);
     if (pct(p?.bobber)) layout.pond.bobber = pct(p.bobber);
   }).catch(() => {});
@@ -610,14 +609,12 @@
     if (w.milestones.some(m => m.type === "giant" && w.serverTime - m.at < 120000)) return "cheer-giant";
     if (w.fishing) return w.fishing.state === "bite" ? "fish-reel" : "fish-wait";
     if (fresh && recent.action === "collect") return /跑/.test(recent.text) ? "fish-empty" : "fish-show";
-    if (fresh && recent.action === "sell") return "sell";
     return { plant: "plant", water: "water-can", harvest: "harvest", fertilize: "fertilize", explore: "walk" }[w.activity] || "idle";
   }
   function actorSpot(w, scene) {
     if (scene === "pond") return w.fishing ? layout.pond.stand : layout.pond.idle;
     const last = w.log.filter(e => (e.area === "farm" || e.area === "garden") && Number.isInteger(e.slot)).at(-1);
     const at = last && w.location === last.area ? layout.field[last.area]?.[last.slot] : null;
-    if (poseFor(w) === "sell") return layout.field.stall;
     return at ? [at[0] - 3, at[1] + 5] : layout.field.idle;
   }
   function navButtons(w) {
@@ -636,8 +633,6 @@
     sceneItems.replaceChildren();
     if (scene === "field") {
       for (const area of ["farm", "garden"]) layout.field[area].forEach((at, slot) => { if (at) sceneItems.append(plotNode(area, w[area][slot], slot, at, slot < w[area].length)); });
-      const stall = el("span", { className: "scene-label", textContent: "小摊" }); stall.style.left = layout.field.stall[0] + "%"; stall.style.top = layout.field.stall[1] + "%";
-      sceneItems.append(stall);
     } else if (scene === "pond" && w.fishing) {
       sceneItems.append(img([w.fishing.state === "bite" ? "pond-bite" : "pond-waiting"], "scene-bobber", { left: layout.pond.bobber[0] + "%", top: layout.pond.bobber[1] + "%" }));
     }
@@ -654,7 +649,7 @@
     } else {
       sceneActor.hidden = true; sceneBubble.hidden = true;
       const where = sceneOf(w.location);
-      const text = where === "away" ? "她出门了，大约 " + time(w.outing?.until) + " 回来" : "她现在不在这里，在" + sceneNames[where];
+      const text = where === "away" ? awayText(w) : "她现在不在这里，在" + sceneNames[where];
       const action = where === "away" ? el("button", { type: "button", textContent: "叫她回来" }) : el("button", { type: "button", textContent: "去看她" });
       action.onclick = () => where === "away" ? void outing(false) : showScene(where);
       sceneCaption.replaceChildren(el("span", { textContent: text }), action);
@@ -678,6 +673,7 @@
   doorMenu.setAttribute("role", "menu");
   stage?.append(doorMenu);
   function closeDoorMenu() { doorMenu.hidden = true; }
+  const awayText = w => w.outing?.purpose === "market" ? "她去镇上集市买卖东西了，大约 " + time(w.outing.until) + " 前回来" : "她出门了，大约 " + time(w.outing?.until) + " 回来";
   function openDoorMenu() {
     const w = lastWorld;
     const where = w ? sceneOf(w.location) : "room";
@@ -686,7 +682,7 @@
       b.append(img([icon], "door-icon"), el("span", { textContent: label }));
       b.onclick = run; return b;
     };
-    const status = !w ? "还没连上 DSH" : where === "away" ? "她出门了，大约 " + time(w.outing?.until) + " 回来" : "她现在在" + sceneNames[where] + (w.autonomous ? "" : "（歇息中）");
+    const status = !w ? "还没连上 DSH" : where === "away" ? awayText(w) : "她现在在" + sceneNames[where] + (w.autonomous ? "" : "（歇息中）");
     doorMenu.replaceChildren(el("p", { className: "door-status", textContent: status }),
       item("nav-room", "看看小屋", () => showScene("room")),
       item("nav-field", "去田园看看", () => showScene("field")),
@@ -714,10 +710,10 @@
   function onWorld(w) {
     if (!w || w.version !== 2) return;
     const where = sceneOf(w.location);
-    if (awayLabel && where !== "room") awayLabel.textContent = where === "away" ? "大肥鱼出门啦，大约 " + time(w.outing?.until) + " 回来" : where === "field" ? "她在田园忙" : "她在池塘钓鱼";
+    if (awayLabel && where !== "room") awayLabel.textContent = where === "away" ? (w.outing?.purpose === "market" ? "大肥鱼去集市了，大约 " + time(w.outing.until) + " 前回来" : "大肥鱼出门啦，大约 " + time(w.outing?.until) + " 回来") : where === "field" ? "她在田园忙" : "她在池塘钓鱼";
     if (returnHome) returnHome.textContent = where === "away" ? "叫她回来" : where === "room" ? "叫她回家" : "去看看她";
     // While she is out, show one of her postcards if the art exists.
-    const cards = ["town", "sea", "flowers", "night"];
+    const cards = w.outing?.purpose === "market" ? ["market"] : ["town", "seaside", "flower-sea", "night-market"];
     if (where === "away" && awayNote && !postcard) {
       postcard = img(["away-postcard-" + cards[Math.floor((w.outing?.since || 0) / 60000) % cards.length]], "away-postcard");
       awayNote.prepend(postcard);

@@ -1,0 +1,30 @@
+{
+  "name": "crop-grape",
+  "kind": "icon",
+  "original": "crop-grape-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    41,
+    26,
+    219,
+    225
+  ],
+  "sha256": "9574e658d13918fc643ea07b9b0068d5dbb721ea50a6d2f67baf4030103f22d4",
+  "export": "crop-grape.png",
+  "project": "crop-grape.png"
+}

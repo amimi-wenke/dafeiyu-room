@@ -1,0 +1,30 @@
+{
+  "name": "crop-blueberry",
+  "kind": "icon",
+  "original": "crop-blueberry-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    47,
+    60,
+    228,
+    202
+  ],
+  "sha256": "f3814bd4d6b863fb19dd7f7fd1ddd76030936155d41da93ffbf62a99f6b50c40",
+  "export": "crop-blueberry.png",
+  "project": "crop-blueberry.png"
+}

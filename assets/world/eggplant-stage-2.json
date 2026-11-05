@@ -1,0 +1,30 @@
+{
+  "name": "eggplant-stage-2",
+  "kind": "plant",
+  "original": "eggplant-stage-2-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    35,
+    33,
+    362,
+    355
+  ],
+  "sha256": "53aab39c1853dd3809dea6773a5315f4789b8170cb9199c289464a27350ea9b9",
+  "export": "eggplant-stage-2.png",
+  "project": "eggplant-stage-2.png"
+}

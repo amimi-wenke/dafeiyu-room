@@ -1,0 +1,30 @@
+{
+  "name": "grape-stage-3",
+  "kind": "plant",
+  "original": "grape-stage-3-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    384,
+    384
+  ],
+  "anchorPixels": [
+    192,
+    368
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.9583333333333334
+  ],
+  "alphaBounds": [
+    60,
+    16,
+    348,
+    366
+  ],
+  "sha256": "701924a3f29bd0c8d08650eff3f4a7c686a34ae38611961c0ef8d96af11d532f",
+  "export": "grape-stage-3.png",
+  "project": "grape-stage-3.png"
+}
