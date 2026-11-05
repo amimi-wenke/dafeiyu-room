@@ -1,0 +1,30 @@
+{
+  "name": "crop-radish",
+  "kind": "icon",
+  "original": "crop-radish-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    48,
+    34,
+    240,
+    231
+  ],
+  "sha256": "9b81bf9dc3495228903eee115c81745bcdd300ec2ad1978c168d943924064469",
+  "export": "crop-radish.png",
+  "project": "crop-radish.png"
+}

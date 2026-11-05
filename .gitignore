@@ -1,0 +1,10 @@
+node_modules/
+release/
+dist/
+*.log
+*.pid
+*.tmp
+.env
+.env.*
+userdata/
+backups/

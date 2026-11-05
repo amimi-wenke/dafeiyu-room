@@ -1,0 +1,1333 @@
+{
+  "version": 1,
+  "sourceSpec": "docs/xiaotiandi-art-assets.md",
+  "outputDir": "小天地美术-20261105-首轮",
+  "jobs": [
+    {
+      "name": "icon-shell",
+      "subject": "One pearlescent pale blue scallop seashell",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "crop-rice",
+      "subject": "a tied bundle of ripe rice panicles, gently curved gold-lavender grain heads, slender sage-green stems, indigo ribbon, unmistakable rice ears not wheat",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "crop-radish",
+      "subject": "one plump white daikon radish with a small rounded root tip and lush mint green leaves",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "crop-wheat",
+      "subject": "a small tied bunch of ripe golden wheat ears, distinguishable long wheat awns, pale blue ribbon",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "crop-tomato",
+      "subject": "one round ripe coral-red tomato, fresh sage green calyx, tiny dewdrop highlights",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "crop-strawberry",
+      "subject": "one plump ripe strawberry with tiny golden seeds, mint-green leaf crown",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "crop-pumpkin",
+      "subject": "one round squat ripe pumpkin with warm muted orange segmented rind, curled sage-green stem",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "crop-watermelon",
+      "subject": "one whole round watermelon with dark teal and mint stripes beside ONE triangular coral-pink cut wedge, sparse dark seeds",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "flower-daisy",
+      "subject": "one delicate blooming white daisy with buttery yellow center, short sage-green stem and two small leaves",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "flower-sunflower",
+      "subject": "one blooming sunflower, round brown-gold center, soft buttery golden petals, short green stem and leaves",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "flower-tulip",
+      "subject": "one elegant pale blue-lilac tulip flower with cupped petals, short sage-green stem and two leaves",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "flower-lavender",
+      "subject": "a small neat bunch of blooming lavender spikes in muted purple, sage-green stems",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "flower-rose",
+      "subject": "one fully blooming dusty rose pink rose with layered petals and a short sage green leafy stem",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "flower-hydrangea",
+      "subject": "one rounded blue and lavender hydrangea flower head, many tiny four-petal blossoms, two broad leaves",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "flower-bluewhale",
+      "subject": "one original fantasy blue-whale flower: graceful luminous sky-blue petals shaped like paired whale-tail flukes, pale gold stamen, dark blue teardrop center, short leafy mint stem; recognizably a flower not an actual whale",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "fish-crucian",
+      "subject": "one cute crucian carp, short deep oval silvery-blue body, small neat fins, blunt mouth, clearly a freshwater fish; side view facing left",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "fish-crayfish",
+      "subject": "one small cute freshwater crayfish, muted coral red shell with cool blue-purple shadows, two claws, segmented curled tail, tiny antennae, whole body visible",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "fish-carp",
+      "subject": "one common carp, stout golden bronze body with blue-lavender shadows, small barbels, long dorsal fin, rounded scales; side view facing left",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "fish-goldfish",
+      "subject": "one fancy goldfish, warm apricot-orange body with flowing lavender-edged double fan tail and graceful fins; side view facing left",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "fish-grasscarp",
+      "subject": "one grass carp, long streamlined jade-grey body, dark olive-teal back, large distinct scales, forked modest tail; side view facing left",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "fish-catfish",
+      "subject": "one friendly freshwater catfish, smooth dark slate-blue long body with broad rounded head and slender whisker barbels, no scales; side view facing left",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "fish-koi",
+      "subject": "one elegant white koi carp with coral-red and indigo patches, flowing pale blue fins and small barbels; side view facing left",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "fish-moonfish",
+      "subject": "one original fantasy moonlight fish, streamlined crescent-tailed fish with translucent icy blue body and opalescent fins, tiny moon marking, subtle contained bioluminescent glow, alpha semi-transparent fins; side view facing left",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "grade-s",
+      "subject": "one small-size achievement emblem, a little round indigo medallion with ONE tiny pearly star in the middle and a small leaf, modest simple design, NO letters or words",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "grade-m",
+      "subject": "one medium-size achievement emblem, a rounded silver-blue medallion with TWO small pearly stars and a tiny cream ribbon, NO letters or words",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "grade-l",
+      "subject": "one large-size achievement emblem, a scalloped cornflower-blue medallion with THREE pearly stars and restrained gold trim, NO letters or words",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "grade-xl",
+      "subject": "one giant-size achievement emblem, ornate blue-purple scalloped medallion with a large radiant pearly star, tiny crown and gold twinkles closely around it, premium but readable at small size, NO letters or words",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon"
+    },
+    {
+      "name": "seed-blank",
+      "subject": "ONE small folded kraft-paper seed packet with a pale blue ribbon seal and a clean cream BLANK rectangular label for the program to overlay a plant icon; no writing, no tiny symbols",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "item-rice-bowl",
+      "subject": "ONE little blue-and-white porcelain bowl filled with fluffy freshly cooked WHITE RICE, two tiny restrained steam curls, a small whale motif on the bowl",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "item-bran",
+      "subject": "ONE small blue cloth sack opened to reveal pale beige rice bran flakes, tiny wooden scoop resting at its mouth",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "item-bait",
+      "subject": "ONE small corked clear glass jar containing ordinary tan fishing bait pellets, simple blue twine",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "item-bait-pro",
+      "subject": "ONE premium small glass bait jar with a blue-gold lid and attractive golden bait pellets, one tiny gold star seal without writing",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "item-bait-glow",
+      "subject": "ONE small clear blue glass bait jar with an indigo lid, filled with softly glowing aqua lure beads; light confined within glass, no background halo",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "item-fishmeal",
+      "subject": "ONE small cream paper fertilizer pouch filled with pale blue-grey fishmeal granules, a simple blue fish emblem on its front, no text",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "item-compost",
+      "subject": "ONE small open beige fabric compost sack with dark rich brown compost and a tiny green leaf emblem, no text",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "item-flower-tea",
+      "subject": "ONE elegant translucent pale blue teacup of warm lavender flower tea on a matching scalloped saucer, a few tiny petals floating in tea",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "item-vase",
+      "subject": "ONE rounded pale blue and cream porcelain vase with a small indigo whale emblem and thin gold rim, empty open mouth, no flowers",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "rarity-common",
+      "subject": "ONE compact triangular corner ribbon badge, matte pearl grey-blue, one tiny simple circular dot, rounded edges, no text",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "rarity-uncommon",
+      "subject": "ONE compact triangular corner ribbon badge, soft cornflower blue with a small pearl diamond, rounded edges, no text",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "rarity-rare",
+      "subject": "ONE compact triangular corner ribbon badge, luminous lavender-purple with a small silver star, restrained gold edge, no text",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "rarity-legendary",
+      "subject": "ONE compact triangular corner ribbon badge, indigo and antique gold, a brilliant opalescent star and two tiny restrained glints, no text",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "codex-unknown",
+      "subject": "ONE mysterious rounded silhouette of an undiscovered little creature in pale periwinkle with a single large cream question mark centered, a neat standalone icon not a card",
+      "batch": 1,
+      "kind": "icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "plot-soil-dry",
+      "subject": "ONE empty raised farm soil tile, a wide low ISOMETRIC diamond of warm muted dry brown tilled soil with four subtle parallel furrows, lavender-blue stone edging; no plants",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384
+    },
+    {
+      "name": "plot-soil-wet",
+      "subject": "ONE empty raised farm soil tile, same broad low ISOMETRIC diamond, dark moist tilled soil with subtle tiny watered glints and four furrows, lavender-blue stone edging; no plants",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384
+    },
+    {
+      "name": "bed-soil-dry",
+      "subject": "ONE empty rounded rectangular ISOMETRIC flower-bed tile, slightly dry rich brown soil, scalloped pale blue painted wooden frame; no plants",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384
+    },
+    {
+      "name": "bed-soil-wet",
+      "subject": "ONE empty rounded rectangular ISOMETRIC flower-bed tile, dark damp soil with restrained water glints, scalloped pale blue painted wooden frame; no plants",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384
+    },
+    {
+      "name": "crop-stage-1",
+      "subject": "ONE tiny young crop sprout, two slender fresh sage-green seed leaves and one central blade, short stem and tiny roots ending at bottom center; no pot, no soil tile",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384
+    },
+    {
+      "name": "flower-stage-1",
+      "subject": "ONE tiny young flower seedling, two rounded mint-green leaves and a central pale bud of foliage, short stem ending at bottom center; no bloom, no pot, no soil tile",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384
+    },
+    {
+      "name": "overlay-thirsty",
+      "subject": "ONE small floating pale blue rounded speech bubble with a dark indigo outlined water drop inside, single clear thirst indicator, no lettering",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384
+    },
+    {
+      "name": "overlay-ready",
+      "subject": "ONE little cluster of three soft four-point cream-gold star sparkles, a compact harvest-ready effect, no background glow",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384
+    },
+    {
+      "name": "overlay-overripe",
+      "subject": "ONE delicate muted lavender wilted leaf drooping down, one small curved droop motion mark; a gentle overripe indicator, not rotten or disgusting",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384
+    },
+    {
+      "name": "overlay-fertilized",
+      "subject": "ONE compact cluster of three tiny mint green and gold glowing motes with a small clean leaf in their middle, fertilizer buff effect",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384
+    },
+    {
+      "name": "pond-idle",
+      "subject": "ONE small self-contained ISOMETRIC oval garden pond tile, blue water with gentle concentric ripples, smooth lavender-grey pebble edge, two little water-lily leaves near its far edge. Calm empty water, NO bobber or splash, no creatures. Floating tile isolated on transparency.",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384
+    },
+    {
+      "name": "pond-waiting",
+      "subject": "Preserve the reference pond tile shape, camera, stones, plants, colors and all geometry exactly. Change ONLY the center water: add a tiny upright red-and-white fishing float with a short fine fishing line coming toward the lower-left edge, small quiet ripple. No splash, no fish. Transparent outside tile.",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "pond-idle"
+      ],
+      "edit": true
+    },
+    {
+      "name": "pond-bite",
+      "subject": "Preserve the reference pond tile shape, camera, stones, plants, colors and all geometry exactly. Change ONLY the center water: red-and-white fishing float half pulled under at a slant, a little ring of energetic clear blue splashes, a few droplets above the water. No fish exposed. Transparent outside tile.",
+      "batch": 2,
+      "kind": "tile",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "pond-idle"
+      ],
+      "edit": true
+    },
+    {
+      "name": "room-aquarium",
+      "subject": "ONE small empty elegant rectangular aquarium matching the blue whale bedroom's existing aquarium, 3/4 view from slightly above with front and right side visible, pale blue glass, cream-gold rim, blue gravel, two restrained coral decorations and small aquatic plants at bottom corners, a big clear empty swimming space through middle, NO fish, NO cabinet or floor. Isolated modular room prop.",
+      "batch": 3,
+      "kind": "prop",
+      "width": 384,
+      "height": 384
+    },
+    {
+      "name": "aquarium-fish-crucian",
+      "subject": "ONE small aquarium sprite of exactly this species: one cute crucian carp, short deep oval silvery-blue body, small neat fins, blunt mouth, clearly a freshwater fish; side view facing left. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.",
+      "batch": 3,
+      "kind": "fish-sprite",
+      "width": 96,
+      "height": 96,
+      "depends": [
+        "fish-crucian"
+      ]
+    },
+    {
+      "name": "aquarium-fish-crayfish",
+      "subject": "ONE small aquarium sprite of exactly this species: one small cute freshwater crayfish, muted coral red shell with cool blue-purple shadows, two claws, segmented curled tail, tiny antennae, whole body visible. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.",
+      "batch": 3,
+      "kind": "fish-sprite",
+      "width": 96,
+      "height": 96,
+      "depends": [
+        "fish-crayfish"
+      ]
+    },
+    {
+      "name": "aquarium-fish-carp",
+      "subject": "ONE small aquarium sprite of exactly this species: one common carp, stout golden bronze body with blue-lavender shadows, small barbels, long dorsal fin, rounded scales; side view facing left. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.",
+      "batch": 3,
+      "kind": "fish-sprite",
+      "width": 96,
+      "height": 96,
+      "depends": [
+        "fish-carp"
+      ]
+    },
+    {
+      "name": "aquarium-fish-goldfish",
+      "subject": "ONE small aquarium sprite of exactly this species: one fancy goldfish, warm apricot-orange body with flowing lavender-edged double fan tail and graceful fins; side view facing left. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.",
+      "batch": 3,
+      "kind": "fish-sprite",
+      "width": 96,
+      "height": 96,
+      "depends": [
+        "fish-goldfish"
+      ]
+    },
+    {
+      "name": "aquarium-fish-grasscarp",
+      "subject": "ONE small aquarium sprite of exactly this species: one grass carp, long streamlined jade-grey body, dark olive-teal back, large distinct scales, forked modest tail; side view facing left. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.",
+      "batch": 3,
+      "kind": "fish-sprite",
+      "width": 96,
+      "height": 96,
+      "depends": [
+        "fish-grasscarp"
+      ]
+    },
+    {
+      "name": "aquarium-fish-catfish",
+      "subject": "ONE small aquarium sprite of exactly this species: one friendly freshwater catfish, smooth dark slate-blue long body with broad rounded head and slender whisker barbels, no scales; side view facing left. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.",
+      "batch": 3,
+      "kind": "fish-sprite",
+      "width": 96,
+      "height": 96,
+      "depends": [
+        "fish-catfish"
+      ]
+    },
+    {
+      "name": "aquarium-fish-koi",
+      "subject": "ONE small aquarium sprite of exactly this species: one elegant white koi carp with coral-red and indigo patches, flowing pale blue fins and small barbels; side view facing left. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.",
+      "batch": 3,
+      "kind": "fish-sprite",
+      "width": 96,
+      "height": 96,
+      "depends": [
+        "fish-koi"
+      ]
+    },
+    {
+      "name": "aquarium-fish-moonfish",
+      "subject": "ONE small aquarium sprite of exactly this species: one original fantasy moonlight fish, streamlined crescent-tailed fish with translucent icy blue body and opalescent fins, tiny moon marking, subtle contained bioluminescent glow, alpha semi-transparent fins; side view facing left. Flat SIDE-ON view facing left, body horizontal, fins and tail distinct, minimal small-size detail, no ornaments, no water/background/bubbles, no shadow. Keep the inventory species colors.",
+      "batch": 3,
+      "kind": "fish-sprite",
+      "width": 96,
+      "height": 96,
+      "depends": [
+        "fish-moonfish"
+      ]
+    },
+    {
+      "name": "room-vase",
+      "subject": "ONE small empty pale blue porcelain tabletop vase with ivory scalloped rim, small indigo whale motif and subtle gold trim, open mouth clearly visible, 3/4 slightly top-down view matching bedroom, NO flowers, NO table. Modular room prop.",
+      "batch": 3,
+      "kind": "prop",
+      "width": 384,
+      "height": 384
+    },
+    {
+      "name": "vase-flower-daisy",
+      "subject": "ONE little bouquet for a tabletop vase of this exact flower: one delicate blooming white daisy with buttery yellow center, short sage-green stem and two small leaves. A neat cluster of three to five matching blossoms and small green leaves, bare stems gather to a narrow point at bottom center to insert into a separate vase. NO vase, NO ribbon, NO soil. Match the flower species appearance in the reference.",
+      "batch": 3,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-daisy"
+      ]
+    },
+    {
+      "name": "vase-flower-sunflower",
+      "subject": "ONE little bouquet for a tabletop vase of this exact flower: one blooming sunflower, round brown-gold center, soft buttery golden petals, short green stem and leaves. A neat cluster of three to five matching blossoms and small green leaves, bare stems gather to a narrow point at bottom center to insert into a separate vase. NO vase, NO ribbon, NO soil. Match the flower species appearance in the reference.",
+      "batch": 3,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-sunflower"
+      ]
+    },
+    {
+      "name": "vase-flower-tulip",
+      "subject": "ONE little bouquet for a tabletop vase of this exact flower: one elegant pale blue-lilac tulip flower with cupped petals, short sage-green stem and two leaves. A neat cluster of three to five matching blossoms and small green leaves, bare stems gather to a narrow point at bottom center to insert into a separate vase. NO vase, NO ribbon, NO soil. Match the flower species appearance in the reference.",
+      "batch": 3,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-tulip"
+      ]
+    },
+    {
+      "name": "vase-flower-lavender",
+      "subject": "ONE little bouquet for a tabletop vase of this exact flower: a small neat bunch of blooming lavender spikes in muted purple, sage-green stems. A neat cluster of three to five matching blossoms and small green leaves, bare stems gather to a narrow point at bottom center to insert into a separate vase. NO vase, NO ribbon, NO soil. Match the flower species appearance in the reference.",
+      "batch": 3,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-lavender"
+      ]
+    },
+    {
+      "name": "vase-flower-rose",
+      "subject": "ONE little bouquet for a tabletop vase of this exact flower: one fully blooming dusty rose pink rose with layered petals and a short sage green leafy stem. A neat cluster of three to five matching blossoms and small green leaves, bare stems gather to a narrow point at bottom center to insert into a separate vase. NO vase, NO ribbon, NO soil. Match the flower species appearance in the reference.",
+      "batch": 3,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-rose"
+      ]
+    },
+    {
+      "name": "vase-flower-hydrangea",
+      "subject": "ONE little bouquet for a tabletop vase of this exact flower: one rounded blue and lavender hydrangea flower head, many tiny four-petal blossoms, two broad leaves. A neat cluster of three to five matching blossoms and small green leaves, bare stems gather to a narrow point at bottom center to insert into a separate vase. NO vase, NO ribbon, NO soil. Match the flower species appearance in the reference.",
+      "batch": 3,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-hydrangea"
+      ]
+    },
+    {
+      "name": "vase-flower-bluewhale",
+      "subject": "ONE little bouquet for a tabletop vase of this exact flower: one original fantasy blue-whale flower: graceful luminous sky-blue petals shaped like paired whale-tail flukes, pale gold stamen, dark blue teardrop center, short leafy mint stem; recognizably a flower not an actual whale. A neat cluster of three to five matching blossoms and small green leaves, bare stems gather to a narrow point at bottom center to insert into a separate vase. NO vase, NO ribbon, NO soil. Match the flower species appearance in the reference.",
+      "batch": 3,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-bluewhale"
+      ]
+    },
+    {
+      "name": "room-shell-jar",
+      "subject": "ONE small clear rounded glass keepsake jar with a little pale blue ribbon and cream ceramic lid, HALF FULL of pearly pale-blue seashells, the upper half is empty clear glass, tiny restrained gold glint, 3/4 view; NO floor or background.",
+      "batch": 3,
+      "kind": "prop",
+      "width": 384,
+      "height": 384
+    },
+    {
+      "name": "room-codex-book",
+      "subject": "ONE thick closed indigo storybook field guide, upright leaning slightly at 3/4 angle, pale gold corner decorations, centered elegant tiny whale-and-leaf embossed emblem, cream page edges and pale blue ribbon bookmark, NO words or letters, NO shelf.",
+      "batch": 3,
+      "kind": "prop",
+      "width": 384,
+      "height": 384
+    },
+    {
+      "name": "rice-stage-2",
+      "subject": "ONE rooted plant sprite: a young clump of green rice plants with several upright narrow leaves, no grain heads. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-rice"
+      ]
+    },
+    {
+      "name": "rice-stage-3",
+      "subject": "ONE rooted plant sprite: a ripe rooted clump of rice plants, gracefully bowed golden rice panicles and green leaves. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-rice"
+      ]
+    },
+    {
+      "name": "radish-stage-2",
+      "subject": "ONE rooted plant sprite: a young rosette of fresh green daikon leaves, a tiny white root crown at its base. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-radish"
+      ]
+    },
+    {
+      "name": "radish-stage-3",
+      "subject": "ONE rooted plant sprite: a mature rooted daikon plant, lush green leaves above a fat white radish shoulder protruding just above the ground line. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-radish"
+      ]
+    },
+    {
+      "name": "wheat-stage-2",
+      "subject": "ONE rooted plant sprite: a young tuft of straight green wheat stalks and narrow leaves, only small unripe green heads. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-wheat"
+      ]
+    },
+    {
+      "name": "wheat-stage-3",
+      "subject": "ONE rooted plant sprite: a mature rooted clump of standing golden wheat with distinct long awns and golden full ears. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-wheat"
+      ]
+    },
+    {
+      "name": "tomato-stage-2",
+      "subject": "ONE rooted plant sprite: a young compact bushy tomato plant, sage green serrated leaves and tiny yellow flowers, no ripe fruit. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-tomato"
+      ]
+    },
+    {
+      "name": "tomato-stage-3",
+      "subject": "ONE rooted plant sprite: a mature compact rooted tomato plant with green leafy stems, three ripe coral-red tomatoes and one tiny yellow flower. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-tomato"
+      ]
+    },
+    {
+      "name": "strawberry-stage-2",
+      "subject": "ONE rooted plant sprite: a compact young strawberry plant, three-lobed green leaves and two tiny white blossoms, no red fruit. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-strawberry"
+      ]
+    },
+    {
+      "name": "strawberry-stage-3",
+      "subject": "ONE rooted plant sprite: a mature low strawberry plant with three-lobed green leaves, white blossoms and three plump ripe red strawberries hanging near the base. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-strawberry"
+      ]
+    },
+    {
+      "name": "pumpkin-stage-2",
+      "subject": "ONE rooted plant sprite: a compact leafy young pumpkin vine with curling tendrils, broad green leaves and one small yellow flower, no pumpkin. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-pumpkin"
+      ]
+    },
+    {
+      "name": "pumpkin-stage-3",
+      "subject": "ONE rooted plant sprite: a mature pumpkin vine with broad sage green leaves, curled tendrils and ONE squat orange ripe pumpkin at the base. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-pumpkin"
+      ]
+    },
+    {
+      "name": "watermelon-stage-2",
+      "subject": "ONE rooted plant sprite: a compact young watermelon vine with lobed sage-green leaves, curling tendrils and a tiny pale yellow flower, no fruit. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-watermelon"
+      ]
+    },
+    {
+      "name": "watermelon-stage-3",
+      "subject": "ONE rooted plant sprite: a mature low watermelon vine with lobed leaves and ONE whole round striped teal-and-mint ripe watermelon at its base. A living growing plant, NOT harvested produce. Stems meet the ground at bottom center. No soil tile, no pot, no loose fruit, no separate inventory icon, no shadows outside plant.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "crop-watermelon"
+      ]
+    },
+    {
+      "name": "daisy-stage-2",
+      "subject": "ONE rooted flower plant: one delicate blooming white daisy with buttery yellow center, short sage-green stem and two small leaves. GROWING stage: leafy plant with small CLOSED flower buds only, not open blooms. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-daisy"
+      ]
+    },
+    {
+      "name": "daisy-stage-3",
+      "subject": "ONE rooted flower plant: one delicate blooming white daisy with buttery yellow center, short sage-green stem and two small leaves. MATURE stage: full open blossoms in a small healthy rooted clump. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-daisy"
+      ]
+    },
+    {
+      "name": "sunflower-stage-2",
+      "subject": "ONE rooted flower plant: one blooming sunflower, round brown-gold center, soft buttery golden petals, short green stem and leaves. GROWING stage: leafy plant with small CLOSED flower buds only, not open blooms. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-sunflower"
+      ]
+    },
+    {
+      "name": "sunflower-stage-3",
+      "subject": "ONE rooted flower plant: one blooming sunflower, round brown-gold center, soft buttery golden petals, short green stem and leaves. MATURE stage: full open blossoms in a small healthy rooted clump. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-sunflower"
+      ]
+    },
+    {
+      "name": "tulip-stage-2",
+      "subject": "ONE rooted flower plant: one elegant pale blue-lilac tulip flower with cupped petals, short sage-green stem and two leaves. GROWING stage: leafy plant with small CLOSED flower buds only, not open blooms. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-tulip"
+      ]
+    },
+    {
+      "name": "tulip-stage-3",
+      "subject": "ONE rooted flower plant: one elegant pale blue-lilac tulip flower with cupped petals, short sage-green stem and two leaves. MATURE stage: full open blossoms in a small healthy rooted clump. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-tulip"
+      ]
+    },
+    {
+      "name": "lavender-stage-2",
+      "subject": "ONE rooted flower plant: a small neat bunch of blooming lavender spikes in muted purple, sage-green stems. GROWING stage: leafy plant with small CLOSED flower buds only, not open blooms. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-lavender"
+      ]
+    },
+    {
+      "name": "lavender-stage-3",
+      "subject": "ONE rooted flower plant: a small neat bunch of blooming lavender spikes in muted purple, sage-green stems. MATURE stage: full open blossoms in a small healthy rooted clump. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-lavender"
+      ]
+    },
+    {
+      "name": "rose-stage-2",
+      "subject": "ONE rooted flower plant: one fully blooming dusty rose pink rose with layered petals and a short sage green leafy stem. GROWING stage: leafy plant with small CLOSED flower buds only, not open blooms. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-rose"
+      ]
+    },
+    {
+      "name": "rose-stage-3",
+      "subject": "ONE rooted flower plant: one fully blooming dusty rose pink rose with layered petals and a short sage green leafy stem. MATURE stage: full open blossoms in a small healthy rooted clump. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-rose"
+      ]
+    },
+    {
+      "name": "hydrangea-stage-2",
+      "subject": "ONE rooted flower plant: one rounded blue and lavender hydrangea flower head, many tiny four-petal blossoms, two broad leaves. GROWING stage: leafy plant with small CLOSED flower buds only, not open blooms. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-hydrangea"
+      ]
+    },
+    {
+      "name": "hydrangea-stage-3",
+      "subject": "ONE rooted flower plant: one rounded blue and lavender hydrangea flower head, many tiny four-petal blossoms, two broad leaves. MATURE stage: full open blossoms in a small healthy rooted clump. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-hydrangea"
+      ]
+    },
+    {
+      "name": "bluewhale-stage-2",
+      "subject": "ONE rooted flower plant: one original fantasy blue-whale flower: graceful luminous sky-blue petals shaped like paired whale-tail flukes, pale gold stamen, dark blue teardrop center, short leafy mint stem; recognizably a flower not an actual whale. GROWING stage: leafy plant with small CLOSED flower buds only, not open blooms. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-bluewhale"
+      ]
+    },
+    {
+      "name": "bluewhale-stage-3",
+      "subject": "ONE rooted flower plant: one original fantasy blue-whale flower: graceful luminous sky-blue petals shaped like paired whale-tail flukes, pale gold stamen, dark blue teardrop center, short leafy mint stem; recognizably a flower not an actual whale. MATURE stage: full open blossoms in a small healthy rooted clump. Stems meet ground at bottom center. No vase, no pot, no soil tile, no ribbon, no cut bouquet.",
+      "batch": 4,
+      "kind": "plant",
+      "width": 384,
+      "height": 384,
+      "depends": [
+        "flower-bluewhale"
+      ]
+    },
+    {
+      "name": "plant",
+      "subject": "crouching comfortably, placing one small seed into the ground with her right hand, little seed packet in her left hand, happy focused expression; no ground or field",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1080
+    },
+    {
+      "name": "water-can",
+      "subject": "standing and leaning slightly forward, holding a little pale blue watering can with both hands, pouring a short gentle stream downward to the side, attentive smile; no plant or ground",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237
+    },
+    {
+      "name": "harvest",
+      "subject": "standing holding a woven harvest basket filled with ripe tomatoes, rice panicles and blue flowers at waist height, pleased expression",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237
+    },
+    {
+      "name": "fertilize",
+      "subject": "standing sprinkling a few little fertilizer granules downward from a small wooden scoop, holding a little cream fertilizer pouch in the other hand; no field or ground",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237
+    },
+    {
+      "name": "fish-cast",
+      "subject": "standing in a gentle three-quarter side pose, casting a slender short fishing rod upward diagonally, fishing line loops near the rod, focused cheerful expression; rod completely inside frame and not excessively wide",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237
+    },
+    {
+      "name": "fish-wait",
+      "subject": "sitting patiently on a small pale blue folding stool, holding a short fishing rod diagonally forward, relaxed gentle smile; shoes touch the ground plane, no pond or backdrop",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1080
+    },
+    {
+      "name": "fish-reel",
+      "subject": "standing leaning back just slightly, both hands gripping a small fishing rod with gently bent tip, excited focused eyes, pulling up a short line; no pond",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237
+    },
+    {
+      "name": "fish-show",
+      "subject": "standing proudly holding up one freshly caught little silver-blue fish with a short fishing line in one hand, other hand raised happily, sparkling delighted eyes",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237
+    },
+    {
+      "name": "sell",
+      "subject": "standing extending a small cream produce paper bag forward with both hands as if handing it to a customer across an unseen stall counter, friendly smile; no other person, no counter or stall",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237
+    },
+    {
+      "name": "cook",
+      "subject": "standing beside ONE small pale-blue rice cooker, scooping freshly cooked WHITE RICE into a little blue bowl, very happy expression; rice cooker is a compact prop beside her feet, no table or kitchen",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237
+    },
+    {
+      "name": "brew",
+      "subject": "standing preparing flower tea, holding a little pale-blue teapot to pour tea into a matching cup on a small handheld tray, gentle focused smile; no table or kitchen",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237
+    },
+    {
+      "name": "cheer-giant",
+      "subject": "standing in an excited joyful cheering pose with both arms raised, tail curved with delight, a small giant blue ribbon award with a star in one hand, open happy mouth; no floating words or background effects",
+      "batch": 5,
+      "kind": "character",
+      "width": 1240,
+      "height": 1269,
+      "targetHeight": 1237
+    },
+    {
+      "name": "outdoor-farm-day",
+      "subject": "A cozy outdoor FARM connected to the blue whale maid cottage. A small blue-roof cottage and pearly fence in distant upper-left, gentle pastel trees behind. MAIN PLAY AREA: EXACTLY EIGHT EMPTY farm beds in a clearly separated FOUR-COLUMN BY TWO-ROW arrangement on the central lower ground, no crops or characters. Each is a low isometric rectangular tilled dark-earth bed with cool blue borders. Centers of back row approximately (24%,58%),(42%,58%),(60%,58%),(78%,58%); front row (18%,78%),(38%,78%),(58%,78%),(78%,78%). Wide walkable pastel stone paths between and in front of beds. Keep planting centers clear and readable. Bright soft late-morning daylight, gentle blue sky, creamy sunlight and soft blue shadows, calm cheerful warmth.",
+      "batch": 6,
+      "kind": "scene",
+      "width": 1672,
+      "height": 941,
+      "area": "farm",
+      "phase": "day"
+    },
+    {
+      "name": "outdoor-farm-morning",
+      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to DAWN: distinct cool misty cyan-lavender early morning, low warm peach horizon, dewdrop freshness, soft long blue shadows. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
+      "batch": 6,
+      "kind": "scene",
+      "width": 1672,
+      "height": 941,
+      "area": "farm",
+      "phase": "morning",
+      "depends": [
+        "outdoor-farm-day"
+      ],
+      "edit": true
+    },
+    {
+      "name": "outdoor-farm-dusk",
+      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to DUSK: visibly warm late sunset, amber light from one low side, mauve-pink sky, long soft purple shadows, cozy small lanterns just beginning to glow. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
+      "batch": 6,
+      "kind": "scene",
+      "width": 1672,
+      "height": 941,
+      "area": "farm",
+      "phase": "dusk",
+      "depends": [
+        "outdoor-farm-day"
+      ],
+      "edit": true
+    },
+    {
+      "name": "outdoor-farm-night",
+      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to NIGHT: distinctly darker deep indigo night sky and water, soft silver moonlight, warm small garden lamps glowing, restrained firefly points, readable shapes without making it daytime. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
+      "batch": 6,
+      "kind": "scene",
+      "width": 1672,
+      "height": 941,
+      "area": "farm",
+      "phase": "night",
+      "depends": [
+        "outdoor-farm-day"
+      ],
+      "edit": true
+    },
+    {
+      "name": "outdoor-garden-day",
+      "subject": "A cozy outdoor FLOWER GARDEN next to the blue whale maid cottage. Cream and pale-blue garden trellis at rear, soft blue hydrangea and lavender border bushes only along distant edges. MAIN PLAY AREA: EXACTLY EIGHT EMPTY flower beds in a clearly separated FOUR-COLUMN BY TWO-ROW arrangement on central lower ground, no planted flowers inside these beds and no characters. Each bed is low isometric rounded rectangle of dark soil with scalloped pale-blue wooden rim. Centers of back row approximately (24%,58%),(42%,58%),(60%,58%),(78%,58%); front row (18%,78%),(38%,78%),(58%,78%),(78%,78%). Broad pale stone paths, restful spacious layout. Bright soft late-morning daylight, gentle blue sky, creamy sunlight and soft blue shadows, calm cheerful warmth.",
+      "batch": 6,
+      "kind": "scene",
+      "width": 1672,
+      "height": 941,
+      "area": "garden",
+      "phase": "day"
+    },
+    {
+      "name": "outdoor-garden-morning",
+      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to DAWN: distinct cool misty cyan-lavender early morning, low warm peach horizon, dewdrop freshness, soft long blue shadows. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
+      "batch": 6,
+      "kind": "scene",
+      "width": 1672,
+      "height": 941,
+      "area": "garden",
+      "phase": "morning",
+      "depends": [
+        "outdoor-garden-day"
+      ],
+      "edit": true
+    },
+    {
+      "name": "outdoor-garden-dusk",
+      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to DUSK: visibly warm late sunset, amber light from one low side, mauve-pink sky, long soft purple shadows, cozy small lanterns just beginning to glow. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
+      "batch": 6,
+      "kind": "scene",
+      "width": 1672,
+      "height": 941,
+      "area": "garden",
+      "phase": "dusk",
+      "depends": [
+        "outdoor-garden-day"
+      ],
+      "edit": true
+    },
+    {
+      "name": "outdoor-garden-night",
+      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to NIGHT: distinctly darker deep indigo night sky and water, soft silver moonlight, warm small garden lamps glowing, restrained firefly points, readable shapes without making it daytime. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
+      "batch": 6,
+      "kind": "scene",
+      "width": 1672,
+      "height": 941,
+      "area": "garden",
+      "phase": "night",
+      "depends": [
+        "outdoor-garden-day"
+      ],
+      "edit": true
+    },
+    {
+      "name": "outdoor-pond-day",
+      "subject": "A cozy outdoor FISHING POND belonging to the blue whale maid cottage. Still luminous blue pond spans center and right, curved banks of smooth pastel stones, a few lily leaves at far edge, soft willows and blue hydrangea at rear. Small pale-blue timber fishing dock extends from the FRONT-LEFT shore into water. The unobstructed character standing/seated fishing point is near (27%,76%); clear open WATER for bobber near (54%,58%). Wide walkable bank across lower foreground. NO character, NO fishing rod, NO float, NO large visible fish. Peaceful semi-isometric diorama with soft depth. Bright soft late-morning daylight, gentle blue sky, creamy sunlight and soft blue shadows, calm cheerful warmth.",
+      "batch": 6,
+      "kind": "scene",
+      "width": 1672,
+      "height": 941,
+      "area": "pond",
+      "phase": "day"
+    },
+    {
+      "name": "outdoor-pond-morning",
+      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to DAWN: distinct cool misty cyan-lavender early morning, low warm peach horizon, dewdrop freshness, soft long blue shadows. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
+      "batch": 6,
+      "kind": "scene",
+      "width": 1672,
+      "height": 941,
+      "area": "pond",
+      "phase": "morning",
+      "depends": [
+        "outdoor-pond-day"
+      ],
+      "edit": true
+    },
+    {
+      "name": "outdoor-pond-dusk",
+      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to DUSK: visibly warm late sunset, amber light from one low side, mauve-pink sky, long soft purple shadows, cozy small lanterns just beginning to glow. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
+      "batch": 6,
+      "kind": "scene",
+      "width": 1672,
+      "height": 941,
+      "area": "pond",
+      "phase": "dusk",
+      "depends": [
+        "outdoor-pond-day"
+      ],
+      "edit": true
+    },
+    {
+      "name": "outdoor-pond-night",
+      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to NIGHT: distinctly darker deep indigo night sky and water, soft silver moonlight, warm small garden lamps glowing, restrained firefly points, readable shapes without making it daytime. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
+      "batch": 6,
+      "kind": "scene",
+      "width": 1672,
+      "height": 941,
+      "area": "pond",
+      "phase": "night",
+      "depends": [
+        "outdoor-pond-day"
+      ],
+      "edit": true
+    },
+    {
+      "name": "outdoor-shop-day",
+      "subject": "A cozy little OUTDOOR MARKET SHOP stall for the blue whale maid world. One charming cream-and-indigo striped canopy stall at center-rear with gold scallop trim and a subtle decorative whale emblem, small baskets of seed packets and produce on counter, a little closed cash box, blue shell details. Clear walkable pale stone forecourt occupies lower half; character interaction point near (55%,72%), counter near (55%,48%). Soft garden trees and cottage fence in background. NO person, NO readable labels, NO pricing board, NO letters, no UI. Bright soft late-morning daylight, gentle blue sky, creamy sunlight and soft blue shadows, calm cheerful warmth.",
+      "batch": 6,
+      "kind": "scene",
+      "width": 1672,
+      "height": 941,
+      "area": "shop",
+      "phase": "day"
+    },
+    {
+      "name": "outdoor-shop-morning",
+      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to DAWN: distinct cool misty cyan-lavender early morning, low warm peach horizon, dewdrop freshness, soft long blue shadows. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
+      "batch": 6,
+      "kind": "scene",
+      "width": 1672,
+      "height": 941,
+      "area": "shop",
+      "phase": "morning",
+      "depends": [
+        "outdoor-shop-day"
+      ],
+      "edit": true
+    },
+    {
+      "name": "outdoor-shop-dusk",
+      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to DUSK: visibly warm late sunset, amber light from one low side, mauve-pink sky, long soft purple shadows, cozy small lanterns just beginning to glow. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
+      "batch": 6,
+      "kind": "scene",
+      "width": 1672,
+      "height": 941,
+      "area": "shop",
+      "phase": "dusk",
+      "depends": [
+        "outdoor-shop-day"
+      ],
+      "edit": true
+    },
+    {
+      "name": "outdoor-shop-night",
+      "subject": "Use the provided DAYTIME scene as exact edit target. Keep every object, edge, bed, path, dock, stall, camera, crop, and perspective unchanged. Change ONLY lighting, sky and atmosphere to NIGHT: distinctly darker deep indigo night sky and water, soft silver moonlight, warm small garden lamps glowing, restrained firefly points, readable shapes without making it daytime. Preserve exact 16:9 scene composition and all eight empty beds if present. NO new characters, NO labels or UI, NO camera move. Opaque PNG background.",
+      "batch": 6,
+      "kind": "scene",
+      "width": 1672,
+      "height": 941,
+      "area": "shop",
+      "phase": "night",
+      "depends": [
+        "outdoor-shop-day"
+      ],
+      "edit": true
+    },
+    {
+      "name": "outdoor-path",
+      "subject": "A cozy empty winding pale stone path leaving the door of a blue whale maid cottage on the left and branching gently toward a little farm gate, flower-garden trellis and distant pond to the right, lavender-blue foliage and cream fence, subtle blue whale emblem on door, no readable signs. Clear broad walkable foreground for a small chibi character to walk across. Bright soft daytime, gentle semi-isometric storybook diorama, no character, no UI.",
+      "batch": 6,
+      "kind": "scene",
+      "width": 1672,
+      "height": 941,
+      "phase": "day"
+    }
+  ],
+  "saved": [
+    {
+      "name": "icon-shell",
+      "original": "icon-shell-original.png",
+      "prompt": "Use case: stylized-concept. Asset type: a single finished cozy farming-game inventory icon, icon-shell.png. The attached blue whale room is STYLE REFERENCE ONLY, do not depict the room or character. Subject: ONE open fan-shaped scallop seashell, pearlescent pale sky blue and lavender, creamy white inner ridges with a tiny warm gold glint. Style: beautifully hand-painted Japanese anime storybook game item, rounded cute semi-isometric volume, tidy dark periwinkle contours, soft cel shading, smooth pearlescent material; matches a cozy blue whale maid room. Composition: EXACT 256x256 pixel square PNG canvas, centered single shell, all visible pixels within x16..240 y16..240, roughly 200px wide, generous transparent padding. True alpha TRANSPARENT background including corners and behind the shell. No floor, no circular backing, no scenery, no shadow outside the object, no frame, no text, no watermark, no other objects. This is a production sprite, not a preview sheet.",
+      "batch": 1
+    },
+    {
+      "name": "crop-rice",
+      "subject": "a tied bundle of ripe rice panicles, gently curved gold-lavender grain heads, slender sage-green stems, indigo ribbon, unmistakable rice ears not wheat",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Asset type: ONE separate finished farming-game inventory icon crop-rice.png. The attached room is a STYLE REFERENCE ONLY. Subject: a tied bundle of ripe rice panicles, gently curved gold-lavender grain heads, slender sage-green stems, indigo ribbon, unmistakable rice ears not wheat. Style: finely hand-painted Japanese anime storybook game art, rounded cute semi-isometric form, tidy periwinkle contours, soft cel shading, cream highlights, cool blue-lavender ambient palette matching the reference room; retain the subject's recognizable natural colors. Composition: square image, exactly one centered isolated item, entire silhouette visible with 8 percent transparent margin on all sides, clean readable silhouette at 256px. Genuine alpha TRANSPARENT background, no floor, no rectangular backing, no backdrop, no frame, no text or watermark, no character or extra decoration. Deliver production sprite, not sheet.",
+      "original": "crop-rice-original.png"
+    },
+    {
+      "name": "crop-radish",
+      "subject": "one plump white daikon radish with a small rounded root tip and lush mint green leaves",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Asset type: ONE separate finished farming-game inventory icon crop-radish.png. The attached room is a STYLE REFERENCE ONLY. Subject: one plump white daikon radish with a small rounded root tip and lush mint green leaves. Style: finely hand-painted Japanese anime storybook game art, rounded cute semi-isometric form, tidy periwinkle contours, soft cel shading, cream highlights, cool blue-lavender ambient palette matching the reference room; retain the subject's recognizable natural colors. Composition: square image, exactly one centered isolated item, entire silhouette visible with 8 percent transparent margin on all sides, clean readable silhouette at 256px. Genuine alpha TRANSPARENT background, no floor, no rectangular backing, no backdrop, no frame, no text or watermark, no character or extra decoration. Deliver production sprite, not sheet.",
+      "original": "crop-radish-original.png"
+    },
+    {
+      "name": "crop-wheat",
+      "subject": "a small tied bunch of ripe golden wheat ears, distinguishable long wheat awns, pale blue ribbon",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Asset type: ONE separate finished farming-game inventory icon crop-wheat.png. The attached room is a STYLE REFERENCE ONLY. Subject: a small tied bunch of ripe golden wheat ears, distinguishable long wheat awns, pale blue ribbon. Style: finely hand-painted Japanese anime storybook game art, rounded cute semi-isometric form, tidy periwinkle contours, soft cel shading, cream highlights, cool blue-lavender ambient palette matching the reference room; retain the subject's recognizable natural colors. Composition: square image, exactly one centered isolated item, entire silhouette visible with 8 percent transparent margin on all sides, clean readable silhouette at 256px. Genuine alpha TRANSPARENT background, no floor, no rectangular backing, no backdrop, no frame, no text or watermark, no character or extra decoration. Deliver production sprite, not sheet.",
+      "original": "crop-wheat-original.png"
+    },
+    {
+      "name": "crop-tomato",
+      "subject": "one round ripe coral-red tomato, fresh sage green calyx, tiny dewdrop highlights",
+      "batch": 1,
+      "width": 256,
+      "height": 256,
+      "kind": "icon",
+      "prompt": "Use case: stylized-concept. Asset type: ONE separate finished farming-game inventory icon crop-tomato.png. The attached room is a STYLE REFERENCE ONLY. Subject: one round ripe coral-red tomato, fresh sage green calyx, tiny dewdrop highlights. Style: finely hand-painted Japanese anime storybook game art, rounded cute semi-isometric form, tidy periwinkle contours, soft cel shading, cream highlights, cool blue-lavender ambient palette matching the reference room; retain the subject's recognizable natural colors. Composition: square image, exactly one centered isolated item, entire silhouette visible with 8 percent transparent margin on all sides, clean readable silhouette at 256px. Genuine alpha TRANSPARENT background, no floor, no rectangular backing, no backdrop, no frame, no text or watermark, no character or extra decoration. Deliver production sprite, not sheet.",
+      "original": "crop-tomato-original.png"
+    }
+  ]
+}

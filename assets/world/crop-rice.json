@@ -1,0 +1,30 @@
+{
+  "name": "crop-rice",
+  "kind": "icon",
+  "original": "crop-rice-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    24,
+    21,
+    236,
+    230
+  ],
+  "sha256": "a235749edad414d21b663296e5568a1f6fb3e2c43168d996ce56f214e1baec8d",
+  "export": "crop-rice.png",
+  "project": "crop-rice.png"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "icon-shell",
+  "kind": "icon",
+  "original": "icon-shell-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    28,
+    18,
+    231,
+    224
+  ],
+  "sha256": "508ce29b6e3707767f35bc82e4b7d27dc8a22b4d0134f44f91e53dd637723e6d",
+  "export": "icon-shell.png",
+  "project": "icon-shell.png"
+}
