@@ -1,0 +1,19 @@
+{
+  "name": "away-postcard-town",
+  "kind": "scene",
+  "original": "away-postcard-town-original.png",
+  "originalSize": [
+    1586,
+    992
+  ],
+  "size": [
+    1024,
+    640
+  ],
+  "anchorPixels": null,
+  "anchorNormalized": null,
+  "alphaBounds": null,
+  "sha256": "07cdb0ad03e7c22faec64cfb6f794adb20adb8f0dbe5da3bc9c1b1b7c2fdcea6",
+  "export": "away-postcard-town.png",
+  "project": "away-postcard-town.png"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "fish-cast",
+  "kind": "character",
+  "original": "fish-cast-original.png",
+  "originalSize": [
+    1240,
+    1269
+  ],
+  "size": [
+    1240,
+    1269
+  ],
+  "anchorPixels": [
+    589.5,
+    1257
+  ],
+  "anchorNormalized": [
+    0.475403,
+    0.990544
+  ],
+  "alphaBounds": [
+    0,
+    35,
+    1240,
+    1269
+  ],
+  "sha256": "433e2c0052450d2708052f5aca2c51cb5f9d1bcefdc9656481dae92be0d88641",
+  "export": "fish-cast.png",
+  "project": "fish-cast.png",
+  "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+}

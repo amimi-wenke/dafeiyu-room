@@ -1,0 +1,19 @@
+{
+  "name": "away-postcard-market",
+  "kind": "scene",
+  "original": "away-postcard-market-original.png",
+  "originalSize": [
+    1586,
+    992
+  ],
+  "size": [
+    1024,
+    640
+  ],
+  "anchorPixels": null,
+  "anchorNormalized": null,
+  "alphaBounds": null,
+  "sha256": "6e2055d73d9b290d0e2a29372be4304439ac4642edab8776bbb3e2c182f8c6f6",
+  "export": "away-postcard-market.png",
+  "project": "away-postcard-market.png"
+}

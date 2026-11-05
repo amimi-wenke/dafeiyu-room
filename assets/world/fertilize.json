@@ -1,0 +1,31 @@
+{
+  "name": "fertilize",
+  "kind": "character",
+  "original": "fertilize-original.png",
+  "originalSize": [
+    1240,
+    1269
+  ],
+  "size": [
+    1240,
+    1269
+  ],
+  "anchorPixels": [
+    612,
+    1265
+  ],
+  "anchorNormalized": [
+    0.493548,
+    0.996848
+  ],
+  "alphaBounds": [
+    1,
+    32,
+    1238,
+    1269
+  ],
+  "sha256": "1e24378ba9b467cbfd92daee9666a571e2c93fec500e56cf87f238e82143a87c",
+  "export": "fertilize.png",
+  "project": "fertilize.png",
+  "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+}

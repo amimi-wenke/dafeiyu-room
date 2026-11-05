@@ -1,0 +1,30 @@
+{
+  "name": "nav-market",
+  "kind": "icon",
+  "original": "nav-market-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    26,
+    24,
+    228,
+    234
+  ],
+  "sha256": "544e7fac70e288d41fcae7bce1e4d1910a089784fe971228f0f3aab7833e0ad3",
+  "export": "nav-market.png",
+  "project": "nav-market.png"
+}

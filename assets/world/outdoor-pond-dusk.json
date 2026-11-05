@@ -1,0 +1,19 @@
+{
+  "name": "outdoor-pond-dusk",
+  "kind": "scene",
+  "original": "outdoor-pond-dusk-original.png",
+  "originalSize": [
+    1672,
+    941
+  ],
+  "size": [
+    1672,
+    941
+  ],
+  "anchorPixels": null,
+  "anchorNormalized": null,
+  "alphaBounds": null,
+  "sha256": "b02160371a88277a9a9893dabf5d6109452687f524aa126ad1e8d1ec5c25f17d",
+  "export": "outdoor-pond-dusk.png",
+  "project": "outdoor-pond-dusk.png"
+}

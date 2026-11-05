@@ -1,0 +1,19 @@
+{
+  "name": "outdoor-pond-morning",
+  "kind": "scene",
+  "original": "outdoor-pond-morning-original.png",
+  "originalSize": [
+    1672,
+    941
+  ],
+  "size": [
+    1672,
+    941
+  ],
+  "anchorPixels": null,
+  "anchorNormalized": null,
+  "alphaBounds": null,
+  "sha256": "4120d75ad872a3e28e2429a2bd671bc20a1675511733edcc9bdf29b545e3c8ef",
+  "export": "outdoor-pond-morning.png",
+  "project": "outdoor-pond-morning.png"
+}

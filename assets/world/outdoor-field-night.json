@@ -1,0 +1,19 @@
+{
+  "name": "outdoor-field-night",
+  "kind": "scene",
+  "original": "outdoor-field-night-original.png",
+  "originalSize": [
+    1671,
+    941
+  ],
+  "size": [
+    1672,
+    941
+  ],
+  "anchorPixels": null,
+  "anchorNormalized": null,
+  "alphaBounds": null,
+  "sha256": "9804fcee7a81c581ba1d8e62877bd7a7e9c65acaa402807e2947eefd3bffae4d",
+  "export": "outdoor-field-night.png",
+  "project": "outdoor-field-night.png"
+}

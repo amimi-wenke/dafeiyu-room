@@ -1,0 +1,19 @@
+{
+  "name": "outdoor-pond-night",
+  "kind": "scene",
+  "original": "outdoor-pond-night-original.png",
+  "originalSize": [
+    1672,
+    941
+  ],
+  "size": [
+    1672,
+    941
+  ],
+  "anchorPixels": null,
+  "anchorNormalized": null,
+  "alphaBounds": null,
+  "sha256": "5d265d49a870e8d7d55a45b322b0c8829e87cf9f84af128762b45ff0f97ad3cd",
+  "export": "outdoor-pond-night.png",
+  "project": "outdoor-pond-night.png"
+}

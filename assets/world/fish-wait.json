@@ -1,0 +1,31 @@
+{
+  "name": "fish-wait",
+  "kind": "character",
+  "original": "fish-wait-original.png",
+  "originalSize": [
+    1240,
+    1269
+  ],
+  "size": [
+    1240,
+    1269
+  ],
+  "anchorPixels": [
+    574,
+    1246
+  ],
+  "anchorNormalized": [
+    0.462903,
+    0.981875
+  ],
+  "alphaBounds": [
+    85,
+    189,
+    1155,
+    1269
+  ],
+  "sha256": "c14cfbed8bf2b4849f23cdedaf84f9d648a1240d0f3c46c2c1374981211cdcd2",
+  "export": "fish-wait.png",
+  "project": "fish-wait.png",
+  "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+}

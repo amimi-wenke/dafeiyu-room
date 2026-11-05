@@ -1,0 +1,19 @@
+{
+  "name": "away-postcard-seaside",
+  "kind": "scene",
+  "original": "away-postcard-seaside-original.png",
+  "originalSize": [
+    1586,
+    992
+  ],
+  "size": [
+    1024,
+    640
+  ],
+  "anchorPixels": null,
+  "anchorNormalized": null,
+  "alphaBounds": null,
+  "sha256": "5117da2ebfcb2c42393c70d9cd75776513e118547aa0c45988fc9f2610f9c1e4",
+  "export": "away-postcard-seaside.png",
+  "project": "away-postcard-seaside.png"
+}

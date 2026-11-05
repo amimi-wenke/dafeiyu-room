@@ -1,0 +1,31 @@
+{
+  "name": "fish-show",
+  "kind": "character",
+  "original": "fish-show-original.png",
+  "originalSize": [
+    1240,
+    1269
+  ],
+  "size": [
+    1240,
+    1269
+  ],
+  "anchorPixels": [
+    571.5,
+    1259
+  ],
+  "anchorNormalized": [
+    0.460887,
+    0.99212
+  ],
+  "alphaBounds": [
+    5,
+    32,
+    1234,
+    1269
+  ],
+  "sha256": "cfa4f1277d6e70fd1ab154cf95a68d26bb14f383fc1128e354240794a94c10a4",
+  "export": "fish-show.png",
+  "project": "fish-show.png",
+  "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+}

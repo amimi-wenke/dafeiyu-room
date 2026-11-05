@@ -1,0 +1,31 @@
+{
+  "name": "harvest",
+  "kind": "character",
+  "original": "harvest-original.png",
+  "originalSize": [
+    1240,
+    1269
+  ],
+  "size": [
+    1240,
+    1269
+  ],
+  "anchorPixels": [
+    585,
+    1252
+  ],
+  "anchorNormalized": [
+    0.471774,
+    0.986604
+  ],
+  "alphaBounds": [
+    2,
+    32,
+    1238,
+    1269
+  ],
+  "sha256": "439d935e90d1c3e20b596f8b08e655e9b7bb6143ca94538c6099db923f8bcc1f",
+  "export": "harvest.png",
+  "project": "harvest.png",
+  "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+}

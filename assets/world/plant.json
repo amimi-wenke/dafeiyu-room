@@ -1,0 +1,31 @@
+{
+  "name": "plant",
+  "kind": "character",
+  "original": "plant-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    1240,
+    1269
+  ],
+  "anchorPixels": [
+    525,
+    1241
+  ],
+  "anchorNormalized": [
+    0.423387,
+    0.977935
+  ],
+  "alphaBounds": [
+    68,
+    189,
+    1172,
+    1269
+  ],
+  "sha256": "3a1da4b12312dbab58aac404b68eb9278d060c9bf76d37406366abef19f6da66",
+  "export": "plant.png",
+  "project": "plant.png",
+  "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+}

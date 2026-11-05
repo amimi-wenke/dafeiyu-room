@@ -1,0 +1,31 @@
+{
+  "name": "fish-empty",
+  "kind": "character",
+  "original": "fish-empty-original.png",
+  "originalSize": [
+    1240,
+    1269
+  ],
+  "size": [
+    1240,
+    1269
+  ],
+  "anchorPixels": [
+    598.5,
+    1244
+  ],
+  "anchorNormalized": [
+    0.482661,
+    0.980299
+  ],
+  "alphaBounds": [
+    98,
+    189,
+    1142,
+    1269
+  ],
+  "sha256": "fa2a018bed273e0dca8095049ccfffc23c77fdb9e821ab88c7d9a316d59d4e58",
+  "export": "fish-empty.png",
+  "project": "fish-empty.png",
+  "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+}

@@ -1,0 +1,498 @@
+[
+  {
+    "name": "icon-shell",
+    "prompt": "Use case: stylized-concept. Asset type: a single finished cozy farming-game inventory icon, icon-shell.png. The attached blue whale room is STYLE REFERENCE ONLY, do not depict the room or character. Subject: ONE open fan-shaped scallop seashell, pearlescent pale sky blue and lavender, creamy white inner ridges with a tiny warm gold glint. Style: beautifully hand-painted Japanese anime storybook game item, rounded cute semi-isometric volume, tidy dark periwinkle contours, soft cel shading, smooth pearlescent material; matches a cozy blue whale maid room. Composition: EXACT 256x256 pixel square PNG canvas, centered single shell, all visible pixels within x16..240 y16..240, roughly 200px wide, generous transparent padding. True alpha TRANSPARENT background including corners and behind the shell. No floor, no circular backing, no scenery, no shadow outside the object, no frame, no text, no watermark, no other objects. This is a production sprite, not a preview sheet."
+  },
+  {
+    "name": "crop-rice",
+    "prompt": "Use case: stylized-concept. Asset type: ONE separate finished farming-game inventory icon crop-rice.png. The attached room is a STYLE REFERENCE ONLY. Subject: a tied bundle of ripe rice panicles, gently curved gold-lavender grain heads, slender sage-green stems, indigo ribbon, unmistakable rice ears not wheat. Style: finely hand-painted Japanese anime storybook game art, rounded cute semi-isometric form, tidy periwinkle contours, soft cel shading, cream highlights, cool blue-lavender ambient palette matching the reference room; retain the subject's recognizable natural colors. Composition: square image, exactly one centered isolated item, entire silhouette visible with 8 percent transparent margin on all sides, clean readable silhouette at 256px. Genuine alpha TRANSPARENT background, no floor, no rectangular backing, no backdrop, no frame, no text or watermark, no character or extra decoration. Deliver production sprite, not sheet."
+  },
+  {
+    "name": "crop-radish",
+    "prompt": "Use case: stylized-concept. Asset type: ONE separate finished farming-game inventory icon crop-radish.png. The attached room is a STYLE REFERENCE ONLY. Subject: one plump white daikon radish with a small rounded root tip and lush mint green leaves. Style: finely hand-painted Japanese anime storybook game art, rounded cute semi-isometric form, tidy periwinkle contours, soft cel shading, cream highlights, cool blue-lavender ambient palette matching the reference room; retain the subject's recognizable natural colors. Composition: square image, exactly one centered isolated item, entire silhouette visible with 8 percent transparent margin on all sides, clean readable silhouette at 256px. Genuine alpha TRANSPARENT background, no floor, no rectangular backing, no backdrop, no frame, no text or watermark, no character or extra decoration. Deliver production sprite, not sheet."
+  },
+  {
+    "name": "crop-wheat",
+    "prompt": "Use case: stylized-concept. Asset type: ONE separate finished farming-game inventory icon crop-wheat.png. The attached room is a STYLE REFERENCE ONLY. Subject: a small tied bunch of ripe golden wheat ears, distinguishable long wheat awns, pale blue ribbon. Style: finely hand-painted Japanese anime storybook game art, rounded cute semi-isometric form, tidy periwinkle contours, soft cel shading, cream highlights, cool blue-lavender ambient palette matching the reference room; retain the subject's recognizable natural colors. Composition: square image, exactly one centered isolated item, entire silhouette visible with 8 percent transparent margin on all sides, clean readable silhouette at 256px. Genuine alpha TRANSPARENT background, no floor, no rectangular backing, no backdrop, no frame, no text or watermark, no character or extra decoration. Deliver production sprite, not sheet."
+  },
+  {
+    "name": "crop-tomato",
+    "prompt": "Use case: stylized-concept. Asset type: ONE separate finished farming-game inventory icon crop-tomato.png. The attached room is a STYLE REFERENCE ONLY. Subject: one round ripe coral-red tomato, fresh sage green calyx, tiny dewdrop highlights. Style: finely hand-painted Japanese anime storybook game art, rounded cute semi-isometric form, tidy periwinkle contours, soft cel shading, cream highlights, cool blue-lavender ambient palette matching the reference room; retain the subject's recognizable natural colors. Composition: square image, exactly one centered isolated item, entire silhouette visible with 8 percent transparent margin on all sides, clean readable silhouette at 256px. Genuine alpha TRANSPARENT background, no floor, no rectangular backing, no backdrop, no frame, no text or watermark, no character or extra decoration. Deliver production sprite, not sheet."
+  },
+  {
+    "name": "crop-strawberry"
+  },
+  {
+    "name": "crop-pumpkin"
+  },
+  {
+    "name": "crop-watermelon"
+  },
+  {
+    "name": "flower-daisy"
+  },
+  {
+    "name": "flower-sunflower"
+  },
+  {
+    "name": "flower-tulip"
+  },
+  {
+    "name": "flower-lavender"
+  },
+  {
+    "name": "flower-rose"
+  },
+  {
+    "name": "flower-hydrangea"
+  },
+  {
+    "name": "flower-bluewhale"
+  },
+  {
+    "name": "fish-crucian"
+  },
+  {
+    "name": "fish-crayfish"
+  },
+  {
+    "name": "fish-carp"
+  },
+  {
+    "name": "fish-goldfish"
+  },
+  {
+    "name": "fish-grasscarp"
+  },
+  {
+    "name": "fish-catfish"
+  },
+  {
+    "name": "fish-koi"
+  },
+  {
+    "name": "fish-moonfish"
+  },
+  {
+    "name": "grade-s"
+  },
+  {
+    "name": "grade-m"
+  },
+  {
+    "name": "grade-l"
+  },
+  {
+    "name": "grade-xl"
+  },
+  {
+    "name": "seed-blank"
+  },
+  {
+    "name": "item-rice-bowl"
+  },
+  {
+    "name": "item-bran"
+  },
+  {
+    "name": "item-bait"
+  },
+  {
+    "name": "item-bait-pro"
+  },
+  {
+    "name": "item-bait-glow"
+  },
+  {
+    "name": "item-fishmeal"
+  },
+  {
+    "name": "item-compost"
+  },
+  {
+    "name": "item-flower-tea"
+  },
+  {
+    "name": "item-vase"
+  },
+  {
+    "name": "rarity-common"
+  },
+  {
+    "name": "rarity-uncommon"
+  },
+  {
+    "name": "rarity-rare"
+  },
+  {
+    "name": "rarity-legendary"
+  },
+  {
+    "name": "codex-unknown"
+  },
+  {
+    "name": "crop-potato"
+  },
+  {
+    "name": "crop-corn"
+  },
+  {
+    "name": "crop-eggplant"
+  },
+  {
+    "name": "crop-blueberry"
+  },
+  {
+    "name": "crop-grape"
+  },
+  {
+    "name": "plot-soil-dry"
+  },
+  {
+    "name": "plot-soil-wet"
+  },
+  {
+    "name": "bed-soil-dry"
+  },
+  {
+    "name": "bed-soil-wet"
+  },
+  {
+    "name": "crop-stage-1"
+  },
+  {
+    "name": "flower-stage-1"
+  },
+  {
+    "name": "overlay-thirsty"
+  },
+  {
+    "name": "overlay-ready"
+  },
+  {
+    "name": "overlay-overripe"
+  },
+  {
+    "name": "overlay-fertilized"
+  },
+  {
+    "name": "pond-idle"
+  },
+  {
+    "name": "pond-waiting"
+  },
+  {
+    "name": "pond-bite"
+  },
+  {
+    "name": "room-aquarium"
+  },
+  {
+    "name": "aquarium-fish-crucian"
+  },
+  {
+    "name": "aquarium-fish-crayfish"
+  },
+  {
+    "name": "aquarium-fish-carp"
+  },
+  {
+    "name": "aquarium-fish-goldfish"
+  },
+  {
+    "name": "aquarium-fish-grasscarp"
+  },
+  {
+    "name": "aquarium-fish-catfish"
+  },
+  {
+    "name": "aquarium-fish-koi"
+  },
+  {
+    "name": "aquarium-fish-moonfish"
+  },
+  {
+    "name": "room-vase"
+  },
+  {
+    "name": "vase-flower-daisy"
+  },
+  {
+    "name": "vase-flower-sunflower"
+  },
+  {
+    "name": "vase-flower-tulip"
+  },
+  {
+    "name": "vase-flower-lavender"
+  },
+  {
+    "name": "vase-flower-rose"
+  },
+  {
+    "name": "vase-flower-hydrangea"
+  },
+  {
+    "name": "vase-flower-bluewhale"
+  },
+  {
+    "name": "room-shell-jar"
+  },
+  {
+    "name": "room-codex-book"
+  },
+  {
+    "name": "rice-stage-2"
+  },
+  {
+    "name": "rice-stage-3"
+  },
+  {
+    "name": "radish-stage-2"
+  },
+  {
+    "name": "radish-stage-3"
+  },
+  {
+    "name": "wheat-stage-2"
+  },
+  {
+    "name": "wheat-stage-3"
+  },
+  {
+    "name": "tomato-stage-2"
+  },
+  {
+    "name": "tomato-stage-3"
+  },
+  {
+    "name": "strawberry-stage-2"
+  },
+  {
+    "name": "strawberry-stage-3"
+  },
+  {
+    "name": "pumpkin-stage-2"
+  },
+  {
+    "name": "pumpkin-stage-3"
+  },
+  {
+    "name": "watermelon-stage-2"
+  },
+  {
+    "name": "watermelon-stage-3"
+  },
+  {
+    "name": "daisy-stage-2"
+  },
+  {
+    "name": "daisy-stage-3"
+  },
+  {
+    "name": "sunflower-stage-2"
+  },
+  {
+    "name": "sunflower-stage-3"
+  },
+  {
+    "name": "tulip-stage-2"
+  },
+  {
+    "name": "tulip-stage-3"
+  },
+  {
+    "name": "lavender-stage-2"
+  },
+  {
+    "name": "lavender-stage-3"
+  },
+  {
+    "name": "rose-stage-2"
+  },
+  {
+    "name": "rose-stage-3"
+  },
+  {
+    "name": "hydrangea-stage-2"
+  },
+  {
+    "name": "hydrangea-stage-3"
+  },
+  {
+    "name": "bluewhale-stage-2"
+  },
+  {
+    "name": "bluewhale-stage-3"
+  },
+  {
+    "name": "potato-stage-2"
+  },
+  {
+    "name": "potato-stage-3"
+  },
+  {
+    "name": "corn-stage-2"
+  },
+  {
+    "name": "corn-stage-3"
+  },
+  {
+    "name": "eggplant-stage-2"
+  },
+  {
+    "name": "eggplant-stage-3"
+  },
+  {
+    "name": "blueberry-stage-2"
+  },
+  {
+    "name": "blueberry-stage-3"
+  },
+  {
+    "name": "grape-stage-2"
+  },
+  {
+    "name": "grape-stage-3"
+  },
+  {
+    "name": "outdoor-field-day",
+    "prompt": "Use case: stylized-concept. Create ONE production game background outdoor-field-day, landscape 1672x941 (16:9). Input image is STYLE REFERENCE ONLY: match the soft hand-painted pastel blue semi-isometric whale cottage, indigo/cream/gold accents. NEW outdoor scene, no room interior. Wide elevated three-quarter camera, full bleed scenery, not floating diorama. EXACTLY SIXTEEN EMPTY soil plots: LEFT half 8 crop plots arranged FOUR COLUMNS and TWO ROWS; RIGHT half 8 flower beds arranged FOUR COLUMNS and TWO ROWS. Keep each plot clearly countable, fully visible, separated by walkable paths. Grid approximately horizontal for gameplay: left row centers x=.10,.21,.32,.43, right x=.59,.70,.81,.92; back row y=.57, front row y=.78. All soil empty, no plants inside. Broad central walking lane between halves. At center BACK above plots a small cream and indigo striped market stall, empty counter and standing space behind it. Upper LEFT a small blue cottage doorway reached by a path. RIGHT a path exits toward unseen pond. Soft trees, blue hydrangeas, whale details only at scene edges, foreground paths unobstructed. Bright soft late morning blue sky, creamy sunlight, periwinkle shadows. No characters, animals, lettering, labels, UI, markers or watermark. Opaque background. Most important: 4x2 plots on EACH side, total 16."
+  },
+  {
+    "name": "outdoor-pond-day",
+    "prompt": "Use case: stylized-concept. ONE finished 1672x941 production PNG game asset outdoor-pond-day. Match reference blue whale room: soft hand-painted anime storybook art, blue-lavender, cream and restrained gold, rounded semi-isometric form. Reference is STYLE ONLY; do not draw room interior. A cozy blue fishing POND, still luminous blue water spanning center and right, curved smooth pastel stone bank, far-edge lilies, rear soft willows and blue hydrangea. A small pale-blue timber dock extends from FRONT LEFT shore into water, with clear space for a small character and a separate empty spot where her folding stool can be overlaid. Standing fishing foot position near (0.29,0.77), seated foot position near (0.33,0.78); open bobber water near (0.55,0.58). A clearly walkable path exits LEFT back to the field. No stool, character, rod, float or large fish painted into scene. Broad clear lower shoreline. Bright soft late-morning daylight, soft blue sky, creamy sunlight and periwinkle shadows. Soft hand-painted blue semi-isometric storybook world matching the room. No characters or text. Full bleed opaque background, no character, text, UI, frame or watermark."
+  },
+  {
+    "name": "plant",
+    "prompt": "Use case: identity-preserve. Create ONE separate full-body production action sprite, plant.png. Image 1 is the EXACT character identity and costume reference, image 2 is room color/style only. Preserve the same chibi blue whale maid: same face and large blue eyes, long wavy indigo-to-cyan hair, single curved ahoge, whale-fin ears, blue head bow, white ruffled maid headdress, navy dress with gold trim, white frilled whale-emblem apron, rounded blue shoes and large navy whale tail. Same cute body proportions and crisp anime outlines and cel shading as idle.png. Action: crouching comfortably, placing one small seed into the ground with her right hand, little seed packet in her left hand, happy focused expression; no ground or field. All hair, hands, shoes, tail and held props entirely visible within generous transparent padding. One character only, full body, no scene, ground, cast shadow, backdrop, lettering, watermark or frame. Genuine alpha transparency. Keep costume unchanged; adapt pose naturally. Both feet at bottom contact baseline; seated/crouched pose naturally shorter than standing. Composition near square 1240x1269."
+  },
+  {
+    "name": "water-can",
+    "prompt": "Use case: identity-preserve. Create ONE separate full-body production action sprite, water-can.png. Image 1 is the EXACT character identity and costume reference, image 2 is room color/style only. Preserve the same chibi blue whale maid: same face and large blue eyes, long wavy indigo-to-cyan hair, single curved ahoge, whale-fin ears, blue head bow, white ruffled maid headdress, navy dress with gold trim, white frilled whale-emblem apron, rounded blue shoes and large navy whale tail. Same cute body proportions and crisp anime outlines and cel shading as idle.png. Action: standing and leaning slightly forward, holding a little pale blue watering can with both hands, pouring a short gentle stream downward to the side, attentive smile; no plant or ground. All hair, hands, shoes, tail and held props entirely visible within generous transparent padding. One character only, full body, no scene, ground, cast shadow, backdrop, lettering, watermark or frame. Genuine alpha transparency. Keep costume unchanged; adapt pose naturally. Both feet at bottom contact baseline; seated/crouched pose naturally shorter than standing. Composition near square 1240x1269."
+  },
+  {
+    "name": "harvest",
+    "prompt": "Use case: identity-preserve. Create ONE separate full-body production action sprite, harvest.png. Image 1 is the EXACT character identity and costume reference, image 2 is room color/style only. Preserve the same chibi blue whale maid: same face and large blue eyes, long wavy indigo-to-cyan hair, single curved ahoge, whale-fin ears, blue head bow, white ruffled maid headdress, navy dress with gold trim, white frilled whale-emblem apron, rounded blue shoes and large navy whale tail. Same cute body proportions and crisp anime outlines and cel shading as idle.png. Action: standing holding a woven harvest basket filled with ripe tomatoes, rice panicles and blue flowers at waist height, pleased expression. All hair, hands, shoes, tail and held props entirely visible within generous transparent padding. One character only, full body, no scene, ground, cast shadow, backdrop, lettering, watermark or frame. Genuine alpha transparency. Keep costume unchanged; adapt pose naturally. Both feet at bottom contact baseline; seated/crouched pose naturally shorter than standing. Composition near square 1240x1269."
+  },
+  {
+    "name": "fish-wait",
+    "prompt": "Use case: identity-preserve. Create ONE separate full-body production action sprite, fish-wait.png. Image 1 is the EXACT character identity and costume reference, image 2 is room color/style only. Preserve the same chibi blue whale maid: same face and large blue eyes, long wavy indigo-to-cyan hair, single curved ahoge, whale-fin ears, blue head bow, white ruffled maid headdress, navy dress with gold trim, white frilled whale-emblem apron, rounded blue shoes and large navy whale tail. Same cute body proportions and crisp anime outlines and cel shading as idle.png. Action: sitting patiently on a small pale blue folding stool, holding a short fishing rod diagonally forward, relaxed gentle smile; shoes touch the ground plane, no pond or backdrop. All hair, hands, shoes, tail and held props entirely visible within generous transparent padding. One character only, full body, no scene, ground, cast shadow, backdrop, lettering, watermark or frame. Genuine alpha transparency. Keep costume unchanged; adapt pose naturally. Both feet at bottom contact baseline; seated/crouched pose naturally shorter than standing. Composition near square 1240x1269."
+  },
+  {
+    "name": "fish-show",
+    "prompt": "Use case: identity-preserve. Create ONE separate full-body production action sprite, fish-show.png. Image 1 is the EXACT character identity and costume reference, image 2 is room color/style only. Preserve the same chibi blue whale maid: same face and large blue eyes, long wavy indigo-to-cyan hair, single curved ahoge, whale-fin ears, blue head bow, white ruffled maid headdress, navy dress with gold trim, white frilled whale-emblem apron, rounded blue shoes and large navy whale tail. Same cute body proportions and crisp anime outlines and cel shading as idle.png. Action: standing proudly holding up one freshly caught little silver-blue fish with a short fishing line in one hand, other hand raised happily, sparkling delighted eyes. All hair, hands, shoes, tail and held props entirely visible within generous transparent padding. One character only, full body, no scene, ground, cast shadow, backdrop, lettering, watermark or frame. Genuine alpha transparency. Keep costume unchanged; adapt pose naturally. Both feet at bottom contact baseline; seated/crouched pose naturally shorter than standing. Composition near square 1240x1269."
+  },
+  {
+    "name": "outdoor-field-morning",
+    "prompt": "Use case: lighting-weather. Exact edit target is the supplied DAY background. Use the provided DAY scene as the EXACT edit target. Change ONLY sky, lighting and atmospheric color to DAWN: visibly cool cyan-lavender early morning, low pale peach horizon, delicate mist and soft long blue shadows. Keep camera, framing, perspective and every object edge, all planting plots, paths, stall, stones and dock in the EXACT same positions. For the field preserve all SIXTEEN empty plots, 8 crop plots on left and 8 flower beds on right. Do not add or remove objects, plants, furniture or characters. No text or UI. Opaque background. Preserve source image dimensions and ALL geometry pixel aligned. Single full bleed production game background. No collage."
+  },
+  {
+    "name": "outdoor-field-dusk",
+    "prompt": "Use case: lighting-weather. Exact edit target is the supplied DAY background. Use the provided DAY scene as the EXACT edit target. Change ONLY sky, lighting and atmospheric color to DUSK: warm low amber sunset, mauve pink sky and long purple shadows, existing lamps beginning to glow. Keep camera, framing, perspective and every object edge, all planting plots, paths, stall, stones and dock in the EXACT same positions. For the field preserve all SIXTEEN empty plots, 8 crop plots on left and 8 flower beds on right. Do not add or remove objects, plants, furniture or characters. No text or UI. Opaque background. Preserve source image dimensions and ALL geometry pixel aligned. Single full bleed production game background. No collage."
+  },
+  {
+    "name": "outdoor-field-night",
+    "prompt": "Use case: lighting-weather. Exact edit target is the supplied DAY background. Use the provided DAY scene as the EXACT edit target. Change ONLY sky, lighting and atmospheric color to NIGHT: distinctly dark indigo sky, silver moonlight, warm existing lamps glowing, clearly night but readable pathways. Keep camera, framing, perspective and every object edge, all planting plots, paths, stall, stones and dock in the EXACT same positions. For the field preserve all SIXTEEN empty plots, 8 crop plots on left and 8 flower beds on right. Do not add or remove objects, plants, furniture or characters. No text or UI. Opaque background. Preserve source image dimensions and ALL geometry pixel aligned. Single full bleed production game background. No collage."
+  },
+  {
+    "name": "outdoor-pond-morning",
+    "prompt": "Use case: lighting-weather. Exact edit target is the supplied DAY background. Use the provided DAY scene as the EXACT edit target. Change ONLY sky, lighting and atmospheric color to DAWN: visibly cool cyan-lavender early morning, low pale peach horizon, delicate mist and soft long blue shadows. Keep camera, framing, perspective and every object edge, all planting plots, paths, stall, stones and dock in the EXACT same positions. For the field preserve all SIXTEEN empty plots, 8 crop plots on left and 8 flower beds on right. Do not add or remove objects, plants, furniture or characters. No text or UI. Opaque background. Preserve source image dimensions and ALL geometry pixel aligned. Single full bleed production game background. No collage."
+  },
+  {
+    "name": "outdoor-pond-dusk",
+    "prompt": "Use case: lighting-weather. Exact edit target is the supplied DAY background. Use the provided DAY scene as the EXACT edit target. Change ONLY sky, lighting and atmospheric color to DUSK: warm low amber sunset, mauve pink sky and long purple shadows, existing lamps beginning to glow. Keep camera, framing, perspective and every object edge, all planting plots, paths, stall, stones and dock in the EXACT same positions. For the field preserve all SIXTEEN empty plots, 8 crop plots on left and 8 flower beds on right. Do not add or remove objects, plants, furniture or characters. No text or UI. Opaque background. Preserve source image dimensions and ALL geometry pixel aligned. Single full bleed production game background. No collage."
+  },
+  {
+    "name": "outdoor-pond-night",
+    "prompt": "Use case: lighting-weather. Exact edit target is the supplied DAY background. Use the provided DAY scene as the EXACT edit target. Change ONLY sky, lighting and atmospheric color to NIGHT: distinctly dark indigo sky, silver moonlight, warm existing lamps glowing, clearly night but readable pathways. Keep camera, framing, perspective and every object edge, all planting plots, paths, stall, stones and dock in the EXACT same positions. For the field preserve all SIXTEEN empty plots, 8 crop plots on left and 8 flower beds on right. Do not add or remove objects, plants, furniture or characters. No text or UI. Opaque background. Preserve source image dimensions and ALL geometry pixel aligned. Single full bleed production game background. No collage."
+  },
+  {
+    "name": "fertilize",
+    "prompt": "Use case: identity-preserve. Create ONE separate full-body production action sprite, fertilize.png. Image 1 is the EXACT character identity and costume reference, image 2 is room color/style only. Preserve the same chibi blue whale maid: same face and large blue eyes, long wavy indigo-to-cyan hair, single curved ahoge, whale-fin ears, blue head bow, white ruffled maid headdress, navy dress with gold trim, white frilled whale-emblem apron, rounded blue shoes and large navy whale tail. Same cute body proportions and crisp anime outlines and cel shading as idle.png. Action: standing sprinkling a few little fertilizer granules downward from a small wooden scoop, holding a little cream fertilizer pouch in the other hand; no field or ground. All hair, hands, shoes, tail and held props entirely visible within generous transparent padding. One character only, full body, no scene, ground, cast shadow, backdrop, lettering, watermark or frame. Genuine alpha transparency. Keep costume unchanged; adapt pose naturally. Both feet at bottom contact baseline; seated/crouched pose naturally shorter than standing. Composition near square 1240x1269."
+  },
+  {
+    "name": "fish-cast",
+    "prompt": "Use case: identity-preserve. Create ONE separate full-body production action sprite, fish-cast.png. Image 1 is the EXACT character identity and costume reference, image 2 is room color/style only. Preserve the same chibi blue whale maid: same face and large blue eyes, long wavy indigo-to-cyan hair, single curved ahoge, whale-fin ears, blue head bow, white ruffled maid headdress, navy dress with gold trim, white frilled whale-emblem apron, rounded blue shoes and large navy whale tail. Same cute body proportions and crisp anime outlines and cel shading as idle.png. Action: standing in a gentle three-quarter side pose, casting a slender short fishing rod upward diagonally, fishing line loops near the rod, focused cheerful expression; rod completely inside frame and not excessively wide. All hair, hands, shoes, tail and held props entirely visible within generous transparent padding. One character only, full body, no scene, ground, cast shadow, backdrop, lettering, watermark or frame. Genuine alpha transparency. Keep costume unchanged; adapt pose naturally. Both feet at bottom contact baseline; seated/crouched pose naturally shorter than standing. Composition near square 1240x1269."
+  },
+  {
+    "name": "fish-reel",
+    "prompt": "Use case: identity-preserve. Create ONE separate full-body production action sprite, fish-reel.png. Image 1 is the EXACT character identity and costume reference, image 2 is room color/style only. Preserve the same chibi blue whale maid: same face and large blue eyes, long wavy indigo-to-cyan hair, single curved ahoge, whale-fin ears, blue head bow, white ruffled maid headdress, navy dress with gold trim, white frilled whale-emblem apron, rounded blue shoes and large navy whale tail. Same cute body proportions and crisp anime outlines and cel shading as idle.png. Action: standing leaning back just slightly, both hands gripping a small fishing rod with gently bent tip, excited focused eyes, pulling up a short line; no pond. All hair, hands, shoes, tail and held props entirely visible within generous transparent padding. One character only, full body, no scene, ground, cast shadow, backdrop, lettering, watermark or frame. Genuine alpha transparency. Keep costume unchanged; adapt pose naturally. Both feet at bottom contact baseline; seated/crouched pose naturally shorter than standing. Composition near square 1240x1269."
+  },
+  {
+    "name": "cook",
+    "prompt": "Use case: identity-preserve. Create ONE separate full-body production action sprite, cook.png. Image 1 is the EXACT character identity and costume reference, image 2 is room color/style only. Preserve the same chibi blue whale maid: same face and large blue eyes, long wavy indigo-to-cyan hair, single curved ahoge, whale-fin ears, blue head bow, white ruffled maid headdress, navy dress with gold trim, white frilled whale-emblem apron, rounded blue shoes and large navy whale tail. Same cute body proportions and crisp anime outlines and cel shading as idle.png. Action: standing beside ONE small pale-blue rice cooker, scooping freshly cooked WHITE RICE into a little blue bowl, very happy expression; rice cooker is a compact prop beside her feet, no table or kitchen. All hair, hands, shoes, tail and held props entirely visible within generous transparent padding. One character only, full body, no scene, ground, cast shadow, backdrop, lettering, watermark or frame. Genuine alpha transparency. Keep costume unchanged; adapt pose naturally. Both feet at bottom contact baseline; seated/crouched pose naturally shorter than standing. Composition near square 1240x1269."
+  },
+  {
+    "name": "brew",
+    "prompt": "Use case: identity-preserve. Create ONE separate full-body production action sprite, brew.png. Image 1 is the EXACT character identity and costume reference, image 2 is room color/style only. Preserve the same chibi blue whale maid: same face and large blue eyes, long wavy indigo-to-cyan hair, single curved ahoge, whale-fin ears, blue head bow, white ruffled maid headdress, navy dress with gold trim, white frilled whale-emblem apron, rounded blue shoes and large navy whale tail. Same cute body proportions and crisp anime outlines and cel shading as idle.png. Action: standing preparing flower tea, holding a little pale-blue teapot to pour tea into a matching cup on a small handheld tray, gentle focused smile; no table or kitchen. All hair, hands, shoes, tail and held props entirely visible within generous transparent padding. One character only, full body, no scene, ground, cast shadow, backdrop, lettering, watermark or frame. Genuine alpha transparency. Keep costume unchanged; adapt pose naturally. Both feet at bottom contact baseline; seated/crouched pose naturally shorter than standing. Composition near square 1240x1269."
+  },
+  {
+    "name": "cheer-giant",
+    "prompt": "Use case: identity-preserve. Create ONE separate full-body production action sprite, cheer-giant.png. Image 1 is the EXACT character identity and costume reference, image 2 is room color/style only. Preserve the same chibi blue whale maid: same face and large blue eyes, long wavy indigo-to-cyan hair, single curved ahoge, whale-fin ears, blue head bow, white ruffled maid headdress, navy dress with gold trim, white frilled whale-emblem apron, rounded blue shoes and large navy whale tail. Same cute body proportions and crisp anime outlines and cel shading as idle.png. Action: standing in an excited joyful cheering pose with both arms raised, tail curved with delight, a small giant blue ribbon award with a star in one hand, open happy mouth; no floating words or background effects. All hair, hands, shoes, tail and held props entirely visible within generous transparent padding. One character only, full body, no scene, ground, cast shadow, backdrop, lettering, watermark or frame. Genuine alpha transparency. Keep costume unchanged; adapt pose naturally. Both feet at bottom contact baseline; seated/crouched pose naturally shorter than standing. Composition near square 1240x1269."
+  },
+  {
+    "name": "fish-empty",
+    "prompt": "Use case: identity-preserve. Create ONE separate full-body production action sprite, fish-empty.png. Image 1 is the EXACT character identity and costume reference, image 2 is room color/style only. Preserve the same chibi blue whale maid: same face and large blue eyes, long wavy indigo-to-cyan hair, single curved ahoge, whale-fin ears, blue head bow, white ruffled maid headdress, navy dress with gold trim, white frilled whale-emblem apron, rounded blue shoes and large navy whale tail. Same cute body proportions and crisp anime outlines and cel shading as idle.png. Action: sitting on a small pale blue folding stool holding a short fishing rod with an empty hook, a little pouty disappointed but cute expression, tail drooping; no pond or backdrop. All hair, hands, shoes, tail and held props entirely visible within generous transparent padding. One character only, full body, no scene, ground, cast shadow, backdrop, lettering, watermark or frame. Genuine alpha transparency. Keep costume unchanged; adapt pose naturally. Both feet at bottom contact baseline; seated/crouched pose naturally shorter than standing. Composition near square 1240x1269."
+  },
+  {
+    "name": "arrange-flower",
+    "prompt": "Use case: identity-preserve. Create ONE separate full-body production action sprite, arrange-flower.png. Image 1 is the EXACT character identity and costume reference, image 2 is room color/style only. Preserve the same chibi blue whale maid: same face and large blue eyes, long wavy indigo-to-cyan hair, single curved ahoge, whale-fin ears, blue head bow, white ruffled maid headdress, navy dress with gold trim, white frilled whale-emblem apron, rounded blue shoes and large navy whale tail. Same cute body proportions and crisp anime outlines and cel shading as idle.png. Action: standing gently placing a few fresh blue and pink flowers into a small cream ceramic vase held at chest height, soft content smile; no table or backdrop. All hair, hands, shoes, tail and held props entirely visible within generous transparent padding. One character only, full body, no scene, ground, cast shadow, backdrop, lettering, watermark or frame. Genuine alpha transparency. Keep costume unchanged; adapt pose naturally. Both feet at bottom contact baseline; seated/crouched pose naturally shorter than standing. Composition near square 1240x1269."
+  },
+  {
+    "name": "aquarium-keep",
+    "prompt": "Use case: identity-preserve. Create ONE separate full-body production action sprite, aquarium-keep.png. Image 1 is the EXACT character identity and costume reference, image 2 is room color/style only. Preserve the same chibi blue whale maid: same face and large blue eyes, long wavy indigo-to-cyan hair, single curved ahoge, whale-fin ears, blue head bow, white ruffled maid headdress, navy dress with gold trim, white frilled whale-emblem apron, rounded blue shoes and large navy whale tail. Same cute body proportions and crisp anime outlines and cel shading as idle.png. Action: standing holding a small clear glass bowl with one little orange fish in both hands, leaning slightly forward as if releasing it into a tank, caring smile; no aquarium or backdrop. All hair, hands, shoes, tail and held props entirely visible within generous transparent padding. One character only, full body, no scene, ground, cast shadow, backdrop, lettering, watermark or frame. Genuine alpha transparency. Keep costume unchanged; adapt pose naturally. Both feet at bottom contact baseline; seated/crouched pose naturally shorter than standing. Composition near square 1240x1269."
+  },
+  {
+    "name": "go-out",
+    "prompt": "Use case: identity-preserve. Create ONE separate full-body production action sprite, go-out.png. Image 1 is the EXACT character identity and costume reference, image 2 is room color/style only. Preserve the same chibi blue whale maid: same face and large blue eyes, long wavy indigo-to-cyan hair, single curved ahoge, whale-fin ears, blue head bow, white ruffled maid headdress, navy dress with gold trim, white frilled whale-emblem apron, rounded blue shoes and large navy whale tail. Same cute body proportions and crisp anime outlines and cel shading as idle.png. Action: standing turned three-quarter away toward the right, a small pale blue shoulder bag and a light cream cardigan, waving goodbye over her shoulder with a cheerful smile, ready to go on a short outing; no door or backdrop. All hair, hands, shoes, tail and held props entirely visible within generous transparent padding. One character only, full body, no scene, ground, cast shadow, backdrop, lettering, watermark or frame. Genuine alpha transparency. Keep costume unchanged; adapt pose naturally. Both feet at bottom contact baseline; seated/crouched pose naturally shorter than standing. Composition near square 1240x1269."
+  },
+  {
+    "name": "come-back",
+    "prompt": "Use case: identity-preserve. Create ONE separate full-body production action sprite, come-back.png. Image 1 is the EXACT character identity and costume reference, image 2 is room color/style only. Preserve the same chibi blue whale maid: same face and large blue eyes, long wavy indigo-to-cyan hair, single curved ahoge, whale-fin ears, blue head bow, white ruffled maid headdress, navy dress with gold trim, white frilled whale-emblem apron, rounded blue shoes and large navy whale tail. Same cute body proportions and crisp anime outlines and cel shading as idle.png. Action: standing facing forward just returned from an outing, small pale blue shoulder bag, holding up a little paper souvenir bag in one hand, happy tired smile, slightly windswept hair; no door or backdrop. All hair, hands, shoes, tail and held props entirely visible within generous transparent padding. One character only, full body, no scene, ground, cast shadow, backdrop, lettering, watermark or frame. Genuine alpha transparency. Keep costume unchanged; adapt pose naturally. Both feet at bottom contact baseline; seated/crouched pose naturally shorter than standing. Composition near square 1240x1269."
+  },
+  {
+    "name": "nav-room",
+    "prompt": "Use case: stylized-concept. ONE finished 256x256 production PNG game asset nav-room. Match reference blue whale room: soft hand-painted anime storybook art, blue-lavender, cream and restrained gold, rounded semi-isometric form. Reference is STYLE ONLY; do not draw room interior. ONE tiny cozy blue whale cottage with a visible welcoming doorway, cream trim and periwinkle roof; simplified menu icon, no separate room interior Single centered menu emblem, readable at 256px, 8 percent transparent padding on all edges. Genuine alpha transparency, no backdrop, cast shadow, text, UI or watermark."
+  },
+  {
+    "name": "nav-field",
+    "prompt": "Use case: stylized-concept. ONE finished 256x256 production PNG game asset nav-field. Match reference blue whale room: soft hand-painted anime storybook art, blue-lavender, cream and restrained gold, rounded semi-isometric form. Reference is STYLE ONLY; do not draw room interior. ONE unified tiny field emblem with a small leafy crop patch on left and blooming blue flowers on right, pale blue low edging, representing farming and flowers together Single centered menu emblem, readable at 256px, 8 percent transparent padding on all edges. Genuine alpha transparency, no backdrop, cast shadow, text, UI or watermark."
+  },
+  {
+    "name": "nav-pond",
+    "prompt": "Use case: stylized-concept. ONE finished 256x256 production PNG game asset nav-pond. Match reference blue whale room: soft hand-painted anime storybook art, blue-lavender, cream and restrained gold, rounded semi-isometric form. Reference is STYLE ONLY; do not draw room interior. ONE tiny rounded blue pond with a little pale blue fishing dock and a small red white float, simple recognizable menu emblem Single centered menu emblem, readable at 256px, 8 percent transparent padding on all edges. Genuine alpha transparency, no backdrop, cast shadow, text, UI or watermark."
+  },
+  {
+    "name": "nav-outing",
+    "prompt": "Use case: stylized-concept. ONE finished 256x256 production PNG game asset nav-outing. Match reference blue whale room: soft hand-painted anime storybook art, blue-lavender, cream and restrained gold, rounded semi-isometric form. Reference is STYLE ONLY; do not draw room interior. ONE little blue travel backpack with a cream shell charm and a tiny rolled map, friendly outdoor stroll menu emblem Single centered menu emblem, readable at 256px, 8 percent transparent padding on all edges. Genuine alpha transparency, no backdrop, cast shadow, text, UI or watermark."
+  },
+  {
+    "name": "away-postcard-town",
+    "prompt": "Use case: stylized-concept. ONE finished 1024x640 production PNG game asset away-postcard-town. Match reference blue whale room: soft hand-painted anime storybook art, blue-lavender, cream and restrained gold, rounded semi-isometric form. Reference is STYLE ONLY; do not draw room interior. Scenic illustrated postcard sent home during an outing: a charming quiet pastel blue seaside town lane with cream stone houses, periwinkle tiled roofs and a little shell fountain. Full bleed scenery, no character, no border, no lettering, no UI. Same soft blue storybook world as the room. Full bleed opaque background, no character, text, UI, frame or watermark."
+  },
+  {
+    "name": "away-postcard-seaside",
+    "prompt": "Use case: stylized-concept. ONE finished 1024x640 production PNG game asset away-postcard-seaside. Match reference blue whale room: soft hand-painted anime storybook art, blue-lavender, cream and restrained gold, rounded semi-isometric form. Reference is STYLE ONLY; do not draw room interior. Scenic illustrated postcard sent home during an outing: a tranquil pale sand beach, luminous turquoise sea, pearly shells, gentle waves and a blue whale shaped cloud. Full bleed scenery, no character, no border, no lettering, no UI. Same soft blue storybook world as the room. Full bleed opaque background, no character, text, UI, frame or watermark."
+  },
+  {
+    "name": "away-postcard-flower-sea",
+    "prompt": "Use case: stylized-concept. ONE finished 1024x640 production PNG game asset away-postcard-flower-sea. Match reference blue whale room: soft hand-painted anime storybook art, blue-lavender, cream and restrained gold, rounded semi-isometric form. Reference is STYLE ONLY; do not draw room interior. Scenic illustrated postcard sent home during an outing: a broad gently rolling sea of blue lavender hydrangeas, white daisies and soft blue flowers beneath a sunny sky, narrow winding path. Full bleed scenery, no character, no border, no lettering, no UI. Same soft blue storybook world as the room. Full bleed opaque background, no character, text, UI, frame or watermark."
+  },
+  {
+    "name": "away-postcard-night-market",
+    "prompt": "Use case: stylized-concept. ONE finished 1024x640 production PNG game asset away-postcard-night-market. Match reference blue whale room: soft hand-painted anime storybook art, blue-lavender, cream and restrained gold, rounded semi-isometric form. Reference is STYLE ONLY; do not draw room interior. Scenic illustrated postcard sent home during an outing: a cozy small night market with indigo striped awnings, warm paper lanterns, cream stalls and subtle shell decorations under a deep blue night sky. Full bleed scenery, no character, no border, no lettering, no UI. Same soft blue storybook world as the room. Full bleed opaque background, no character, text, UI, frame or watermark."
+  },
+  {
+    "name": "away-postcard-market",
+    "prompt": "Use case: stylized-concept. ONE finished 1024x640 production PNG game asset away-postcard-market. Match reference blue whale room: soft hand-painted anime storybook art, blue-lavender, cream and restrained gold, rounded semi-isometric form. Reference is STYLE ONLY; do not draw room interior. Scenic illustrated postcard sent home from the town market (used for both errands and browsing): a cozy little town market with pastel awnings, crates of fresh vegetables, flower buckets and seed packets on a cream stall. Full bleed scenery, no character, no border, no lettering, no UI. Same soft blue storybook world as the room. Full bleed opaque background, no character, text, UI, frame or watermark."
+  },
+  {
+    "name": "sell",
+    "prompt": "Use case: identity-preserve. Create ONE separate full-body production action sprite, sell.png. Image 1 is the EXACT character identity and costume reference, image 2 is room color/style only. Preserve the same chibi blue whale maid: same face and large blue eyes, long wavy indigo-to-cyan hair, single curved ahoge, whale-fin ears, blue head bow, white ruffled maid headdress, navy dress with gold trim, white frilled whale-emblem apron, rounded blue shoes and large navy whale tail. Same cute body proportions and crisp anime outlines and cel shading as idle.png. Action: standing behind a small cream wooden produce stall counter (counter not drawn), handing a little paper bag of fresh vegetables forward with both hands, friendly shopkeeper smile; no stall, background or customer. All hair, hands, shoes, tail and held props entirely visible within generous transparent padding. One character only, full body, no scene, ground, cast shadow, backdrop, lettering, watermark or frame. Genuine alpha transparency. Keep costume unchanged; adapt pose naturally. Both feet at bottom contact baseline; seated/crouched pose naturally shorter than standing. Composition near square 1240x1269."
+  },
+  {
+    "name": "nav-market",
+    "prompt": "Use case: stylized-concept. ONE finished 256x256 production PNG game asset nav-market. Match reference blue whale room: soft hand-painted anime storybook art, blue-lavender, cream and restrained gold, rounded semi-isometric form. Reference is STYLE ONLY; do not draw room interior. ONE tiny cheerful town market awning with indigo and cream stripes over a little crate of vegetables and flowers, simple recognizable menu emblem Single centered menu emblem, readable at 256px, 8 percent transparent padding on all edges. Genuine alpha transparency, no backdrop, cast shadow, text, UI or watermark."
+  }
+]

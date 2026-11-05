@@ -1,0 +1,828 @@
+{
+  "version": 1,
+  "coordinateSystem": "Normalized within the entire image; origin top left, x right, y down. Display using contain, then map to the image rectangle, excluding letterboxing.",
+  "review": "Scene coordinates visually measured from the final day backgrounds. All four phases share the same anchors; minor generated texture differences remain.",
+  "room": {
+    "file": "../room.png",
+    "size": [
+      1672,
+      941
+    ],
+    "door": {
+      "center": [
+        0.923,
+        0.454
+      ],
+      "foot": [
+        0.916,
+        0.673
+      ],
+      "hitRect": [
+        0.88,
+        0.23,
+        0.973,
+        0.674
+      ]
+    },
+    "aquarium": {
+      "anchor": [
+        0.835,
+        0.498
+      ],
+      "width": 0.098,
+      "swimRectInScene": [
+        0.799,
+        0.391,
+        0.865,
+        0.462
+      ],
+      "swimRectInSprite": [
+        0.2,
+        0.43,
+        0.77,
+        0.7
+      ],
+      "note": "Existing room already includes an aquarium. Use its scene swim rectangle, or replace it with room-aquarium; do not paint a second tank over it."
+    },
+    "vase": {
+      "anchor": [
+        0.183,
+        0.747
+      ],
+      "width": 0.039,
+      "flowerRoot": [
+        0.183,
+        0.686
+      ]
+    },
+    "shellJar": {
+      "anchor": [
+        0.56,
+        0.346
+      ],
+      "width": 0.035
+    },
+    "codexBook": {
+      "anchor": [
+        0.475,
+        0.297
+      ],
+      "width": 0.04
+    },
+    "phaseTint": "Apply one shared environmental tint to character and prop layers at dusk/night."
+  },
+  "field": {
+    "files": {
+      "morning": "outdoor-field-morning.png",
+      "day": "outdoor-field-day.png",
+      "dusk": "outdoor-field-dusk.png",
+      "night": "outdoor-field-night.png"
+    },
+    "size": [
+      1672,
+      941
+    ],
+    "cropPlots": [
+      {
+        "id": "crop-1",
+        "row": 0,
+        "column": 0,
+        "center": [
+          0.103,
+          0.531
+        ],
+        "plantingPoint": [
+          0.103,
+          0.531
+        ],
+        "careFoot": [
+          0.103,
+          0.626
+        ],
+        "suggestedPlantHeight": 0.145,
+        "soilIsBakedIntoBackground": true
+      },
+      {
+        "id": "crop-2",
+        "row": 0,
+        "column": 1,
+        "center": [
+          0.206,
+          0.531
+        ],
+        "plantingPoint": [
+          0.206,
+          0.531
+        ],
+        "careFoot": [
+          0.206,
+          0.626
+        ],
+        "suggestedPlantHeight": 0.145,
+        "soilIsBakedIntoBackground": true
+      },
+      {
+        "id": "crop-3",
+        "row": 0,
+        "column": 2,
+        "center": [
+          0.31,
+          0.531
+        ],
+        "plantingPoint": [
+          0.31,
+          0.531
+        ],
+        "careFoot": [
+          0.31,
+          0.626
+        ],
+        "suggestedPlantHeight": 0.145,
+        "soilIsBakedIntoBackground": true
+      },
+      {
+        "id": "crop-4",
+        "row": 0,
+        "column": 3,
+        "center": [
+          0.416,
+          0.531
+        ],
+        "plantingPoint": [
+          0.416,
+          0.531
+        ],
+        "careFoot": [
+          0.416,
+          0.626
+        ],
+        "suggestedPlantHeight": 0.145,
+        "soilIsBakedIntoBackground": true
+      },
+      {
+        "id": "crop-5",
+        "row": 1,
+        "column": 0,
+        "center": [
+          0.077,
+          0.724
+        ],
+        "plantingPoint": [
+          0.077,
+          0.724
+        ],
+        "careFoot": [
+          0.077,
+          0.836
+        ],
+        "suggestedPlantHeight": 0.145,
+        "soilIsBakedIntoBackground": true
+      },
+      {
+        "id": "crop-6",
+        "row": 1,
+        "column": 1,
+        "center": [
+          0.19,
+          0.724
+        ],
+        "plantingPoint": [
+          0.19,
+          0.724
+        ],
+        "careFoot": [
+          0.19,
+          0.836
+        ],
+        "suggestedPlantHeight": 0.145,
+        "soilIsBakedIntoBackground": true
+      },
+      {
+        "id": "crop-7",
+        "row": 1,
+        "column": 2,
+        "center": [
+          0.305,
+          0.724
+        ],
+        "plantingPoint": [
+          0.305,
+          0.724
+        ],
+        "careFoot": [
+          0.305,
+          0.836
+        ],
+        "suggestedPlantHeight": 0.145,
+        "soilIsBakedIntoBackground": true
+      },
+      {
+        "id": "crop-8",
+        "row": 1,
+        "column": 3,
+        "center": [
+          0.416,
+          0.724
+        ],
+        "plantingPoint": [
+          0.416,
+          0.724
+        ],
+        "careFoot": [
+          0.416,
+          0.836
+        ],
+        "suggestedPlantHeight": 0.145,
+        "soilIsBakedIntoBackground": true
+      }
+    ],
+    "flowerBeds": [
+      {
+        "id": "flower-1",
+        "row": 0,
+        "column": 0,
+        "center": [
+          0.592,
+          0.531
+        ],
+        "plantingPoint": [
+          0.592,
+          0.531
+        ],
+        "careFoot": [
+          0.592,
+          0.626
+        ],
+        "suggestedPlantHeight": 0.145,
+        "soilIsBakedIntoBackground": true
+      },
+      {
+        "id": "flower-2",
+        "row": 0,
+        "column": 1,
+        "center": [
+          0.696,
+          0.531
+        ],
+        "plantingPoint": [
+          0.696,
+          0.531
+        ],
+        "careFoot": [
+          0.696,
+          0.626
+        ],
+        "suggestedPlantHeight": 0.145,
+        "soilIsBakedIntoBackground": true
+      },
+      {
+        "id": "flower-3",
+        "row": 0,
+        "column": 2,
+        "center": [
+          0.799,
+          0.531
+        ],
+        "plantingPoint": [
+          0.799,
+          0.531
+        ],
+        "careFoot": [
+          0.799,
+          0.626
+        ],
+        "suggestedPlantHeight": 0.145,
+        "soilIsBakedIntoBackground": true
+      },
+      {
+        "id": "flower-4",
+        "row": 0,
+        "column": 3,
+        "center": [
+          0.903,
+          0.531
+        ],
+        "plantingPoint": [
+          0.903,
+          0.531
+        ],
+        "careFoot": [
+          0.903,
+          0.626
+        ],
+        "suggestedPlantHeight": 0.145,
+        "soilIsBakedIntoBackground": true
+      },
+      {
+        "id": "flower-5",
+        "row": 1,
+        "column": 0,
+        "center": [
+          0.598,
+          0.724
+        ],
+        "plantingPoint": [
+          0.598,
+          0.724
+        ],
+        "careFoot": [
+          0.598,
+          0.836
+        ],
+        "suggestedPlantHeight": 0.145,
+        "soilIsBakedIntoBackground": true
+      },
+      {
+        "id": "flower-6",
+        "row": 1,
+        "column": 1,
+        "center": [
+          0.714,
+          0.724
+        ],
+        "plantingPoint": [
+          0.714,
+          0.724
+        ],
+        "careFoot": [
+          0.714,
+          0.836
+        ],
+        "suggestedPlantHeight": 0.145,
+        "soilIsBakedIntoBackground": true
+      },
+      {
+        "id": "flower-7",
+        "row": 1,
+        "column": 2,
+        "center": [
+          0.827,
+          0.724
+        ],
+        "plantingPoint": [
+          0.827,
+          0.724
+        ],
+        "careFoot": [
+          0.827,
+          0.836
+        ],
+        "suggestedPlantHeight": 0.145,
+        "soilIsBakedIntoBackground": true
+      },
+      {
+        "id": "flower-8",
+        "row": 1,
+        "column": 3,
+        "center": [
+          0.937,
+          0.724
+        ],
+        "plantingPoint": [
+          0.937,
+          0.724
+        ],
+        "careFoot": [
+          0.937,
+          0.836
+        ],
+        "suggestedPlantHeight": 0.145,
+        "soilIsBakedIntoBackground": true
+      }
+    ],
+    "stall": {
+      "center": [
+        0.502,
+        0.31
+      ],
+      "counterRect": [
+        0.427,
+        0.335,
+        0.589,
+        0.413
+      ],
+      "keeperFoot": [
+        0.502,
+        0.405
+      ],
+      "customerFoot": [
+        0.502,
+        0.48
+      ],
+      "keeperOcclusion": "After drawing the keeper, redraw the counter rectangle from the same phase background above the lower body."
+    },
+    "entrances": {
+      "room": {
+        "door": [
+          0.183,
+          0.278
+        ],
+        "foot": [
+          0.19,
+          0.393
+        ]
+      },
+      "pond": {
+        "exit": [
+          0.965,
+          0.302
+        ],
+        "foot": [
+          0.929,
+          0.38
+        ]
+      }
+    },
+    "defaultFoot": [
+      0.501,
+      0.844
+    ],
+    "suggestedStandingHeight": 0.235
+  },
+  "pond": {
+    "files": {
+      "morning": "outdoor-pond-morning.png",
+      "day": "outdoor-pond-day.png",
+      "dusk": "outdoor-pond-dusk.png",
+      "night": "outdoor-pond-night.png"
+    },
+    "size": [
+      1672,
+      941
+    ],
+    "standingFoot": [
+      0.323,
+      0.638
+    ],
+    "seatedFoot": [
+      0.322,
+      0.667
+    ],
+    "bobber": [
+      0.548,
+      0.574
+    ],
+    "entrances": {
+      "field": {
+        "exit": [
+          0.041,
+          0.36
+        ],
+        "foot": [
+          0.139,
+          0.48
+        ]
+      }
+    },
+    "dockWalkPolygon": [
+      [
+        0.04,
+        0.715
+      ],
+      [
+        0.225,
+        0.595
+      ],
+      [
+        0.354,
+        0.581
+      ],
+      [
+        0.414,
+        0.643
+      ],
+      [
+        0.142,
+        0.756
+      ]
+    ],
+    "suggestedStandingHeight": 0.25,
+    "fishingNote": "Left-facing rods should be flipped toward open water; transform foot x as 1-x when flipped. The short line/lure in the sprite is decorative; draw the gameplay line and bobber separately."
+  },
+  "characters": {
+    "plant": {
+      "file": "plant.png",
+      "size": [
+        1240,
+        1269
+      ],
+      "footAnchorPixels": [
+        525,
+        1241
+      ],
+      "footAnchorNormalized": [
+        0.423387,
+        0.977935
+      ],
+      "pose": "crouching",
+      "flipXAtPond": false,
+      "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+    },
+    "water-can": {
+      "file": "water-can.png",
+      "size": [
+        1240,
+        1269
+      ],
+      "footAnchorPixels": [
+        592.5,
+        1217
+      ],
+      "footAnchorNormalized": [
+        0.477823,
+        0.959023
+      ],
+      "pose": "standing",
+      "flipXAtPond": false,
+      "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+    },
+    "harvest": {
+      "file": "harvest.png",
+      "size": [
+        1240,
+        1269
+      ],
+      "footAnchorPixels": [
+        585,
+        1252
+      ],
+      "footAnchorNormalized": [
+        0.471774,
+        0.986604
+      ],
+      "pose": "standing",
+      "flipXAtPond": false,
+      "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+    },
+    "fish-wait": {
+      "file": "fish-wait.png",
+      "size": [
+        1240,
+        1269
+      ],
+      "footAnchorPixels": [
+        574,
+        1246
+      ],
+      "footAnchorNormalized": [
+        0.462903,
+        0.981875
+      ],
+      "pose": "seated",
+      "flipXAtPond": true,
+      "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+    },
+    "fish-show": {
+      "file": "fish-show.png",
+      "size": [
+        1240,
+        1269
+      ],
+      "footAnchorPixels": [
+        571.5,
+        1259
+      ],
+      "footAnchorNormalized": [
+        0.460887,
+        0.99212
+      ],
+      "pose": "standing",
+      "flipXAtPond": false,
+      "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+    },
+    "fertilize": {
+      "file": "fertilize.png",
+      "size": [
+        1240,
+        1269
+      ],
+      "footAnchorPixels": [
+        612,
+        1265
+      ],
+      "footAnchorNormalized": [
+        0.493548,
+        0.996848
+      ],
+      "pose": "standing",
+      "flipXAtPond": false,
+      "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+    },
+    "fish-cast": {
+      "file": "fish-cast.png",
+      "size": [
+        1240,
+        1269
+      ],
+      "footAnchorPixels": [
+        589.5,
+        1257
+      ],
+      "footAnchorNormalized": [
+        0.475403,
+        0.990544
+      ],
+      "pose": "standing",
+      "flipXAtPond": true,
+      "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+    },
+    "fish-reel": {
+      "file": "fish-reel.png",
+      "size": [
+        1240,
+        1269
+      ],
+      "footAnchorPixels": [
+        580,
+        1265
+      ],
+      "footAnchorNormalized": [
+        0.467742,
+        0.996848
+      ],
+      "pose": "standing",
+      "flipXAtPond": true,
+      "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+    },
+    "cook": {
+      "file": "cook.png",
+      "size": [
+        1240,
+        1269
+      ],
+      "footAnchorPixels": [
+        625.5,
+        1263
+      ],
+      "footAnchorNormalized": [
+        0.504435,
+        0.995272
+      ],
+      "pose": "standing",
+      "flipXAtPond": false,
+      "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+    },
+    "brew": {
+      "file": "brew.png",
+      "size": [
+        1240,
+        1269
+      ],
+      "footAnchorPixels": [
+        603,
+        1263
+      ],
+      "footAnchorNormalized": [
+        0.48629,
+        0.995272
+      ],
+      "pose": "standing",
+      "flipXAtPond": false,
+      "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+    },
+    "cheer-giant": {
+      "file": "cheer-giant.png",
+      "size": [
+        1240,
+        1269
+      ],
+      "footAnchorPixels": [
+        590.5,
+        1245
+      ],
+      "footAnchorNormalized": [
+        0.47621,
+        0.981087
+      ],
+      "pose": "standing",
+      "flipXAtPond": false,
+      "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+    },
+    "fish-empty": {
+      "file": "fish-empty.png",
+      "size": [
+        1240,
+        1269
+      ],
+      "footAnchorPixels": [
+        598.5,
+        1244
+      ],
+      "footAnchorNormalized": [
+        0.482661,
+        0.980299
+      ],
+      "pose": "seated",
+      "flipXAtPond": true,
+      "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+    },
+    "arrange-flower": {
+      "file": "arrange-flower.png",
+      "size": [
+        1240,
+        1269
+      ],
+      "footAnchorPixels": [
+        588,
+        1261
+      ],
+      "footAnchorNormalized": [
+        0.474194,
+        0.993696
+      ],
+      "pose": "standing",
+      "flipXAtPond": false,
+      "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+    },
+    "aquarium-keep": {
+      "file": "aquarium-keep.png",
+      "size": [
+        1240,
+        1269
+      ],
+      "footAnchorPixels": [
+        571.5,
+        1266
+      ],
+      "footAnchorNormalized": [
+        0.460887,
+        0.997636
+      ],
+      "pose": "standing",
+      "flipXAtPond": false,
+      "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+    },
+    "go-out": {
+      "file": "go-out.png",
+      "size": [
+        1240,
+        1269
+      ],
+      "footAnchorPixels": [
+        655,
+        1265
+      ],
+      "footAnchorNormalized": [
+        0.528226,
+        0.996848
+      ],
+      "pose": "standing",
+      "flipXAtPond": false,
+      "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+    },
+    "come-back": {
+      "file": "come-back.png",
+      "size": [
+        1240,
+        1269
+      ],
+      "footAnchorPixels": [
+        587,
+        1240
+      ],
+      "footAnchorNormalized": [
+        0.473387,
+        0.977147
+      ],
+      "pose": "standing",
+      "flipXAtPond": false,
+      "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+    },
+    "sell": {
+      "file": "sell.png",
+      "size": [
+        1240,
+        1269
+      ],
+      "footAnchorPixels": [
+        580.5,
+        1253
+      ],
+      "footAnchorNormalized": [
+        0.468145,
+        0.987392
+      ],
+      "pose": "standing",
+      "flipXAtPond": false,
+      "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+    }
+  },
+  "idleReference": {
+    "file": "../idle.png",
+    "footAnchorPixels": [
+      581.5,
+      1201
+    ],
+    "footAnchorNormalized": [
+      0.468952,
+      0.946414
+    ]
+  },
+  "renderNotes": [
+    "Each sprite has its own actual foot anchor. Do not assume canvas center or bottom edge is the contact point.",
+    "Use the same world scale for standing, seated and crouching poses; do not stretch shorter poses to standing height.",
+    "Use plant roots at plantingPoint; plot soil is already drawn in outdoor-field and must not be duplicated.",
+    "Fade background phases over a few seconds. Main object placement is visually consistent; generated relighting is not pixel-identical.",
+    "Room object positions are suggested placements and require integration review against the existing furniture."
+  ]
+}

@@ -1,0 +1,3457 @@
+{
+  "version": 1,
+  "generator": "built-in image_gen",
+  "layoutFile": "layout.json",
+  "assets": {
+    "icon-shell": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        28,
+        18,
+        231,
+        224
+      ],
+      "sha256": "508ce29b6e3707767f35bc82e4b7d27dc8a22b4d0134f44f91e53dd637723e6d",
+      "file": "icon-shell.png"
+    },
+    "crop-rice": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        24,
+        21,
+        236,
+        230
+      ],
+      "sha256": "a235749edad414d21b663296e5568a1f6fb3e2c43168d996ce56f214e1baec8d",
+      "file": "crop-rice.png"
+    },
+    "crop-radish": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        48,
+        34,
+        240,
+        231
+      ],
+      "sha256": "9b81bf9dc3495228903eee115c81745bcdd300ec2ad1978c168d943924064469",
+      "file": "crop-radish.png"
+    },
+    "crop-wheat": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        39,
+        21,
+        224,
+        234
+      ],
+      "sha256": "3161f409f8bd63476c0ce2e2051a116f72371618b05ae38536c7b131877feb35",
+      "file": "crop-wheat.png"
+    },
+    "crop-tomato": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        37,
+        40,
+        223,
+        226
+      ],
+      "sha256": "1bd5da858871841ea822d153067c27785a9d3c65dcee31494f972c2b1a0c487f",
+      "file": "crop-tomato.png"
+    },
+    "crop-strawberry": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        47,
+        20,
+        212,
+        226
+      ],
+      "sha256": "cb770d9c8673ccddbb6e3270d5262330c59487fca580c7848a90b216c123eadf",
+      "file": "crop-strawberry.png"
+    },
+    "crop-pumpkin": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        36,
+        45,
+        217,
+        224
+      ],
+      "sha256": "5e162f5295c1a7f6b509d91810b328d33f974722f4eed2e857ad869e8fc77db8",
+      "file": "crop-pumpkin.png"
+    },
+    "crop-watermelon": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        37,
+        34,
+        218,
+        229
+      ],
+      "sha256": "bde0d8584be723edf1d427ca605b1413ddad48a0084c1a759d490ecac2bf8ed1",
+      "file": "crop-watermelon.png"
+    },
+    "flower-daisy": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        50,
+        44,
+        228,
+        234
+      ],
+      "sha256": "aa28bfb2a5ce4734f14d3d610a4ae47b26a3b9ef2600f4760d1d2486dbcacc77",
+      "file": "flower-daisy.png"
+    },
+    "flower-sunflower": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        54,
+        25,
+        219,
+        221
+      ],
+      "sha256": "9fff400f9a5608b9fd3a1c65aa8d3cf98c46437e3e96cfc9edc009b7b593dbd3",
+      "file": "flower-sunflower.png"
+    },
+    "flower-tulip": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        57,
+        29,
+        203,
+        225
+      ],
+      "sha256": "7011437bc2aed768db68492ed5b5a02ce1e66603fe408c83eaa3f4e9c014c9ad",
+      "file": "flower-tulip.png"
+    },
+    "flower-lavender": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        37,
+        22,
+        233,
+        231
+      ],
+      "sha256": "260303477affeeccdb2e282af1a0ae81f6a7897d693406efa312bad8111fd44b",
+      "file": "flower-lavender.png"
+    },
+    "flower-rose": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        47,
+        17,
+        213,
+        225
+      ],
+      "sha256": "5ad332a451a824dd26949d3a1709748f9770f9d3197529f6a7eca55664354fda",
+      "file": "flower-rose.png"
+    },
+    "flower-hydrangea": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        43,
+        22,
+        230,
+        222
+      ],
+      "sha256": "08da08bfa4762d0152b9ea940ccc8a1c00d07b3539cbfd150ac294a8b667743b",
+      "file": "flower-hydrangea.png"
+    },
+    "flower-bluewhale": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        28,
+        30,
+        240,
+        222
+      ],
+      "sha256": "2b6ffc8edb5b7b5a2695054154ae5eaaaa3be033076feaa486f09602e231a28a",
+      "file": "flower-bluewhale.png"
+    },
+    "fish-crucian": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        30,
+        48,
+        237,
+        198
+      ],
+      "sha256": "0bdc060166b6b2574f75103ba36d4dc17086ae9c4b1065f03d1462ec70b1b8d8",
+      "file": "fish-crucian.png"
+    },
+    "fish-crayfish": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        22,
+        72,
+        235,
+        199
+      ],
+      "sha256": "b6a1b999e0853f0f2b819323cf2b50daf5fdbc3b54330583fe040e744f5b4acc",
+      "file": "fish-crayfish.png"
+    },
+    "fish-carp": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        28,
+        71,
+        237,
+        192
+      ],
+      "sha256": "3ee852dc63484eebd879c1eab20410c8dfacba84639c716bc6698b67fe12aa48",
+      "file": "fish-carp.png"
+    },
+    "fish-goldfish": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        16,
+        39,
+        236,
+        201
+      ],
+      "sha256": "248c55a73afff535c3934480870576d6c21039caf6a8a9fe2d9d4389b6ab19fe",
+      "file": "fish-goldfish.png"
+    },
+    "fish-grasscarp": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        23,
+        86,
+        237,
+        222
+      ],
+      "sha256": "75c3c5d9327e0dbce8ac96edbb42079fa8edeef1713b71008b98fcbde869a22c",
+      "file": "fish-grasscarp.png"
+    },
+    "fish-catfish": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        16,
+        77,
+        240,
+        176
+      ],
+      "sha256": "2b79a17928bf5521c5e28643cfd16cb03bc9655d41cdd95e790c83a08d9bb860",
+      "file": "fish-catfish.png"
+    },
+    "fish-koi": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        27,
+        52,
+        236,
+        193
+      ],
+      "sha256": "c83a62f552bf1863e66b519107f4e2985ee429577b3d0d6db20c2a299e657b11",
+      "file": "fish-koi.png"
+    },
+    "fish-moonfish": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        28,
+        58,
+        233,
+        204
+      ],
+      "sha256": "e6c9142e2e1c5e24af30be8238298c43d90f91cef173a54ffbfa9c7f1163a81c",
+      "file": "fish-moonfish.png"
+    },
+    "grade-s": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        83,
+        96,
+        184,
+        205
+      ],
+      "sha256": "9e8159545ea5234a8eb3487d11a4b367dd28cf4c8300e1d40e1fe5ff592e906c",
+      "file": "grade-s.png"
+    },
+    "grade-m": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        16,
+        21,
+        232,
+        235
+      ],
+      "sha256": "609173bf75cb16429f43b5a1e497c34172f255a08c980b3b4c12680807a4f77b",
+      "file": "grade-m.png"
+    },
+    "grade-l": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        23,
+        25,
+        233,
+        232
+      ],
+      "sha256": "6670f86c359aecd666be1a66fb69a58d063029092444584a53e179481669c134",
+      "file": "grade-l.png"
+    },
+    "grade-xl": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        28,
+        17,
+        230,
+        228
+      ],
+      "sha256": "052eb5f9d2f3d6aea74e3ac98b5c51bd61b13048ed3fd295fca29ba1d20835eb",
+      "file": "grade-xl.png"
+    },
+    "seed-blank": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        23,
+        39,
+        222,
+        226
+      ],
+      "sha256": "ed1bc24c36c4fdf53a054d90c8abd54debcf1e2af3c85a2ec94bbbfb86093086",
+      "file": "seed-blank.png"
+    },
+    "item-rice-bowl": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        45,
+        41,
+        233,
+        233
+      ],
+      "sha256": "1ae87dba0ab84a1f49bb9b77d3d9131dec22199edaf0e228fdf819aad5c68d71",
+      "file": "item-rice-bowl.png"
+    },
+    "item-bran": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        39,
+        27,
+        230,
+        232
+      ],
+      "sha256": "fc5e37838c4e16273ace3e7fe5a5c07ca2950f4e255bc0875e796df365c4ec98",
+      "file": "item-bran.png"
+    },
+    "item-bait": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        61,
+        50,
+        195,
+        239
+      ],
+      "sha256": "1a0ba9025aefffbd4053db431aec16b6c5296486f11c2e59429f2e5acf430c1d",
+      "file": "item-bait.png"
+    },
+    "item-bait-pro": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        50,
+        51,
+        239,
+        210
+      ],
+      "sha256": "00c95ede9000c7f9d6c8091a15faf070885f7ff85759c29b36171220e1b98be9",
+      "file": "item-bait-pro.png"
+    },
+    "item-bait-glow": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        68,
+        38,
+        202,
+        238
+      ],
+      "sha256": "2b17fefa9da787c48c2536bf85266d82182182ccfbf229714b4b3aaff6be1f64",
+      "file": "item-bait-glow.png"
+    },
+    "item-fishmeal": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        62,
+        46,
+        212,
+        206
+      ],
+      "sha256": "9124b9736543270594c7a3a308e628a4c634f1256c03685cfc7294c3f8e3ef1d",
+      "file": "item-fishmeal.png"
+    },
+    "item-compost": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        65,
+        16,
+        211,
+        207
+      ],
+      "sha256": "858b5882c7b7ed29acb59733af3176c06e189ad083ba1df590bc03fa19a2c9f5",
+      "file": "item-compost.png"
+    },
+    "item-flower-tea": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        24,
+        28,
+        233,
+        217
+      ],
+      "sha256": "a3431d07f396e70f43bae01952d6d9bea104f302c9cd463dcb4d8785ece1ad2b",
+      "file": "item-flower-tea.png"
+    },
+    "item-vase": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        46,
+        34,
+        209,
+        213
+      ],
+      "sha256": "38bc9efaadbe9ac53fcf47b20a21ce05f6985ea468cbdfbb54ef10bd968c39bf",
+      "file": "item-vase.png"
+    },
+    "rarity-common": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        40,
+        35,
+        213,
+        199
+      ],
+      "sha256": "0579567a9aaa4b71514b3eb98ea1e6c6efa405b9b820d65e45ead8096b2c3671",
+      "file": "rarity-common.png"
+    },
+    "rarity-uncommon": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        28,
+        34,
+        227,
+        204
+      ],
+      "sha256": "778aeef40c5df8f6ab5ed370784bf8c921c9ade7dc0b401bf27e3c01189aa691",
+      "file": "rarity-uncommon.png"
+    },
+    "rarity-rare": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        47,
+        20,
+        231,
+        211
+      ],
+      "sha256": "3c84518bf1491ff95b07f53995a6079018ba89aa9e0066091c4958554b182fff",
+      "file": "rarity-rare.png"
+    },
+    "rarity-legendary": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        42,
+        35,
+        221,
+        196
+      ],
+      "sha256": "03a6a5f651f0d90f5cb06c7d383c5261601397a0dcb8882eedd9512a6299c96e",
+      "file": "rarity-legendary.png"
+    },
+    "codex-unknown": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        30,
+        18,
+        238,
+        214
+      ],
+      "sha256": "4d3c824ce39152ee08b62c6cfc08060762e184f9591804b9bd8e893b0bfaefad",
+      "file": "codex-unknown.png"
+    },
+    "crop-potato": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        21,
+        47,
+        224,
+        221
+      ],
+      "sha256": "df50a7fde6cf8b8a0ec4fa89763777d44f4511969cf111aaa2eaf67b60b174ef",
+      "file": "crop-potato.png"
+    },
+    "crop-corn": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        16,
+        36,
+        224,
+        227
+      ],
+      "sha256": "6405a3f42696f85a45f9417a72b5102b77b358e74eb0328bd3e6482ee58d3594",
+      "file": "crop-corn.png"
+    },
+    "crop-eggplant": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        21,
+        28,
+        235,
+        236
+      ],
+      "sha256": "ffdcef0ed089f6220f337ae124fbf77068efe877ed9a577e96482fe1cb28a4e7",
+      "file": "crop-eggplant.png"
+    },
+    "crop-blueberry": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        47,
+        60,
+        228,
+        202
+      ],
+      "sha256": "f3814bd4d6b863fb19dd7f7fd1ddd76030936155d41da93ffbf62a99f6b50c40",
+      "file": "crop-blueberry.png"
+    },
+    "crop-grape": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        41,
+        26,
+        219,
+        225
+      ],
+      "sha256": "9574e658d13918fc643ea07b9b0068d5dbb721ea50a6d2f67baf4030103f22d4",
+      "file": "crop-grape.png"
+    },
+    "plot-soil-dry": {
+      "kind": "tile",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        16,
+        105,
+        366,
+        356
+      ],
+      "sha256": "f2a512faccc93da10b55d0002fc40cc09a205fa5d748e7d01c75ed783cf8381b",
+      "file": "plot-soil-dry.png"
+    },
+    "plot-soil-wet": {
+      "kind": "tile",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        16,
+        83,
+        368,
+        320
+      ],
+      "sha256": "d057f200ef86363694beba218077004370e0d0582a6b831b5d747fd28db30e9a",
+      "file": "plot-soil-wet.png"
+    },
+    "bed-soil-dry": {
+      "kind": "tile",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        29,
+        80,
+        366,
+        330
+      ],
+      "sha256": "cb694bed6ccf37f09c0ceaa11b3116dae00e254a081fe7ca550746e134729521",
+      "file": "bed-soil-dry.png"
+    },
+    "bed-soil-wet": {
+      "kind": "tile",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        27,
+        92,
+        362,
+        337
+      ],
+      "sha256": "14367a7f22fcc7300b3ba25fc9d5fc644fb7e9913e65a7e53bf8ae34d5f975e9",
+      "file": "bed-soil-wet.png"
+    },
+    "crop-stage-1": {
+      "kind": "tile",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        97,
+        78,
+        359,
+        335
+      ],
+      "sha256": "0cb9324c84611c350054baf7227546aeaab54cdc151d065e96acdbf48b628ef8",
+      "file": "crop-stage-1.png"
+    },
+    "flower-stage-1": {
+      "kind": "tile",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        46,
+        124,
+        350,
+        355
+      ],
+      "sha256": "2be016f00b0eb26c78332d32a3901c8d5849c116c1a0c6d67db18392d1f81a94",
+      "file": "flower-stage-1.png"
+    },
+    "overlay-thirsty": {
+      "kind": "tile",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        101,
+        59,
+        348,
+        285
+      ],
+      "sha256": "9fecf00d5ccfac4d0631d7414b6d36b9b0b26c820f9c116294dcdba4d449337b",
+      "file": "overlay-thirsty.png"
+    },
+    "overlay-ready": {
+      "kind": "tile",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        68,
+        20,
+        326,
+        368
+      ],
+      "sha256": "153b9e45a49659c2d3804252f1ff809b0428fe18e96da7fc98bc6b73cc0aabbe",
+      "file": "overlay-ready.png"
+    },
+    "overlay-overripe": {
+      "kind": "tile",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        104,
+        89,
+        319,
+        361
+      ],
+      "sha256": "7d23d79a9a25361a3ed42f29355325d46655c8b05c55007352bedcf5ae1f6e87",
+      "file": "overlay-overripe.png"
+    },
+    "overlay-fertilized": {
+      "kind": "tile",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        73,
+        86,
+        320,
+        349
+      ],
+      "sha256": "384ab7f5806d0519ed0b2a93f3b3086cb3b40dd320a68f9f054823c46bbd85cd",
+      "file": "overlay-fertilized.png"
+    },
+    "pond-idle": {
+      "kind": "tile",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        16,
+        75,
+        367,
+        350
+      ],
+      "sha256": "2da97a836993fc785d2288bd06dd1a6383b2bc7e918edfa307179bbd898d9ad7",
+      "file": "pond-idle.png"
+    },
+    "pond-waiting": {
+      "kind": "tile",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        16,
+        90,
+        366,
+        368
+      ],
+      "sha256": "49dd3c280c8ce4cb12fa17dfecd0b84c859327854e5c856fbe9b0a2142559e52",
+      "file": "pond-waiting.png"
+    },
+    "pond-bite": {
+      "kind": "tile",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        17,
+        148,
+        368,
+        367
+      ],
+      "sha256": "919f2b46713217c46784dac9ae967c6af97ca4478b292ad3b6a0cc405aafec17",
+      "file": "pond-bite.png"
+    },
+    "room-aquarium": {
+      "kind": "prop",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        16,
+        49,
+        348,
+        355
+      ],
+      "sha256": "3b373c293647bcd763e54a201ffca6993815713b7f9f0c132261f3fade0710f2",
+      "file": "room-aquarium.png"
+    },
+    "aquarium-fish-crucian": {
+      "kind": "fish-sprite",
+      "size": [
+        96,
+        96
+      ],
+      "anchorPixels": [
+        48,
+        48
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        13,
+        20,
+        92,
+        72
+      ],
+      "sha256": "8a523e972d7ca779387a226121acb928d8ae56b26d93aa6d3ffe15e07bd6b562",
+      "file": "aquarium-fish-crucian.png"
+    },
+    "aquarium-fish-crayfish": {
+      "kind": "fish-sprite",
+      "size": [
+        96,
+        96
+      ],
+      "anchorPixels": [
+        48,
+        48
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        7,
+        22,
+        90,
+        67
+      ],
+      "sha256": "e8b303e5bd557eb587fdf7ffa579430f17dfa6ee21898adb68791bcc91eead6b",
+      "file": "aquarium-fish-crayfish.png"
+    },
+    "aquarium-fish-carp": {
+      "kind": "fish-sprite",
+      "size": [
+        96,
+        96
+      ],
+      "anchorPixels": [
+        48,
+        48
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        8,
+        24,
+        92,
+        71
+      ],
+      "sha256": "125737c97293ea4dc1fc969c4a61aa94a0e2ae8102d0b0b84ec18c2417688da0",
+      "file": "aquarium-fish-carp.png"
+    },
+    "aquarium-fish-goldfish": {
+      "kind": "fish-sprite",
+      "size": [
+        96,
+        96
+      ],
+      "anchorPixels": [
+        48,
+        48
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        5,
+        14,
+        90,
+        81
+      ],
+      "sha256": "1e4931ce84fb6d99ac3a384628efc744cf84c24f7cc397f1d0d46ccd2fa4a91f",
+      "file": "aquarium-fish-goldfish.png"
+    },
+    "aquarium-fish-grasscarp": {
+      "kind": "fish-sprite",
+      "size": [
+        96,
+        96
+      ],
+      "anchorPixels": [
+        48,
+        48
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        8,
+        33,
+        83,
+        65
+      ],
+      "sha256": "8d05c0c9ba7a2d5078b7315ab0f41f34dd9145aa8e048cdf5852dbf736fe3365",
+      "file": "aquarium-fish-grasscarp.png"
+    },
+    "aquarium-fish-catfish": {
+      "kind": "fish-sprite",
+      "size": [
+        96,
+        96
+      ],
+      "anchorPixels": [
+        48,
+        48
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        6,
+        31,
+        92,
+        64
+      ],
+      "sha256": "18663e09cc08807b611d33f6902315cbb20b88bf776628cd35fee894e6545217",
+      "file": "aquarium-fish-catfish.png"
+    },
+    "aquarium-fish-koi": {
+      "kind": "fish-sprite",
+      "size": [
+        96,
+        96
+      ],
+      "anchorPixels": [
+        48,
+        48
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        7,
+        27,
+        90,
+        76
+      ],
+      "sha256": "69e14fd0795d8f4db4b9f6a1c4b983065faa2d7ce90eaf39ffaa7d99142dc79d",
+      "file": "aquarium-fish-koi.png"
+    },
+    "aquarium-fish-moonfish": {
+      "kind": "fish-sprite",
+      "size": [
+        96,
+        96
+      ],
+      "anchorPixels": [
+        48,
+        48
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        7,
+        19,
+        91,
+        73
+      ],
+      "sha256": "d4cf9af79e082b32825ca7eb2003dfc6f9257c5b97a76d15fd9ab957e792a42e",
+      "file": "aquarium-fish-moonfish.png"
+    },
+    "room-vase": {
+      "kind": "prop",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        38,
+        49,
+        312,
+        342
+      ],
+      "sha256": "0a43f11b18560dee7a058c6250d07e093da03a4f3c67bbd9057da70eb83cf57e",
+      "file": "room-vase.png"
+    },
+    "vase-flower-daisy": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        16,
+        40,
+        346,
+        341
+      ],
+      "sha256": "331a2e2b520dd3ac5413becdcaef5cde9c248a57ec9eb55960520049f2133d88",
+      "file": "vase-flower-daisy.png"
+    },
+    "vase-flower-sunflower": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        30,
+        40,
+        327,
+        350
+      ],
+      "sha256": "97f24f4e1d0a11cf3afe402ac24470976b2e2983f31035002841930fe638face",
+      "file": "vase-flower-sunflower.png"
+    },
+    "vase-flower-tulip": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        35,
+        16,
+        305,
+        368
+      ],
+      "sha256": "ef1f37980a875d47e20a381070c8631e186c9fe885ac2a44594b065c6f022394",
+      "file": "vase-flower-tulip.png"
+    },
+    "vase-flower-lavender": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        30,
+        38,
+        367,
+        355
+      ],
+      "sha256": "3bab7f2c223eac763e2a7153c3e0db019bf6a03666f639863b01979b2a475e8a",
+      "file": "vase-flower-lavender.png"
+    },
+    "vase-flower-rose": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        23,
+        25,
+        347,
+        368
+      ],
+      "sha256": "18f84ad614bbac80a899e996a097c3ca88176adc735b200670dc7fa3c7154fea",
+      "file": "vase-flower-rose.png"
+    },
+    "vase-flower-hydrangea": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        45,
+        26,
+        340,
+        355
+      ],
+      "sha256": "0a9c20682d766761559401c5dd59e4913a09ba564677f8663b6afeec01e7ca84",
+      "file": "vase-flower-hydrangea.png"
+    },
+    "vase-flower-bluewhale": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        28,
+        21,
+        345,
+        368
+      ],
+      "sha256": "1b7d07318e7f0a32a6adb8a09553680f32fdbe5b3dd6474e4269a3399c78278a",
+      "file": "vase-flower-bluewhale.png"
+    },
+    "room-shell-jar": {
+      "kind": "prop",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        58,
+        18,
+        349,
+        357
+      ],
+      "sha256": "dabdd6450442e69d002da8c5a4127715102864c45c9e94c240e2c6eb09c67124",
+      "file": "room-shell-jar.png"
+    },
+    "room-codex-book": {
+      "kind": "prop",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        70,
+        21,
+        354,
+        357
+      ],
+      "sha256": "1c3bcec15fd5cd4e4e6f177ff096d97bc7c993462e6cc5aecdeb01aeb7a9e2ec",
+      "file": "room-codex-book.png"
+    },
+    "rice-stage-2": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        65,
+        26,
+        348,
+        360
+      ],
+      "sha256": "3cc0a7eebe42ee0f18a16f99f05ca3ac363036cfdd5f3fea3ec6c9cee9418156",
+      "file": "rice-stage-2.png"
+    },
+    "rice-stage-3": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        16,
+        20,
+        362,
+        356
+      ],
+      "sha256": "fdfa68b5fcc822faf7b3e2a8ae1d7f8b9b321b51ad56fad12ee1cce4d19a6a53",
+      "file": "rice-stage-3.png"
+    },
+    "radish-stage-2": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        27,
+        80,
+        368,
+        368
+      ],
+      "sha256": "8b9834f5aebfc86a468a3349968ea14079782f7e1d80c09f52a546c34e3acac8",
+      "file": "radish-stage-2.png"
+    },
+    "radish-stage-3": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        40,
+        30,
+        357,
+        354
+      ],
+      "sha256": "6f51d46ad521c82a9233bb4ba1ac01589b0756a338456abb6337feefb1531660",
+      "file": "radish-stage-3.png"
+    },
+    "wheat-stage-2": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        21,
+        20,
+        347,
+        365
+      ],
+      "sha256": "e9f51b459e7b25b777684f4e8fbba2067e6e2a451938d0bb49273c88af85756b",
+      "file": "wheat-stage-2.png"
+    },
+    "wheat-stage-3": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        37,
+        22,
+        349,
+        368
+      ],
+      "sha256": "a9a1dd7a06dc005bf0af10cb7ff6b300fd30919017884eba2649f99aab2923f4",
+      "file": "wheat-stage-3.png"
+    },
+    "tomato-stage-2": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        26,
+        32,
+        353,
+        354
+      ],
+      "sha256": "a4f9acbd18bc0813e8359903016ba7f3ff2eae042026f2cdcc8067e05ef2ad13",
+      "file": "tomato-stage-2.png"
+    },
+    "tomato-stage-3": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        36,
+        31,
+        367,
+        353
+      ],
+      "sha256": "3f7de941861ff7f363a9be8ab16bb31947c54b37c5ac8b66e37177c16d260f38",
+      "file": "tomato-stage-3.png"
+    },
+    "strawberry-stage-2": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        48,
+        46,
+        355,
+        343
+      ],
+      "sha256": "f7209da5d41df2fdfaf340c57fd59c0c5bfc08013da92d1d7d8a7789e0b22713",
+      "file": "strawberry-stage-2.png"
+    },
+    "strawberry-stage-3": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        23,
+        25,
+        361,
+        358
+      ],
+      "sha256": "b003f7c776e9b7573be04338adccacac00900b122cb112f21bb31e0d7fbd0625",
+      "file": "strawberry-stage-3.png"
+    },
+    "pumpkin-stage-2": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        16,
+        61,
+        341,
+        350
+      ],
+      "sha256": "313f47481360243172c58b73a69e99d3dc6545fd9736065aed9269e2a8fbdfdc",
+      "file": "pumpkin-stage-2.png"
+    },
+    "pumpkin-stage-3": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        38,
+        16,
+        356,
+        368
+      ],
+      "sha256": "8c0e212523d332bdd8ecb16376a825a5ea1c5f8f82f0dcb8a114410ed313d3b1",
+      "file": "pumpkin-stage-3.png"
+    },
+    "watermelon-stage-2": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        52,
+        56,
+        339,
+        363
+      ],
+      "sha256": "b872ba3c43b89b0a69d59de085096db1511dbba2b43457279e1264c5fffe48cd",
+      "file": "watermelon-stage-2.png"
+    },
+    "watermelon-stage-3": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        16,
+        31,
+        356,
+        361
+      ],
+      "sha256": "470876f0b42b30984b6b2c731f84af350f275be43b4e7cb7329b4543863598d2",
+      "file": "watermelon-stage-3.png"
+    },
+    "daisy-stage-2": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        92,
+        59,
+        331,
+        367
+      ],
+      "sha256": "8880c36f304de1b674bc4f49573e57a4491ccf37ab2bd445d562c96c506b413c",
+      "file": "daisy-stage-2.png"
+    },
+    "daisy-stage-3": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        42,
+        42,
+        344,
+        350
+      ],
+      "sha256": "b780c7764ce6b2c7fc2e03aca6b0df7d6730cd85fdf25695da8cc2f7a0b65b3c",
+      "file": "daisy-stage-3.png"
+    },
+    "sunflower-stage-2": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        47,
+        27,
+        315,
+        353
+      ],
+      "sha256": "b427ada1a19fccbdd79bd40afdabf70b934222542f766da92dd58af1b14c74ab",
+      "file": "sunflower-stage-2.png"
+    },
+    "sunflower-stage-3": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        77,
+        37,
+        368,
+        341
+      ],
+      "sha256": "efaac4168b3f4e5406669aacd14ffec42454a5f46cbccf0608d3d676d0280c8a",
+      "file": "sunflower-stage-3.png"
+    },
+    "tulip-stage-2": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        65,
+        45,
+        316,
+        368
+      ],
+      "sha256": "af7de636a62440c7de47ffc342e947a9097b26e56bf957c913fe41ffc8e965a1",
+      "file": "tulip-stage-2.png"
+    },
+    "tulip-stage-3": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        69,
+        39,
+        323,
+        352
+      ],
+      "sha256": "b9cd6efee83fe779a4b931ec241ed158582f81d9020f4ebe4b27f60d71db5605",
+      "file": "tulip-stage-3.png"
+    },
+    "lavender-stage-2": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        28,
+        24,
+        326,
+        355
+      ],
+      "sha256": "49b65cf0f4073b1f9342c7a4dda580bd95461c04bf3746baa166cb427d30b419",
+      "file": "lavender-stage-2.png"
+    },
+    "lavender-stage-3": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        23,
+        25,
+        350,
+        361
+      ],
+      "sha256": "f8f1241d983eb2a9bca77a2606b5fbd393c490dc43ea998f5c82e2c0b1af1f49",
+      "file": "lavender-stage-3.png"
+    },
+    "rose-stage-2": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        67,
+        42,
+        340,
+        347
+      ],
+      "sha256": "ffbb6b9e5f9d038422a1dfb7618143b3042da8bb3dfa88960a4d435677ae86fc",
+      "file": "rose-stage-2.png"
+    },
+    "rose-stage-3": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        43,
+        34,
+        338,
+        364
+      ],
+      "sha256": "e419389569ce579d0dc9070ebe60f450d174754eac99cca30803dbf65e059336",
+      "file": "rose-stage-3.png"
+    },
+    "hydrangea-stage-2": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        53,
+        39,
+        357,
+        359
+      ],
+      "sha256": "05ef8c0f818e97e28a46847f1fc131558f2a578155542f5a183fc9c7ca03676d",
+      "file": "hydrangea-stage-2.png"
+    },
+    "hydrangea-stage-3": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        38,
+        37,
+        350,
+        355
+      ],
+      "sha256": "988b583f365b7fb1f4189a9070e03e3b1438d1ae5694436ffaa9341bf78e64bc",
+      "file": "hydrangea-stage-3.png"
+    },
+    "bluewhale-stage-2": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        57,
+        26,
+        306,
+        342
+      ],
+      "sha256": "9313f28a61b0734aa188b9dee9ca5ff1dd3a675ec7d658eaf68c5652617dd913",
+      "file": "bluewhale-stage-2.png"
+    },
+    "bluewhale-stage-3": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        16,
+        28,
+        368,
+        345
+      ],
+      "sha256": "5dc967e72b05f867777b55809dee044d97c652d606a4576b1c9ad09e321b5672",
+      "file": "bluewhale-stage-3.png"
+    },
+    "potato-stage-2": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        23,
+        34,
+        342,
+        367
+      ],
+      "sha256": "4b7bff8bddaa3bb82aefb84d4ad404dda92431d649dcca9ec6c9c5bf3cc218e9",
+      "file": "potato-stage-2.png"
+    },
+    "potato-stage-3": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        32,
+        21,
+        356,
+        360
+      ],
+      "sha256": "06cf8b8287115eb1f2f0c209930f110047e2e8877cf0563dc971b0ddb7665993",
+      "file": "potato-stage-3.png"
+    },
+    "corn-stage-2": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        60,
+        16,
+        350,
+        365
+      ],
+      "sha256": "12f54c107ed8582c19ed3db8b1629ee36149c2d5812e9faa6f5f755395c1a555",
+      "file": "corn-stage-2.png"
+    },
+    "corn-stage-3": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        19,
+        16,
+        356,
+        366
+      ],
+      "sha256": "c803a59cf584f40bfa26cbef579431312888a611d8c696223cdbb577a9412785",
+      "file": "corn-stage-3.png"
+    },
+    "eggplant-stage-2": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        35,
+        33,
+        362,
+        355
+      ],
+      "sha256": "53aab39c1853dd3809dea6773a5315f4789b8170cb9199c289464a27350ea9b9",
+      "file": "eggplant-stage-2.png"
+    },
+    "eggplant-stage-3": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        31,
+        16,
+        363,
+        365
+      ],
+      "sha256": "094f12af3349818e218a285d95b0ec9cbd57ee3957cd34aa698010dea6306067",
+      "file": "eggplant-stage-3.png"
+    },
+    "blueberry-stage-2": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        36,
+        31,
+        358,
+        347
+      ],
+      "sha256": "e6c4e6411f4d80630f940b290ee25d91473991bcc3b646c6c0d1b5081fbba548",
+      "file": "blueberry-stage-2.png"
+    },
+    "blueberry-stage-3": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        19,
+        45,
+        343,
+        358
+      ],
+      "sha256": "38f4429ecaea36a4789e9bb411e075d44f0850d127d6622d2074139ceefd07c6",
+      "file": "blueberry-stage-3.png"
+    },
+    "grape-stage-2": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        85,
+        31,
+        347,
+        368
+      ],
+      "sha256": "49bddb16c9908b30b8cb7a6db49dda5ccc403a5298f0bffd7659047829c6c859",
+      "file": "grape-stage-2.png"
+    },
+    "grape-stage-3": {
+      "kind": "plant",
+      "size": [
+        384,
+        384
+      ],
+      "anchorPixels": [
+        192,
+        368
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.9583333333333334
+      ],
+      "alphaBounds": [
+        60,
+        16,
+        348,
+        366
+      ],
+      "sha256": "701924a3f29bd0c8d08650eff3f4a7c686a34ae38611961c0ef8d96af11d532f",
+      "file": "grape-stage-3.png"
+    },
+    "outdoor-field-day": {
+      "kind": "scene",
+      "size": [
+        1672,
+        941
+      ],
+      "anchorPixels": null,
+      "anchorNormalized": null,
+      "alphaBounds": null,
+      "sha256": "f3b53bf50f02b1780a316f3237120d486a0e73d83c04f3e391756d1c4113bb40",
+      "file": "outdoor-field-day.png"
+    },
+    "outdoor-pond-day": {
+      "kind": "scene",
+      "size": [
+        1672,
+        941
+      ],
+      "anchorPixels": null,
+      "anchorNormalized": null,
+      "alphaBounds": null,
+      "sha256": "d1bad4c3ddde71f0293a325edfa33731d76e5ad36787f2c044601bcbff3fa84b",
+      "file": "outdoor-pond-day.png"
+    },
+    "plant": {
+      "kind": "character",
+      "size": [
+        1240,
+        1269
+      ],
+      "anchorPixels": [
+        525,
+        1241
+      ],
+      "anchorNormalized": [
+        0.423387,
+        0.977935
+      ],
+      "alphaBounds": [
+        68,
+        189,
+        1172,
+        1269
+      ],
+      "sha256": "3a1da4b12312dbab58aac404b68eb9278d060c9bf76d37406366abef19f6da66",
+      "file": "plant.png"
+    },
+    "water-can": {
+      "kind": "character",
+      "size": [
+        1240,
+        1269
+      ],
+      "anchorPixels": [
+        592.5,
+        1217
+      ],
+      "anchorNormalized": [
+        0.477823,
+        0.959023
+      ],
+      "alphaBounds": [
+        7,
+        32,
+        1233,
+        1269
+      ],
+      "sha256": "551b3b8c650fc16967fbeb8f85acb02e275166862538d6c247e08a5cd6ee8d09",
+      "file": "water-can.png"
+    },
+    "harvest": {
+      "kind": "character",
+      "size": [
+        1240,
+        1269
+      ],
+      "anchorPixels": [
+        585,
+        1252
+      ],
+      "anchorNormalized": [
+        0.471774,
+        0.986604
+      ],
+      "alphaBounds": [
+        2,
+        32,
+        1238,
+        1269
+      ],
+      "sha256": "439d935e90d1c3e20b596f8b08e655e9b7bb6143ca94538c6099db923f8bcc1f",
+      "file": "harvest.png"
+    },
+    "fish-wait": {
+      "kind": "character",
+      "size": [
+        1240,
+        1269
+      ],
+      "anchorPixels": [
+        574,
+        1246
+      ],
+      "anchorNormalized": [
+        0.462903,
+        0.981875
+      ],
+      "alphaBounds": [
+        85,
+        189,
+        1155,
+        1269
+      ],
+      "sha256": "c14cfbed8bf2b4849f23cdedaf84f9d648a1240d0f3c46c2c1374981211cdcd2",
+      "file": "fish-wait.png"
+    },
+    "fish-show": {
+      "kind": "character",
+      "size": [
+        1240,
+        1269
+      ],
+      "anchorPixels": [
+        571.5,
+        1259
+      ],
+      "anchorNormalized": [
+        0.460887,
+        0.99212
+      ],
+      "alphaBounds": [
+        5,
+        32,
+        1234,
+        1269
+      ],
+      "sha256": "cfa4f1277d6e70fd1ab154cf95a68d26bb14f383fc1128e354240794a94c10a4",
+      "file": "fish-show.png"
+    },
+    "outdoor-field-morning": {
+      "kind": "scene",
+      "size": [
+        1672,
+        941
+      ],
+      "anchorPixels": null,
+      "anchorNormalized": null,
+      "alphaBounds": null,
+      "sha256": "986c802737c5912d556ee0058077388959b550e539e542baf955c27193541666",
+      "file": "outdoor-field-morning.png"
+    },
+    "outdoor-field-dusk": {
+      "kind": "scene",
+      "size": [
+        1672,
+        941
+      ],
+      "anchorPixels": null,
+      "anchorNormalized": null,
+      "alphaBounds": null,
+      "sha256": "87b0aa70303121e02130aac80bbad5b972789f8d1b9b504b5154471983439ff2",
+      "file": "outdoor-field-dusk.png"
+    },
+    "outdoor-field-night": {
+      "kind": "scene",
+      "size": [
+        1672,
+        941
+      ],
+      "anchorPixels": null,
+      "anchorNormalized": null,
+      "alphaBounds": null,
+      "sha256": "9804fcee7a81c581ba1d8e62877bd7a7e9c65acaa402807e2947eefd3bffae4d",
+      "file": "outdoor-field-night.png"
+    },
+    "outdoor-pond-morning": {
+      "kind": "scene",
+      "size": [
+        1672,
+        941
+      ],
+      "anchorPixels": null,
+      "anchorNormalized": null,
+      "alphaBounds": null,
+      "sha256": "4120d75ad872a3e28e2429a2bd671bc20a1675511733edcc9bdf29b545e3c8ef",
+      "file": "outdoor-pond-morning.png"
+    },
+    "outdoor-pond-dusk": {
+      "kind": "scene",
+      "size": [
+        1672,
+        941
+      ],
+      "anchorPixels": null,
+      "anchorNormalized": null,
+      "alphaBounds": null,
+      "sha256": "b02160371a88277a9a9893dabf5d6109452687f524aa126ad1e8d1ec5c25f17d",
+      "file": "outdoor-pond-dusk.png"
+    },
+    "outdoor-pond-night": {
+      "kind": "scene",
+      "size": [
+        1672,
+        941
+      ],
+      "anchorPixels": null,
+      "anchorNormalized": null,
+      "alphaBounds": null,
+      "sha256": "5d265d49a870e8d7d55a45b322b0c8829e87cf9f84af128762b45ff0f97ad3cd",
+      "file": "outdoor-pond-night.png"
+    },
+    "fertilize": {
+      "kind": "character",
+      "size": [
+        1240,
+        1269
+      ],
+      "anchorPixels": [
+        612,
+        1265
+      ],
+      "anchorNormalized": [
+        0.493548,
+        0.996848
+      ],
+      "alphaBounds": [
+        1,
+        32,
+        1238,
+        1269
+      ],
+      "sha256": "1e24378ba9b467cbfd92daee9666a571e2c93fec500e56cf87f238e82143a87c",
+      "file": "fertilize.png"
+    },
+    "fish-cast": {
+      "kind": "character",
+      "size": [
+        1240,
+        1269
+      ],
+      "anchorPixels": [
+        589.5,
+        1257
+      ],
+      "anchorNormalized": [
+        0.475403,
+        0.990544
+      ],
+      "alphaBounds": [
+        0,
+        35,
+        1240,
+        1269
+      ],
+      "sha256": "433e2c0052450d2708052f5aca2c51cb5f9d1bcefdc9656481dae92be0d88641",
+      "file": "fish-cast.png"
+    },
+    "fish-reel": {
+      "kind": "character",
+      "size": [
+        1240,
+        1269
+      ],
+      "anchorPixels": [
+        580,
+        1265
+      ],
+      "anchorNormalized": [
+        0.467742,
+        0.996848
+      ],
+      "alphaBounds": [
+        0,
+        70,
+        1240,
+        1269
+      ],
+      "sha256": "0515b06f64e943ef5c086fcafebac98655879563f66168f30a127247e4780cd2",
+      "file": "fish-reel.png"
+    },
+    "cook": {
+      "kind": "character",
+      "size": [
+        1240,
+        1269
+      ],
+      "anchorPixels": [
+        625.5,
+        1263
+      ],
+      "anchorNormalized": [
+        0.504435,
+        0.995272
+      ],
+      "alphaBounds": [
+        0,
+        32,
+        1239,
+        1269
+      ],
+      "sha256": "9ea70be591ebdd1e60bc6b8a208c611fcccec79f1e6357e53b353da35b8189c8",
+      "file": "cook.png"
+    },
+    "brew": {
+      "kind": "character",
+      "size": [
+        1240,
+        1269
+      ],
+      "anchorPixels": [
+        603,
+        1263
+      ],
+      "anchorNormalized": [
+        0.48629,
+        0.995272
+      ],
+      "alphaBounds": [
+        13,
+        32,
+        1227,
+        1269
+      ],
+      "sha256": "8f4190a93d927ba61811bc310db39c190ede5f7b10d551a048dbd461c21bb7fe",
+      "file": "brew.png"
+    },
+    "cheer-giant": {
+      "kind": "character",
+      "size": [
+        1240,
+        1269
+      ],
+      "anchorPixels": [
+        590.5,
+        1245
+      ],
+      "anchorNormalized": [
+        0.47621,
+        0.981087
+      ],
+      "alphaBounds": [
+        0,
+        33,
+        1240,
+        1269
+      ],
+      "sha256": "ba38a5b433a4470d6916b703e2d7dfe25dda47e150cada330ae3fe9bda2cacf5",
+      "file": "cheer-giant.png"
+    },
+    "fish-empty": {
+      "kind": "character",
+      "size": [
+        1240,
+        1269
+      ],
+      "anchorPixels": [
+        598.5,
+        1244
+      ],
+      "anchorNormalized": [
+        0.482661,
+        0.980299
+      ],
+      "alphaBounds": [
+        98,
+        189,
+        1142,
+        1269
+      ],
+      "sha256": "fa2a018bed273e0dca8095049ccfffc23c77fdb9e821ab88c7d9a316d59d4e58",
+      "file": "fish-empty.png"
+    },
+    "arrange-flower": {
+      "kind": "character",
+      "size": [
+        1240,
+        1269
+      ],
+      "anchorPixels": [
+        588,
+        1261
+      ],
+      "anchorNormalized": [
+        0.474194,
+        0.993696
+      ],
+      "alphaBounds": [
+        4,
+        32,
+        1235,
+        1269
+      ],
+      "sha256": "5675b31b23c359e2154718d97c27a89678c7f1038987eb7deaebbd0b16fb50ad",
+      "file": "arrange-flower.png"
+    },
+    "aquarium-keep": {
+      "kind": "character",
+      "size": [
+        1240,
+        1269
+      ],
+      "anchorPixels": [
+        571.5,
+        1266
+      ],
+      "anchorNormalized": [
+        0.460887,
+        0.997636
+      ],
+      "alphaBounds": [
+        27,
+        32,
+        1212,
+        1269
+      ],
+      "sha256": "7f3c7d7eb40862023b0c95d8ce9bad0445aef9673741a32e02006ef559d60f6e",
+      "file": "aquarium-keep.png"
+    },
+    "go-out": {
+      "kind": "character",
+      "size": [
+        1240,
+        1269
+      ],
+      "anchorPixels": [
+        655,
+        1265
+      ],
+      "anchorNormalized": [
+        0.528226,
+        0.996848
+      ],
+      "alphaBounds": [
+        0,
+        37,
+        1240,
+        1269
+      ],
+      "sha256": "b92916bf5253f72ec3f9cc574bf062f285190a621f8264829d8d3e6651d65a05",
+      "file": "go-out.png"
+    },
+    "come-back": {
+      "kind": "character",
+      "size": [
+        1240,
+        1269
+      ],
+      "anchorPixels": [
+        587,
+        1240
+      ],
+      "anchorNormalized": [
+        0.473387,
+        0.977147
+      ],
+      "alphaBounds": [
+        0,
+        43,
+        1240,
+        1269
+      ],
+      "sha256": "02b45ddb52ce3816c99be1f0d14e2eb1e8cbfb7a0d1d631c7b2f48cf6e555c85",
+      "file": "come-back.png"
+    },
+    "nav-room": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        35,
+        21,
+        226,
+        227
+      ],
+      "sha256": "6c9031160e073a49002d76b3227e206a170230e93a0c08d3c3e3d19a85bfd6eb",
+      "file": "nav-room.png"
+    },
+    "nav-field": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        16,
+        31,
+        240,
+        231
+      ],
+      "sha256": "b58cefdd72188f586bac044cb915c319acef55f79aa7c15c62dca00c39ae04d3",
+      "file": "nav-field.png"
+    },
+    "nav-pond": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        30,
+        36,
+        230,
+        228
+      ],
+      "sha256": "809a61ff590bfc3e4cc458dda5c6076a93e21ac179116d154bee04b56bcac3a0",
+      "file": "nav-pond.png"
+    },
+    "nav-outing": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        25,
+        18,
+        224,
+        235
+      ],
+      "sha256": "abfd04d7e9ffaa973d49a6dbc42dd28fc6a14f191cde9888e01bb0a6f6aa46a8",
+      "file": "nav-outing.png"
+    },
+    "away-postcard-town": {
+      "kind": "scene",
+      "size": [
+        1024,
+        640
+      ],
+      "anchorPixels": null,
+      "anchorNormalized": null,
+      "alphaBounds": null,
+      "sha256": "07cdb0ad03e7c22faec64cfb6f794adb20adb8f0dbe5da3bc9c1b1b7c2fdcea6",
+      "file": "away-postcard-town.png"
+    },
+    "away-postcard-seaside": {
+      "kind": "scene",
+      "size": [
+        1024,
+        640
+      ],
+      "anchorPixels": null,
+      "anchorNormalized": null,
+      "alphaBounds": null,
+      "sha256": "5117da2ebfcb2c42393c70d9cd75776513e118547aa0c45988fc9f2610f9c1e4",
+      "file": "away-postcard-seaside.png"
+    },
+    "away-postcard-flower-sea": {
+      "kind": "scene",
+      "size": [
+        1024,
+        640
+      ],
+      "anchorPixels": null,
+      "anchorNormalized": null,
+      "alphaBounds": null,
+      "sha256": "160a44bd4d5786e87577be44a59af86a833c6f657e01c5b03707bc1d42348376",
+      "file": "away-postcard-flower-sea.png"
+    },
+    "away-postcard-night-market": {
+      "kind": "scene",
+      "size": [
+        1024,
+        640
+      ],
+      "anchorPixels": null,
+      "anchorNormalized": null,
+      "alphaBounds": null,
+      "sha256": "80332000069d418343d2fe8dcdd266ac60eb0442f3e43b99c638f6ec06fc7dc8",
+      "file": "away-postcard-night-market.png"
+    },
+    "away-postcard-market": {
+      "kind": "scene",
+      "size": [
+        1024,
+        640
+      ],
+      "anchorPixels": null,
+      "anchorNormalized": null,
+      "alphaBounds": null,
+      "sha256": "6e2055d73d9b290d0e2a29372be4304439ac4642edab8776bbb3e2c182f8c6f6",
+      "file": "away-postcard-market.png"
+    },
+    "sell": {
+      "kind": "character",
+      "size": [
+        1240,
+        1269
+      ],
+      "anchorPixels": [
+        580.5,
+        1253
+      ],
+      "anchorNormalized": [
+        0.468145,
+        0.987392
+      ],
+      "alphaBounds": [
+        3,
+        32,
+        1236,
+        1269
+      ],
+      "sha256": "44333e527587605d1e7cbb6182446f885747d8dd6e86836f35ea5e32384793e1",
+      "file": "sell.png"
+    },
+    "nav-market": {
+      "kind": "icon",
+      "size": [
+        256,
+        256
+      ],
+      "anchorPixels": [
+        128,
+        128
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alphaBounds": [
+        26,
+        24,
+        228,
+        234
+      ],
+      "sha256": "544e7fac70e288d41fcae7bce1e4d1910a089784fe971228f0f3aab7833e0ad3",
+      "file": "nav-market.png"
+    }
+  },
+  "aliases": {
+    "rice-stage-1": "crop-stage-1",
+    "seed-rice": {
+      "base": "seed-blank",
+      "overlay": "crop-rice"
+    },
+    "radish-stage-1": "crop-stage-1",
+    "seed-radish": {
+      "base": "seed-blank",
+      "overlay": "crop-radish"
+    },
+    "wheat-stage-1": "crop-stage-1",
+    "seed-wheat": {
+      "base": "seed-blank",
+      "overlay": "crop-wheat"
+    },
+    "tomato-stage-1": "crop-stage-1",
+    "seed-tomato": {
+      "base": "seed-blank",
+      "overlay": "crop-tomato"
+    },
+    "strawberry-stage-1": "crop-stage-1",
+    "seed-strawberry": {
+      "base": "seed-blank",
+      "overlay": "crop-strawberry"
+    },
+    "pumpkin-stage-1": "crop-stage-1",
+    "seed-pumpkin": {
+      "base": "seed-blank",
+      "overlay": "crop-pumpkin"
+    },
+    "watermelon-stage-1": "crop-stage-1",
+    "seed-watermelon": {
+      "base": "seed-blank",
+      "overlay": "crop-watermelon"
+    },
+    "potato-stage-1": "crop-stage-1",
+    "seed-potato": {
+      "base": "seed-blank",
+      "overlay": "crop-potato"
+    },
+    "corn-stage-1": "crop-stage-1",
+    "seed-corn": {
+      "base": "seed-blank",
+      "overlay": "crop-corn"
+    },
+    "eggplant-stage-1": "crop-stage-1",
+    "seed-eggplant": {
+      "base": "seed-blank",
+      "overlay": "crop-eggplant"
+    },
+    "blueberry-stage-1": "crop-stage-1",
+    "seed-blueberry": {
+      "base": "seed-blank",
+      "overlay": "crop-blueberry"
+    },
+    "grape-stage-1": "crop-stage-1",
+    "seed-grape": {
+      "base": "seed-blank",
+      "overlay": "crop-grape"
+    },
+    "daisy-stage-1": "flower-stage-1",
+    "seed-daisy": {
+      "base": "seed-blank",
+      "overlay": "flower-daisy"
+    },
+    "sunflower-stage-1": "flower-stage-1",
+    "seed-sunflower": {
+      "base": "seed-blank",
+      "overlay": "flower-sunflower"
+    },
+    "tulip-stage-1": "flower-stage-1",
+    "seed-tulip": {
+      "base": "seed-blank",
+      "overlay": "flower-tulip"
+    },
+    "lavender-stage-1": "flower-stage-1",
+    "seed-lavender": {
+      "base": "seed-blank",
+      "overlay": "flower-lavender"
+    },
+    "rose-stage-1": "flower-stage-1",
+    "seed-rose": {
+      "base": "seed-blank",
+      "overlay": "flower-rose"
+    },
+    "hydrangea-stage-1": "flower-stage-1",
+    "seed-hydrangea": {
+      "base": "seed-blank",
+      "overlay": "flower-hydrangea"
+    },
+    "bluewhale-stage-1": "flower-stage-1",
+    "seed-bluewhale": {
+      "base": "seed-blank",
+      "overlay": "flower-bluewhale"
+    }
+  }
+}

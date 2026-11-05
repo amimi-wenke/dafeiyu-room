@@ -1,0 +1,31 @@
+{
+  "name": "come-back",
+  "kind": "character",
+  "original": "come-back-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    1240,
+    1269
+  ],
+  "anchorPixels": [
+    587,
+    1240
+  ],
+  "anchorNormalized": [
+    0.473387,
+    0.977147
+  ],
+  "alphaBounds": [
+    0,
+    43,
+    1240,
+    1269
+  ],
+  "sha256": "02b45ddb52ce3816c99be1f0d14e2eb1e8cbfb7a0d1d631c7b2f48cf6e555c85",
+  "export": "come-back.png",
+  "project": "come-back.png",
+  "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+}

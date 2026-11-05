@@ -1,0 +1,19 @@
+{
+  "name": "outdoor-pond-day",
+  "kind": "scene",
+  "original": "outdoor-pond-day-original.png",
+  "originalSize": [
+    1672,
+    941
+  ],
+  "size": [
+    1672,
+    941
+  ],
+  "anchorPixels": null,
+  "anchorNormalized": null,
+  "alphaBounds": null,
+  "sha256": "d1bad4c3ddde71f0293a325edfa33731d76e5ad36787f2c044601bcbff3fa84b",
+  "export": "outdoor-pond-day.png",
+  "project": "outdoor-pond-day.png"
+}

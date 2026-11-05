@@ -1,0 +1,19 @@
+{
+  "name": "outdoor-field-dusk",
+  "kind": "scene",
+  "original": "outdoor-field-dusk-original.png",
+  "originalSize": [
+    1672,
+    941
+  ],
+  "size": [
+    1672,
+    941
+  ],
+  "anchorPixels": null,
+  "anchorNormalized": null,
+  "alphaBounds": null,
+  "sha256": "87b0aa70303121e02130aac80bbad5b972789f8d1b9b504b5154471983439ff2",
+  "export": "outdoor-field-dusk.png",
+  "project": "outdoor-field-dusk.png"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "water-can",
+  "kind": "character",
+  "original": "water-can-original.png",
+  "originalSize": [
+    1240,
+    1269
+  ],
+  "size": [
+    1240,
+    1269
+  ],
+  "anchorPixels": [
+    592.5,
+    1217
+  ],
+  "anchorNormalized": [
+    0.477823,
+    0.959023
+  ],
+  "alphaBounds": [
+    7,
+    32,
+    1233,
+    1269
+  ],
+  "sha256": "551b3b8c650fc16967fbeb8f85acb02e275166862538d6c247e08a5cd6ee8d09",
+  "export": "water-can.png",
+  "project": "water-can.png",
+  "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+}

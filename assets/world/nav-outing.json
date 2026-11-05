@@ -1,0 +1,30 @@
+{
+  "name": "nav-outing",
+  "kind": "icon",
+  "original": "nav-outing-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    25,
+    18,
+    224,
+    235
+  ],
+  "sha256": "abfd04d7e9ffaa973d49a6dbc42dd28fc6a14f191cde9888e01bb0a6f6aa46a8",
+  "export": "nav-outing.png",
+  "project": "nav-outing.png"
+}

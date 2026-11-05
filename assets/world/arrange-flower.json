@@ -1,0 +1,31 @@
+{
+  "name": "arrange-flower",
+  "kind": "character",
+  "original": "arrange-flower-original.png",
+  "originalSize": [
+    1240,
+    1268
+  ],
+  "size": [
+    1240,
+    1269
+  ],
+  "anchorPixels": [
+    588,
+    1261
+  ],
+  "anchorNormalized": [
+    0.474194,
+    0.993696
+  ],
+  "alphaBounds": [
+    4,
+    32,
+    1235,
+    1269
+  ],
+  "sha256": "5675b31b23c359e2154718d97c27a89678c7f1038987eb7deaebbd0b16fb50ad",
+  "export": "arrange-flower.png",
+  "project": "arrange-flower.png",
+  "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+}

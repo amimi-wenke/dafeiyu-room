@@ -1,0 +1,19 @@
+{
+  "name": "outdoor-field-morning",
+  "kind": "scene",
+  "original": "outdoor-field-morning-original.png",
+  "originalSize": [
+    1672,
+    941
+  ],
+  "size": [
+    1672,
+    941
+  ],
+  "anchorPixels": null,
+  "anchorNormalized": null,
+  "alphaBounds": null,
+  "sha256": "986c802737c5912d556ee0058077388959b550e539e542baf955c27193541666",
+  "export": "outdoor-field-morning.png",
+  "project": "outdoor-field-morning.png"
+}

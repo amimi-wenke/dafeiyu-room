@@ -1,0 +1,31 @@
+{
+  "name": "aquarium-keep",
+  "kind": "character",
+  "original": "aquarium-keep-original.png",
+  "originalSize": [
+    1240,
+    1269
+  ],
+  "size": [
+    1240,
+    1269
+  ],
+  "anchorPixels": [
+    571.5,
+    1266
+  ],
+  "anchorNormalized": [
+    0.460887,
+    0.997636
+  ],
+  "alphaBounds": [
+    27,
+    32,
+    1212,
+    1269
+  ],
+  "sha256": "7f3c7d7eb40862023b0c95d8ce9bad0445aef9673741a32e02006ef559d60f6e",
+  "export": "aquarium-keep.png",
+  "project": "aquarium-keep.png",
+  "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+}

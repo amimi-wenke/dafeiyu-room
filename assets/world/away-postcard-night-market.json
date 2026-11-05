@@ -1,0 +1,19 @@
+{
+  "name": "away-postcard-night-market",
+  "kind": "scene",
+  "original": "away-postcard-night-market-original.png",
+  "originalSize": [
+    1586,
+    992
+  ],
+  "size": [
+    1024,
+    640
+  ],
+  "anchorPixels": null,
+  "anchorNormalized": null,
+  "alphaBounds": null,
+  "sha256": "80332000069d418343d2fe8dcdd266ac60eb0442f3e43b99c638f6ec06fc7dc8",
+  "export": "away-postcard-night-market.png",
+  "project": "away-postcard-night-market.png"
+}

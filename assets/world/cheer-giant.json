@@ -1,0 +1,31 @@
+{
+  "name": "cheer-giant",
+  "kind": "character",
+  "original": "cheer-giant-original.png",
+  "originalSize": [
+    1240,
+    1269
+  ],
+  "size": [
+    1240,
+    1269
+  ],
+  "anchorPixels": [
+    590.5,
+    1245
+  ],
+  "anchorNormalized": [
+    0.47621,
+    0.981087
+  ],
+  "alphaBounds": [
+    0,
+    33,
+    1240,
+    1269
+  ],
+  "sha256": "ba38a5b433a4470d6916b703e2d7dfe25dda47e150cada330ae3fe9bda2cacf5",
+  "export": "cheer-giant.png",
+  "project": "cheer-giant.png",
+  "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+}

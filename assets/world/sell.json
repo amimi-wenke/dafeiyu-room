@@ -1,0 +1,31 @@
+{
+  "name": "sell",
+  "kind": "character",
+  "original": "sell-original.png",
+  "originalSize": [
+    1240,
+    1268
+  ],
+  "size": [
+    1240,
+    1269
+  ],
+  "anchorPixels": [
+    580.5,
+    1253
+  ],
+  "anchorNormalized": [
+    0.468145,
+    0.987392
+  ],
+  "alphaBounds": [
+    3,
+    32,
+    1236,
+    1269
+  ],
+  "sha256": "44333e527587605d1e7cbb6182446f885747d8dd6e86836f35ea5e32384793e1",
+  "export": "sell.png",
+  "project": "sell.png",
+  "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+}

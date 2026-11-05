@@ -1,0 +1,19 @@
+{
+  "name": "away-postcard-flower-sea",
+  "kind": "scene",
+  "original": "away-postcard-flower-sea-original.png",
+  "originalSize": [
+    1586,
+    992
+  ],
+  "size": [
+    1024,
+    640
+  ],
+  "anchorPixels": null,
+  "anchorNormalized": null,
+  "alphaBounds": null,
+  "sha256": "160a44bd4d5786e87577be44a59af86a833c6f657e01c5b03707bc1d42348376",
+  "export": "away-postcard-flower-sea.png",
+  "project": "away-postcard-flower-sea.png"
+}

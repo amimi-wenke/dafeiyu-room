@@ -1,0 +1,31 @@
+{
+  "name": "cook",
+  "kind": "character",
+  "original": "cook-original.png",
+  "originalSize": [
+    1240,
+    1269
+  ],
+  "size": [
+    1240,
+    1269
+  ],
+  "anchorPixels": [
+    625.5,
+    1263
+  ],
+  "anchorNormalized": [
+    0.504435,
+    0.995272
+  ],
+  "alphaBounds": [
+    0,
+    32,
+    1239,
+    1269
+  ],
+  "sha256": "9ea70be591ebdd1e60bc6b8a208c611fcccec79f1e6357e53b353da35b8189c8",
+  "export": "cook.png",
+  "project": "cook.png",
+  "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+}

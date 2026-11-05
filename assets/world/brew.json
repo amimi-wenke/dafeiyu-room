@@ -1,0 +1,31 @@
+{
+  "name": "brew",
+  "kind": "character",
+  "original": "brew-original.png",
+  "originalSize": [
+    1240,
+    1269
+  ],
+  "size": [
+    1240,
+    1269
+  ],
+  "anchorPixels": [
+    603,
+    1263
+  ],
+  "anchorNormalized": [
+    0.48629,
+    0.995272
+  ],
+  "alphaBounds": [
+    13,
+    32,
+    1227,
+    1269
+  ],
+  "sha256": "8f4190a93d927ba61811bc310db39c190ede5f7b10d551a048dbd461c21bb7fe",
+  "export": "brew.png",
+  "project": "brew.png",
+  "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+}

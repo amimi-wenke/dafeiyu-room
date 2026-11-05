@@ -1,0 +1,31 @@
+{
+  "name": "go-out",
+  "kind": "character",
+  "original": "go-out-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    1240,
+    1269
+  ],
+  "anchorPixels": [
+    655,
+    1265
+  ],
+  "anchorNormalized": [
+    0.528226,
+    0.996848
+  ],
+  "alphaBounds": [
+    0,
+    37,
+    1240,
+    1269
+  ],
+  "sha256": "b92916bf5253f72ec3f9cc574bf062f285190a621f8264829d8d3e6651d65a05",
+  "export": "go-out.png",
+  "project": "go-out.png",
+  "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+}

@@ -1,0 +1,31 @@
+{
+  "name": "fish-reel",
+  "kind": "character",
+  "original": "fish-reel-original.png",
+  "originalSize": [
+    1240,
+    1269
+  ],
+  "size": [
+    1240,
+    1269
+  ],
+  "anchorPixels": [
+    580,
+    1265
+  ],
+  "anchorNormalized": [
+    0.467742,
+    0.996848
+  ],
+  "alphaBounds": [
+    0,
+    70,
+    1240,
+    1269
+  ],
+  "sha256": "0515b06f64e943ef5c086fcafebac98655879563f66168f30a127247e4780cd2",
+  "export": "fish-reel.png",
+  "project": "fish-reel.png",
+  "anchorMethod": "Visible shoe contact, alpha >= 192; ignore transparent-edge noise and props."
+}

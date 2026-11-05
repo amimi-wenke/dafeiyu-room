@@ -1,0 +1,30 @@
+{
+  "name": "nav-room",
+  "kind": "icon",
+  "original": "nav-room-original.png",
+  "originalSize": [
+    1254,
+    1254
+  ],
+  "size": [
+    256,
+    256
+  ],
+  "anchorPixels": [
+    128,
+    128
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "alphaBounds": [
+    35,
+    21,
+    226,
+    227
+  ],
+  "sha256": "6c9031160e073a49002d76b3227e206a170230e93a0c08d3c3e3d19a85bfd6eb",
+  "export": "nav-room.png",
+  "project": "nav-room.png"
+}

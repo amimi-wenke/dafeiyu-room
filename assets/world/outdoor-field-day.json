@@ -1,0 +1,19 @@
+{
+  "name": "outdoor-field-day",
+  "kind": "scene",
+  "original": "outdoor-field-day-original.png",
+  "originalSize": [
+    1672,
+    941
+  ],
+  "size": [
+    1672,
+    941
+  ],
+  "anchorPixels": null,
+  "anchorNormalized": null,
+  "alphaBounds": null,
+  "sha256": "f3b53bf50f02b1780a316f3237120d486a0e73d83c04f3e391756d1c4113bb40",
+  "export": "outdoor-field-day.png",
+  "project": "outdoor-field-day.png"
+}
