@@ -461,6 +461,9 @@
       el("h3", { textContent: "花园" }), ...w.garden.map((p, i) => plotRow(p, i, t)),
       el("h3", { textContent: "池塘" }), el("p", { textContent: pondText }), orders, market];
   }
+  const gradeStars = { s: 1, m: 3, l: 4, xl: 5 };
+  const starsFor = x => x?.stars || gradeStars[x?.grade] || 0;
+  const starText = n => n ? "★".repeat(n) + "☆".repeat(Math.max(0, 5 - n)) : "";
   const iconFor = (kind, species) => ({ crop: "crop-", flower: "flower-", fish: "fish-" })[kind] + species;
   function iconRow(name, fallback, text, extra) {
     const row = el("p", { className: "icon-row" });
@@ -478,9 +481,9 @@
     const items = Object.entries(w.items).map(([id, n]) => (itemNames[id] || id) + " ×" + n).join("、") || "没有";
     return [el("p", { textContent: "种子：" + seeds }), el("div", { className: "item-chips" }, ...Object.entries(w.items).map(([id, n]) => iconRow("item-" + id, "·", `${itemNames[id] || id} ×${n}`))),
       ...["crop", "flower", "fish"].flatMap(kind => groups[kind].length ? [el("h3", { textContent: { crop: "作物", flower: "花", fish: "鱼" }[kind] + "（" + groups[kind].length + "）" }),
-        ...groups[kind].map(item => iconRow(iconFor(item.kind, item.species), icons[item.kind], `${item.name} · ${item.sizeText} · ${item.gradeName} · 现价 ${item.price}`))] : []),
+        ...groups[kind].map(item => iconRow(iconFor(item.kind, item.species), icons[item.kind], `${item.name} · ${item.sizeText} · 现价 ${item.price}`, el("span", { className: "stars", textContent: starText(starsFor(item)), title: item.gradeName })))] : []),
       el("h3", { textContent: `鱼缸 ${w.aquarium.length}/${w.aquariumSize}` }),
-      ...w.aquarium.map(fish => iconRow("aquarium-fish-" + fish.species, "🐠", `${fish.name} · ${fish.sizeText}`)),
+      ...w.aquarium.map(fish => iconRow("aquarium-fish-" + fish.species, "🐠", `${fish.name} · ${fish.sizeText}`, el("span", { className: "stars", textContent: starText(starsFor(fish)) }))),
       w.vase ? el("p", { textContent: `花瓶：${w.vase.name}（到 ${time(w.vase.until)}）` }) : null];
   }
   function renderShop() {
@@ -488,14 +491,32 @@
     return [el("p", { className: "dsh-note", textContent: `商店等级 ${shop.tier}` + (shop.nextTierAt != null ? `，图鉴达到 ${shop.nextTierAt} 种上新` : "，全部商品已解锁") + `。她有 ${lastWorld?.shells ?? "?"} 贝壳。买卖都在镇上集市，她需要时会自己出门去，买什么由她决定。` }),
       ...shop.items.map(i => el("p", { textContent: `${i.name} · ${i.price} 贝壳` }))];
   }
+  // Codex as a grid of square tiles: icon, name, count and the best record's stars; unknown species stay silhouettes.
+  function codexTile(e, kind) {
+    const tile = el("div", { className: "codex-tile" + (e.found ? "" : " unknown") + (e.giant ? " giant" : "") });
+    const pic = el("img", { className: "codex-icon", alt: "" });
+    pic.onerror = () => pic.replaceWith(el("span", { className: "codex-icon", textContent: e.found ? icons[kind] : "❔" }));
+    pic.src = "/assets/world/" + (e.found ? iconFor(kind, e.species) : "codex-unknown") + ".png";
+    tile.append(pic, el("strong", { textContent: e.found ? e.name : "？？？" }));
+    if (e.found) {
+      tile.append(el("span", { className: "stars", textContent: starText(starsFor(e.best)) }), el("span", { className: "codex-meta", textContent: `最大 ${e.best.text} · ${e.count} 次` }));
+      tile.title = `${e.name}${e.rarity ? "（" + rarityNames[e.rarity] + "）" : ""}\n最大纪录：${e.best.text}（${e.best.gradeName}，${starsFor(e.best)} 星）\n累计 ${e.count} 次 · 首次 ${time(e.first)}${e.giant ? "\n得到过巨大的！" : ""}`;
+    } else tile.append(el("span", { className: "codex-meta", textContent: e.rarity ? rarityNames[e.rarity] + "的鱼" : "还没见过" }));
+    if (e.rarity) {
+      const badge = el("img", { className: "codex-rarity", alt: rarityNames[e.rarity] });
+      badge.onerror = () => badge.remove();
+      badge.src = "/assets/world/rarity-" + e.rarity + ".png";
+      tile.append(badge);
+    }
+    return tile;
+  }
   function renderCodex() {
     const codex = extra?.codex; if (!codex) return [el("p", { textContent: "正在翻开图鉴…" })];
     const kinds = { crop: "作物", flower: "花", fish: "鱼" };
-    return [el("p", { textContent: `已收集 ${codex.found}/${codex.total}` }), ...Object.keys(kinds).flatMap(kind => [el("h3", { textContent: kinds[kind] }),
-      ...codex.entries.filter(e => e.kind === kind).map(e => el("div", { className: "world-plot codex" + (e.found ? "" : " unknown") },
-        iconRow(e.found ? iconFor(kind, e.species) : "codex-unknown", e.found ? icons[kind] : "❔", "").firstChild,
-        el("span", { textContent: e.found ? `${e.name}${e.rarity ? "（" + rarityNames[e.rarity] + "）" : ""} · ${e.count} 次 · 最大 ${e.best.text}（${e.best.gradeName}）${e.giant ? " ✨" : ""}` : (e.rarity ? rarityNames[e.rarity] + "的鱼" : "还没见过") }),
-        e.found ? el("span", { className: "dsh-note", textContent: "首次 " + time(e.first) }) : null))])];
+    return [el("p", { textContent: `已收集 ${codex.found}/${codex.total} · 星级按大小算，五星就是巨大` }), ...Object.keys(kinds).flatMap(kind => {
+      const list = codex.entries.filter(e => e.kind === kind);
+      return [el("h3", { textContent: `${kinds[kind]} ${list.filter(e => e.found).length}/${list.length}` }), el("div", { className: "codex-grid" }, ...list.map(e => codexTile(e, kind)))];
+    })];
   }
   function renderLog(w) {
     return [el("h3", { textContent: "里程碑" }), ...(w.milestones.length ? w.milestones.slice().reverse().map(m => el("p", { textContent: `✨ ${time(m.at)} ${m.text}` })) : [el("p", { textContent: "还没有" })]),
