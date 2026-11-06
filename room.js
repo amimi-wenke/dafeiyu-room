@@ -56,6 +56,8 @@ let autonomous = true;
 let resumeAt = 0;
 const REQUEST_PAUSE_MS = 90000;
 let movementFrame;
+// Walking watchdog: rAF can stall (window occluded/minimised); an interrupted walk can also leave the "walk" pose behind.
+let movement = null, idleWalkTicks = 0;
 let motionVersion = 0;
 let returnTimer;
 let speechTimer;
@@ -178,6 +180,7 @@ function setState(state) {
   publishRoom(true);
 }
 function cancelMovement() {
+  movement = null;
   motionVersion++;
   cancelAnimationFrame(movementFrame);
   clearTimeout(returnTimer);
@@ -265,8 +268,10 @@ function walkPath(path, arrived) {
   if (!points.length) { arrived(); return; }
   setState("walk");
   let previousTime = performance.now();
+  movement = { points, arrived, lastFrameAt: performance.now(), frame: null };
   function frame(now) {
     if (version !== motionVersion) return;
+    if (movement) movement.lastFrameAt = performance.now();
     const step = Math.min((now - previousTime) / 1000, .08) * 12;
     previousTime = now;
     const next = points[0];
@@ -279,7 +284,7 @@ function walkPath(path, arrived) {
       actor.x = next.x;
       actor.y = next.y;
       points.shift();
-      if (!points.length) { arrived(); return; }
+      if (!points.length) { movement = null; arrived(); return; }
     } else {
       actor.x += dx / distance * step;
       actor.y += dy / distance * step;
@@ -287,8 +292,29 @@ function walkPath(path, arrived) {
     placeActor();
     movementFrame = requestAnimationFrame(frame);
   }
+  movement.frame = frame;
   movementFrame = requestAnimationFrame(frame);
 }
+setInterval(() => {
+  if (movement) {
+    idleWalkTicks = 0;
+    const stalled = performance.now() - movement.lastFrameAt;
+    if (stalled > 4000) {
+      // Frames are not coming back: finish the walk at its destination instead of freezing mid-step.
+      const { points, arrived } = movement;
+      const last = points[points.length - 1];
+      cancelMovement();
+      if (last) { actor.x = last.x; actor.y = last.y; placeActor(); }
+      arrived();
+    } else if (stalled > 1200) {
+      cancelAnimationFrame(movementFrame);
+      movementFrame = requestAnimationFrame(movement.frame);
+    }
+  } else if (actor.state === "walk") {
+    // "walk" with no walk running: an interrupted walk left the pose behind.
+    if (++idleWalkTicks >= 2) { idleWalkTicks = 0; setState("idle"); }
+  } else idleWalkTicks = 0;
+}, 1000);
 
 function routine(steps) {
   cancelRoutine();
@@ -376,7 +402,7 @@ function perform(action, manual = true) {
     return;
   }
   const activity = activities[action];
-  if (!activity) return;
+  if (!activity) { if (actor.state === "walk") setState("idle"); return; }
   walkPath(activity.path, () => {
     actor.x = activity.pose[0];
     actor.y = activity.pose[1];

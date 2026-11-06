@@ -11,7 +11,7 @@ else {
     function open(route = '/') {
       const win = new BrowserWindow({ width: 1440, height: 920, minWidth: 960, minHeight: 620,
         backgroundColor: '#a8bee7', title: '大肥鱼的小屋', autoHideMenuBar: true,
-        webPreferences: { nodeIntegration: false, contextIsolation: true, sandbox: true } });
+        webPreferences: { nodeIntegration: false, contextIsolation: true, sandbox: true, backgroundThrottling: false } });
       windows.add(win); win.on('closed', () => windows.delete(win));
       win.webContents.on('will-navigate', (event, url) => { if (![connector.origin + '/', connector.origin + '/chat'].includes(url)) event.preventDefault(); });
       win.webContents.setWindowOpenHandler(({ url }) => {
