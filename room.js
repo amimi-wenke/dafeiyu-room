@@ -57,7 +57,7 @@ let resumeAt = 0;
 const REQUEST_PAUSE_MS = 90000;
 let movementFrame;
 // Walking watchdog: rAF can stall (window occluded/minimised); an interrupted walk can also leave the "walk" pose behind.
-let movement = null, idleWalkTicks = 0;
+let movement = null, idleWalkTicks = 0, leavingRoom = false;
 let motionVersion = 0;
 let returnTimer;
 let speechTimer;
@@ -181,6 +181,7 @@ function setState(state) {
 }
 function cancelMovement() {
   movement = null;
+  leavingRoom = false;
   motionVersion++;
   cancelAnimationFrame(movementFrame);
   clearTimeout(returnTimer);
@@ -350,6 +351,7 @@ function perform(action, manual = true) {
     say("我还在外面呢，点「叫她回家」就回来。");
     return;
   }
+  if (leavingRoom) { say("我正要出门呢，回来再陪你。"); return; }
   cancelRoutine();
   if (action === "tour") {
     routine([
@@ -459,15 +461,34 @@ timeButton.addEventListener("click", () => {
   updateTime();
   updateLamp();
 });
-document.querySelector("#return-home").addEventListener("click", () => {
-  setAutomatic(false);
+function comeHome(line = "回来啦。有没有想我？") {
   cancelRoutine();
   actor.x = 92; actor.y = 65;
   setState("idle");
   walkPath([[76, 70], [58, 76], [50, 77]], () => {
     setState("idle");
-    say("回来啦。有没有想我？");
+    say(line);
   });
+}
+document.querySelector("#return-home").addEventListener("click", () => {
+  setAutomatic(false);
+  comeHome();
+});
+// Presence from the world plugin is the source of truth: when she is in the field, at the pond or out,
+// the room must not also show her (and must not leave a walking pose behind); when she is home, show her.
+window.addEventListener("dafeiyu:world-presence", event => {
+  const outside = event.detail?.outside === true;
+  if (outside) {
+    if (actor.state === "away" || leavingRoom) return;
+    cancelRoutine();
+    if (document.hidden || actor.state === "sleep") { setState("away"); speech.textContent = ""; return; }
+    say(event.detail?.line || "我出去一下。");
+    walkPath([[59, 76], [76, 70], [92, 65]], () => { leavingRoom = false; setState("away"); speech.textContent = ""; });
+    leavingRoom = true;
+  } else if (actor.state === "away") {
+    leavingRoom = false;
+    comeHome(event.detail?.line || "回来啦。");
+  }
 });
 stage.addEventListener("click", event => {
   if (event.target !== roomImage && event.target !== stage) return;

@@ -807,6 +807,9 @@
     document.body.dataset.worldPhase = w.phase;
     renderRoomProps(w);
     const where = sceneOf(w.location);
+    // Keep the room in step with where she really is (field, pond, out, or home).
+    window.dispatchEvent(new CustomEvent("dafeiyu:world-presence", { detail: { outside: where !== "room",
+      line: where === "field" ? "我去田园看看。" : where === "pond" ? "我去池塘那边。" : where === "away" ? "我出门一趟。" : "" } }));
     if (awayLabel && where !== "room") awayLabel.textContent = where === "away" ? awayText(w).replace(/^她/, "大肥鱼") : where === "field" ? "她在田园忙" : "她在池塘钓鱼";
     if (returnHome) returnHome.textContent = where === "away" ? "叫她回来" : where === "room" ? "叫她回家" : "去看看她";
     // While she is out, show the postcard of where she went.
