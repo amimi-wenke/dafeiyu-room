@@ -100,7 +100,13 @@
           0.626
         ],
         "suggestedPlantHeight": 0.145,
-        "soilIsBakedIntoBackground": true
+        "soilIsBakedIntoBackground": true,
+        "soilRect": [
+          0.0526,
+          0.4559,
+          0.1519,
+          0.5898
+        ]
       },
       {
         "id": "crop-2",
@@ -119,7 +125,13 @@
           0.626
         ],
         "suggestedPlantHeight": 0.145,
-        "soilIsBakedIntoBackground": true
+        "soilIsBakedIntoBackground": true,
+        "soilRect": [
+          0.1603,
+          0.4548,
+          0.2542,
+          0.5887
+        ]
       },
       {
         "id": "crop-3",
@@ -138,7 +150,13 @@
           0.626
         ],
         "suggestedPlantHeight": 0.145,
-        "soilIsBakedIntoBackground": true
+        "soilIsBakedIntoBackground": true,
+        "soilRect": [
+          0.2667,
+          0.4559,
+          0.3541,
+          0.5898
+        ]
       },
       {
         "id": "crop-4",
@@ -157,7 +175,13 @@
           0.626
         ],
         "suggestedPlantHeight": 0.145,
-        "soilIsBakedIntoBackground": true
+        "soilIsBakedIntoBackground": true,
+        "soilRect": [
+          0.3726,
+          0.4548,
+          0.4575,
+          0.5898
+        ]
       },
       {
         "id": "crop-5",
@@ -176,7 +200,13 @@
           0.836
         ],
         "suggestedPlantHeight": 0.145,
-        "soilIsBakedIntoBackground": true
+        "soilIsBakedIntoBackground": true,
+        "soilRect": [
+          0.0185,
+          0.6387,
+          0.1226,
+          0.7875
+        ]
       },
       {
         "id": "crop-6",
@@ -195,7 +225,13 @@
           0.836
         ],
         "suggestedPlantHeight": 0.145,
-        "soilIsBakedIntoBackground": true
+        "soilIsBakedIntoBackground": true,
+        "soilRect": [
+          0.1328,
+          0.6408,
+          0.235,
+          0.7885
+        ]
       },
       {
         "id": "crop-7",
@@ -214,7 +250,13 @@
           0.836
         ],
         "suggestedPlantHeight": 0.145,
-        "soilIsBakedIntoBackground": true
+        "soilIsBakedIntoBackground": true,
+        "soilRect": [
+          0.2506,
+          0.6387,
+          0.3463,
+          0.7885
+        ]
       },
       {
         "id": "crop-8",
@@ -233,7 +275,13 @@
           0.836
         ],
         "suggestedPlantHeight": 0.145,
-        "soilIsBakedIntoBackground": true
+        "soilIsBakedIntoBackground": true,
+        "soilRect": [
+          0.3666,
+          0.6397,
+          0.4569,
+          0.7885
+        ]
       }
     ],
     "flowerBeds": [
@@ -254,7 +302,13 @@
           0.626
         ],
         "suggestedPlantHeight": 0.145,
-        "soilIsBakedIntoBackground": true
+        "soilIsBakedIntoBackground": true,
+        "soilRect": [
+          0.5496,
+          0.4548,
+          0.6352,
+          0.5898
+        ]
       },
       {
         "id": "flower-2",
@@ -273,7 +327,13 @@
           0.626
         ],
         "suggestedPlantHeight": 0.145,
-        "soilIsBakedIntoBackground": true
+        "soilIsBakedIntoBackground": true,
+        "soilRect": [
+          0.6537,
+          0.4559,
+          0.741,
+          0.5887
+        ]
       },
       {
         "id": "flower-3",
@@ -292,7 +352,13 @@
           0.626
         ],
         "suggestedPlantHeight": 0.145,
-        "soilIsBakedIntoBackground": true
+        "soilIsBakedIntoBackground": true,
+        "soilRect": [
+          0.7536,
+          0.4559,
+          0.8451,
+          0.5898
+        ]
       },
       {
         "id": "flower-4",
@@ -311,7 +377,13 @@
           0.626
         ],
         "suggestedPlantHeight": 0.145,
-        "soilIsBakedIntoBackground": true
+        "soilIsBakedIntoBackground": true,
+        "soilRect": [
+          0.8535,
+          0.4559,
+          0.951,
+          0.5898
+        ]
       },
       {
         "id": "flower-5",
@@ -330,7 +402,13 @@
           0.836
         ],
         "suggestedPlantHeight": 0.145,
-        "soilIsBakedIntoBackground": true
+        "soilIsBakedIntoBackground": true,
+        "soilRect": [
+          0.5544,
+          0.6397,
+          0.6471,
+          0.7885
+        ]
       },
       {
         "id": "flower-6",
@@ -349,7 +427,13 @@
           0.836
         ],
         "suggestedPlantHeight": 0.145,
-        "soilIsBakedIntoBackground": true
+        "soilIsBakedIntoBackground": true,
+        "soilRect": [
+          0.6651,
+          0.6397,
+          0.759,
+          0.7885
+        ]
       },
       {
         "id": "flower-7",
@@ -368,7 +452,13 @@
           0.836
         ],
         "suggestedPlantHeight": 0.145,
-        "soilIsBakedIntoBackground": true
+        "soilIsBakedIntoBackground": true,
+        "soilRect": [
+          0.7733,
+          0.6397,
+          0.8732,
+          0.7885
+        ]
       },
       {
         "id": "flower-8",
@@ -387,7 +477,13 @@
           0.836
         ],
         "suggestedPlantHeight": 0.145,
-        "soilIsBakedIntoBackground": true
+        "soilIsBakedIntoBackground": true,
+        "soilRect": [
+          0.8822,
+          0.6408,
+          0.9856,
+          0.7885
+        ]
       }
     ],
     "stall": {

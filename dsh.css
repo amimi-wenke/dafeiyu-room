@@ -79,7 +79,7 @@ body[data-chat-only="true"] .dsh-messages { min-height: 24vh; max-height: 48vh; 
 
 /* Field soil is painted into the background: beds only darken when watered; plants and her sprite are placed by layout.json anchors. */
 .scene-plot { position: absolute; inset: 0; pointer-events: none; }
-.scene-bed { position: absolute; width: 8.4%; height: 12.5%; transform: translate(-50%, -50%); border-radius: 18% / 26%; pointer-events: auto; transition: background-color 1.5s ease; }
+.scene-bed { position: absolute; width: 8.4%; height: 12.5%; transform: translate(-50%, -50%); border-radius: 12% / 14%; pointer-events: auto; transition: background-color 1.5s ease; }
 .scene-bed.watered { background: #2a140866; mix-blend-mode: multiply; }
 .scene-bed.locked { background: #b7c0d4a8; backdrop-filter: grayscale(.8); }
 .scene-plant, .scene-overlay, .scene-bobber { object-fit: contain; pointer-events: none; filter: drop-shadow(0 3px 3px #1c284026); }

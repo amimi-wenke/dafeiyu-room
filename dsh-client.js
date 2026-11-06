@@ -588,7 +588,7 @@
   fetch("/assets/world/layout.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(json => {
     if (!json) return;
     const f = json.field || {}, p = json.pond || {}, r = json.room || {};
-    const plots = list => list.map(x => ({ center: x.plantingPoint || x.center, careFoot: x.careFoot || [x.center[0], x.center[1] + 0.1] }));
+    const plots = list => list.map(x => ({ center: x.plantingPoint || x.center, careFoot: x.careFoot || [x.center[0], x.center[1] + 0.1], soil: x.soilRect }));
     if (Array.isArray(f.cropPlots)) layout.field.crop = plots(f.cropPlots);
     if (Array.isArray(f.flowerBeds)) layout.field.flower = plots(f.flowerBeds);
     if (f.stall) layout.field.stall = { ...layout.field.stall, ...f.stall };
@@ -646,7 +646,9 @@
   function plotNode(area, p, slot, spot, built) {
     const group = el("div", { className: "scene-plot" });
     const bed = el("span", { className: "scene-bed" + (!built ? " locked" : p && !p.thirsty ? " watered" : "") });
-    Object.assign(bed.style, { left: P(spot.center[0]), top: P(spot.center[1]) });
+    // The darkened/locked tint covers exactly the soil painted in the background (soilRect from layout.json).
+    if (spot.soil) { const [x0, y0, x1, y1] = spot.soil; Object.assign(bed.style, { left: P(x0), top: P(y0), width: P(x1 - x0), height: P(y1 - y0), transform: "none" }); }
+    else Object.assign(bed.style, { left: P(spot.center[0]), top: P(spot.center[1]) });
     group.append(bed);
     if (!built) { bed.title = "还没开垦"; return group; }
     if (!p) { bed.title = (slot + 1) + "号 · 空地"; return group; }
@@ -667,8 +669,9 @@
     const recent = w.log.filter(e => e.by === "self" || e.by === "tool").at(-1);
     const fresh = recent && w.serverTime - recent.at < 90000;
     if (w.milestones.some(m => m.type === "giant" && w.serverTime - m.at < 120000)) return "cheer-giant";
-    if (w.fishing) return w.fishing.state === "bite" ? "fish-reel" : w.serverTime - w.fishing.castAt < 20000 ? "fish-cast" : "fish-wait";
-    if (fresh && recent.action === "collect") return /跑/.test(recent.text) ? "fish-empty" : "fish-show";
+    const atPond = w.location === "pond";
+    if (atPond && w.fishing) return w.fishing.state === "bite" ? "fish-reel" : w.serverTime - w.fishing.castAt < 20000 ? "fish-cast" : "fish-wait";
+    if (atPond && fresh && recent.action === "collect") return /跑/.test(recent.text) ? "fish-empty" : "fish-show";
     return { plant: "plant", water: "water-can", harvest: "harvest", fertilize: "fertilize", sell: "sell", explore: "idle" }[w.activity] || "idle";
   }
   function actorSpot(w, scene, pose) {
