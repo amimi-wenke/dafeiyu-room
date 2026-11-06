@@ -588,7 +588,7 @@
   fetch("/assets/world/layout.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(json => {
     if (!json) return;
     const f = json.field || {}, p = json.pond || {}, r = json.room || {};
-    const plots = list => list.map(x => ({ center: x.plantingPoint || x.center, careFoot: x.careFoot || [x.center[0], x.center[1] + 0.1], soil: x.soilRect }));
+    const plots = list => list.map(x => ({ center: x.plantingPoint || x.center, careFoot: x.careFoot || [x.center[0], x.center[1] + 0.1], soil: x.soilRect, outline: x.soilPolygon }));
     if (Array.isArray(f.cropPlots)) layout.field.crop = plots(f.cropPlots);
     if (Array.isArray(f.flowerBeds)) layout.field.flower = plots(f.flowerBeds);
     if (f.stall) layout.field.stall = { ...layout.field.stall, ...f.stall };
@@ -647,7 +647,12 @@
     const group = el("div", { className: "scene-plot" });
     const bed = el("span", { className: "scene-bed" + (!built ? " locked" : p && !p.thirsty ? " watered" : "") });
     // The darkened/locked tint covers exactly the soil painted in the background (soilRect from layout.json).
-    if (spot.soil) { const [x0, y0, x1, y1] = spot.soil; Object.assign(bed.style, { left: P(x0), top: P(y0), width: P(x1 - x0), height: P(y1 - y0), transform: "none" }); }
+    // The painted soil is a perspective trapezoid with rounded corners: clip the tint to its traced outline.
+    if (spot.soil) {
+      const [x0, y0, x1, y1] = spot.soil;
+      Object.assign(bed.style, { left: P(x0), top: P(y0), width: P(x1 - x0), height: P(y1 - y0), transform: "none", borderRadius: "0" });
+      if (spot.outline) bed.style.clipPath = "polygon(" + spot.outline.map(([x, y]) => P((x - x0) / (x1 - x0)) + " " + P((y - y0) / (y1 - y0))).join(", ") + ")";
+    }
     else Object.assign(bed.style, { left: P(spot.center[0]), top: P(spot.center[1]) });
     group.append(bed);
     if (!built) { bed.title = "还没开垦"; return group; }
