@@ -263,17 +263,18 @@ function walkPath(path, arrived) {
   for (const [x, y] of path) {
     const segment = floorRoute(from, { x, y });
     if (!segment) { routineActive = false; say("这里暂时走不过去，换个地方叫我吧。"); setState("idle"); return; }
-    points.push(...segment);
-    from = segment[segment.length - 1];
+    // Drop waypoints that repeat the previous one: a zero-length step used to divide 0 by 0.
+    for (const point of segment) if (Math.hypot(point.x - from.x, point.y - from.y) > .01) { points.push(point); from = point; }
   }
   if (!points.length) { arrived(); return; }
   setState("walk");
-  let previousTime = performance.now();
+  let previousTime = null;
   movement = { points, arrived, lastFrameAt: performance.now(), frame: null };
   function frame(now) {
     if (version !== motionVersion) return;
     if (movement) movement.lastFrameAt = performance.now();
-    const step = Math.min((now - previousTime) / 1000, .08) * 12;
+    // The first frame's timestamp can be earlier than when the walk started: never take a negative step.
+    const step = previousTime === null ? 0 : Math.max(0, Math.min((now - previousTime) / 1000, .08)) * 12;
     previousTime = now;
     const next = points[0];
     const dx = next.x - actor.x;
@@ -281,7 +282,7 @@ function walkPath(path, arrived) {
     const distance = Math.hypot(dx, dy);
     if (Math.abs(dx) > .02) actor.face = dx > 0 ? -1 : 1;
     petImage.style.transform = actor.face < 0 ? "scaleX(-1)" : "";
-    if (distance <= step) {
+    if (!Number.isFinite(distance) || distance <= Math.max(step, .01)) {
       actor.x = next.x;
       actor.y = next.y;
       points.shift();
@@ -297,9 +298,12 @@ function walkPath(path, arrived) {
   movementFrame = requestAnimationFrame(frame);
 }
 setInterval(() => {
+  if (!Number.isFinite(actor.x) || !Number.isFinite(actor.y)) { cancelRoutine(); actor.x = 50; actor.y = 77; setState("idle"); }
   if (movement) {
     idleWalkTicks = 0;
-    const stalled = performance.now() - movement.lastFrameAt;
+    const moved = Math.hypot(actor.x - (movement.lastX ?? -1), actor.y - (movement.lastY ?? -1)) > .05;
+    if (moved) { movement.lastX = actor.x; movement.lastY = actor.y; movement.lastMoveAt = performance.now(); }
+    const stalled = Math.max(performance.now() - movement.lastFrameAt, performance.now() - (movement.lastMoveAt ?? performance.now()));
     if (stalled > 4000) {
       // Frames are not coming back: finish the walk at its destination instead of freezing mid-step.
       const { points, arrived } = movement;
