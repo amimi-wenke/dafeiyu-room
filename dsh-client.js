@@ -664,12 +664,15 @@
     const h = layout.field.plantHeight * (p.stage === 0 && !p.ready ? 0.7 : 1);
     // Roots sit on the bed centre so the plant stands in the middle of its bed.
     const plant = placeSprite(img(names, "scene-plant"), [spot.center[0], spot.center[1] + 0.03], [0.5, 0.96], h, 1);
+    plant.style.zIndex = depth(spot.center[1] + 0.03);
     group.append(plant);
     const overlay = p.ready ? (p.overripe ? "overlay-overripe" : "overlay-ready") : p.thirsty ? "overlay-thirsty" : p.fertilizer ? "overlay-fertilized" : "";
-    if (overlay) group.append(placeSprite(img([overlay], "scene-overlay"), [spot.center[0] + 0.03, spot.center[1] + 0.03 - h], [0.5, 1], 0.05, 1));
+    if (overlay) { const badge = placeSprite(img([overlay], "scene-overlay"), [spot.center[0] + 0.03, spot.center[1] + 0.03 - h], [0.5, 1], 0.05, 1); badge.style.zIndex = depth(1.5); group.append(badge); }
     bed.title = `${slot + 1}号 ${p.name} · ${p.ready ? "成熟啦" : p.thirsty ? "口渴，等她来浇" : "第" + (p.stage + 1) + "段"}`;
     return group;
   }
+  // Sprites in the field and at the pond are layered by how far down the scene their feet are: lower is nearer.
+  const depth = y => String(Math.round(y * 1000));
   function poseFor(w) {
     const recent = w.log.filter(e => e.by === "self" || e.by === "tool").at(-1);
     const fresh = recent && w.serverTime - recent.at < 90000;
@@ -684,7 +687,8 @@
     if (pose === "sell") return layout.field.stall.keeperFoot;
     const last = w.log.filter(e => (e.area === "farm" || e.area === "garden") && Number.isInteger(e.slot)).at(-1);
     const spot = last && w.location === last.area ? layout.field[last.area === "farm" ? "crop" : "flower"][last.slot] : null;
-    // Stand a little to the left of the bed so the plant she is tending stays visible.
+    // Stand behind the bed at its upper-right corner, so the plant she is tending is in front of her.
+    if (spot?.soil) return [spot.soil[2] - 0.022, spot.soil[1] + 0.006];
     return spot ? [spot.careFoot[0] - 0.045, spot.careFoot[1]] : layout.field.defaultFoot;
   }
   function navButtons() {
@@ -710,6 +714,8 @@
       const flip = scene === "pond" && !!info?.flipXAtPond;
       const height = (scene === "pond" ? layout.pond.standing : layout.field.standing) / 0.9;
       sceneActor.hidden = false;
+      sceneItems.append(sceneActor);
+      sceneActor.style.zIndex = depth(actorSpot(w, scene, pose)[1]);
       sceneActor.onerror = () => { sceneActor.onerror = null; sceneActor.src = embedded.idle || ""; placeSprite(sceneActor, actorSpot(w, scene, pose), layout.idle, height); };
       sceneActor.src = art(pose);
       placeSprite(sceneActor, actorSpot(w, scene, pose), info?.footAnchorNormalized || layout.idle, height, 1240 / 1269, flip);

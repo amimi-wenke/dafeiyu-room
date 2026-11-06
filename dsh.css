@@ -61,7 +61,7 @@ body[data-chat-only="true"] .dsh-messages { min-height: 24vh; max-height: 48vh; 
 .scene-view.placeholder[data-phase="night"] { background: linear-gradient(180deg, #2c3a66 0 38%, #3d5a4c 38% 100%); filter: none; }
 .scene-view.tinted[data-phase="dusk"] .scene-bg { filter: sepia(.25) saturate(1.2) brightness(.92); }
 .scene-view.tinted[data-phase="morning"] .scene-bg { filter: brightness(1.05) saturate(.9) hue-rotate(-6deg); }
-.scene-items { position: absolute; inset: 0; }
+.scene-items { position: absolute; inset: 0; isolation: isolate; }
 .scene-bubble { position: absolute; transform: translate(-50%, -100%); max-width: 26%; margin: 0; padding: 6px 10px; border-radius: 12px; background: #ffffffe6; color: #3d5178; font: 13px/1.4 "Microsoft YaHei", sans-serif; box-shadow: 0 4px 12px #24355033; }
 .scene-caption { position: absolute; left: 50%; bottom: 4%; transform: translateX(-50%); display: flex; gap: 8px; align-items: center; padding: 6px 12px; border-radius: 12px; background: #344267d9; color: #f2f5ff; font: 13px "Microsoft YaHei", sans-serif; white-space: nowrap; }
 .scene-caption:empty { display: none; }
@@ -87,8 +87,8 @@ body[data-chat-only="true"] .dsh-messages { min-height: 24vh; max-height: 48vh; 
 .scene-front { position: absolute; inset: 0; pointer-events: none; }
 .scene-counter { position: absolute; background-repeat: no-repeat; }
 .scene-nav { position: absolute; left: 2%; bottom: 4%; display: flex; gap: 6px; font: 13px "Microsoft YaHei", sans-serif; z-index: 2; }
-.scene-view[data-phase="dusk"] :is(.scene-items, .scene-actor) { filter: sepia(.18) saturate(1.1) brightness(.93); }
-.scene-view[data-phase="night"] :is(.scene-items, .scene-actor) { filter: brightness(.72) saturate(.85) hue-rotate(8deg); }
+.scene-view[data-phase="dusk"] .scene-items { filter: sepia(.18) saturate(1.1) brightness(.93); }
+.scene-view[data-phase="night"] .scene-items { filter: brightness(.72) saturate(.85) hue-rotate(8deg); }
 .room-props { position: absolute; inset: 0; pointer-events: none; z-index: 1; }
 .room-prop { position: absolute; object-fit: contain; }
 .room-codex { pointer-events: auto; cursor: pointer; }
