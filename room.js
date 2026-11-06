@@ -8,7 +8,6 @@ const speech = document.querySelector("#speech");
 const reaction = document.querySelector("#reaction");
 const awayNote = document.querySelector("#away-note");
 const awayLabel = document.querySelector("#away-label");
-const autoButton = document.querySelector("#auto-button");
 const timeButton = document.querySelector("#time-mode");
 const lamp = document.querySelector("#lamp");
 const clock = document.querySelector("#clock");
@@ -51,7 +50,11 @@ const actor = { x: 50, y: 77, state: "idle", face: 1 };
 let phase;
 let preview = -1;
 let lampOverride = null;
+// She always lives by her own routine. A click or command from you is a one-off request:
+// she does it, then returns to her own rhythm after a short while.
 let autonomous = true;
+let resumeAt = 0;
+const REQUEST_PAUSE_MS = 90000;
 let movementFrame;
 let motionVersion = 0;
 let returnTimer;
@@ -311,8 +314,7 @@ function nextLine(action, lines) {
 }
 function setAutomatic(on) {
   autonomous = on;
-  autoButton.setAttribute("aria-pressed", String(on));
-  autoButton.textContent = on ? "自由活动 · 开" : "自由活动 · 关";
+  resumeAt = on ? 0 : Date.now() + REQUEST_PAUSE_MS;
   publishRoom(true);
 }
 function perform(action, manual = true) {
@@ -431,10 +433,6 @@ timeButton.addEventListener("click", () => {
   updateTime();
   updateLamp();
 });
-autoButton.addEventListener("click", () => {
-  setAutomatic(!autonomous);
-  if (actor.state !== "away") say(autonomous ? "那我自己找点事做。你随时叫我。" : "好，我陪着你。");
-});
 document.querySelector("#return-home").addEventListener("click", () => {
   setAutomatic(false);
   cancelRoutine();
@@ -504,6 +502,7 @@ window.addEventListener("dafeiyu:room-command", event => {
   publishRoom(true);
 });
 setInterval(() => {
+  if (!autonomous && Date.now() >= resumeAt) { autonomous = true; publishRoom(true); }
   if (!autonomous || document.hidden || routineActive || actor.state === "walk" || actor.state === "away") return;
   if (actor.state === "sleep" && (phase === "night" || Date.now() < asleepUntil)) return;
   const options = phase === "night" ? ["tea", "read", "window", "sleep", "roam"] :
