@@ -445,7 +445,7 @@
       w.plan.say ? el("p", { className: "world-say", textContent: "「" + w.plan.say + "」" }) : null,
       el("ol", {}, ...w.plan.steps.map((s, i) => el("li", { className: s.status || (i === w.plan.cursor && w.plan.status === "active" ? "now" : ""),
         textContent: describeStep(s) + (s.error ? "（没成：" + s.error + "）" : s.waiting && i === w.plan.cursor ? "（等待：" + s.waiting + "）" : "") }))),
-      el("p", { className: "dsh-note", textContent: `${({ active: "进行中", done: "已完成", failed: "没能完成", expired: "已过期" })[w.plan.status]} · 由${byNames[w.plan.source] || "她"}定下 · 今天规划 ${w.planner?.used ?? 0}/${w.plannerConfig?.maxPerDay ?? 4} 次` + (w.planner?.lastError ? " · " + w.planner.lastError : "") }))
+      el("p", { className: "dsh-note", textContent: `${({ active: "进行中", done: "已完成", failed: "没能完成", expired: "已过期" })[w.plan.status]} · 由${byNames[w.plan.source] || "她"}定下 · 今天规划 ${w.planner?.used ?? 0}${w.plannerConfig?.maxPerDay > 0 ? "/" + w.plannerConfig.maxPerDay : ""} 次` + (w.planner?.lastError ? " · " + w.planner.lastError : "") }))
       : el("div", { className: "world-card" }, el("p", { textContent: "她还在想今天要做什么，先按自己的习惯照料小天地。" }),
         w.planner?.lastError ? el("p", { className: "dsh-note", textContent: w.planner.lastError }) : null);
     const wishes = w.wishes?.length ? el("div", { className: "world-card world-wishes" }, el("strong", { textContent: "你留下的心愿" }),
