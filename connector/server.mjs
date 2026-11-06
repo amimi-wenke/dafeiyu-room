@@ -83,9 +83,9 @@ export async function startConnector({
   async function discoverHost() {
     let value;
     try { value = JSON.parse(await readFile(hostFile, "utf8")); }
-    catch { throw problem("SURFCORE_HOST_MISSING", "还没读到独立房间插件的连接配置", "在 DSH 中安装并启用 dsh-room-world 插件，然后点重试。", 503); }
+    catch { throw problem("DSH_HOST_MISSING", "还没读到独立房间插件的连接配置", "在 DSH 中安装并启用 dsh-room-world 插件，然后点重试。", 503); }
     if (typeof value.token !== "string" || value.token.length < 8 || value.api !== prefix) {
-      throw problem("SURFCORE_HOST_INVALID", "独立房间插件的连接配置不完整", "在 DSH 中重载 dsh-room-world，然后点重试。", 503);
+      throw problem("DSH_HOST_INVALID", "独立房间插件的连接配置不完整", "在 DSH 中重载 dsh-room-world，然后点重试。", 503);
     }
     lastDshToken = value.token;
     return { baseUrl: localUrl(value.baseUrl), token: value.token };
@@ -102,19 +102,19 @@ export async function startConnector({
         signal: AbortSignal.timeout(timeout),
       });
     } catch {
-      throw problem("SURFCORE_UNREACHABLE", "本地连接器暂时连不上 DSH", "确认 DSH 正在运行并启用了 dsh-room-world，然后点重试。", 503);
+      throw problem("DSH_UNREACHABLE", "本地连接器暂时连不上 DSH", "确认 DSH 正在运行并启用了 dsh-room-world，然后点重试。", 503);
     }
     let value;
     try { value = await response.json(); }
-    catch { throw problem("SURFCORE_RESPONSE_INVALID", "DSH 返回了无法读取的内容", "在 DSH 中检查房间插件状态，再点重试。", 502); }
+    catch { throw problem("DSH_RESPONSE_INVALID", "DSH 返回了无法读取的内容", "在 DSH 中检查房间插件状态，再点重试。", 502); }
     if (!response.ok || value?.ok !== true) {
       if (route.startsWith("/room/") && response.status === 404) {
-        throw problem("ROOM_LINK_NOT_READY", "SurfCore 房间互通接口尚未加载", "在 DSH 中重载 SurfCore 插件，再重新连接房间。", 503);
+        throw problem("ROOM_LINK_NOT_READY", "房间互通接口尚未加载", "在 DSH 中重载 dsh-room-world 插件，再重新连接房间。", 503);
       }
-      const hint = response.status === 401 ? "在 DSH 中重载 SurfCore，再点重试。" :
-        "检查 DSH 的 SurfCore 桌宠对话开关、默认模型和额度，再点重试。";
-      throw problem(response.status === 401 ? "SURFCORE_AUTH_FAILED" : "SURFCORE_REJECTED",
-        redact(value?.error || "SurfCore 暂时无法完成请求"), hint, 502);
+      const hint = response.status === 401 ? "在 DSH 中重载 dsh-room-world，再点重试。" :
+        "检查 DSH 的房间插件对话开关、默认模型和额度，再点重试。";
+      throw problem(response.status === 401 ? "DSH_AUTH_FAILED" : "DSH_REJECTED",
+        redact(value?.error || "DSH 暂时无法完成请求"), hint, 502);
     }
     return value;
   }

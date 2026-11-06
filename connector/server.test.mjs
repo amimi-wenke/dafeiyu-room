@@ -5,7 +5,7 @@ import path from "node:path";
 import os from "node:os";
 import { startConnector } from "./server.mjs";
 
-const upstreamToken = "fixture-surfcore-token-not-a-real-secret";
+const upstreamToken = "fixture-dsh-token-not-a-real-secret";
 
 async function fixture(t, handler) {
   const dir = await mkdtemp(path.join(os.tmpdir(), "dafeiyu-connector-test-"));
@@ -44,7 +44,7 @@ async function failure(response, code) {
   return result;
 }
 
-test("requires pairing, blocks outside origins, and never returns the SurfCore token", async t => {
+test("requires pairing, blocks outside origins, and never returns the DSH token", async t => {
   const app = await fixture(t);
   await failure(await fetch(app.origin + "/api/status"), "PAIR_REQUIRED");
   await failure(await fetch(app.origin + "/api/bootstrap", { headers: { origin: "null" } }), "ORIGIN_REJECTED");
@@ -114,14 +114,14 @@ test("rediscovers changed DSH ports and tokens, with visible errors on stale hos
   assert.match(app.calls[1].url, /:45679/);
   assert.equal(app.calls[1].options.headers["x-pet-token"], "fixture-new-token");
   await writeFile(app.hostFile, "not JSON");
-  await failure(await fetch(app.origin + "/api/status", { headers: app.headers }), "SURFCORE_HOST_MISSING");
+  await failure(await fetch(app.origin + "/api/status", { headers: app.headers }), "DSH_HOST_MISSING");
   await writeFile(app.hostFile, JSON.stringify({ token: upstreamToken, baseUrl: "http://example.org", api: "/dsh-room-world/api" }));
   await failure(await fetch(app.origin + "/api/status", { headers: app.headers }), "LOCAL_URL_INVALID");
 });
 
 test("normalizes upstream failure messages and validates client input", async t => {
   const app = await fixture(t, () => Response.json({ ok: false, error: "bad " + upstreamToken }, { status: 401 }));
-  const denied = await failure(await fetch(app.origin + "/api/status", { headers: app.headers }), "SURFCORE_AUTH_FAILED");
+  const denied = await failure(await fetch(app.origin + "/api/status", { headers: app.headers }), "DSH_AUTH_FAILED");
   assert.ok(!denied.error.includes(upstreamToken));
   await failure(await app.post("/api/chat", { text: "", requestId: "fixture-request-1" }), "MESSAGE_INVALID");
   await failure(await app.post("/api/chat", null), "JSON_INVALID");

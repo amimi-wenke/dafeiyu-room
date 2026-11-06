@@ -159,7 +159,7 @@
         const query = cursor === null ? "" : "?since=" + cursor;
         const result = await request("/api/events" + query);
         if (version !== connection) return;
-        if (recovering) { notice("已恢复 SurfCore 连接。"); recovering = false; }
+        if (recovering) { notice("已恢复 DSH 连接。"); recovering = false; }
         const reset = !bootId || result.bootId !== bootId;
         bootId = result.bootId;
         cursor = result.cursor;
@@ -283,7 +283,7 @@
       persist();
       toggle.textContent = "和她聊聊 · 已连接";
       updateComposer();
-      notice(result.chat?.enabled && result.llm?.ready ? "已连接 " + (result.role?.name || "SurfCore") :
+      notice(result.chat?.enabled && result.llm?.ready ? "已连接 " + (result.role?.name || "大肥鱼") :
         "已连接，需在 DSH 中开启桌宠对话并选择默认模型", !result.chat?.enabled || !result.llm?.ready);
       if (!roomAware) notice("请在 DSH 中启用独立房间插件 dsh-room-world。", true);
       if (result.syncError) notice("房间已连接；QQ 同步：" + result.syncError, true);
